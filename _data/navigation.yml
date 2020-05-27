@@ -1,9 +1,35 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Programme"
+    url: /programme/call-for-contributions/ # Change to /programme/ once there is a programme page
+  - title: "News"
+    url: /
+  - title: "Contact"
+    url: /contact/
+  - title: "For delegates"
+    url: /delegates/code-of-conduct/ # Change to /delegates/ once there is a delegates page
+
+news:
+  - title: "Participate!"
+    children:
+      - title: "Call for Contributions"
+        url: "/programme/call-for-contributions/"
+
+contact:
+  - title: "Contact"
+    url: /contact/
+    children:
+      - title: "Organizing Committee"
+        url: /contact/#organizing-committee
+
+delegates:
+  - title: "Code of Conduct"
+    url: /delegates/code-of-conduct/
+
+programme:
+  - title: "Programme"
+    children:
+      - title: "Call for Contributions"
+        url: "/programme/call-for-contributions/"
+      - title: "Topic Bazaar"
+        url: "/programme/call-for-contributions/#topic-bazaar"
+
