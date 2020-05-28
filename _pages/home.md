@@ -12,7 +12,7 @@ This document is work in progress!
 
 ## What is SORSE? - Series of Online Research Software Events
 
-With the cancellation of several international Research Software Engineering (RSE) community events as a result of the COVID-19 pandemic, RSEs worldwide are facing a lack of opportunities to engage with their wider community. To address this challenge, SORSE has been launched by an [international committee](contact/#international-committee-members) to provide an opportunity for RSEs to develop and grow their skills, build new collaborations and engage with RSEs worldwide. Until we can meet again in person, SORSE (pronounced ‘Source’), will bridge the gap and be the source of interesting and engaging events.
+With the cancellation of several international Research Software Engineering (RSE) community events as a result of the COVID-19 pandemic, RSEs worldwide are facing a lack of opportunities to engage with their wider community. To address this challenge, SORSE has been launched by an [international committee]({{ site.baseurl }}/contact/#international-committee-members) to provide an opportunity for RSEs to develop and grow their skills, build new collaborations and engage with RSEs worldwide. Until we can meet again in person, SORSE (pronounced ‘Source’), will bridge the gap and be the source of interesting and engaging events.
 
 This is an open call to all RSEs and anyone involved with research software, worldwide, to propose talks, workshops and other types of online events.
 
@@ -72,4 +72,4 @@ See our [schedule of events](){: .missing} for details of what’s coming up.
 ## Do I need to pay to attend SORSE events?
 No! It’s completely free to the community with the national RSE Groups from many countries collaborating to bring this to you.
 
-Any questions, please [get in touch](contact/)!
+Any questions, please [get in touch]({{ site.baseurl }}/contact/)!
