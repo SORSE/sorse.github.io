@@ -1,0 +1,62 @@
+{% assign info = include.info %}
+<div class="card col-s-12 col-5" >
+  <div>
+    {% if info.website %}
+    <div onclick="window.open('{{ info.website }}');">
+    {% elsif info.github %}
+    <div onclick="window.open('https://github.com/{{ info.github }}');">
+    {% endif %}
+    <p class="card-title">{{ info.name }} </p>
+    {% if info.avatar %}
+    <img width="200px" src="{{ info.avatar }}" alt="{{ info.name }}">
+    {% else %}
+    <img width="200px" src="../assets/images/bio-photo.jpg" alt="{{ info.name }}">
+    {% endif %}
+    <p class="card-content">
+      {% if info.long_name %}<span class="content-line">{{ info.long_name }}</span>{% endif %}
+      {% if info.affiliation %}<span class="content-line">{{ info.affiliation }}</span>{% endif %}
+      {% if info.location %}<span class="content-line">{{ info.location }}</span>{% endif %}
+    </p>
+    {% if info.website or info.github %}
+    </div>
+    {% endif %}
+    <p class="card-content">
+      {% if info.website %}
+      <a href="{{ info.website }}"><span><i class="fas fa-globe"></i></span></a>
+      {% endif %}
+      {% if info.github %}
+      <a href="https://github.com/{{ info.github }}"><span><i class="fab fa-fw fa-github"></i></span></a>
+      {% endif %}
+      {% if info.email %}
+      <a href="mailto:{{ info.email }}" title="{{ info.email }}"><span><i class="fas fa-envelope"></i></span></a>
+      {% endif %}
+      {% if info.twitter %}
+      <a href="https://twitter.com/{{ info.twitter }}"><span><i class="fab fa-twitter"></i></span></a>
+      {% endif %}
+      {% if info.internal %}
+      <a href="{{ info.internal }}"><span><i class="fas fa-link"></i></span></a>
+      {% endif %}
+      <br>
+      {% for team in info.teams %}
+        {% if site.data.committee.national_chapters[team] %}
+            {% assign team_info = site.data.committee.national_chapters[team] %}
+            {% assign btn_class = "btn--danger" %}
+        {% elsif site.data.committee.committees[team] %}
+            {% assign team_info = site.data.committee.committees[team] %}
+            {% assign btn_class = "btn--info" %}
+        {% else %}
+          {% assign team_info = site.data.committee.programme_teams[team] %}
+          {% assign btn_class = "btn--primary" %}
+        {% endif %}
+        <a class="btn btn--small {{ btn_class }}"
+         {% if team_info.internal %}
+         href="{{ team_info.internal }}"
+         {% elsif team_info.website %}
+         href="{{ team_info.website }}"
+         {% else %}
+         href="#"
+         {% endif %}>{{ team_info.name }}</a>
+      {% endfor %}
+    </p>
+  </div>
+</div>
