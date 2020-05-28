@@ -1,0 +1,17 @@
+software_demo:
+  name: Software demos
+  internal: /programme/software-demos/
+talk:
+  name: Talks
+workshop:
+  name: Workshops
+poster:
+  name: Posters and Lightning talks
+award:
+  name: Awards
+panel:
+  name: Panels and Discussions
+bazaar:
+  name: Topic Bazaar
+sprint:
+  name: Sprints
