@@ -32,3 +32,7 @@ programme:
         url: "/programme/call-for-contributions/"
       - title: "Topic Bazaar"
         url: "/programme/call-for-contributions/#topic-bazaar"
+  - title: "Teams"
+    children:
+      - title: Software demos
+        url: "/programme/software-demos/"
