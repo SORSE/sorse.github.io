@@ -8,10 +8,11 @@
     {% endif %}
     <p class="card-title">{{ info.name }} </p>
     {% if info.avatar %}
-    <img width="200px" src="{{ info.avatar }}" alt="{{ info.name }}">
+    {% assign avatar = info.avatar %}
     {% else %}
-    <img width="200px" src="../assets/images/bio-photo.jpg" alt="{{ info.name }}">
+    {% assign avatar = "assets/images/bio-photo.jpg" %}
     {% endif %}
+    <img width="200px" src="{% include fix-link.html link=info.avatar %}" alt="{{ info.name }}">
     <p class="card-content">
       {% if info.long_name %}<span class="content-line">{{ info.long_name }}</span>{% endif %}
       {% if info.affiliation %}<span class="content-line">{{ info.affiliation }}</span>{% endif %}
