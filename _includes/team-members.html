@@ -1,0 +1,7 @@
+<div style="display: flex; flex-wrap: wrap;">
+  {% for person in site.data.committee.members %}
+  {% if person.teams contains include.team %}
+  {% include card.html info=person %}
+  {% endif %}
+  {% endfor %}
+</div>
