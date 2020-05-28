@@ -9,7 +9,7 @@ main:
     url: /delegates/code-of-conduct/ # Change to /delegates/ once there is a delegates page
 
 news:
-  - title: "Participate!"
+  - title: "Get involved!"
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
@@ -19,7 +19,7 @@ contact:
     url: /contact/
     children:
       - title: "Organizing Committee"
-        url: /contact/#organizing-committee
+        url: /contact/#international-committee-members
 
 delegates:
   - title: "Code of Conduct"
@@ -32,4 +32,3 @@ programme:
         url: "/programme/call-for-contributions/"
       - title: "Topic Bazaar"
         url: "/programme/call-for-contributions/#topic-bazaar"
-
