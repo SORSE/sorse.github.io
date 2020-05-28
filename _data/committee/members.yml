@@ -1,0 +1,52 @@
+# committee member information
+# name: Name of the person
+# long_name (optional): The full name
+# affiliation (optional): Institution where the person is hosted
+# location (optional): City and Country of the affiliation
+# website (optional): Personal webpage
+# github (optional): Github user account
+# avatar (optional): Link to a profile pic (should have 200px at least)
+# twitter (optional): Twitter user name
+# email (optional): The email address
+# teams: the name of a committee (see committees.yml), programme subteam
+#        (see programme_teams.yml), or national RSE chapter
+#        (see national_chapters.yml)
+- name: Stephan Janosch
+  affiliation: Max-Planck-Institute for Molecular Cell Biology (MPI-CPG)
+  location: Dresden, Germany
+  github: StephanJanosch
+  avatar: /assets/images/stephan-janosch.jpg
+  teams:
+    - deRSE
+    - orga
+- name: Frank Löffler
+  affiliation: Friedrich Schiller University
+  location: Jena, Germany
+  website: https://fusion.cs.uni-jena.de/fusion/members/frank-loffler/
+  avatar: /assets/images/frank-loeffler.jpg
+  teams:
+    - deRSE
+    - orga
+- name: Stephan Druskat
+  affiliation: German Aerospace Center (DLR), Humboldt-Universität zu Berlin, Friedrich Schiller University Jena
+  location: Berlin, Germany
+  website: https://sdruskat.net
+  github: sdruskat
+  avatar: /assets/images/stephan-druskat.png
+  teams:
+    - deRSE
+    - orga
+    - programme
+    - website
+- name: Philipp S. Sommer
+  affiliation: Helmholtz-Zentrum Geesthacht Centre for Materials and Coastal Research (HZG)
+  location: Geesthacht, Germany
+  website: http://www.philipp-s-sommer.de
+  github: Chilipp
+  email: philipp.sommer@hzg.de
+  avatar: /assets/images/philipp-s-sommer.jpg
+  teams:
+    - deRSE
+    - programme
+    - website
+    - software_demo
