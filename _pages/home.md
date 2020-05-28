@@ -28,7 +28,7 @@ The aims of the event series:
 ## What is the format of SORSE?
 SORSE will deliver a range of different types of events in ideally a 1 hour or 2 hour time slot (but the event could be shorter), followed by time for networking and discussion with other participants. We will organise an event every two weeks in English with the option of a national event (in the mother tongue) taking place in the alternating weeks.  We hope that this series will be popular so that we can continue it into 2021.
 
-We’re an [informal community](/contact/#international-committee-members) and we know life is busy and very different at the moment, so feel free to join events when you can and leave when you need to.
+We’re an [informal community](contact/#international-committee-members) and we know life is busy and very different at the moment, so feel free to join events when you can and leave when you need to.
 
 Event types include:
 
@@ -37,7 +37,7 @@ Event types include:
 
 - Talks - both technical and soft skills
 - Workshops
-- [Software demos]({{ site.data.committee.programme_teams.software_demo.internal }})
+- [Software demos]({{ site.baseurl }}{{ site.data.committee.programme_teams.software_demo.internal }})
 - Poster sessions with Lightning talks
 - Panel & Discussion session
 - Sprints
@@ -72,4 +72,4 @@ See our [schedule of events](){: .missing} for details of what’s coming up.
 ## Do I need to pay to attend SORSE events?
 No! It’s completely free to the community with the national RSE Groups from many countries collaborating to bring this to you.
 
-Any questions, please [get in touch](/contact/)!
+Any questions, please [get in touch](contact/)!
