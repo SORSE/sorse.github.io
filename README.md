@@ -11,7 +11,7 @@ Unless you know exactly what you are doing, please always
 - we always require a review from another person (four-eye-principle)
 - assign issues and pull request to applicable milestones, labels and projects.
 
-New to Github? Don't worry, you'll figure it out fast and it's no problem if it does not immediately work. If you have a problem, ask in slack or create an issue.
+New to Github? Don't worry, you'll figure it out fast and it's no problem if it does not immediately work. If you have a problem, ask in slack or create an issue. You should have a look into the [Projects](https://github.com/DE-RSE/SORSE20/projects) tab (see above), that gives you an overview on the current tasks.
 
 ## Important facts
 
