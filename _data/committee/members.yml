@@ -52,3 +52,11 @@
     - programme
     - website
     - software_demo
+- name: Florian Thiery
+  affiliation: Römisch-Germanisches Zentralmuseum
+  location: Mainz, Germany
+  orcid: 0000-0002-3246-3531
+  avatar: /assets/images/florian-thiery.png
+  teams:
+    - deRSE
+    - poster
