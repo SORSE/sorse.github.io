@@ -1,5 +1,5 @@
 ---
-permalink: /committees/
+permalink: /contact/committees/
 title: "SORSE20 Committees"
 sidebar:
   nav: "news"
