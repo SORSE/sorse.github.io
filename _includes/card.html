@@ -25,6 +25,9 @@
       {% if info.website %}
       <a href="{{ info.website }}"><span><i class="fas fa-globe"></i></span></a>
       {% endif %}
+      {% if info.orcid %}
+      <a href="https://orcid.org/{{ info.orcid }}"><span><i class="fab fa-orcid"></i></span></a>
+      {% endif %}
       {% if info.github %}
       <a href="https://github.com/{{ info.github }}"><span><i class="fab fa-fw fa-github"></i></span></a>
       {% endif %}
