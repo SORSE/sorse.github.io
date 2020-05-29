@@ -13,7 +13,7 @@ A committee is a group of individuals working on a component of SORSE20
 ## Committees
 
 {% for comm in site.data.committee.committees %}
-<h2>{{ comm[1].name }}</h2>
+<h2 id="{{ comm[0] }}">{{ comm[1].name }}</h2>
 
 {% endfor %}
 
