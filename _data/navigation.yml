@@ -1,10 +1,10 @@
 main:
   - title: "Programme"
     url: /programme/call-for-contributions/ # Change to /programme/ once there is a programme page
-  - title: "News"
-    url: /
   - title: "Contact"
     url: /contact/
+  - title: "Committees"
+    url: /committees/
   - title: "For delegates"
     url: /delegates/code-of-conduct/ # Change to /delegates/ once there is a delegates page
 
