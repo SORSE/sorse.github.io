@@ -4,6 +4,7 @@
 # affiliation (optional): Institution where the person is hosted
 # location (optional): City and Country of the affiliation
 # website (optional): Personal webpage
+# orcid (optional): The orcid of the person (without https://orcid.org)
 # github (optional): Github user account
 # avatar (optional): Link to a profile pic (should have 200px at least)
 # twitter (optional): Twitter user name
