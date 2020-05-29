@@ -2,7 +2,7 @@
 permalink: /contact/committees/
 title: "SORSE20 Committees"
 sidebar:
-  nav: "news"
+  nav: "contact"
 author: SORSE
 author_profile: false
 ---
