@@ -1,27 +1,32 @@
-# Minimal Mistakes remote theme starter
+# SORSE20 Website repository
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+This repository contains the source code for the Series of Online Research Software Events 2020. It is based on the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes) and hosted with Github Pages. The static website is build automatically on Github but you can also build it locally.
 
-Contains basic configuration to get you a site with:
+The documentation how to contribute is in the [Wiki](wiki) of this repository. There you find, how to add new members, new national chapters, how to assign someone to a specific team, etc.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## How to contribute
+Unless you know exactly what you are doing, please always
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+- do not push directly to the master branch (usually you are anyway not allowed to do so). You must contribute via pull request
+- we always require a review from another person (four-eye-principle)
+- assign issues and pull request to applicable milestones, labels and projects.
 
----
+New to Github? Don't worry, you'll figure it out fast and it's no problem if it does not immediately work. If you have a problem, ask in slack or create an issue.
 
-## Troubleshooting
+## Important facts
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+- if you have are lacking a link and nevertheless want to add the text as a placeholder, mark it with `{: .missing}`. The link will then be highlighted in red (example: `[some important document](){: .missing}`)
+- when referencing internal link, e.g. `{{ site.data.committee.national_chapters.deRSE.internal }}`, use prepend it with a `{{ site.baseurl }}`, otherwise it will not resolve correctly on github. In otherwords
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+  - `[Software demos]({{ site.data.committee.programme_teams.software_demo }})` :-1: :angry:
+  - `[Software demos]({{ site.baseurl }}{{ site.data.committee.programme_teams.software_demo }})` :+1: :green_heart:
+  
+## Local installation
+As we cannot host one version of this site with github pages (generated from the master branch), you should build the website locally and test the implemented changes (or the reviewer in the pull request does it, this is fine as well). To build this site locally:
+
+1. Install ruby for you platform
+2. Install `bundle` via `gem install bundler`
+3. `cd` to the clone of this repository
+4. Run `bundle install`
+5. Serve the site locally via `bundle exec jekyll serve`
+6. Visit the site in the browser via http://localhost:4000
