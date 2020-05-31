@@ -1,7 +1,10 @@
 # official committees
 orga:
   name: Organizing Committee
+  internal: /contact/committees/#orga
 programme:
   name: Programme Committee
+  internal: /contact/committees/#programme
 website:
   name: Website Committee
+  internal: /contact/committees/#website
