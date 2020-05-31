@@ -7,6 +7,8 @@ deRSE:
   internal: /contact/#deRSE
   twitter: RSE_de
   avatar: https://de-rse.org/assets/img/site/rse.png
+ukRSE:
+  name: UK RSE
 USRSE:
   name: USRSE
   website: https://us-rse.org
@@ -15,3 +17,4 @@ USRSE:
   internal: /contact/
   twitter: us_rse
   avatar: https://us-rse.org/assets/img/rse_logo_background.svg
+
