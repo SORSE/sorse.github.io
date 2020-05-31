@@ -9,4 +9,12 @@ deRSE:
   avatar: https://de-rse.org/assets/img/site/rse.png
 ukRSE:
   name: UK RSE
+USRSE:
+  name: USRSE
+  website: https://us-rse.org
+  email: contact@us-rse.org
+  long_name: United States Research Software Engineer Association
+  internal: /contact/
+  twitter: us_rse
+  avatar: https://us-rse.org/assets/img/rse_logo_background.svg
 

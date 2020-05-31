@@ -10,6 +10,7 @@ Unless you know exactly what you are doing, please always
 - do not push directly to the master branch (usually you are anyway not allowed to do so). You must contribute via pull request
 - we always require a review from another person (four-eye-principle)
 - assign issues and pull request to applicable milestones, labels and projects.
+- if your working on an issue or PR, assign it to you! If you are not working on it anymore, remove your assignment from the PR, either because you are finished or because you don't have the time to do more, unassign yourself and ideally leave a message that someone else should take over.
 
 New to Github? Don't worry, you'll figure it out fast and it's no problem if it does not immediately work. If you have a problem, ask in slack or create an issue. You should have a look into the [Projects](https://github.com/DE-RSE/SORSE20/projects) tab (see above), that gives you an overview on the current tasks.
 
