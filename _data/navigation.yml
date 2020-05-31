@@ -1,8 +1,6 @@
 main:
   - title: "Programme"
     url: /programme/call-for-contributions/ # Change to /programme/ once there is a programme page
-  - title: "News"
-    url: /
   - title: "Contact"
     url: /contact/
   - title: "For delegates"
@@ -20,6 +18,8 @@ contact:
     children:
       - title: "Organizing Committee"
         url: /contact/#international-committee-members
+      - title: "Committees"
+        url: /contact/committees/
 
 delegates:
   - title: "Code of Conduct"
