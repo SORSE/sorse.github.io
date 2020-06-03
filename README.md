@@ -22,6 +22,7 @@ New to Github? Don't worry, you'll figure it out fast and it's no problem if it 
   - `[Software demos]({{ site.data.committee.programme_teams.software_demo }})` :-1: :angry:
   - `[Software demos]({{ site.baseurl }}{{ site.data.committee.programme_teams.software_demo }})` :+1: :green_heart:
   
+
 ## Local installation
 As we cannot host one version of this site with github pages (generated from the master branch), you should build the website locally and test the implemented changes (or the reviewer in the pull request does it, this is fine as well). To build this site locally:
 
@@ -31,3 +32,12 @@ As we cannot host one version of this site with github pages (generated from the
 4. Run `bundle install`
 5. Serve the site locally via `bundle exec jekyll serve`
 6. Visit the site in the browser via http://localhost:4000
+
+## Preview the Site on CircleCI
+
+We use CircleCI to preview the site for pull requests, and this is controlled by the files
+in the [.circleci](.circleci) folder. To use CircleCI, you will need to
+ make sure you are logged in to the service and following the repository. When you select a build
+associated with a pull request, click on the "Artifacts" tab, and select a static file to open
+and preview in your browesr.
+
