@@ -9,6 +9,7 @@ poster:
   name: Posters and Lightning talks
 award:
   name: Awards
+  internal: /programme/awards/
 panel:
   name: Panels and Discussions
 bazaar:

@@ -34,6 +34,8 @@ programme:
         url: "/programme/call-for-contributions/#topic-bazaar"
   - title: "Teams"
     children:
+      - title: Awards
+        url: "/programme/awards/"
       - title: Software demos
         url: "/programme/software-demos/"
       - title: Sprints
