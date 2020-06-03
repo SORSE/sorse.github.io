@@ -42,3 +42,5 @@ programme:
         url: "/programme/software-demos/"
       - title: Sprints
         url: "/programme/sprints/"
+      - title: Workshops
+        url: "/programme/workshops/"
