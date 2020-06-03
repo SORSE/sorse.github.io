@@ -12,6 +12,7 @@ award:
   internal: /programme/awards/
 panel:
   name: Panels and Discussions
+  internal: /programme/panels/
 bazaar:
   name: Topic Bazaar
 sprint:

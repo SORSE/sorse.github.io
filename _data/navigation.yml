@@ -36,6 +36,8 @@ programme:
     children:
       - title: Awards
         url: "/programme/awards/"
+      - title: Panels and Discussions
+        url: "/programme/panels/"
       - title: Software demos
         url: "/programme/software-demos/"
       - title: Sprints
