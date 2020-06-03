@@ -5,6 +5,8 @@ sidebar:
   nav: "contact"
 author: SORSE
 author_profile: false
+toc: true
+toc_sticky: true
 ---
 
 Members of the following national RSE Chapters are involved in the organization
