@@ -4,17 +4,17 @@ deRSE:
   website: https://de-rse.org/en/index.html
   email: vorstand@de-rse.org
   long_name: de-RSE e.V. - Society for Research Software
-  internal: /contact/#deRSE
+  internal: /contact/chapters/#deRSE
   twitter: RSE_de
   avatar: https://de-rse.org/assets/img/site/rse.png
 ukRSE:
   name: UK RSE
+  internal: /contact/chapters/#ukRSE
 USRSE:
   name: USRSE
   website: https://us-rse.org
   email: contact@us-rse.org
   long_name: United States Research Software Engineer Association
-  internal: /contact/
+  internal: /contact/chapters/#USRSE
   twitter: us_rse
   avatar: https://us-rse.org/assets/img/rse_logo_background.svg
-
