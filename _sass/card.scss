@@ -13,24 +13,20 @@
 	border: solid #B4DDFC 1px;
 }
 
-.card:hover .card-content{
-	padding: 2px 8px;
-}
-
 /* Add some padding inside the card container */
 p.card-title {
-	padding: 2px 16px;
+	padding: 2px 15px;
 	font-weight: bold;
 }
 
 .card .card-content {
-	padding: 2px 16px;
+	padding: 2px 15px;
 	font-size: $type-size-7;
 }
 
 .card img {
   border-radius: 5px 5px 5px 5px;
-	padding: 2px 16px;
+	padding: 2px 15px;
 }
 
 /* Span elements should be on one line */
