@@ -9,6 +9,7 @@ workshop:
   internal: /programme/workshops/
 poster:
   name: Posters and Lightning talks
+  internal: /programme/posters/
 award:
   name: Awards
   internal: /programme/awards/
