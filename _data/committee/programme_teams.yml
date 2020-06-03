@@ -3,6 +3,7 @@ software_demo:
   internal: /programme/software-demos/
 talk:
   name: Talks
+  internal: /programme/talks/
 workshop:
   name: Workshops
   internal: /programme/workshops/
