@@ -13,7 +13,7 @@ We are an international committee of RSEs from various [national RSE chapters](c
 This conference is organized by Research Software Engineers like you!
 
 - If you have any questions concerning the conference, please contact the organizers of the conference via [{{ site.email }}](mailto:{{ site.config.email }})
-- For any other issues with the conference website, please contact the [website chair](#international-committee-members).
+- For any other issues with the conference website, please contact the [website chair]({{ site.baseurl }}{{ site.data.committee.committees.website.internal }}).
 
 
 ## SORSE20 Organizers
