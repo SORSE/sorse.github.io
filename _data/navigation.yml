@@ -36,3 +36,5 @@ programme:
     children:
       - title: Software demos
         url: "/programme/software-demos/"
+      - title: Sprints
+        url: "/programme/sprints/"
