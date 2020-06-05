@@ -17,4 +17,10 @@ USRSE:
   internal: /contact/
   twitter: us_rse
   avatar: https://us-rse.org/assets/img/rse_logo_background.svg
-
+nlRSE:
+  name: nl-RSE
+  website: https://nl-rse.org/
+  email: info@nl-rse.org
+  long_name: The Netherlands Research Software Engineer community
+  internal: /contact/
+  twitter: nl_rse

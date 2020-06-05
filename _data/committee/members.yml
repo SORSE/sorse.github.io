@@ -32,13 +32,17 @@
   affiliation: German Aerospace Center (DLR), Humboldt-Universität zu Berlin, Friedrich Schiller University Jena
   location: Berlin, Germany
   website: https://sdruskat.net
+  orcid: 0000-0003-4925-7248
   github: sdruskat
   avatar: /assets/images/stephan-druskat.png
+  twitter: stdruskat
   teams:
     - deRSE
     - orga
+    - panel
     - programme
     - website
+    - talk
 - name: Philipp S. Sommer
   affiliation: Helmholtz-Zentrum Geesthacht Centre for Materials and Coastal Research (HZG)
   location: Geesthacht, Germany
@@ -50,16 +54,40 @@
   teams:
     - deRSE
     - programme
-    - website
     - software_demo
+    - website
 - name: Florian Thiery
-  affiliation: Römisch-Germanisches Zentralmuseum
+  affiliation: Research Squirrel Engineers
   location: Mainz, Germany
+  website: http://fthiery.de/
   orcid: 0000-0002-3246-3531
+  github: florianthiery
   avatar: /assets/images/florian-thiery.png
+  email: rse@fthiery.de
   teams:
     - deRSE
+    - programme
     - poster
+    - website
+- name: Jan Philipp Dietrich
+  affiliation: Postdam Institute for Climate Impact Research (PIK)
+  location: Potsdam, Germany
+  website: https://www.pik-potsdam.de/research/members/dietrich
+  orcid: 0000-0002-4309-6431
+  github: tscheypidi
+  avatar: /assets/images/jan_dietrich.jpg
+  email: dietrich@pik-potsdam.de
+  teams:
+    - deRSE
+    - programme
+- name: Bezaye Tesfaye Belayneh
+  affiliation: Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences (GFZ)
+  location: Potsdam, Germany
+  github: bezaye
+  email: btesfaye@gfz-potsdam.de
+  teams:
+    - deRSE
+    - programme
 - name: Claire Wyatt
   avatar: /assets/images/claire_wyatt.jpg
   teams:
@@ -73,17 +101,33 @@
   teams:
     - ukRSE
 - name: Kirsty Pringle
+  affiliation: University of Leeds
+  location: Leeds, UK
+  website: https://environment.leeds.ac.uk/see/staff/1486/dr-kirsty-pringle
+  orcid: 0000-0003-2190-5258
   avatar: /assets/images/kirsty_pringle.jpg
+  email: k.pringle@leeds.ac.uk
   teams:
     - ukRSE
 - name: Chris Cave-Ayland
+  affiliation: Imperial College
+  location: London, UK
+  github: cc-a
   avatar: /assets/images/chris_cave-ayland.jpg
+  email: c.cave-ayland@imperial.ac.uk
   teams:
     - ukRSE
 - name: Alison Clarke
+  affiliation: Durham University
+  location: Durham, UK
+  orcid: 0000-0002-0205-6644
+  github: alisonrclarke
   avatar: /assets/images/alison_clarke.jpg
+  email: alison.r.clarke@durham.ac.uk
   teams:
     - ukRSE
+    - programme
+    - software_demo
 - name: Tim Powell
   avatar: /assets/images/tim_powell.png
   teams:
@@ -97,6 +141,8 @@
   teams:
     - ukRSE
 - name: Sandra Gessing
+  affiliation: University of Notre Dame
+  location: Indiana, US
   avatar: /assets/images/sandra_gessing.jpg
   teams:
     - ukRSE
@@ -105,13 +151,27 @@
   teams:
     - ukRSE
 - name: Mateusz Kuzak
+  affiliation: The Netherlands eScience Center
+  location: Amsterdam, NL
+  website: https://www.esciencecenter.nl/team/mateusz-kuzak-msc/
+  orcid: 0000-0003-0087-6021
+  github: mkuzak
   avatar: /assets/images/mateusz-kuzak.jpg
+  email: m.kuzak@esciencecenter.nl
   teams:
     - ukRSE
 - name: Marion Weinzierl
+  affiliation: Durham University
+  location: Durham, UK
+  orcid: 0000-0002-2302-5476
+  github: MarionBWeinzierl
   avatar: /assets/images/marion_weinzierl.jpg
+  email: marion.weinzierl@durham.ac.uk
   teams:
     - ukRSE
+    - programme
+    - talk
+    - panel
 - name: Louise Brown
   avatar: /assets/images/louise_brown.jpg
   teams:
@@ -129,18 +189,38 @@
   teams:
     - ukRSE
 - name: Catherine Smith
+  affiliation: University of Birmingham
+  location: Birmingham, UK
+  orcid: 0000-0002-2530-9229
+  github: catsmith
   avatar: /assets/images/cat_smith.png
   teams:
     - ukRSE
 - name: Debbie Carter
+  affiliation: University of Birmingham
+  location: Birmingham, UK
   avatar: /assets/images/debbie-carter.jpg
+  email: d.j.carter@bham.ac.uk
   teams:
     - ukRSE
 - name: Teri Forey
+  affiliation: Wellcome Trust
+  location: Cork, Ireland
+  github: TeriForey
   avatar: /assets/images/teri_forey.jpg
   teams:
     - ukRSE
+    - website
+    - bazaar
 - name: Juan Herrera
+  affiliation: EPCC, The University of Edinburgh
+  location: Edinburgh, UK
+  website: https://www.epcc.ed.ac.uk/about/staff/herrera
+  orcid: 0000-0002-6085-8549
+  github: juanfrh
   avatar: /assets/images/juan_herrera.jpg
+  twitter: JFR_Herrera
+  email: j.herrera@epcc.ed.ac.uk
   teams:
     - ukRSE
+    - website
