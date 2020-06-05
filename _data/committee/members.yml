@@ -88,6 +88,33 @@
   teams:
     - deRSE
     - programme
+- name: Anna-Lena Lamprecht
+  affiliation: Utrecht University
+  location: Utrecht, Netherlands
+  website: https://www.uu.nl/staff/allamprecht
+  orcid: 0000-0003-1953-5606
+  github: annalenalamprecht
+  twitter: al_lamprecht
+  email: a.l.lamprecht@uu.nl
+  teams:
+    - deRSE
+    - nlRSE
+    - award
+    - bazaar
+    - programme
+- name: Eileen Kuehn
+  affiliation: Karlsruhe Institute of Technology (KIT)
+  location: Karlsruhe, Germany
+  website: https://www.scc.kit.edu/personen/eileen.kuehn.php
+  orcid: 0000-0002-8034-8837
+  github: eileen-kuehn
+  twitter: EileenKuehn6
+  email: eileen.kuehn@kit.edu
+  teams:
+    - deRSE
+    - programme
+    - website
+    - workshop
 - name: Claire Wyatt
   avatar: /assets/images/claire_wyatt.jpg
   teams:
@@ -173,9 +200,17 @@
     - talk
     - panel
 - name: Louise Brown
+  affiliation: Composites Research Group, University of Nottingham
+  location: Nottingham, UK
+  github: louisepb
   avatar: /assets/images/louise_brown.jpg
+  twitter: louisepb
+  email: louise.brown@nottingham.ac.uk
   teams:
     - ukRSE
+    - poster
+    - programme
+    - talk
 - name: Mahmood M. Shad
   avatar: /assets/images/mahmood_shad.jpeg
   teams:
