@@ -121,10 +121,12 @@
     - ukRSE
 - name: Martin Callaghan
   avatar: /assets/images/Martin_Callaghan.jpg
+  hidden: true
   teams:
     - ukRSE
 - name: Ben Van Werkhoven
   avatar: /assets/images/ben_van_werkhoven.jpg
+  hidden: true
   teams:
     - ukRSE
 - name: Kirsty Pringle
@@ -157,6 +159,7 @@
     - software_demo
 - name: Tim Powell
   avatar: /assets/images/tim_powell.png
+  hidden: true
   teams:
     - ukRSE
 - name: David Yuan
@@ -165,6 +168,7 @@
     - ukRSE
 - name: Andrew Gait
   avatar: /assets/images/andrew_gait.jpg
+  hidden: true
   teams:
     - ukRSE
 - name: Sandra Gessing
@@ -213,14 +217,17 @@
     - talk
 - name: Mahmood M. Shad
   avatar: /assets/images/mahmood_shad.jpeg
+  hidden: true
   teams:
     - ukRSE
 - name: Sam Mangham
   avatar: /assets/images/sam_mangham.jpeg
+  hidden: true
   teams:
     - ukRSE
 - name: Gabriel Hanganu
   avatar: /assets/images/gabriel_hanganu.jpg
+  hidden: true
   teams:
     - ukRSE
 - name: Catherine Smith
