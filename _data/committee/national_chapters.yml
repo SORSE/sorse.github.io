@@ -15,8 +15,8 @@ ukRSE:
   internal: /contact/#ukRSE
   email: info@society-rse.org
   long_name: Society of Research Software Engineering
-USRSE:
-  name: USRSE
+usRSE:
+  name: us-RSE
   website: https://us-rse.org
   email: contact@us-rse.org
   long_name: United States Research Software Engineer Association
