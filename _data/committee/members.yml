@@ -217,9 +217,16 @@
     - talk
 - name: Mahmood M. Shad
   avatar: /assets/images/mahmood_shad.jpeg
-  hidden: true
+  affiliation: Harvard University
+  location: Cambridge, MA, US
+  github: mmshad
+  twitter: mahmoodmsh
+  orcid: 0000-0002-1412-1378
+  email: mohammadi_shad@harvard.edu
+  website: https://www.rc.fas.harvard.edu/about/people/mahmood-shad/
   teams:
     - ukRSE
+    - poster
 - name: Sam Mangham
   avatar: /assets/images/sam_mangham.jpeg
   hidden: true
