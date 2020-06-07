@@ -38,3 +38,5 @@ programme:
     children:
       - title: Software demos
         url: "/programme/software-demos/"
+      - title: Topic Bazaar
+        url: "/programme/bazaar/"

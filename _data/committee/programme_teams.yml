@@ -13,5 +13,6 @@ panel:
   name: Panels and Discussions
 bazaar:
   name: Topic Bazaar
+  internal: /programme/bazaar/
 sprint:
   name: Sprints
