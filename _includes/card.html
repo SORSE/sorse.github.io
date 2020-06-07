@@ -1,4 +1,5 @@
 {% assign info = include.info %}
+{% unless info.hidden %}
 <div class="card col-s-12 col-5" >
   <div>
     {% if info.website %}
@@ -10,9 +11,9 @@
     {% if info.avatar %}
     {% assign avatar = info.avatar %}
     {% else %}
-    {% assign avatar = "assets/images/bio-photo.jpg" %}
+    {% assign avatar = "/assets/images/bio-photo.jpg" %}
     {% endif %}
-    <img width="200px" src="{% include fix-link.html link=info.avatar %}" alt="{{ info.name }}">
+    <img width="200px" src="{% include fix-link.html link=avatar %}" alt="{{ info.name }}">
     <p class="card-content">
       {% if info.long_name %}<span class="content-line">{{ info.long_name }}</span>{% endif %}
       {% if info.affiliation %}<span class="content-line">{{ info.affiliation }}</span>{% endif %}
@@ -64,3 +65,4 @@
     </p>
   </div>
 </div>
+{% endunless %}
