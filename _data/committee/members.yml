@@ -119,8 +119,14 @@
     - workshop
 - name: Claire Wyatt
   avatar: /assets/images/claire_wyatt.jpg
+  email: c.wyatt@soton.ac.uk
+  affiliation: Software Sustainability Institute
+  location: Winchester, UK
+  twitter: claire_vedette
   teams:
     - ukRSE
+    - orga
+    - programme
 - name: Martin Callaghan
   avatar: /assets/images/Martin_Callaghan.jpg
   hidden: true
