@@ -4,17 +4,30 @@ deRSE:
   website: https://de-rse.org/en/index.html
   email: vorstand@de-rse.org
   long_name: de-RSE e.V. - Society for Research Software
-  internal: /contact/#deRSE
+  internal: /contact/chapters/#deRSE
   twitter: RSE_de
-  avatar: https://de-rse.org/assets/img/site/rse.png
+  avatar: https://raw.githubusercontent.com/DE-RSE/logo-association/master/de-RSE-logo-only-colour.svg
 ukRSE:
   name: UK RSE
-USRSE:
-  name: USRSE
+  avatar: https://society-rse.org/wp-content/uploads/2019/07/Soc_RSE_master_logo-1.png
+  twitter: ResearchSoftEng
+  website: https://society-rse.org
+  internal: /contact/chapters/#ukRSE
+  email: info@society-rse.org
+  long_name: Society of Research Software Engineering
+usRSE:
+  name: us-RSE
   website: https://us-rse.org
   email: contact@us-rse.org
   long_name: United States Research Software Engineer Association
-  internal: /contact/
+  internal: /contact/chapters/#usRSE
   twitter: us_rse
   avatar: https://us-rse.org/assets/img/rse_logo_background.svg
-
+nlRSE:
+  name: nl-RSE
+  website: https://nl-rse.org/
+  avatar: https://nl-rse.org/img/logo.png
+  email: info@nl-rse.org
+  long_name: The Netherlands Research Software Engineer community
+  internal: /contact/chapters/#nlRSE
+  twitter: nl_rse

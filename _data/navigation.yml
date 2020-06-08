@@ -16,10 +16,12 @@ contact:
   - title: "Contact"
     url: /contact/
     children:
-      - title: "Organizing Committee"
-        url: /contact/#international-committee-members
+      - title: "SORSE20 Organizers"
+        url: /contact/#sorse20-organizers
       - title: "Committees"
         url: /contact/committees/
+      - title: "RSE Chapters"
+        url: /contact/chapters/
 
 delegates:
   - title: "Code of Conduct"

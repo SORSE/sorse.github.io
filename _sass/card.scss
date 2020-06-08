@@ -1,6 +1,7 @@
 .card {
   /* Add shadows to create the "card" effect */
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border: solid #FFFFFF 1px;
 	transition: 0.3s;
 	border-radius: 5px; /* 5px rounded corners */
 	display: inline-block;
@@ -10,27 +11,23 @@
 /* On mouse-over, add a deeper shadow */
 .card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	border: solid #B4DDFC 1px;
-}
-
-.card:hover .card-content{
-	padding: 2px 8px;
+	border-color: #B4DDFC;
 }
 
 /* Add some padding inside the card container */
 p.card-title {
-	padding: 2px 16px;
+	padding: 2px 15px;
 	font-weight: bold;
 }
 
 .card .card-content {
-	padding: 2px 16px;
+	padding: 2px 15px;
 	font-size: $type-size-7;
 }
 
 .card img {
   border-radius: 5px 5px 5px 5px;
-	padding: 2px 16px;
+	padding: 2px 15px;
 }
 
 /* Span elements should be on one line */

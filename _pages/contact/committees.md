@@ -19,4 +19,4 @@ A committee is a group of individuals working on a component of SORSE20
 
 {% endfor %}
 
-Any questions, please [get in touch](contact/)!
+Any questions, please [get in touch](..)!
