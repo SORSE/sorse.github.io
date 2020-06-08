@@ -192,12 +192,18 @@
   teams:
     - ukRSE
     - programme
-- name: Sandra Gessing
+- name: Sandra Gesing
   affiliation: University of Notre Dame
-  location: Indiana, US
+  location: Notre Dame, IN, USA
+  twitter: sandragesing
+  github: sandragesing
+  orcid: 0000-0002-6051-0673
   avatar: /assets/images/sandra_gessing.jpg
+  email: sandra.gesing@nd.edu
+  website: http://sandra-gesing.com/
   teams:
     - usRSE
+    - orga
 - name: Johan Philips
   email: johan.philips@kuleuven.be
   website: https://u0052546.pages.gitlab.kuleuven.be/
