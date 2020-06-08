@@ -161,9 +161,15 @@
     - software_demo
 - name: Tim Powell
   avatar: /assets/images/tim_powell.png
-  hidden: true
+  affiliation: Hartree Centre, STFC
+  location: Cheshire, UK
+  github: teapowell
+  twitter: MrTimPowell
+  email: tim.powell@stfc.ac.uk
   teams:
     - ukRSE
+    - programme
+    - talks
 - name: David Yuan
   avatar: /assets/images/david_yuan.jpg
   teams:
