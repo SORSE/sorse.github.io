@@ -199,9 +199,16 @@
   teams:
     - usRSE
 - name: Johan Philips
-  avatar: /assets/images/johan_philips.jpeg
+  email: johan.philips@kuleuven.be
+  website: https://u0052546.pages.gitlab.kuleuven.be/
+  orcid: 0000-0003-0937-7798
+  affiliation: KU Leuven
+  location: Leuven, BE
+  avatar: https://u0052546.pages.gitlab.kuleuven.be/images/avatar.jpg
   teams:
     - ukRSE
+    - software_demo
+    - workshops
 - name: Mateusz Kuzak
   affiliation: The Netherlands eScience Center
   location: Amsterdam, NL
