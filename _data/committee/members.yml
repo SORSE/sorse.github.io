@@ -316,3 +316,14 @@
   teams:
     - orga
     - ukRSE
+- name: Jeremy Cohen
+  email: jeremy.cohen@imperial.ac.uk
+  website: https://www.imperial.ac.uk/people/jeremy.cohen
+  affiliation: Imperial College London
+  location: London, UK
+  avatar: /assets/images/jeremy_cohen.jpg
+  github: jcohen02
+  orcid: 0000-0003-4312-2537
+  teams:
+    - ukRSE
+    - orga
