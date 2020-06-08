@@ -304,3 +304,15 @@
   teams:
     - usRSE
     - website
+- name: Rachael Ainsworth
+  affiliation: Software Sustainability Institute, University of Manchester
+  location: Manchester, UK
+  website: https://rainsworth.github.io/
+  email: rachael.ainsworth@manchester.ac.uk
+  avatar: /assets/images/rachael-ainsworth.jpg
+  twitter: rachaelevelyn
+  github: rainsworth
+  orcid:  0000-0003-2591-9462
+  teams:
+    - orga
+    - ukRSE
