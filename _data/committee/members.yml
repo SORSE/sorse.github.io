@@ -176,9 +176,16 @@
     - ukRSE
 - name: Andrew Gait
   avatar: /assets/images/andrew_gait.jpg
-  hidden: true
+  affiliation: University of Manchester
+  location: Manchester, UK
+  github: andrewgait
+  twitter: andrewgait
+  website: https://personalpages.manchester.ac.uk/staff/andrew.gait/
+  orcid: 0000-0001-9349-1096
+  email: andrew.gait@manchester.ac.uk
   teams:
     - ukRSE
+    - programme
 - name: Sandra Gessing
   affiliation: University of Notre Dame
   location: Indiana, US
