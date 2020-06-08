@@ -119,6 +119,7 @@
   avatar: /assets/images/claire_wyatt.jpg
   teams:
     - ukRSE
+    - sponsoring
 - name: Martin Callaghan
   avatar: /assets/images/Martin_Callaghan.jpg
   hidden: true

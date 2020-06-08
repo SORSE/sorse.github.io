@@ -8,3 +8,6 @@ programme:
 website:
   name: Website Committee
   internal: /contact/committees/#website
+sponsoring:
+  name: Sponsoring Committee
+  internal: /contact/committees/#sponsoring
