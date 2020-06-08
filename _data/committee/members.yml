@@ -242,7 +242,10 @@
     - ukRSE
 - name: Gabriel Hanganu
   avatar: /assets/images/gabriel_hanganu.jpg
-  hidden: true
+  affiliation: Allan Turing Institute
+  location: London, UK
+  website: https://www.turing.ac.uk/research/research-engineering
+  email: ghanganu@turing.ac.uk
   teams:
     - ukRSE
 - name: Catherine Smith
