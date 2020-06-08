@@ -172,8 +172,14 @@
     - talks
 - name: David Yuan
   avatar: /assets/images/david_yuan.jpg
+  email: davidyuan@ebi.ac.uk
+  affiliation: European Bioinformatics Institute
+  location: Cambridge, UK
   teams:
     - ukRSE
+    - programme
+    - bazaar
+    - software_demo
 - name: Andrew Gait
   avatar: /assets/images/andrew_gait.jpg
   affiliation: University of Manchester
