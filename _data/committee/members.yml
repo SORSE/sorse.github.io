@@ -91,6 +91,7 @@
 - name: Anna-Lena Lamprecht
   affiliation: Utrecht University
   location: Utrecht, Netherlands
+  avatar: /assets/images/anna-lena-lamprecht.jpg
   website: https://www.uu.nl/staff/allamprecht
   orcid: 0000-0003-1953-5606
   github: annalenalamprecht
@@ -104,6 +105,7 @@
     - programme
 - name: Eileen Kuehn
   affiliation: Karlsruhe Institute of Technology (KIT)
+  avatar: /assets/images/eileen-kuehn.jpg
   location: Karlsruhe, Germany
   website: https://www.scc.kit.edu/personen/eileen.kuehn.php
   orcid: 0000-0002-8034-8837
