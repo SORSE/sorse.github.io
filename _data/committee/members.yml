@@ -220,7 +220,7 @@
   teams:
     - ukRSE
     - software_demo
-    - workshops
+    - workshop
 - name: Mateusz Kuzak
   affiliation: The Netherlands eScience Center
   location: Amsterdam, NL
@@ -287,6 +287,8 @@
   avatar: /assets/images/cat_smith.png
   teams:
     - ukRSE
+    - programme
+    - workshop
 - name: Debbie Carter
   affiliation: University of Birmingham
   location: Birmingham, UK
