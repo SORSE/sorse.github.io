@@ -19,7 +19,8 @@ This conference is organized by Research Software Engineers like you!
 ## SORSE20 Organizers
 
 <div style="display: flex; flex-wrap: wrap;">
-  {% for person in site.data.committee.members %}
+  {% assign sorted = site.data.committee.members | sort: 'name' %}
+  {% for person in sorted %}
   {% include card.html info=person %}
   {% endfor %}
 </div>
