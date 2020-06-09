@@ -32,7 +32,7 @@ p.card-title {
 
 /* Span elements should be on one line */
 .card-content span.content-line {
-	display: table;
+	display: block;
 }
 
 @media only screen and (min-width: 600px) {
