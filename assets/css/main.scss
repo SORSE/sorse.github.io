@@ -31,16 +31,3 @@ a.missing:link {
 a.missing:visited {
   color: rgba(255, 0, 0, 1.0);
 }
-
-/* Selected elements */
-
-::-moz-selection {
-  color: #fff;
-  background: #CCC;
-}
-
-::selection {
-  color: #fff;
-  background: #CCC;
-}
-
