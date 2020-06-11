@@ -358,3 +358,13 @@
   teams:
     - ukRSE
     - orga
+- name: Nicholas May
+  email: nicholas.may@rmit.edu.au
+  affiliation: RMIT University
+  location: Melbourne, AUS
+  twitter: eResEngineer
+  github: nrmay
+  orcid: 0000-0002-1298-1622
+  teams:
+    - aunzRSE
+    - orga
