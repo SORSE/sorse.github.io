@@ -68,8 +68,22 @@ The call for submissions will remain open and there will be a rolling monthly de
 
 See our [schedule of events](){: .missing} for details of what’s coming up.
 
-
 ## Do I need to pay to attend SORSE events?
 No! It’s completely free to the community with the national RSE Groups from many countries collaborating to bring this to you.
+
+<h3>Announcements</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% for post in posts %}{% if post.tags contains "announcement"%}
+  {% include archive-single.html %}
+{% endif %}{% endfor %}
+
+{% include paginator.html %}
+
 
 Any questions, please [get in touch](contact/)!
