@@ -375,3 +375,13 @@
   teams:
     - aunzRSE
     - orga
+- name: Maximilian Dolling
+  email: mdolling@gfz-potsdam.de
+  website: https://www.gfz-potsdam.de/en/home/
+  affiliation: GFZ-Potsdam
+  location: Potsdam
+  twitter: max_dolling
+  github: mdolling-gfz
+  teams:
+    - deRSE
+    - sponsoring
