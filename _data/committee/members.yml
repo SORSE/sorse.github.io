@@ -136,10 +136,17 @@
   teams:
     - ukRSE
 - name: Ben Van Werkhoven
-  avatar: /assets/images/ben_van_werkhoven.jpg
-  hidden: true
+  avatar: https://benvanwerkhoven.github.io/img/ben_1900.jpg
+  email: b.vanwerkhoven@esciencecenter.nl
+  website: benvanwerkhoven.github.io
+  affiliation: Netherlands eScience Center
+  location: Amsterdam, the Netherlands
+  twitter: bvanwerkhoven
+  github: benvanwerkhoven
+  orcid: 0000-0002-7508-3272
   teams:
-    - ukRSE
+    - nlRSE
+    - orga
 - name: Kirsty Pringle
   affiliation: University of Leeds
   location: Leeds, UK
