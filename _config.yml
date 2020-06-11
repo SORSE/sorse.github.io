@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: SORSE20
-baseurl: "/SORSE20"  # for testing, also check .circleci/circle_urls.sh 
-url: "https://de-rse.org"
-repository: DE-RSE/SORSE20
+baseurl: "/SORSE20"  # for testing, also check .circleci/circle_urls.sh
+url: "https://rse-leaders.github.io"
+repository: RSE-leaders/SORSE20
 email: SET-EMAIL-IN-_config.yml
 description: >- # this means to ignore newlines until "baseurl:"
   SORSE20: Series of Online Research Software Events 2020
