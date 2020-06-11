@@ -82,13 +82,14 @@
     - deRSE
     - programme
 - name: Bezaye Tesfaye Belayneh
-  affiliation: Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences (GFZ)
+  affiliation: Helmholtz Center Potsdam - GFZ German Research Center for Geosciences (GFZ, Potsdam)
   location: Potsdam, Germany
   github: bezaye
   email: btesfaye@gfz-potsdam.de
   teams:
     - deRSE
     - programme
+    - software_demo
 - name: Anna-Lena Lamprecht
   affiliation: Utrecht University
   location: Utrecht, Netherlands
