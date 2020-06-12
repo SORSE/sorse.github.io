@@ -18,7 +18,7 @@
 
 <div class="page__footer-nav">
   {% for link in site.data.navigation.footer %}
-    <a href="{{ link.url }}" rel="nofollow noopener noreferrer">{{ link.title }}</a>
+    <a href="{% include fix-link.html link=link.url %}" rel="nofollow noopener noreferrer">{{ link.title }}</a>
   {% endfor %}
 </div>
 
