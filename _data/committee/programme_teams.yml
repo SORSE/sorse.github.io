@@ -3,15 +3,21 @@ software_demo:
   internal: /programme/software-demos/
 talk:
   name: Talks
+  internal: /programme/talks/
 workshop:
   name: Workshops
+  internal: /programme/workshops/
 poster:
   name: Posters and Lightning talks
+  internal: /programme/posters/
 award:
   name: Awards
+  internal: /programme/awards/
 panel:
   name: Panels and Discussions
+  internal: /programme/panels/
 bazaar:
   name: Topic Bazaar
 sprint:
   name: Sprints
+  internal: /programme/sprints/

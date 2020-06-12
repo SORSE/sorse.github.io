@@ -7,6 +7,7 @@ deRSE:
   internal: /contact/chapters/#deRSE
   twitter: RSE_de
   avatar: https://raw.githubusercontent.com/DE-RSE/logo-association/master/de-RSE-logo-only-colour.svg
+  github: DE-RSE
 ukRSE:
   name: UK RSE
   avatar: https://society-rse.org/wp-content/uploads/2019/07/Soc_RSE_master_logo-1.png
@@ -15,6 +16,7 @@ ukRSE:
   internal: /contact/chapters/#ukRSE
   email: info@society-rse.org
   long_name: Society of Research Software Engineering
+  github: socrse
 usRSE:
   name: us-RSE
   website: https://us-rse.org
@@ -23,6 +25,7 @@ usRSE:
   internal: /contact/chapters/#usRSE
   twitter: us_rse
   avatar: https://us-rse.org/assets/img/rse_logo_background.svg
+  github: USRSE
 nlRSE:
   name: nl-RSE
   website: https://nl-rse.org/
@@ -31,3 +34,21 @@ nlRSE:
   long_name: The Netherlands Research Software Engineer community
   internal: /contact/chapters/#nlRSE
   twitter: nl_rse
+  github: nl-rse
+nordicRSE:
+  name: Nordic-RSE
+  website: https://nordic-rse.org/
+  avatar: https://nordic-rse.org/img/logo.png
+  email: contact@nordic-rse.org
+  long_name: Nordic research software engineers
+  internal: /contact/chapters/#nordicRSE
+  twitter: nordic_rse
+  github: nordic-rse
+aunzRSE:
+  name: RSE-AUNZ
+  website: https://rse-aunz.github.io
+  avatar: https://rse-aunz.github.io/assets/RSE_AUNZ_logo.png
+  long_name: RSE Association of Australia and New Zealand
+  internal: /contact/chapters/#aunzRSE
+  twitter: rse_aunz
+  github: rse-aunz
