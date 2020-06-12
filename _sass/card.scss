@@ -6,6 +6,20 @@
 	border-radius: 5px; /* 5px rounded corners */
 	display: inline-block;
 	margin: 10px;
+
+	& .elastic-fai {
+		font-size: $type-size-1;
+
+		@include breakpoint($small) {
+			font-size: $type-size-3;
+		}
+		@include breakpoint($medium) {
+			font-size: $type-size-4;
+		}
+		@include breakpoint($large) {
+			font-size: $type-size-5;
+		}
+	}
 }
 
 /* On mouse-over, add a deeper shadow */
