@@ -31,3 +31,11 @@ a.missing:link {
 a.missing:visited {
   color: rgba(255, 0, 0, 1.0);
 }
+
+.page__footer-nav {
+  font-size: $type-size-7;
+  margin-bottom: 10px;
+  a {
+    padding: 1em;
+  }
+}

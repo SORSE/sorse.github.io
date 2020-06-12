@@ -50,3 +50,11 @@ programme:
         url: "/programme/talks/"
       - title: Workshops
         url: "/programme/workshops/"
+
+footer:
+  - title: Programme
+    url: "/programme/"
+  - title: Contact
+    url: "/contact/"
+  - title: Archive
+    url: "/archive/"
