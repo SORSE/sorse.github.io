@@ -36,7 +36,19 @@ programme:
         url: "/programme/call-for-contributions/#topic-bazaar"
   - title: "Teams"
     children:
+      - title: Awards
+        url: "/programme/awards/"
+      - title: Panels and Discussions
+        url: "/programme/panels/"
+      - title: Posters and Lightning talks
+        url: "/programme/posters/"
       - title: Software demos
         url: "/programme/software-demos/"
+      - title: Sprints
+        url: "/programme/sprints/"
+      - title: Talks
+        url: "/programme/talks/"
       - title: Topic Bazaar
         url: "/programme/bazaar/"
+      - title: Workshops
+        url: "/programme/workshops/"

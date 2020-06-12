@@ -62,6 +62,7 @@
   website: http://fthiery.de/
   orcid: 0000-0002-3246-3531
   github: florianthiery
+  twitter: fthierygeo
   avatar: /assets/images/florian-thiery.png
   email: rse@fthiery.de
   teams:
@@ -81,16 +82,18 @@
     - deRSE
     - programme
 - name: Bezaye Tesfaye Belayneh
-  affiliation: Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences (GFZ)
+  affiliation: Helmholtz Center Potsdam - GFZ German Research Center for Geosciences (GFZ, Potsdam)
   location: Potsdam, Germany
   github: bezaye
   email: btesfaye@gfz-potsdam.de
   teams:
     - deRSE
     - programme
+    - software_demo
 - name: Anna-Lena Lamprecht
   affiliation: Utrecht University
   location: Utrecht, Netherlands
+  avatar: /assets/images/anna-lena-lamprecht.jpg
   website: https://www.uu.nl/staff/allamprecht
   orcid: 0000-0003-1953-5606
   github: annalenalamprecht
@@ -104,6 +107,7 @@
     - programme
 - name: Eileen Kuehn
   affiliation: Karlsruhe Institute of Technology (KIT)
+  avatar: /assets/images/eileen-kuehn.jpg
   location: Karlsruhe, Germany
   website: https://www.scc.kit.edu/personen/eileen.kuehn.php
   orcid: 0000-0002-8034-8837
@@ -117,18 +121,32 @@
     - workshop
 - name: Claire Wyatt
   avatar: /assets/images/claire_wyatt.jpg
+  email: c.wyatt@soton.ac.uk
+  affiliation: Software Sustainability Institute
+  location: Winchester, UK
+  twitter: claire_vedette
   teams:
     - ukRSE
+    - orga
+    - programme
+    - sponsoring
 - name: Martin Callaghan
   avatar: /assets/images/Martin_Callaghan.jpg
   hidden: true
   teams:
     - ukRSE
 - name: Ben Van Werkhoven
-  avatar: /assets/images/ben_van_werkhoven.jpg
-  hidden: true
+  avatar: https://benvanwerkhoven.github.io/img/ben_1900.jpg
+  email: b.vanwerkhoven@esciencecenter.nl
+  website: benvanwerkhoven.github.io
+  affiliation: Netherlands eScience Center
+  location: Amsterdam, the Netherlands
+  twitter: bvanwerkhoven
+  github: benvanwerkhoven
+  orcid: 0000-0002-7508-3272
   teams:
-    - ukRSE
+    - nlRSE
+    - orga
 - name: Kirsty Pringle
   affiliation: University of Leeds
   location: Leeds, UK
@@ -151,6 +169,7 @@
   location: Durham, UK
   orcid: 0000-0002-0205-6644
   github: alisonrclarke
+  twitter: alisonrclarke
   avatar: /assets/images/alison_clarke.jpg
   email: alison.r.clarke@durham.ac.uk
   teams:
@@ -159,28 +178,60 @@
     - software_demo
 - name: Tim Powell
   avatar: /assets/images/tim_powell.png
-  hidden: true
+  affiliation: Hartree Centre, STFC
+  location: Cheshire, UK
+  github: teapowell
+  twitter: MrTimPowell
+  email: tim.powell@stfc.ac.uk
   teams:
     - ukRSE
+    - programme
+    - talks
 - name: David Yuan
   avatar: /assets/images/david_yuan.jpg
+  email: davidyuan@ebi.ac.uk
+  affiliation: European Bioinformatics Institute
+  location: Cambridge, UK
   teams:
     - ukRSE
+    - programme
+    - bazaar
+    - software_demo
 - name: Andrew Gait
   avatar: /assets/images/andrew_gait.jpg
-  hidden: true
+  affiliation: University of Manchester
+  location: Manchester, UK
+  github: andrewgait
+  twitter: andrewgait
+  website: https://personalpages.manchester.ac.uk/staff/andrew.gait/
+  orcid: 0000-0001-9349-1096
+  email: andrew.gait@manchester.ac.uk
   teams:
     - ukRSE
-- name: Sandra Gessing
+    - programme
+- name: Sandra Gesing
   affiliation: University of Notre Dame
-  location: Indiana, US
+  location: Notre Dame, IN, USA
+  twitter: sandragesing
+  github: sandragesing
+  orcid: 0000-0002-6051-0673
   avatar: /assets/images/sandra_gessing.jpg
+  email: sandra.gesing@nd.edu
+  website: http://sandra-gesing.com/
   teams:
     - usRSE
+    - orga
 - name: Johan Philips
-  avatar: /assets/images/johan_philips.jpeg
+  email: johan.philips@kuleuven.be
+  website: https://u0052546.pages.gitlab.kuleuven.be/
+  orcid: 0000-0003-0937-7798
+  affiliation: KU Leuven
+  location: Leuven, BE
+  avatar: https://u0052546.pages.gitlab.kuleuven.be/images/avatar.jpg
   teams:
     - ukRSE
+    - software_demo
+    - workshop
 - name: Mateusz Kuzak
   affiliation: The Netherlands eScience Center
   location: Amsterdam, NL
@@ -214,12 +265,18 @@
     - ukRSE
     - poster
     - programme
-    - talk
 - name: Mahmood M. Shad
   avatar: /assets/images/mahmood_shad.jpeg
-  hidden: true
+  affiliation: Harvard University
+  location: Cambridge, MA, US
+  github: mmshad
+  twitter: mahmoodmsh
+  orcid: 0000-0002-1412-1378
+  email: mohammadi_shad@harvard.edu
+  website: https://www.rc.fas.harvard.edu/about/people/mahmood-shad/
   teams:
-    - ukRSE
+    - usRSE
+    - poster
 - name: Sam Mangham
   avatar: /assets/images/sam_mangham.jpeg
   hidden: true
@@ -227,7 +284,10 @@
     - ukRSE
 - name: Gabriel Hanganu
   avatar: /assets/images/gabriel_hanganu.jpg
-  hidden: true
+  affiliation: Allan Turing Institute
+  location: London, UK
+  website: https://www.turing.ac.uk/research/research-engineering
+  email: ghanganu@turing.ac.uk
   teams:
     - ukRSE
 - name: Catherine Smith
@@ -238,6 +298,8 @@
   avatar: /assets/images/cat_smith.png
   teams:
     - ukRSE
+    - programme
+    - workshop
 - name: Debbie Carter
   affiliation: University of Birmingham
   location: Birmingham, UK
@@ -250,6 +312,9 @@
   location: Cork, Ireland
   github: TeriForey
   avatar: /assets/images/teri_forey.jpg
+  twitter: bioTeri
+  email: t.forey@wellcome.ac.uk
+  website: http://www.teri-apps.com
   teams:
     - ukRSE
     - website
@@ -277,3 +342,56 @@
   teams:
     - usRSE
     - website
+- name: Rachael Ainsworth
+  affiliation: Software Sustainability Institute, University of Manchester
+  location: Manchester, UK
+  website: https://rainsworth.github.io/
+  email: rachael.ainsworth@manchester.ac.uk
+  avatar: /assets/images/rachael-ainsworth.jpg
+  twitter: rachaelevelyn
+  github: rainsworth
+  orcid:  0000-0003-2591-9462
+  teams:
+    - orga
+    - ukRSE
+- name: Jeremy Cohen
+  email: jeremy.cohen@imperial.ac.uk
+  website: https://www.imperial.ac.uk/people/jeremy.cohen
+  affiliation: Imperial College London
+  location: London, UK
+  avatar: /assets/images/jeremy_cohen.jpg
+  github: jcohen02
+  orcid: 0000-0003-4312-2537
+  teams:
+    - ukRSE
+    - orga
+- name: Nicholas May
+  email: nicholas.may@rmit.edu.au
+  affiliation: RMIT University
+  location: Melbourne, AUS
+  twitter: eResEngineer
+  github: nrmay
+  orcid: 0000-0002-1298-1622
+  teams:
+    - aunzRSE
+    - orga
+- name: Maximilian Dolling
+  email: mdolling@gfz-potsdam.de
+  website: https://www.gfz-potsdam.de/en/home/
+  affiliation: Helmholtz Center Potsdam - GFZ German Research Center for Geosciences (GFZ, Potsdam)
+  location: Potsdam, Germany
+  twitter: max_dolling
+  github: mdolling-gfz
+  teams:
+    - deRSE
+    - sponsoring
+- name: Nooriyah Poonawala Lohani
+  email: nooriyah.lohani@nesi.org.nz
+  affiliation: New Zealand eScience Infrastructure
+  location: Auckland, NZ
+  twitter: MysteryGenes
+  github: nooriyahp
+  orcid: 0000-0002-2051-4821
+  teams:
+    - aunzRSE
+    - orga
