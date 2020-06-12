@@ -82,13 +82,14 @@
     - deRSE
     - programme
 - name: Bezaye Tesfaye Belayneh
-  affiliation: Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences (GFZ)
+  affiliation: Helmholtz Center Potsdam - GFZ German Research Center for Geosciences (GFZ, Potsdam)
   location: Potsdam, Germany
   github: bezaye
   email: btesfaye@gfz-potsdam.de
   teams:
     - deRSE
     - programme
+    - software_demo
 - name: Anna-Lena Lamprecht
   affiliation: Utrecht University
   location: Utrecht, Netherlands
@@ -135,10 +136,17 @@
   teams:
     - ukRSE
 - name: Ben Van Werkhoven
-  avatar: /assets/images/ben_van_werkhoven.jpg
-  hidden: true
+  avatar: https://benvanwerkhoven.github.io/img/ben_1900.jpg
+  email: b.vanwerkhoven@esciencecenter.nl
+  website: benvanwerkhoven.github.io
+  affiliation: Netherlands eScience Center
+  location: Amsterdam, the Netherlands
+  twitter: bvanwerkhoven
+  github: benvanwerkhoven
+  orcid: 0000-0002-7508-3272
   teams:
-    - ukRSE
+    - nlRSE
+    - orga
 - name: Kirsty Pringle
   affiliation: University of Leeds
   location: Leeds, UK
@@ -356,4 +364,34 @@
   orcid: 0000-0003-4312-2537
   teams:
     - ukRSE
+    - orga
+- name: Nicholas May
+  email: nicholas.may@rmit.edu.au
+  affiliation: RMIT University
+  location: Melbourne, AUS
+  twitter: eResEngineer
+  github: nrmay
+  orcid: 0000-0002-1298-1622
+  teams:
+    - aunzRSE
+    - orga
+- name: Maximilian Dolling
+  email: mdolling@gfz-potsdam.de
+  website: https://www.gfz-potsdam.de/en/home/
+  affiliation: Helmholtz Center Potsdam - GFZ German Research Center for Geosciences (GFZ, Potsdam)
+  location: Potsdam, Germany
+  twitter: max_dolling
+  github: mdolling-gfz
+  teams:
+    - deRSE
+    - sponsoring
+- name: Nooriyah Poonawala Lohani
+  email: nooriyah.lohani@nesi.org.nz
+  affiliation: New Zealand eScience Infrastructure
+  location: Auckland, NZ
+  twitter: MysteryGenes
+  github: nooriyahp
+  orcid: 0000-0002-2051-4821
+  teams:
+    - aunzRSE
     - orga
