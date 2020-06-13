@@ -11,6 +11,8 @@ news:
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
+  - title: FAQ
+    url: /faq/
 
 contact:
   - title: "Contact"

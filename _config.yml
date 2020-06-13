@@ -98,3 +98,16 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _faq
+  - scope:
+      path: ""
+      type: faq
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+collections:
+  faq:
+    output: true
+    permalink: /:collection/:path/
