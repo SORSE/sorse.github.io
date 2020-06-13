@@ -71,17 +71,17 @@ See our [schedule of events](){: .missing} for details of what’s coming up.
 ## Do I need to pay to attend SORSE events?
 No! It’s completely free to the community with the national RSE Groups from many countries collaborating to bring this to you.
 
-<h3>Announcements</h3>
+### News
 
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+  {% assign posts = paginator.categories["news"] %}
 {% else %}
-  {% assign posts = site.posts %}
+  {% assign posts = site.categories["news"] %}
 {% endif %}
 
-{% for post in posts %}{% if post.tags contains "announcement"%}
+{% for post in posts %}
   {% include archive-single.html %}
-{% endif %}{% endfor %}
+{% endfor %}
 
 {% include paginator.html %}
 
