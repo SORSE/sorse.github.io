@@ -1,4 +1,6 @@
 main:
+  - title: About
+    url: /faq/#about
   - title: "Programme"
     url: /programme/call-for-contributions/ # Change to /programme/ once there is a programme page
   - title: "Contact"
@@ -13,6 +15,11 @@ news:
         url: "/programme/call-for-contributions/"
   - title: FAQ
     url: /faq/
+    children:
+      - title: About
+        url: /faq/#about
+      - title: How it works
+        url: /faq/#how-it-work
 
 contact:
   - title: "Contact"
@@ -28,6 +35,15 @@ contact:
 delegates:
   - title: "Code of Conduct"
     url: /delegates/code-of-conduct/
+
+faq:
+  - title: FAQ
+    url: /faq/
+    children:
+      - title: About
+        url: /faq/#about
+      - title: How it works
+        url: /faq/#how-it-works
 
 programme:
   - title: "Programme"

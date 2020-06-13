@@ -106,6 +106,8 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      sidebar:
+        nav: faq
 
 collections:
   faq:
