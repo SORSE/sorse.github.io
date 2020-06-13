@@ -9,12 +9,10 @@
 
 	& .elastic-fai {
 		font-size: $type-size-1;
+		margin-bottom: 0.5em;
 
-		@include breakpoint($small) {
-			font-size: $type-size-3;
-		}
 		@include breakpoint($medium) {
-			font-size: $type-size-4;
+			font-size: $type-size-2;
 		}
 		@include breakpoint($large) {
 			font-size: $type-size-5;
