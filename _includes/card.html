@@ -24,22 +24,22 @@
     {% endif %}
     <p class="card-content">
       {% if info.website %}
-      <a href="{{ info.website }}"><span><i class="fas fa-globe"></i></span></a>
+      <a href="{{ info.website }}"><span><i class="elastic-fai fas fa-globe"></i></span></a>
       {% endif %}
       {% if info.orcid %}
-      <a href="https://orcid.org/{{ info.orcid }}"><span><i class="fab fa-orcid"></i></span></a>
+      <a href="https://orcid.org/{{ info.orcid }}"><span><i class="elastic-fai fab fa-orcid"></i></span></a>
       {% endif %}
       {% if info.github %}
-      <a href="https://github.com/{{ info.github }}"><span><i class="fab fa-fw fa-github"></i></span></a>
+      <a href="https://github.com/{{ info.github }}"><span><i class="elastic-fai fab fa-fw fa-github"></i></span></a>
       {% endif %}
       {% if info.email %}
-      <a href="mailto:{{ info.email }}" title="{{ info.email }}"><span><i class="fas fa-envelope"></i></span></a>
+      <a href="mailto:{{ info.email }}" title="{{ info.email }}"><span><i class="elastic-fai fas fa-envelope"></i></span></a>
       {% endif %}
       {% if info.twitter %}
-      <a href="https://twitter.com/{{ info.twitter }}"><span><i class="fab fa-twitter"></i></span></a>
+      <a href="https://twitter.com/{{ info.twitter }}"><span><i class="elastic-fai fab fa-twitter"></i></span></a>
       {% endif %}
       {% if info.internal %}
-      <a href="{{ site.baseurl }}{{ info.internal }}"><span><i class="fas fa-link"></i></span></a>
+      <a href="{{ site.baseurl }}{{ info.internal }}"><span><i class="elastic-fai fas fa-link"></i></span></a>
       {% endif %}
       <br>
       {% for team in info.teams %}
