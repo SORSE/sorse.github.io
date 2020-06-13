@@ -11,6 +11,8 @@ news:
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
+  - title: News
+    url: /news/
 
 contact:
   - title: "Contact"
@@ -50,6 +52,16 @@ programme:
         url: "/programme/talks/"
       - title: Workshops
         url: "/programme/workshops/"
+
+archive:
+  - title: "Posts"
+    children:
+      - title: "by month"
+        url: /archive/
+      - title: "by category"
+        url: /archive/categories
+      - title: "by tag"
+        url: /archive/tags
 
 footer:
   - title: Programme
