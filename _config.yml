@@ -17,7 +17,7 @@ title: SORSE20
 baseurl: "/SORSE20"  # for testing, also check .circleci/circle_urls.sh
 url: "https://rse-leaders.github.io"
 repository: RSE-leaders/SORSE20
-email: SET-EMAIL-IN-_config.yml
+email: SORSE.enquiries@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   SORSE20: Series of Online Research Software Events 2020
 twitter_username: username
@@ -60,6 +60,9 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Series of Online Research Software Events"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:SORSE.enquiries@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://sorse20.researchsoftware.org"
