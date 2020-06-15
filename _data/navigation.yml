@@ -9,6 +9,12 @@ main:
     url: /delegates/code-of-conduct/ # Change to /delegates/ once there is a delegates page
 
 news:
+  - &sorse20
+    title: SORSE20
+    url: /
+    children:
+      - title: "What is SORSE?"
+        url: "/faq/about/what-is-sorse"
   - title: "Get involved!"
     children:
       - title: "Call for Contributions"
@@ -22,6 +28,7 @@ news:
         url: /faq/#how-it-work
 
 contact:
+  - *sorse20
   - title: "Contact"
     url: /contact/
     children:
@@ -33,10 +40,12 @@ contact:
         url: /contact/chapters/
 
 delegates:
+  - *sorse20
   - title: "Code of Conduct"
     url: /delegates/code-of-conduct/
 
 faq:
+  - *sorse20
   - title: FAQ
     url: /faq/
     children:
@@ -46,6 +55,7 @@ faq:
         url: /faq/#how-it-works
 
 programme:
+  - *sorse20
   - title: "Programme"
     children:
       - title: "Call for Contributions"
