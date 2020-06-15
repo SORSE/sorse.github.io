@@ -241,7 +241,10 @@
   avatar: /assets/images/mateusz-kuzak.jpg
   email: m.kuzak@esciencecenter.nl
   teams:
-    - ukRSE
+    - nlRSE
+    - programme
+    - panel
+    - workshop
 - name: Marion Weinzierl
   affiliation: Durham University
   location: Durham, UK
