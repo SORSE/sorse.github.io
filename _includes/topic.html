@@ -1,0 +1,27 @@
+{% assign info = include.info %}
+{% unless info.hidden %}
+<div class="card col-12" >
+  <div>
+    <p class="card-title">{{ info.title }} </p>
+    <p class="card-content">
+      {% if info.type %}<span class="content-line"><b>Type:</b> {{ info.type }}</span>{% endif %}
+      {% if info.desc %}<span class="content-line"><b>Idea:</b> {{ info.desc }}</span>{% endif %}
+      {% if info.contributors %}<span class="content-line"><b>Contributors:</b> {{ info.contributors }}</span>{% endif %}
+      <span class="content-line"><b>Still looking for contributors:</b>
+        {% if info.looking %}
+        <span style="color: green; font-weight: bold"> Yes</span>
+        {% else %}
+        <span style="color: red; font-weight: bold"> No</span>
+        {% endif %}
+      </span>
+    </p>
+
+    <p class="card-content">
+      <b>Contact:</b> {{ info.name }}
+      {% if info.email %}
+      <a href="mailto:{{ info.email }}" title="{{ info.email }}"><span>{{ info.email }}</span></a>
+      {% endif %}
+    </p>
+  </div>
+</div>
+{% endunless %}

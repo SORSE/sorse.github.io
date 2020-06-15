@@ -1,0 +1,87 @@
+- title: RSE Education
+  type: Workshop
+  desc: "We’d like to run a workshop about teaching RSE and incorporating RSE into teaching. Possible topics: What to teach? Where does it fit in? Who visits these courses?"
+  name: Anna-Lena Lamprecht
+  email: a.l.lamprecht@uu.nl
+  looking: true
+- title: Research Software Discovery
+  type: TBC
+  desc: How could the community improve software reuse? What are the constraints? (…)
+  name: Alexander Struck
+  email: Alexander.Struck@hu-berlin.de
+  looking: true
+- title: Developing, Distributing and Testing Research Software with Anaconda
+  type: Workshop
+  desc: The distribution of research software is challenging due to the complexity of dependencies and the speed of technological advancement. Automation and standardization of this process speeds up the development process, as well as the communication and interaction with the users. This is particularly important for research software, as the number of developers are limited and labor for infrastructural maintenance is usually not available. In this workshop we want to discuss how the package manager anaconda (https://conda.io) can be used to automate such a process. The package manager works for various different programming languages, and operating systems, and provides with the conda-forge channel a community-based platform to distribute and build your own packages.
+  contributors: This workshop is supposed to be community-driven and I have no clue about whether it is useful or not! Therefore, please let me know what you think and particulary, if you think this might be useful for you or others by the 1st of March at the latest.
+  name: Philipp S. Sommer
+  email: philipp.sommer@hzg.de
+  looking: true
+- title: RSE Research Challenges
+  type: Workshop
+  desc: RSE supports research across all disciplines, but there is also research about RSE. This includes the study of RSE processes to understand them better, as well as the development of technological solutions and social approaches to improve them. The idea for this workshop is to discuss “hot topics” and current challenges in RSE research.
+  name: Anna-Lena Lamprecht
+  email: a.l.lamprecht@uu.nl
+  looking: true
+- title: Medical/Healthcare RSE
+  type: Workshop
+  desc: Software development is an integral part of (bio-) medical research. Research projects creating or extending software are run by departments that focus on different medical domains but have no support infrastructure for software engineering. Furthermore, software used in healthcare settings has to comply with medical device regulations which require a well-documented if not certified process for software engineering even in research setting. Medical Informatics research departments may hold the necessary expertise but are organised in project-centric fashion themselves, leaving little to no capacity for on-demand services or support. I would like to organize a workshop bringing together colleagues from medical research and medical informatics to discuss challenges and possible solutions.
+  contributors: Contact me if you want to join in and share ideas for the organisation!
+  name: Markus Suhr
+  email: markus.suhr@med.uni-goettingen.de
+  looking: true
+- title: RSE for Human-centered Research Workflow Support Systems
+  type: Workshop
+  desc: Even if there exist various approaches and repositories for storing and manageing meta- and research data, the software landscape still lacks of adequate support of a phase oriented end-to-end data assessment-workflow that is closely linked to the research process. User Experience and Usability of such solutions is a further major topic, besides high interoperability to existing repository software such as dspace and dataverse. I would like to bring in a workshop topic for discussion - not sure if this is the right level of abstraction. Relevant expertises are from my point of view research data managers to discuss challenges and requirements, database and workflow management as well as human computer interaction experts to discuss possible solutions.
+  contributors: Contact me for some feedback and if you are interested to join and share ideas for the organisation!
+  name: Johannes Sautter
+  email: johannes.sautter@iao.fraunhofer.de
+  looking: true
+- title: Women and Diversity in Research Software Development
+  type: Workshop
+  desc: "After holding a workshop on women in the development of research software last year, we want to continue with the topic of women (and more generally) diversity. Possible topics for a workshop would be:
+           Compatibility of career and family planning
+           Information about mentoring programs
+           Creating of an atmosphere in meetings etc., in which diversity in the working groups is promoted"
+  contributors: Contact me if you are interested to join and have ideas for the organisation of the workshop!
+  name: Bernadette Fritzsch
+  email: Bernadette.Fritzsch@awi.de
+  looking: true
+- title: RSEs and their position
+  type: Workshop
+  desc: The field of activity of RSEs is very diverse and encompasses many facets. Since the role of RSEs in science is not yet clear everywhere, there are often problems with their pay scale classification into the TVÖD system. In the workshop, we want to present and discuss typical job descriptions and exchange experiences on how communication with the respective HR administrations can be designed.
+  contributors: If you have experiences with pay scale classifications of people working as RSE and can share with us, it can help the community a lot to establish RSEs in the science system.
+  name: Bernadette Fritzsch
+  email: Bernadette.Fritzsch@awi.de
+  looking: true
+- title: "RSE Communities: National, Regional and Local"
+  type: Workshop
+  desc: This could take the format of either a workshop or a talk delivered by two or three people. It would be a development of the talk on “Building Research Software Communities” that I gave at deRSE19. If this were to be proposed as a workshop, the aim would be to try and get a group of workshop organisers together who could provide some first-hand perspectives and experiences on trying to set up or grow communities. Maybe you’ve tried to set up a community and it hasn’t been successful. Maybe you started a community but it’s been difficult to sustain it and things have fizzled out. Or, maybe you’ve started a community that has been really successful and is managing to sustain and grow itself without a huge amount of effort. Alternatively, maybe you’re just interested in research software communities and would like to help organise a workshop session on this. Whatever the case, it would be great to put together a workshop on this topic so get in touch if you’d like to collaborate.
+  name: Jeremy Cohen
+  email: jeremy.cohen@imperial.ac.uk
+  looking: true
+- title: Legal Issues in Research Software Development
+  type: Workshop
+  desc: "Collaborative software development (e.g. on various Git* platforms) are commonplace for research software project. Nevertheless, this is legal gray area, as many scientific institutions are (not yet) aquainted with this mode of operation and therefore have no explicit regulartory framework in place. The potential issues for the individual research are manifold:
+
+           Who owns the intellectual property on the contributed code and how is this documented?
+           Who is liable for potential bugs?
+           What must be considered when choosing a FOSS license?
+           Is the use of public development platforms consistent with labor legislation, collective labor agreements and subordinate regulations?
+           When should code be considered a dual-use good?"
+  name: Christian Busse
+  email: christian.busse@dkfz-heidelberg.de
+  looking: true
+- title: "Examples and Discussion: How to do good tutorials for research software"
+  type: Workshop
+  desc: Good tutorials are probably the best measure to get others to use and contribute to your research software. We believe that we can learn a lot from each other when it comes to designing good tutorials (educational level, extent, virtual environments, …). Different scientific communities follow different styles and the RSE conference brings many different communities together. In this workshop, we want to introduce these different styles of tutorials and discuss them with everybody.
+  contributors: We are looking for 5 minutes presentations of developers presenting “their” tutorials. This needs nearly no preparation, just clicking through a website and explaining alongside is completely OK. Please let us know if you are interested.
+  name: René Fritze
+  email: rene.fritze@wwu.de
+  looking: true
+- title: RSE in the (Digital) Humanties Domain
+  type: TBC
+  desc: There are a lot of RSE working in the Digital Humanities (DH) domian. This slot should help to show other what are you doing as a RSE in the DH.
+  name: Florian Thiery
+  email: rse@fthiery.de
+  looking: true

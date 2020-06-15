@@ -12,14 +12,24 @@ For example, someone might have an idea for a workshop but would prefer to refin
 Another example could be someone wanting collaborators to work on an open-source project. This might lead to a talk about the open-source software, or on the collaborative process itself.
 
  
-To participate in the Topic Bazaar, simply post your idea within this pad [LINK] and we'll advertise your topic suggestion below.
+To participate in the Topic Bazaar, simply fill in [this form](#submit) and we'll advertise your topic suggestion below.
 If you're interested in collaborating on a topic previously posted, follow the contact details listed to get in touch and begin working together.
-Once you are ready to present, make a formal submission here[LINK], and just remember to tell us that you came via the Topic Bazaar.
+Once you are ready to present, make a formal [submission](){: .missing}, and just remember to tell us that you came via the Topic Bazaar.
 
 ## Topics
 
-We'll list the topics here.
+<div style="display: flex; flex-wrap: wrap;">
+  {% for topic in site.data.topics %}
+  {% include topic.html info=topic %}
+  {% endfor %}
+</div>
+
+## Submit
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeUU4gixJC7RWeOR7CeeK2GnFkKan9Q4qcCg8sN5yMEfWpukw/viewform?embedded=true" width="640" height="1365" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Team
+
+If you have any questions or wish to edit your topic submission get in touch with us [via email](mailto:{{ site.email }}).
 
 {% include team-members.html team="bazaar" %}
