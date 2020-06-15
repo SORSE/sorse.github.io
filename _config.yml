@@ -101,3 +101,18 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _faq
+  - scope:
+      path: ""
+      type: faq
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      sidebar:
+        nav: faq
+
+collections:
+  faq:
+    output: true
+    permalink: /:collection/:path/
