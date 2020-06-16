@@ -18,7 +18,7 @@ Once you are ready to present, make a formal [submission](){: .missing}, and jus
 
 ## Topics
 
-{% include card-collection.html collection="bazaar" %}
+{% include topic-collection.html collection="bazaar" %}
 
 ## Submit
 
