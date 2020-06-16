@@ -98,3 +98,21 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _bazaar
+  - scope:
+      path: ""
+      type: bazaar
+    values:
+      layout: topic
+      author_profile: true
+      share: true
+      collection_button:
+        name: Other topics
+        url: /programme/bazaar/#topics
+      sidebar:
+       nav: programme
+
+collections:
+  bazaar:
+    output: true
+    permalink: /programme/bazaar/:path/
