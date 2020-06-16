@@ -1,0 +1,16 @@
+{% assign info = include.info %}
+{% if info.type %}<span class="content-line"><b>Type:</b>
+  {% if teams[info.type] %}
+    <a href="{{ site.baseurl }}{{ teams[post.type].internal }}">{{ teams[info.type].name }}</a>
+  {% else %}
+    {{ info.type }}
+  {% endif %}</span>
+{% endif %}
+{% if info.contributors %}<span class="content-line"><b>Contributors:</b> {{ info.contributors }}</span>{% endif %}
+<span class="content-line"><b>Still looking for contributors:</b>
+  {% if info.looking %}
+  <span style="color: green; font-weight: bold"> Yes</span>
+  {% else %}
+  <span style="color: red; font-weight: bold"> No</span>
+  {% endif %}
+</span>
