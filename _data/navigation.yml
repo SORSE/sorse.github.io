@@ -3,16 +3,34 @@ main:
     url: /programme/call-for-contributions/ # Change to /programme/ once there is a programme page
   - title: "Contact"
     url: /contact/
+  - title: About
+    url: /faq/#about
   - title: "For delegates"
     url: /delegates/code-of-conduct/ # Change to /delegates/ once there is a delegates page
 
 news:
+  - &sorse20
+    title: SORSE20
+    url: /
+    children:
+      - title: "What is SORSE?"
+        url: "/faq/about/what-is-sorse"
   - title: "Get involved!"
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
+  - title: News
+    url: /news/
+  - title: FAQ
+    url: /faq/
+    children:
+      - title: About
+        url: /faq/#about
+      - title: How it works
+        url: /faq/#how-it-work
 
 contact:
+  - *sorse20
   - title: "Contact"
     url: /contact/
     children:
@@ -24,10 +42,22 @@ contact:
         url: /contact/chapters/
 
 delegates:
+  - *sorse20
   - title: "Code of Conduct"
     url: /delegates/code-of-conduct/
 
+faq:
+  - *sorse20
+  - title: FAQ
+    url: /faq/
+    children:
+      - title: About
+        url: /faq/#about
+      - title: How it works
+        url: /faq/#how-it-works
+
 programme:
+  - *sorse20
   - title: "Programme"
     children:
       - title: "Call for Contributions"
@@ -52,3 +82,21 @@ programme:
         url: "/programme/bazaar/"
       - title: Workshops
         url: "/programme/workshops/"
+
+archive:
+  - title: "Posts"
+    children:
+      - title: "by month"
+        url: /archive/
+      - title: "by category"
+        url: /archive/categories
+      - title: "by tag"
+        url: /archive/tags
+
+footer:
+  - title: Programme
+    url: "/programme/"
+  - title: Contact
+    url: "/contact/"
+  - title: Archive
+    url: "/archive/"

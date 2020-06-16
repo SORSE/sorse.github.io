@@ -6,6 +6,18 @@
 	border-radius: 5px; /* 5px rounded corners */
 	display: inline-block;
 	margin: 10px;
+
+	& .elastic-fai {
+		font-size: $type-size-1;
+		margin-bottom: 0.5em;
+
+		@include breakpoint($medium) {
+			font-size: $type-size-2;
+		}
+		@include breakpoint($large) {
+			font-size: $type-size-5;
+		}
+	}
 }
 
 .post-card {
@@ -15,7 +27,7 @@
 /* On mouse-over, add a deeper shadow */
 .card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	border-color: #B4DDFC;
+	border-color: #6f777d;
 }
 
 /* Add some padding inside the card container */
@@ -36,7 +48,7 @@ p.card-title {
 
 /* Span elements should be on one line */
 span.content-line {
-	display: table;
+	display: block;
 }
 
 @media only screen and (min-width: 600px) {
