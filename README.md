@@ -19,8 +19,8 @@ New to Github? Don't worry, you'll figure it out fast and it's no problem if it 
 - if you have are lacking a link and nevertheless want to add the text as a placeholder, mark it with `{: .missing}`. The link will then be highlighted in red (example: `[some important document](){: .missing}`)
 - when referencing internal link, e.g. `{{ site.data.committee.national_chapters.deRSE.internal }}`, use prepend it with a `{{ site.baseurl }}`, otherwise it will not resolve correctly on github. In otherwords
 
-  - `[Software demos]({{ site.data.committee.programme_teams.software_demo }})` :-1: :angry:
-  - `[Software demos]({{ site.baseurl }}{{ site.data.committee.programme_teams.software_demo }})` :+1: :green_heart:
+  - `[Software demos]({{ site.data.committee.programme_teams.software_demo.internal }})` :-1: :angry:
+  - `[Software demos]({% include fix-link.html link=site.data.committee.programme_teams.software_demo.internal %}` :+1: :green_heart:
   
 
 ## Local installation
