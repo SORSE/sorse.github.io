@@ -1,4 +1,16 @@
 {% assign info = include.info %}
+
+{% assign author = info.author | default: info.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
+
+{% for link in author.links %}
+    {% if link.label == "Email" %}
+        {% assign email = link %}
+    {% endif %}
+{% endfor %}
+
+{% assign teams = site.data.committee.programme_teams %}
+
 {% if info.type %}<span class="content-line"><b>Type:</b>
   {% if teams[info.type] %}
     <a href="{{ site.baseurl }}{{ teams[post.type].internal }}">{{ teams[info.type].name }}</a>
@@ -6,6 +18,7 @@
     {{ info.type }}
   {% endif %}</span>
 {% endif %}
+
 {% if info.contributors %}<span class="content-line"><b>Contributors:</b> {{ info.contributors }}</span>{% endif %}
 <span class="content-line"><b>Still looking for contributors:</b>
   {% if info.looking %}
@@ -14,3 +27,10 @@
   <span style="color: red; font-weight: bold"> No</span>
   {% endif %}
 </span>
+
+{% if email %}
+<p class="card-line">
+  <b>Contact:</b> {{ author.name }}
+  <a href="{{ email.url }}" title='{{ email.url | remove: "mailto:" }}'><span>{{ email.url | remove: "mailto:" }}</span></a>
+</p>
+{% endif %}

@@ -1,15 +1,4 @@
 {% unless post.hidden %}
-{% assign author = post.author | default: post.authors[0] | default: site.author %}
-{% assign author = site.data.authors[author] | default: author %}
-
-{% for link in author.links %}
-    {% if link.label == "Email" %}
-        {% assign email = link %}
-    {% endif %}
-{% endfor %}
-
-{% assign teams = site.data.committee.programme_teams %}
-
 <div class="card col-12 post-card">
   <p class="card-title"><a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a></p>
   <div class="card-content">
@@ -17,12 +6,5 @@
     <br>
     {{ post.content }}
   </div>
-
-  <p class="card-content">
-    <b>Contact:</b> {{ author.name }}
-    {% if email %}
-    <a href="{{ email.url }}" title='{{ email.url | remove: "mailto:" }}'><span>{{ email.url | remove: "mailto:" }}</span></a>
-    {% endif %}
-  </p>
 </div>
 {% endunless %}
