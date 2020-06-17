@@ -1,10 +1,6 @@
 ---
-permalink: /programme/software-demos/
 title: "Software demos"
-sidebar:
-  nav: "programme"
-toc: true
-toc_sticky: true
+team: software_demo
 ---
 
 These can demonstrate
@@ -22,7 +18,3 @@ In this case you may want to prepare some slides for introduction but we recomme
 In this case, upload a video that the participants watch, followed by a Q&A session. Please keep the video within 80% of your allocated time.
 
 In both cases, we recommend you to provide clear installation instructions before the session, to enable participants to try out the software  prior to your demonstration. If the software is commercial, we recommend that you provide a test-license for participants. If possible, we also recommend preparing some examples that can be run by each participant without installing the software. For example, using [mybinder.org](https://mybinder.org) to upload jupyter notebooks or enabling a remote desktop with [jupyter-desktop-server](https://pypi.org/project/jupyter-desktop-server).
-
-## Team
-
-{% include team-members.html team="software_demo" %}
