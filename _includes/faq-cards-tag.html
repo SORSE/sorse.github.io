@@ -1,0 +1,7 @@
+<div style="display: flex; flex-wrap: wrap;">
+  {% for post in site.faq %}
+      {% if post.tags contains include.tag %}
+        {% include faq-card.html %}
+      {% endif %}
+  {% endfor %}
+</div>
