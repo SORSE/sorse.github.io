@@ -1,0 +1,22 @@
+{% if page.previous or page.next %}
+  <nav class="pagination">
+    {% if page.collection_button %}
+      {% assign classes = "col-4 pagination--pager" %}
+    {% else %}
+      {% assign classes = "pagination--pager" %}
+    {% endif %}
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="{{ classes }}" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% else %}
+      <a href="#" class="{{ classes }} disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% endif %}
+    {% if page.collection_button %}
+      <a href="{{ page.collection_button.url | relative_url }}" class="{{ classes }}" title="Return back to collection">{{ page.collection_button.name | page.collection }}</a>
+    {% endif %}
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="{{ classes }}" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% else %}
+      <a href="#" class="{{ classes }} disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% endif %}
+  </nav>
+{% endif %}

@@ -74,8 +74,14 @@ programme:
         url: "/programme/sprints/"
       - title: Talks
         url: "/programme/talks/"
+      - title: Topic Bazaar
+        url: "/programme/bazaar/"
       - title: Workshops
         url: "/programme/workshops/"
+
+bazaar:
+  - title: Other topics
+    url: "/programme/bazaar/#topics"
 
 archive:
   - title: "Posts"

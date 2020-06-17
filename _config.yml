@@ -102,6 +102,19 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _bazaar
+  - scope:
+      path: ""
+      type: bazaar
+    values:
+      layout: topic
+      author_profile: true
+      share: true
+      collection_button:
+        name: Other topics
+        url: /programme/bazaar/#topics
+      sidebar:
+        nav: bazaar
   # _faq
   - scope:
       path: ""
@@ -110,10 +123,16 @@ defaults:
       layout: single
       author_profile: false
       share: false
+      collection_button:
+        name: FAQ
+        url: /faq/
       sidebar:
         nav: faq
 
 collections:
+  bazaar:
+    output: true
+    permalink: /programme/bazaar/:path/
   faq:
     output: true
     permalink: /:collection/:path/
