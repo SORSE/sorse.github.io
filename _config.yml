@@ -114,7 +114,7 @@ defaults:
         name: Other topics
         url: /programme/bazaar/#topics
       sidebar:
-       nav: programme
+        nav: bazaar
   # _faq
   - scope:
       path: ""

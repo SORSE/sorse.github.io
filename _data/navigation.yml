@@ -83,6 +83,10 @@ programme:
       - title: Workshops
         url: "/programme/workshops/"
 
+bazaar:
+  - title: Other topics
+    url: "/programme/bazaar/#topics"
+
 archive:
   - title: "Posts"
     children:
