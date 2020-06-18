@@ -231,8 +231,9 @@
   location: Leuven, BE
   avatar: https://u0052546.pages.gitlab.kuleuven.be/images/avatar.jpg
   teams:
-    - ukRSE
     - beRSE
+    - programme
+    - orga
     - software_demo
     - workshop
 - name: Mateusz Kuzak
