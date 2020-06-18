@@ -38,6 +38,9 @@
       {% if info.twitter %}
       <a href="https://twitter.com/{{ info.twitter }}"><span><i class="elastic-fai fab fa-twitter"></i></span></a>
       {% endif %}
+      {% if info.gitter %}
+      <a href="https://gitter.im/{{ info.gitter }}"><span><i class="elastic-fai fab fa-gitter"></i></span></a>
+      {% endif %}
       {% if info.internal %}
       <a href="{{ site.baseurl }}{{ info.internal }}"><span><i class="elastic-fai fas fa-link"></i></span></a>
       {% endif %}
