@@ -30,6 +30,8 @@ news:
         url: /faq/#about
       - title: How it works
         url: /faq/#how-it-work
+  - title: Code of Conduct
+    url: /code-of-conduct/
 
 contact:
   - *sorse20
@@ -81,6 +83,14 @@ programme:
       - title: Workshops
         url: "/programme/workshops/"
 
+coc:
+  - *sorse20
+  - title: Code of Conduct
+    url: /code-of-conduct/
+    children:
+      - title: Report harassment
+        url: /code-of-conduct/report
+
 bazaar:
   - title: Other topics
     url: "/programme/bazaar/#topics"
@@ -104,3 +114,5 @@ footer:
     url: "/faq/"
   - title: Archive
     url: "/archive/"
+  - title: Code of Conduct
+    url: /code-of-conduct/
