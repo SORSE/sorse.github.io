@@ -18,6 +18,5 @@ Event types include:
 - [Software demos]({{ site.baseurl }}{{ site.data.committee.programme_teams.software_demo.internal }})
 - Poster sessions with Lightning talks
 - Panel & Discussion session
-- Sprints
 
 Along with these events above, we will be inviting guest speakers from around the world to join us and we’re happy to take suggestions for guest speakers via the [Topic Bazaar](){: .missing}.
