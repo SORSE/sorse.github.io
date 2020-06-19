@@ -9,12 +9,12 @@ toc_sticky: true
 
 The topic bazaar is a place to encourage and create collaborations that can then be presented in a variety of formats within the conference.
 For example, someone might have an idea for a workshop but would prefer to refine their concept with a collaborator before presenting.
-Another example could be someone wanting collaborators to work on an open-source project. This might lead to a talk about the open-source software, or on the collaborative process itself.
+Another example could be using the topic bazaar to organise a coding sprint on a new or existing open-source project. This might lead to a talk about the software created together, or on the collaborative process itself.
 
 
 To participate in the Topic Bazaar, simply fill in [this form](#submit) and we'll advertise your topic suggestion below.
 If you're interested in collaborating on a topic previously posted, follow the contact details listed to get in touch and begin working together.
-Once you are ready to present, make a formal [submission](){: .missing}, and just remember to tell us that you came via the Topic Bazaar.
+Once you are ready to present, make a formal [submission]({% include fix-link.html link="/programme/call-for-contributions" %}), and just remember to tell us that you came via the Topic Bazaar.
 
 ## Topics
 
