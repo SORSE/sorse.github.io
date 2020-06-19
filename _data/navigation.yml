@@ -20,6 +20,7 @@ news:
       - title: "Registration and Fees"
         url: /faq/about/costs
   - title: "Get involved!"
+    url: /faq/howto/get-involved
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
