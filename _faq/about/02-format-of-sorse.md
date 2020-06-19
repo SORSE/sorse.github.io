@@ -20,4 +20,4 @@ Event types include:
 - Panel & Discussion session
 - Sprints
 
-Along with these events above, we will be inviting guest speakers from around the world to join us and we’re happy to take suggestions for guest speakers via the [Topic Bazaar](){: .missing}.
+Along with these events above, we will be inviting guest speakers from around the world to join us and we’re happy to take suggestions for guest speakers via the [Wishlist]({% include fix-link.html link="/programme/wishlist" %}).
