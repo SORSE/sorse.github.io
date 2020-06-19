@@ -11,3 +11,6 @@ website:
 sponsoring:
   name: Sponsorship Committee
   internal: /contact/committees/#sponsoring
+coc:
+  name: Code of Conduct
+  internal: /code-of-conduct/

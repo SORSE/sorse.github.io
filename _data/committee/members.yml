@@ -130,6 +130,7 @@
     - orga
     - programme
     - sponsoring
+    - coc
 - name: Martin Callaghan
   avatar: /assets/images/Martin_Callaghan.jpg
   hidden: true
@@ -259,6 +260,7 @@
   teams:
     - ukRSE
     - programme
+    - coc
     - talk
     - panel
 - name: Louise Brown
