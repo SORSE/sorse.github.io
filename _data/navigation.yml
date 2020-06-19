@@ -100,6 +100,8 @@ footer:
     url: "/programme/"
   - title: Contact
     url: "/contact/"
+  - title: About
+    url: "/faq#about"
   - title: FAQ
     url: "/faq/"
   - title: Archive
