@@ -7,6 +7,12 @@ author: SORSE
 author_profile: false
 ---
 
+<aside id="twitter-holder" class="sidebar__right sticky">
+  <div class='jekyll-twitter-plugin' align="center">
+      {% twitter https://twitter.com/researchsofteng maxwidth=500 limit=3 %}
+  </div>
+</aside>
+
 This document is work in progress!
 {: .notice--danger}
 
