@@ -29,11 +29,6 @@ news:
     url: /news/
   - title: FAQ
     url: /faq/
-    children:
-      - title: About
-        url: /faq/#about
-      - title: How it works
-        url: /faq/#how-it-work
 
 contact:
   - *sorse20
