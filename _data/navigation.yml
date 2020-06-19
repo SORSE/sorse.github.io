@@ -81,6 +81,13 @@ programme:
       - title: Workshops
         url: "/programme/workshops/"
 
+legal:
+  - *sorse20
+  - title: "Legal infomation"
+    children:
+      - title: "License"
+        url: "/license/"
+
 bazaar:
   - title: Other topics
     url: "/programme/bazaar/#topics"
@@ -104,3 +111,5 @@ footer:
     url: "/faq/"
   - title: Archive
     url: "/archive/"
+  - title: License
+    url: /license/
