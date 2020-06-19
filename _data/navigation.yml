@@ -17,6 +17,8 @@ news:
         url: "/faq/about/what-is-sorse"
       - title: "Format of SORSE"
         url: /faq/about/format-of-sorse
+      - title: Tools
+        url: /faq/howto/tools
       - title: "Registration and Fees"
         url: /faq/about/costs
       - title: Attending an event
