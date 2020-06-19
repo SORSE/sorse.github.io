@@ -1,4 +1,4 @@
-{% capture edit_uri %}{{ site.github.repository_url }}/edit/master/{{ page.path }}{% endcapture %}
-{% capture issue_uri %}{{ site.github.repository_url }}/issues/new?title=Issue%20with%20{{ page.title | uri_escape }}&body={{ page.path | uri_escape }} {% endcapture %}
+{% capture edit_uri %}https://github.com/{{ site.repository }}/edit/master/{{ page.path }}{% endcapture %}
+{% capture issue_uri %}https://github.com/{{ site.repository }}/issues/new?title=Issue%20with%20{{ page.title | uri_escape }}&body={{ page.path | uri_escape }} {% endcapture %}
 <button onclick="window.open('{{ edit_uri }}', '_blank');" class="btn btn--primary btn--small" title="Edit this file on Github"><i class="fab fa-fw fa-github"></i> Edit</button>
 <button onclick="window.open('{{ issue_uri }}', '_blank');" class="btn btn--primary btn--small" title="Report an issue with this page on Github"><i class="fas fa-fw fa-bug"></i> Report issue</button>
