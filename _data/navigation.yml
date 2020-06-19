@@ -80,6 +80,8 @@ programme:
         url: "/programme/bazaar/"
       - title: Workshops
         url: "/programme/workshops/"
+      - title: Blog Posts
+        url: /faq/howto/contribute-blog-posts
 
 bazaar:
   - title: Other topics
