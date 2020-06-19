@@ -15,6 +15,8 @@ news:
     children:
       - title: "What is SORSE?"
         url: "/faq/about/what-is-sorse"
+      - title: "Format of SORSE"
+        url: "/faq/about/format-of-sorse"
   - title: "Get involved!"
     children:
       - title: "Call for Contributions"
