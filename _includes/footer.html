@@ -22,6 +22,4 @@
   {% endfor %}
 </div>
 
-<div class="page__footer-git">Build at revision <a href="https://github.com/RSE-leaders/SORSE20/tree/{{ site.git.last_commit.long_sha }}" data-proofer-ignore><code>{{ site.git.last_commit.short_sha }}</code></a> on {{ site.git.last_commit.commit_date | date_to_string: "ordinal", "US" }}.</div>
-
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>

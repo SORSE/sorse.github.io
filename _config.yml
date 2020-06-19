@@ -56,9 +56,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-github:
-  repository_url: https://github.com/RSE-leaders/SORSE20
-
 author:
   name   : "SORSE"
   avatar : "/assets/images/bio-photo.jpg"
