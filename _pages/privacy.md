@@ -1,0 +1,46 @@
+---
+title: "Privacy policy"
+permalink: /privacy/
+sidebar:
+  nav: "news"
+toc: true
+toc_sticky: true
+---
+
+## Website
+
+- We store the contact data of authors and co-authors. And the contact
+  information of the presenting authors will be made public on GitHub and on
+  this website (this is, however, also stated separately in the Indico
+  submission form).
+- We use a Google form to submit to the topic bazaar, but this is also stated
+  separately [here](https://rse-leaders.github.io/SORSE20/programme/bazaar/#submit).
+- We will provide a link to a wish-list in a site hosted at
+  [GWDG](https://www.gwdg.de). There is no
+  tracking of users there, however, unless you are registered and logged in at
+  GWDG
+  ([their privacy statement](https://www.gwdg.de/de_DE/privacy-notice), only available in German).
+- We do not track how users move or use our website. The website is hosted
+  by GitHub Pages
+  ([their privacy statement](https://help.github.com/en/github/site-policy/github-privacy-statement#additional-services)).
+- We do not store any website cookies and do not use any social media cross-site trackers.
+
+
+## Participation in an event
+
+- We do not store participants' data or contact information (besides everything
+  what Zoom collects and stores).
+- The main Zoom room will be recorded during an event. You can avoid appearing on this
+  video by turning off your camera and by muting yourself during the event.
+  Videos of participants during a webinar will not be
+  recorded, unless you are the presenter. The audio will always be recorded.
+- We do not record the Zoom chat during an event. So one way to avoid being
+  recorded is to not use audio and video, but use the chat instead.
+- Audio and video recordings will be archived and published at the
+  [TIB AV portal](https://av.tib.eu/)
+  ([their privacy statement](https://www.tib.eu/en/service/data-protection/), only available in German).
+
+
+## Questions/concerns?
+
+- If you believe something is wrong, please [let us know](/contact/).

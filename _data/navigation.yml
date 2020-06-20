@@ -30,6 +30,8 @@ news:
         url: /faq/#about
       - title: How it works
         url: /faq/#how-it-work
+  - title: Privacy policy
+    url: /privacy/
 
 contact:
   - *sorse20
