@@ -48,4 +48,9 @@ The contents of the SORSE20 website and it's source code repository is published
 
 Copyright (c) 2020, the SORSE20 committee.
 
-It is based on the minimal mistakes Jekyll theme, published under the [MIT License](https://github.com/mmistakes/minimal-mistakes#license).
+The original software for creating this website, the Minimal Mistakes Jekyll
+Theme, is distributed under the MIT license, see
+https://github.com/mmistakes/minimal-mistakes#license.
+
+The [MIT license](http://opensource.org/licenses/MIT) also applies for the
+`_includes` and `_layouts` folder in this repository.
