@@ -9,21 +9,36 @@ toc_sticky: true
 
 ## Website
 
-- We store the contact data of authors and co-authors. And the contact
-  information of the presenting authors will be made public on GitHub and on
-  this website (this is, however, also stated separately in the Indico
-  submission form).
-- We use a Google form to submit to the topic bazaar, but this is also stated
-  separately [here](https://rse-leaders.github.io/SORSE20/programme/bazaar/#submit).
+- We do not track how users move or use our website. The website is hosted
+  by GitHub Pages
+  ([their privacy statement](https://help.github.com/en/github/site-policy/github-privacy-statement#additional-services)).
+- We do not store any website cookies and do not use any social media cross-site trackers.
 - We will provide a link to a wish-list in a site hosted at
   [GWDG](https://www.gwdg.de). There is no
   tracking of users there, however, unless you are registered and logged in at
   GWDG
   ([their privacy statement](https://www.gwdg.de/de_DE/privacy-notice), only available in German).
-- We do not track how users move or use our website. The website is hosted
-  by GitHub Pages
-  ([their privacy statement](https://help.github.com/en/github/site-policy/github-privacy-statement#additional-services)).
-- We do not store any website cookies and do not use any social media cross-site trackers.
+
+
+## Author information
+
+- We store the contact data of authors and co-authors. And the contact
+  information of the presenting authors will be made public on GitHub and on
+  this website (this is, however, also stated separately in the Indico
+  submission form).
+- Each presentation will get a dedicated site on our webpage including the abstract and
+  the contact details of the corresponding author. If the author requests to be
+  removed, the event page and all associated commits will be removed.
+- For published recordings which are assigned a DOI we can modify/remove the author metadata,
+  but we cannot remove the abstract or the DOI.
+
+
+## Event registration
+
+- We use a Google form to submit to the topic bazaar, but this is also stated
+  separately [here](https://rse-leaders.github.io/SORSE20/programme/bazaar/#submit).
+- Participants register using a Google form for events.
+  The participation details will, however, be deleted after each event.
 
 
 ## Participation in an event
