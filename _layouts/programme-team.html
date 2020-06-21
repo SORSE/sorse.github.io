@@ -4,12 +4,12 @@ layout: single
 
 {{ content }}
 
-<h2 id="faq">FAQ</h2>
+{% unless page.skip_faq %}
+  {% assign teams = site.data.committee.programme_teams %}
+  {% assign tag = teams[page.team].name %}
 
-{% assign teams = site.data.committee.programme_teams %}
-{% assign tag=teams[page.team].name %}
-
-{% include faq-cards-tag.html tag=tag %}
+  {% include faq-cards-tag.html tag=tag title="FAQ" %}
+{% endunless %}
 
 <h2 id="team">Team</h2>
 
