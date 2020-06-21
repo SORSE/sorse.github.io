@@ -1,7 +1,12 @@
+{% assign posts = site.faq | where_exp: "post", "post.tags contains include.tag" %}
+{% assign nposts = posts | size %}
+{% if nposts > 0 %}
+{% if include.title %}
+<h2 id="{{ include.title | slugify }}">{{ include.title }}</h2>
+{% endif %}
 <div style="display: flex; flex-wrap: wrap;">
-  {% for post in site.faq %}
-      {% if post.tags contains include.tag %}
-        {% include faq-card.html %}
-      {% endif %}
+  {% for post in posts %}
+      {% include faq-card.html %}
   {% endfor %}
 </div>
+{% endif %}
