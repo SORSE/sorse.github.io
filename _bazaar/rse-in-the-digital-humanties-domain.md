@@ -1,13 +1,23 @@
 ---
-author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:rse@fthiery.de
-  name: Florian Thiery / Research Squirrel Engineers
+authors:
+  - links:
+    - icon: fas fa-fw fa-envelope-square
+      label: Email
+      url: mailto:hi@squirrel.link
+    name: Research Squirrel Engineers
+  - links:
+    - icon: fas fa-fw fa-envelope-square
+      label: Email
+      url: mailto:flo@squirrel.link
+    name: Florian Thiery
+  - links:
+    - icon: fas fa-fw fa-envelope-square
+      label: Email
+      url: mailto:sophie@squirrel.link
+    name: Sophie Charlotte Schmidt
 contributors: We are looking for people who are working as RSE (also if you are not officially named as RSE) in the (digital) humanities / archaeological domain. Contact me for some feedback and if you are interested to join!
 looking: true
-title: RSEs in the Digital Humanties/archaeological Domain
+title: RSEs in the Digital Humanties or archaeological domain
 type: TBC
 ...
 
