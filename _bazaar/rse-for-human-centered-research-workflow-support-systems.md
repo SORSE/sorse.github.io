@@ -1,9 +1,6 @@
 ---
 author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:johannes.sautter@iao.fraunhofer.de
+  email: johannes.sautter@iao.fraunhofer.de
   name: Johannes Sautter
 contributors: Contact me for some feedback and if you are interested to join and share
   ideas for the organisation!
