@@ -23,6 +23,7 @@
   <p class="card-line">
     <b>Contact:</b>
     {% for author in info.authors %}
+      {% assign author = site.data.authors[author] | default: author %}
       {{ author.name }}
       {% assign email = 0 %}
       {% for link in author.links %}
