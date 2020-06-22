@@ -1,9 +1,6 @@
 ---
 author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:markus.suhr@med.uni-goettingen.de
+  email: markus.suhr@med.uni-goettingen.de
   name: Markus Suhr
 contributors: Contact me if you want to join in and share ideas for the organisation!
 looking: true
