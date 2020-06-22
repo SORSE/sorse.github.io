@@ -15,7 +15,16 @@ news:
     children:
       - title: "What is SORSE?"
         url: "/faq/about/what-is-sorse"
+      - title: "Format of SORSE"
+        url: /faq/about/format-of-sorse
+      - title: Tools
+        url: /faq/howto/tools
+      - title: "Registration and Fees"
+        url: /faq/about/costs
+      - title: Attending an event
+        url: /faq/howto/attendance
   - title: "Get involved!"
+    url: /faq/howto/get-involved
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
@@ -25,11 +34,6 @@ news:
     url: /news/
   - title: FAQ
     url: /faq/
-    children:
-      - title: About
-        url: /faq/#about
-      - title: How it works
-        url: /faq/#how-it-work
 
 contact:
   - *sorse20
@@ -80,6 +84,8 @@ programme:
         url: "/programme/bazaar/"
       - title: Workshops
         url: "/programme/workshops/"
+      - title: Blog Posts
+        url: /faq/howto/contribute-blog-posts
 
 bazaar:
   - title: Other topics
