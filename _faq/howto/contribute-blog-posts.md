@@ -1,5 +1,5 @@
 ---
-title: Can I write blogs?
+title: Can I write blogs posts?
 tags:
   - How it works
 ---

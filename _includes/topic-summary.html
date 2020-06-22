@@ -1,14 +1,5 @@
 {% assign info = include.info %}
 
-{% assign author = info.author | default: info.authors[0] | default: site.author %}
-{% assign author = site.data.authors[author] | default: author %}
-
-{% for link in author.links %}
-    {% if link.label == "Email" %}
-        {% assign email = link %}
-    {% endif %}
-{% endfor %}
-
 {% assign teams = site.data.committee.programme_teams %}
 
 {% if info.type %}<span class="content-line"><b>Type:</b>
@@ -28,9 +19,39 @@
   {% endif %}
 </span>
 
-{% if email %}
-<p class="card-line">
-  <b>Contact:</b> {{ author.name }}
-  <a href="{{ email.url }}" title='{{ email.url | remove: "mailto:" }}'><span>{{ email.url | remove: "mailto:" }}</span></a>
-</p>
+{% if info.authors %}
+  <p class="card-line">
+    <b>Contact:</b>
+    {% for author in info.authors %}
+      {% assign author = site.data.authors[author] | default: author %}
+      {{ author.name }}
+      {% assign email = 0 %}
+      {% for link in author.links %}
+          {% if link.label == "Email" %}
+              {% assign email = link %}
+          {% endif %}
+      {% endfor %}
+      {% unless email == 0 %}
+        <a href="{{ email.url }}" title='{{ email.url | remove: "mailto:" }}'><span>{{ email.url | remove: "mailto:" }}</span></a>
+      {% endunless %}
+      {% unless forloop.last %}, {% endunless %}
+
+    {% endfor %}
+
+  </p>
+{% else %}
+  {% assign author = info.author | default: info.authors[0] | default: site.author %}
+  {% assign author = site.data.authors[author] | default: author %}
+
+  {% for link in author.links %}
+      {% if link.label == "Email" %}
+          {% assign email = link %}
+      {% endif %}
+  {% endfor %}
+  {% if email %}
+    <p class="card-line">
+      <b>Contact:</b> {{ author.name }}
+      <a href="{{ email.url }}" title='{{ email.url | remove: "mailto:" }}'><span>{{ email.url | remove: "mailto:" }}</span></a>
+    </p>
+  {% endif %}
 {% endif %}
