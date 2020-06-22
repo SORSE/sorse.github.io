@@ -7,8 +7,6 @@ toc: true
 toc_sticky: true
 ---
 
-# Code of Conduct
-
 We value the participation of each stakeholder and want all participants to have an enjoyable and fulfilling experience. Accordingly, all participants are expected to show respect and courtesy to other participants throughout the events and through all communication channels, including but not limited to the zoom room, zoom webinar, youtube channel, discord platform and the slack channel.  
 
 To make clear what is expected, all participants, speakers, exhibitors, organisers and volunteers involved in SORSE are required to conform to the following Code of Conduct. Organisers will enforce this code.
