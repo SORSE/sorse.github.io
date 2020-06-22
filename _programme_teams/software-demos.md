@@ -8,7 +8,7 @@ These can demonstrate
 1. (domain-specific) research software you have / your team has developed, or
 2. software that is helpful in our work as RSEs.
 
-A demo submission should be a demonstration of a system. It is important to focus on items that showcase the contribution of each component of the software. A submission doesn't need to be only on a newly innovative software that is developed from scratch. Instead, it can be based on existing tools or software, but with a special focus on the benefits for RSEs.
+A demo contribution should be a demonstration of a system. It is important to focus on items that showcase the contribution of each component of the software. A contribution doesn't need to be only on a newly innovative software that is developed from scratch. Instead, it can be based on existing tools or software, but with a special focus on the benefits for RSEs.
 Software demonstrations are done interactively within a 30-minutes long general zoom call. A moderator from the software demo team will set up a video conference via zoom. During the call, you present some example usage of your software and its main features. You may choose whether to do a live interactive demonstration or to share a pre-recorded video.
 
 ## Live interactive demonstration

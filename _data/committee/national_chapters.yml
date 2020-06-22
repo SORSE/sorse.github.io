@@ -52,3 +52,12 @@ aunzRSE:
   internal: /contact/chapters/#aunzRSE
   twitter: rse_aunz
   github: rse-aunz
+beRSE:
+  name: be-RSE
+  long_name: Belgium Research Software Engineers community
+  website: https://www.be-rse.org/
+  twitter: rse_be
+  gitter: be-rse
+  email: contact@be-rse.org
+  avatar: /assets/images/be-rse.png
+  internal: /contact/chapters/#beRSE

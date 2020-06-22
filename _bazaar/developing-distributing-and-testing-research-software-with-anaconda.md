@@ -1,9 +1,6 @@
 ---
 author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:philipp.sommer@hzg.de
+  email: philipp.sommer@hzg.de
   name: Philipp S. Sommer
 contributors: This workshop is supposed to be community-driven and I have no clue
   about whether it is useful or not! Therefore, please let me know what you think

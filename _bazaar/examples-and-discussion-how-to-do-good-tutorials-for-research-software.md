@@ -1,9 +1,6 @@
 ---
 author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:rene.fritze@wwu.de
+  email: rene.fritze@wwu.de
   name: "Ren\xE9 Fritze"
 contributors: "We are looking for 5 minutes presentations of developers presenting\
   \ \u201Ctheir\u201D tutorials. This needs nearly no preparation, just clicking through\
