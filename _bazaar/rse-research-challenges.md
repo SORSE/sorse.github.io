@@ -1,9 +1,6 @@
 ---
 author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:a.l.lamprecht@uu.nl
+  email: a.l.lamprecht@uu.nl
   name: Anna-Lena Lamprecht
 looking: true
 title: RSE Research Challenges

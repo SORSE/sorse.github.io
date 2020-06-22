@@ -1,9 +1,6 @@
 ---
 author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:Alexander.Struck@hu-berlin.de
+  email: Alexander.Struck@hu-berlin.de
   name: Alexander Struck
 looking: true
 title: Research Software Discovery
