@@ -49,7 +49,7 @@ toc_sticky: true
 ## Participation in an event
 
 - We do not store participants' data or contact information (besides everything
-  what Zoom collects and stores).
+  that Zoom collects and stores).
 - The main Zoom room will be recorded during an event. You can avoid appearing on this
   video by turning off your camera and by muting yourself during the event.
   Videos of participants during a webinar will not be
