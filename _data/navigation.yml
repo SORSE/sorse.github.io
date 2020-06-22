@@ -13,7 +13,7 @@ news:
     title: SORSE20
     url: /
     children:
-      - title: "What is SORSE?"
+      - title: Aims of SORSE
         url: "/faq/about/what-is-sorse"
       - title: "Format of SORSE"
         url: /faq/about/format-of-sorse
