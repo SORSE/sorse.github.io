@@ -1,5 +1,5 @@
 ---
-tite: Code of Conduct
+title: Code of Conduct
 permalink: /code-of-conduct/
 sidebar:
   nav: coc
