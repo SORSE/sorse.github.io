@@ -1,13 +1,19 @@
 ---
-author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:rse@fthiery.de
-  name: Florian Thiery / Research Squirrel Engineers
+authors:
+  - email: hi@squirrel.link
+    uri: http://squirrel.link
+    twitter: RSESquirrel
+    github: research-Squirrel-Engineers
+    name: Research Squirrel Engineers
+    avatar: http://squirrel.link/wp-content/uploads/2019/11/rse_logo_color-768x252.png
+    bio: The Research Squirrel Engineers are a open group of researchers related to Research Software Engineering, Geoinformatics and Cultural Heritage background.
+  - email: flo@squirrel.link
+    name: Florian Thiery
+  - email: sophie@squirrel.link
+    name: Sophie Charlotte Schmidt
 contributors: We are looking for people who are working as RSE (also if you are not officially named as RSE) in the (digital) humanities / archaeological domain. Contact me for some feedback and if you are interested to join!
 looking: true
-title: RSEs in the Digital Humanties/archaeological Domain
+title: RSEs in the Digital Humanties or archaeological domain
 type: TBC
 ...
 
