@@ -14,7 +14,7 @@ Another example could be using the topic bazaar to organise a coding sprint on a
 
 To participate in the Topic Bazaar, simply fill in [this form](#submit) and we'll advertise your topic suggestion below.
 If you're interested in collaborating on a topic previously posted, follow the contact details listed to get in touch and begin working together.
-Once you are ready to present, make a formal [submission]({% include fix-link.html link="/programme/call-for-contributions" %}), and just remember to tell us that you came via the Topic Bazaar.
+Once you are ready to present, make a formal [contribution]({% include fix-link.html link="/programme/call-for-contributions" %}), and just remember to tell us that you came via the Topic Bazaar.
 
 ## Topics
 
@@ -26,6 +26,6 @@ Once you are ready to present, make a formal [submission]({% include fix-link.ht
 
 ## Team
 
-If you have any questions or wish to edit your topic submission get in touch with us [via email](mailto:{{ site.email }}).
+If you have any questions or wish to edit your topic contribution get in touch with us [via email](mailto:{{ site.email }}).
 
 {% include team-members.html team="bazaar" %}

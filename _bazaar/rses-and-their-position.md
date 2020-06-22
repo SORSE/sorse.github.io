@@ -1,9 +1,6 @@
 ---
 author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:Bernadette.Fritzsch@awi.de
+  email: Bernadette.Fritzsch@awi.de
   name: Bernadette Fritzsch
 contributors: If you have experiences with pay scale classifications of people working
   as RSE and can share with us, it can help the community a lot to establish RSEs

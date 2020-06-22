@@ -1,9 +1,6 @@
 ---
 author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:christian.busse@dkfz-heidelberg.de
+  email: christian.busse@dkfz-heidelberg.de
   name: Christian Busse
 looking: true
 title: Legal Issues in Research Software Development
