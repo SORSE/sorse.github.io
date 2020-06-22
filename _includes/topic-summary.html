@@ -24,7 +24,6 @@
     <b>Contact:</b>
     {% for author in info.authors %}
       {% assign author = site.data.authors[author] | default: author %}
-      {{ author.name }}
       {% assign email = author.email %}
       {% unless email %}
         {% for link in author.links %}
@@ -34,9 +33,10 @@
         {% endfor %}
       {% endunless %}
       {% if email %}
-        <a href="{{ email }}" title='{{ email | remove: "mailto:" }}'><span>{{ email | remove: "mailto:" }}</span></a>
+        {{ author.name }} <a href="{{ email }}" title='{{ email | remove: "mailto:" }}'><span>{{ email | remove: "mailto:" }}</span></a>{% unless forloop.last %}, {% endunless %}
+      {% else %}
+        {{ author.name }}{% unless forloop.last %}, {% endunless %}
       {% endif %}
-      {% unless forloop.last %}, {% endunless %}
 
     {% endfor %}
 
