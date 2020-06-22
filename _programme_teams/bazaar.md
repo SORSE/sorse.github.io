@@ -1,10 +1,6 @@
 ---
-permalink: /programme/bazaar/
 title: "Topic Bazaar"
-sidebar:
-    nav: "programme"
-toc: true
-toc_sticky: true
+team: bazaar
 ---
 
 The topic bazaar is a place to encourage and create collaborations that can then be presented in a variety of formats within the conference.
@@ -16,6 +12,8 @@ To participate in the Topic Bazaar, simply fill in [this form](#submit) and we'l
 If you're interested in collaborating on a topic previously posted, follow the contact details listed to get in touch and begin working together.
 Once you are ready to present, make a formal [contribution]({% include fix-link.html link="/programme/call-for-contributions" %}), and just remember to tell us that you came via the Topic Bazaar.
 
+If you have any questions or wish to edit your topic submission get in touch with us [via email](mailto:{{ site.email }}).
+
 ## Topics
 
 {% include topic-collection.html collection="bazaar" %}
@@ -23,9 +21,3 @@ Once you are ready to present, make a formal [contribution]({% include fix-link.
 ## Submit
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeUU4gixJC7RWeOR7CeeK2GnFkKan9Q4qcCg8sN5yMEfWpukw/viewform?embedded=true" width="640" height="1365" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-## Team
-
-If you have any questions or wish to edit your topic contribution get in touch with us [via email](mailto:{{ site.email }}).
-
-{% include team-members.html team="bazaar" %}

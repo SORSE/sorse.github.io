@@ -129,6 +129,15 @@ defaults:
         url: /faq/
       sidebar:
         nav: faq
+  - scope:
+      path: ""
+      type: programme_teams
+    values:
+      sidebar:
+        nav: "programme"
+      toc: true
+      toc_sticky: true
+      layout: programme-team
 
 collections:
   bazaar:
@@ -137,3 +146,6 @@ collections:
   faq:
     output: true
     permalink: /:collection/:path/
+  programme_teams:
+    output: true
+    permalink: /programme/:path/
