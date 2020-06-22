@@ -38,7 +38,12 @@ toc_sticky: true
 - We use a Google form to submit to the topic bazaar, but this is also stated
   separately [here](https://rse-leaders.github.io/SORSE20/programme/bazaar/#submit).
 - Participants register using a Google form for events.
-  The participation details will, however, be deleted after each event.
+- By registering you give consent to store your contact information.
+- We keep this information (participation details) until one mongth after each event.
+- Upon request your data can be removed earlier.
+- You have the right to access your data anytime by [contacting us](/contact/).
+- We only store data that you have provided us via the registration form,
+  no derivatives based on Google Search, LinkedIn, Facebook, ORCID, etc.
 
 
 ## Participation in an event
