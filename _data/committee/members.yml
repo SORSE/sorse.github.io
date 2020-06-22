@@ -130,6 +130,7 @@
     - orga
     - programme
     - sponsoring
+    - coc
 - name: Martin Callaghan
   avatar: /assets/images/Martin_Callaghan.jpg
   hidden: true
@@ -156,6 +157,7 @@
   email: k.pringle@leeds.ac.uk
   teams:
     - ukRSE
+    - coc
 - name: Chris Cave-Ayland
   affiliation: Imperial College
   location: London, UK
@@ -164,6 +166,7 @@
   email: c.cave-ayland@imperial.ac.uk
   teams:
     - ukRSE
+    - coc
     - talk
     - workshop
 - name: Alison Clarke
@@ -259,6 +262,7 @@
   teams:
     - ukRSE
     - programme
+    - coc
     - talk
     - panel
 - name: Louise Brown

@@ -34,6 +34,8 @@ news:
     url: /news/
   - title: FAQ
     url: /faq/
+  - title: Code of Conduct
+    url: /code-of-conduct/
 
 contact:
   - *sorse20
@@ -87,6 +89,14 @@ programme:
       - title: Blog Posts
         url: /faq/howto/contribute-blog-posts
 
+coc:
+  - *sorse20
+  - title: Code of Conduct
+    url: /code-of-conduct/
+    children:
+      - title: Report harassment
+        url: /code-of-conduct/report
+
 bazaar:
   - title: Other topics
     url: "/programme/bazaar/#topics"
@@ -110,3 +120,5 @@ footer:
     url: "/faq/"
   - title: Archive
     url: "/archive/"
+  - title: Code of Conduct
+    url: /code-of-conduct/
