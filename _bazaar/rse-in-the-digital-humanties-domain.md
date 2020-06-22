@@ -1,18 +1,9 @@
 ---
 authors:
-  - links:
-    - icon: fas fa-fw fa-envelope-square
-      label: Email
-      url: mailto:hi@squirrel.link
-    - icon: fas fa-fw fa-link
-      label: Website
-      url: http://squirrel.link
-    - icon: fas fa-fw fa-twitter-square
-      label: Twitter
-      url: https://twitter.com/RSESquirrel
-    - icon: fas fa-fw fa-github-square
-      label: Github
-      url: https://github.com/research-Squirrel-Engineers
+  - email: hi@squirrel.link
+    uri: http://squirrel.link
+    twitter: RSESquirrel
+    github: research-Squirrel-Engineers
     name: Research Squirrel Engineers
     avatar: http://squirrel.link/wp-content/uploads/2019/11/rse_logo_color-768x252.png
     bio: The Research Squirrel Engineers are a open group of researchers related to Research Software Engineering, Geoinformatics and Cultural Heritage background.
