@@ -5,11 +5,11 @@ sidebar:
   nav: coc
 ---
 
-Please contact either member of the Code of Conduct (CoC) team:
+Please contact any member of the Code of Conduct (CoC) team:
 
 {% include team-members.html team="coc" %}
 
-The CoC team is prepared to handle the incident. Both of our team members are informed of the Code of Conduct policy and guide for handling harassment at the workshop. There will be a mandatory CoC Committee meeting just prior to the series launch when this will be reiterated as well.
+The CoC team is prepared to handle the incident. All of our team members are informed of the Code of Conduct policy and guide for handling harassment at the workshop. There will be a mandatory CoC Committee meeting just prior to the series launch when this will be reiterated as well.
 
 Report the harassment incident via private message in Slack or as an email to a member of the CoC team. All reports are confidential.
 
@@ -29,4 +29,4 @@ Even though this is an online workshop if at any time you feel that your persona
 
 ## Acknowledgement
 
-This procedure has been adopted from the Ada Initiative's guide titled "workshop anti-harassment/Responding to Reports”.
+This procedure has been adapted from the one used at [Collaborations Workshop 2020](https://www.software.ac.uk/cw20/code-of-conduct/harassment-reporting-procedure) which was adopted from the Ada Initiative's guide titled "[workshop anti-harassment/Responding to Reports](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports)”.

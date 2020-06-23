@@ -12,7 +12,7 @@ This is an open call to all RSEs and anyone involved with research software, wor
 The aims of the event series:
 
 - To create and deliver a range of permanent resources for RSEs to develop both technical and soft skills, giving them the opportunity to contribute to and learn from the series
-- To develop and share knowledge about the field of research software e.g. how is Research Software built and used, how do we learn the skills to improve its sustainability and reliability, how do we apply it in our research, demonstrating its importance to research,
+- To develop and share knowledge about the field of research software e.g. how is Research Software built and used, how do we learn the skills to improve its sustainability and reliability, how do we apply it in our research, demonstrating its importance to research
 - To encourage involvement with the collection efforts of personal and technical RSE journeys (Podcasts etc) to better understand the makeup and demographics of our community and promote diversity and inclusivity
 - To develop new research relationships that may lead to future collaborations and strengthen international links within the community
 - To provide a ‘Show and Tell’ opportunity for RSEs to present their ideas and their work to an international audience
