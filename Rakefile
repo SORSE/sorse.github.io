@@ -3,7 +3,7 @@ require 'html-proofer'  # https://github.com/gjtorikian/html-proofer/
 task default: %w[test]
 
 task :test do
-  sh "bundle exec jekyll build --baseurl ''"
+  sh "bundle exec jekyll build"
   options = { :assume_extension => true,
               :allow_hash_href => true,
               :file_ignore => ["./_site/404.html"],
