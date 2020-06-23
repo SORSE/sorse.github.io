@@ -5,8 +5,6 @@ main:
     url: /contact/
   - title: About
     url: /faq/#about
-  - title: "For delegates"
-    url: /delegates/code-of-conduct/ # Change to /delegates/ once there is a delegates page
 
 news:
   - &sorse20
