@@ -25,6 +25,7 @@ github_username: username
 minimal_mistakes_skin: default
 search: true
 future: true
+indico_base_event: https://indico.scc.kit.edu/event/863
 
 # Build settings
 markdown: kramdown
