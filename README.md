@@ -31,7 +31,7 @@ As we cannot host one version of this site with github pages (generated from the
 3. `cd` to the clone of this repository
 4. Run `bundle install`
 5. Serve the site locally via `bundle exec jekyll serve`
-6. Visit the site in the browser via http://localhost:4000
+6. Visit the site in the browser via http://localhost:4000/SORSE20
 
 ## Preview the Site on CircleCI
 
@@ -41,6 +41,13 @@ in the [.circleci](.circleci) folder. To use CircleCI, you will need to
 associated with a pull request, click on the "Artifacts" tab, and select a static file to open
 and preview in your browser.
 
+## Testing the installation
+
+We use the [html-proofer](https://github.com/gjtorikian/html-proofer/) to test for
+broken links, etc. To run the tests locally, you need to install it (see
+[Local installation](#local-installation)), set the `baseurl` and
+`url` keys in `_config.yml` to empty strings, and run the tests via
+`bundle exec rake`
 
 ## License
 
