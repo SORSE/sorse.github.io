@@ -33,7 +33,8 @@
         {% endfor %}
       {% endunless %}
       {% if email %}
-        {{ author.name }} <a href="{{ email }}" title='{{ email | remove: "mailto:" }}'><span>{{ email | remove: "mailto:" }}</span></a>{% unless forloop.last %}, {% endunless %}
+        {% assign email = email | remove: "mailto:" %}
+        {{ author.name }} <a href="mailto:{{ email }}" title='{{ email }}'><span>{{ email }}</span></a>{% unless forloop.last %}, {% endunless %}
       {% else %}
         {{ author.name }}{% unless forloop.last %}, {% endunless %}
       {% endif %}
@@ -54,9 +55,10 @@
     {% endfor %}
   {% endunless %}
   {% if email %}
+  {% assign email = email | remove: "mailto:" %}
     <p class="card-line">
       <b>Contact:</b> {{ author.name }}
-      <a href="{{ email }}" title='{{ email | remove: "mailto:" }}'><span>{{ email | remove: "mailto:" }}</span></a>
+      <a href="mailto:{{ email }}" title='{{ email }}'><span>{{ email }}</span></a>
     </p>
   {% endif %}
 {% endif %}
