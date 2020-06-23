@@ -21,7 +21,7 @@ New to Github? Don't worry, you'll figure it out fast and it's no problem if it 
 
   - `[Software demos]({{ site.data.committee.programme_teams.software_demo.internal }})` :-1: :angry:
   - `[Software demos]({% include fix-link.html link=site.data.committee.programme_teams.software_demo.internal %}` :+1: :green_heart:
-  
+
 
 ## Local installation
 As we cannot host one version of this site with github pages (generated from the master branch), you should build the website locally and test the implemented changes (or the reviewer in the pull request does it, this is fine as well). To build this site locally:
@@ -39,5 +39,18 @@ We use CircleCI to preview the site for pull requests, and this is controlled by
 in the [.circleci](.circleci) folder. To use CircleCI, you will need to
  make sure you are logged in to the service and following the repository. When you select a build
 associated with a pull request, click on the "Artifacts" tab, and select a static file to open
-and preview in your browesr.
+and preview in your browser.
 
+
+## License
+
+The contents of the SORSE20 website and it's source code repository is published under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0). See the [LICENSE](LICENSE) file for more details.
+
+Copyright (c) 2020, the SORSE20 committee.
+
+The original software for creating this website, the Minimal Mistakes Jekyll
+Theme, is distributed under the MIT license, see
+https://github.com/mmistakes/minimal-mistakes#license.
+
+The [MIT license](http://opensource.org/licenses/MIT) also applies for the
+`_includes` and `_layouts` folder in this repository.
