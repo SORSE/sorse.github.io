@@ -126,8 +126,6 @@ archive:
         url: /archive/tags
 
 footer:
-  - title: Programme
-    url: "/programme/"
   - title: Contact
     url: "/contact/"
   - title: About
