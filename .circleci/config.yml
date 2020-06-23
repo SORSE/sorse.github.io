@@ -26,10 +26,10 @@ build_jekyll: &build_jekyll
         # Build site to download template
         bundle exec jekyll build
 
-test_build: &test_rake
+test_build: &test_build
     name: Test the build
     command: bundle exec rake
- 
+
 
 jobs:
   build-site:
