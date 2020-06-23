@@ -7,7 +7,7 @@ task :test do
   options = { :assume_extension => true,
               :allow_hash_href => true,
               :file_ignore => ["./_site/404.html"],
-              url_ignore: [/twitter.com/],
+              url_ignore: [/twitter.com/, /www.turing.ac.uk/],
               :typhoeus => {
                   :ssl_verifypeer => false,
                   :ssl_verifyhost => 0}
