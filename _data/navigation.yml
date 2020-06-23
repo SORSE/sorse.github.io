@@ -122,5 +122,7 @@ footer:
     url: "/faq/"
   - title: Archive
     url: "/archive/"
+  - title: Privacy policy
+    url: /privacy/
   - title: Code of Conduct
     url: /code-of-conduct/
