@@ -1,0 +1,16 @@
+---
+layout: single
+---
+
+{{ content }}
+
+{% unless page.skip_faq %}
+  {% assign teams = site.data.committee.programme_teams %}
+  {% assign tag = teams[page.team].name %}
+
+  {% include faq-cards-tag.html tag=tag title="FAQ" %}
+{% endunless %}
+
+<h2 id="team">Team</h2>
+
+{% include team-members.html team=page.team %}

@@ -24,6 +24,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+future: true
 
 # Build settings
 markdown: kramdown
@@ -128,6 +129,15 @@ defaults:
         url: /faq/
       sidebar:
         nav: faq
+  - scope:
+      path: ""
+      type: programme_teams
+    values:
+      sidebar:
+        nav: "programme"
+      toc: true
+      toc_sticky: true
+      layout: programme-team
 
 collections:
   bazaar:
@@ -136,3 +146,6 @@ collections:
   faq:
     output: true
     permalink: /:collection/:path/
+  programme_teams:
+    output: true
+    permalink: /programme/:path/

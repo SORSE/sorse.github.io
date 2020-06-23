@@ -1,9 +1,6 @@
 ---
 author:
-  links:
-  - icon: fas fa-fw fa-envelope-square
-    label: Email
-    url: mailto:jeremy.cohen@imperial.ac.uk
+  email: jeremy.cohen@imperial.ac.uk
   name: Jeremy Cohen
 looking: true
 title: 'RSE Communities: National, Regional and Local'

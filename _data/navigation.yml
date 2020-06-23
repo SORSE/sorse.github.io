@@ -13,9 +13,18 @@ news:
     title: SORSE20
     url: /
     children:
-      - title: "What is SORSE?"
+      - title: Aims of SORSE
         url: "/faq/about/what-is-sorse"
+      - title: "Format of SORSE"
+        url: /faq/about/format-of-sorse
+      - title: Tools
+        url: /faq/howto/tools
+      - title: "Registration and Fees"
+        url: /faq/about/costs
+      - title: Attending an event
+        url: /faq/howto/attendance
   - title: "Get involved!"
+    url: /faq/howto/get-involved
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
@@ -25,11 +34,8 @@ news:
     url: /news/
   - title: FAQ
     url: /faq/
-    children:
-      - title: About
-        url: /faq/#about
-      - title: How it works
-        url: /faq/#how-it-work
+  - title: Code of Conduct
+    url: /code-of-conduct/
 
 contact:
   - *sorse20
@@ -80,6 +86,16 @@ programme:
         url: "/programme/bazaar/"
       - title: Workshops
         url: "/programme/workshops/"
+      - title: Blog Posts
+        url: /faq/howto/contribute-blog-posts
+
+coc:
+  - *sorse20
+  - title: Code of Conduct
+    url: /code-of-conduct/
+    children:
+      - title: Report harassment
+        url: /code-of-conduct/report
 
 legal:
   - *sorse20
@@ -107,9 +123,15 @@ footer:
     url: "/programme/"
   - title: Contact
     url: "/contact/"
+  - title: About
+    url: "/faq#about"
   - title: FAQ
     url: "/faq/"
   - title: Archive
     url: "/archive/"
+  - title: Privacy policy
+    url: /privacy/
+  - title: Code of Conduct
+    url: /code-of-conduct/
   - title: License
     url: /license/
