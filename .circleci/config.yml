@@ -25,6 +25,10 @@ build_jekyll: &build_jekyll
 
         # Build site to download template
         bundle exec jekyll build
+
+test_build: &test_rake
+    name: Test the build
+    command: bundle exec rake
  
 
 jobs:
@@ -51,6 +55,7 @@ jobs:
           key: rubygems-v1
           paths:
             - vendor/bundle
+      - run: *test_build
       - run: *build_jekyll
       - store_artifacts:
           path: ~/repo/_site
