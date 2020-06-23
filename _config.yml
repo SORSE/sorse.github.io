@@ -47,6 +47,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+  - LICENSE
 
 # Plugins (previously gems:)
 plugins:
