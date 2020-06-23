@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-We value the participation of each stakeholder and want all participants to have an enjoyable and fulfilling experience. Accordingly, all participants are expected to show respect and courtesy to other participants throughout the events and through all communication channels, including but not limited to the zoom room, zoom webinar, youtube channel, discord platform and the slack channel.  
+We value the participation of each stakeholder and want all participants to have an enjoyable and fulfilling experience. Accordingly, all participants are expected to show respect and courtesy to other participants throughout the events and through all communication channels, including but not limited to the Zoom room, Zoom webinar, Youtube channel, Discord platform and the Slack channel.  
 
 To make clear what is expected, all participants, speakers, exhibitors, organisers and volunteers involved in SORSE are required to conform to the following Code of Conduct. Organisers will enforce this code.
 
@@ -48,4 +48,4 @@ You can find the Attendee Procedure For Reporting Harassment [here](report).
 
 ## Acknowledgement
 
-This Code of Conduct was adapted from the example policy for the CW20 and also from the Geek Feminism wiki, created by the Ada Initiative and other volunteers, which is under a Creative Commons Zero license.
+This Code of Conduct was adapted from the example policy for the [Collaborations Workshop 2020](https://www.software.ac.uk/cw20/code-conduct) and also from the [Geek Feminism wiki, created by the Ada Initiative and other volunteers](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), which is under a [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) license.
