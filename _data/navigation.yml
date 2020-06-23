@@ -56,7 +56,8 @@ delegates:
 
 faq:
   - *sorse20
-  - title: FAQ
+  - &faq
+    title: FAQ
     url: /faq/
     children:
       - title: About
@@ -66,7 +67,8 @@ faq:
 
 programme:
   - *sorse20
-  - title: "Programme"
+  - &programme
+    title: "Programme"
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
@@ -87,7 +89,12 @@ programme:
       - title: Workshops
         url: "/programme/workshops/"
       - title: Blog Posts
-        url: /faq/howto/contribute-blog-posts
+        url: /faq/howto/contribute-blog-posts/
+
+programme_faq:
+  - *sorse20
+  - *programme
+  - *faq
 
 coc:
   - *sorse20
