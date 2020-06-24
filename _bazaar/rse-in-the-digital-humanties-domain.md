@@ -11,7 +11,7 @@ authors:
   - name: Sophie Charlotte Schmidt
 contributors: We are looking for people who are working as RSE (also if you are not officially named as RSE) in the (digital) humanities / archaeological domain. Contact me for some feedback and if you are interested to join!
 looking: true
-title: RSEs in the Digital Humanties or archaeological domain
+title: RSEs in the Digital Humanities or archaeological domain
 type: TBC
 ...
 
