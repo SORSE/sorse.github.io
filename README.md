@@ -41,6 +41,24 @@ in the [.circleci](.circleci) folder. To use CircleCI, you will need to
 associated with a pull request, click on the "Artifacts" tab, and select a static file to open
 and preview in your browser.
 
+## Testing
+
+We use the [urlchecker-action](https://github.com/urlstechie/urlchecker-action) via
+a [GitHub workflow](.github/workflows/check-urls.yml) to ensure that there are not broken links. To test locally, you can install the urlchecker:
+
+```bash
+$ pip install urlchecker
+```
+
+And build the static content under _site, and then test it.
+
+```bash
+bundle exec jekyll build
+urlchecker check --file-types .html,.md,.py _site/
+```
+
+Note that you can add additional options (white listed patterns and files)
+and should do `urlchecker --help` to see these options.
 
 ## License
 
