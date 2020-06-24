@@ -15,7 +15,9 @@ You can make a contribution to one of the event types (see the left hand menu), 
 
 We encourage contributions from all time zones and will schedule events on a day and at a time that suits the presenter. Events will be recorded so that they can be run multiple times to suit different time zones and encourage those communities to come together to network.
 
-The Call for Contributions form will remain open continuously and there will be a rolling monthly deadline following which all contributions received over the previous month will be sent for review by the [Programme Committee]({% include fix-link.html link=site.data.committee.committees.programme.internal %}).
+The Call for Contributions form will remain **open continuously** and there will be a **rolling deadline at the end of the last day (UTC) of each month**, following which all contributions received over the previous month will be sent for review by the [Programme Committee]({% include fix-link.html link=site.data.committee.committees.programme.internal %}).
+
+**The next deadlines are the *10th of July 2020* and the *31st of July 2020*.**
 
 The call is open to anyone wanting to propose a research software-related talk or event from anywhere in the world, regardless of your role.
 
