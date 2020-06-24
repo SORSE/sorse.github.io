@@ -10,7 +10,7 @@ sidebar:
 classes: wide
 ---
 
-TLDR: <a href="{{site.indico_base_event}}/abstracts" class="btn btn--success" target="_blank"><i class="fas fa-pen"></i> Submit an abstract</a>
+<a href="{{site.indico_base_event}}/abstracts" class="btn btn--success" target="_blank"><i class="fas fa-pen"></i> Submit an abstract</a>
 
 Were you going to submit something to an RSE conference this year? Do you have a project you’d like to share? Is there a talk/workshop/panel you’d like to see happen? Then you’ve found the right place!
 
