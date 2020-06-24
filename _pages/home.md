@@ -8,9 +8,7 @@ author_profile: false
 ---
 
 <aside id="twitter-holder" class="sidebar__right sticky">
-  <div class='jekyll-twitter-plugin' align="center">
-      {% twitter https://twitter.com/researchsofteng maxwidth=500 limit=3 %}
-  </div>
+    {% include twitter.html %}
 </aside>
 
 <a href="{{site.indico_base_event}}/abstracts" class="btn btn--success" target="_blank"><i class="fas fa-pen"></i> Submit an abstract</a>
