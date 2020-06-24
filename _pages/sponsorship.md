@@ -1,5 +1,5 @@
 ---
-title: Sponsorhip
+title: Sponsorship
 permalink: /sponsorship/
 sidebar:
   nav: faq
