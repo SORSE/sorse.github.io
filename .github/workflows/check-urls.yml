@@ -39,7 +39,7 @@ jobs:
         retry_count: 3
 
         # A comma separated patterns to exclude during URL checks
-        white_listed_patterns: twitter.com,turing.ac.uk
+        white_listed_patterns: twitter.com,turing.ac.uk,linkedin.com,gitlab.kuleuven.be
 
         # choose if the force pass or not
         force_pass : false

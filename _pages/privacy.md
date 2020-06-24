@@ -36,7 +36,7 @@ toc_sticky: true
 ## Event registration
 
 - We use a Google form to submit to the topic bazaar, but this is also stated
-  separately [here](https://rse-leaders.github.io/SORSE20/programme/bazaar/#submit).
+  separately [here](https://sorse.github.io/programme/bazaar/#submit).
 - Participants register using a Google form for events.
 - By registering you give consent to store your contact information.
 - We keep this information (participation details) until one mongth after each event.
