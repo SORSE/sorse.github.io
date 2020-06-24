@@ -11,7 +11,7 @@ authors:
   - name: Sophie Charlotte Schmidt
 contributors: We are looking for people who are working as RSE (also if you are not officially named as RSE) in the (digital) humanities / archaeological domain. Contact me for some feedback and if you are interested to join!
 looking: true
-title: RSEs in the Digital Humanities or archaeological domain
+title: RSEs in the Digital Humanities or archaeological domain (ARCHEO.RSE)
 type: TBC
 ...
 
@@ -19,4 +19,4 @@ There are a lot of RSEs working in the Digital Humanities (DH) or archaeological
 
 There are also some non-institutional groups in the DH which do RSE things just for fun in their free time. One of the groups are the [Research Squirrel Engineers](http://squirrel.link). If this slot will help to increase the amount of squirrels, this would be awesome!
 
-Please contact us by E-Mail and add yourself and your topics to our [Pad](https://hackmd.io/@florianthiery/BkapK_x0U/edit) to create some new collaborations and submissions for SORSE.
+If you want to be part of the small DH / archaeological related RSE group at SORSE, please contact us by E-Mail and add your topics to the **ARCHEO.RSE** [Pad](https://hackmd.io/@florianthiery/BkapK_x0U/edit) creating some new collaborations and submissions for SORSE.
