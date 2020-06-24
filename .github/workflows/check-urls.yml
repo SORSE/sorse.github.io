@@ -10,16 +10,16 @@ jobs:
     - uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.7'
-    - run: |
-          gem install bundler jekyll
-          bundle check || bundle install
-          bundle exec jekyll build
     - uses: actions/cache@v1
       with:
         path: vendor/bundle
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: |
           ${{ runner.os }}-gems-
+    - run: |
+          gem install bundler jekyll
+          bundle check || bundle install
+          bundle exec jekyll build
     - name: urls-checker
       uses: urlstechie/urlchecker-action@0.1.7
       with:
