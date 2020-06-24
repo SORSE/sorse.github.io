@@ -10,7 +10,7 @@ sidebar:
 classes: wide
 ---
 
-TLDR: <a href="{{site.indico_base_event}}/abstracts" class="btn btn--success" target="_blank"><i class="fas fa-pen"></i> Propose an event</a>
+TLDR: <a href="{{site.indico_base_event}}/abstracts" class="btn btn--success" target="_blank"><i class="fas fa-pen"></i> Submit an abstract</a>
 
 Were you going to submit something to an RSE conference this year? Do you have a project you’d like to share? Is there a talk/workshop/panel you’d like to see happen? Then you’ve found the right place!
 
@@ -26,4 +26,4 @@ Upcoming contribution deadlines are all detailed below. Each contribution deadli
 
 See our [schedule of events]({% include fix-link.html link="/" %}) for details of what’s coming up.
 
-<a href="{{site.indico_base_event}}/abstracts" class="btn btn--success" target="_blank"><i class="fas fa-pen"></i> Propose an event</a>
+<a href="{{site.indico_base_event}}/abstracts" class="btn btn--success" target="_blank"><i class="fas fa-pen"></i> Submit an abstract</a>
