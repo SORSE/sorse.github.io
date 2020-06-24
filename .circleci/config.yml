@@ -20,7 +20,7 @@ build_jekyll: &build_jekyll
 
         # Update baseurl in config
         URL=https://${CIRCLE_BUILD_NUM}-267395254-gh.circle-artifacts.com
-        sed -i "s,^baseurl: .*,baseurl: /0/SORSE20,g" "_config.yml"
+        sed -i "s,^baseurl: .*,baseurl: /0/SORSE,g" "_config.yml"
         sed -i "s,^url: .*,url: $URL,g" "_config.yml"
 
         # Build site to download template
@@ -63,4 +63,4 @@ jobs:
       - run: *build_jekyll
       - store_artifacts:
           path: ~/repo/_site
-          destination: SORSE20
+          destination: SORSE

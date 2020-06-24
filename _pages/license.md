@@ -5,7 +5,7 @@ sidebar:
   nav: legal
 ---
 The contents of this website are published under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) under the
-Copyright © 2020 of the SORSE20 committee.
+Copyright © 2020 of the SORSE committee.
 
 It further incorporates the following projects (see the [license of the Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes#license)):
 

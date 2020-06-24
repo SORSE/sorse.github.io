@@ -5,10 +5,12 @@ main:
     url: /contact/
   - title: About
     url: /faq/#about
+  - title: "Sponsorship"
+    url: /sponsorship/
 
 news:
   - &sorse20
-    title: SORSE20
+    title: SORSE
     url: /
     children:
       - title: Aims of SORSE
@@ -34,23 +36,25 @@ news:
     url: /faq/
   - title: Code of Conduct
     url: /code-of-conduct/
+  - title:  Diversity
+    url: /diversity/
 
 contact:
   - *sorse20
   - title: "Contact"
     url: /contact/
     children:
-      - title: "SORSE20 Organizers"
+      - title: "SORSE Organizers"
         url: /contact/#sorse20-organizers
       - title: "Committees"
         url: /contact/committees/
       - title: "RSE Chapters"
         url: /contact/chapters/
 
-delegates:
+sponsorship:
   - *sorse20
-  - title: "Code of Conduct"
-    url: /delegates/code-of-conduct/
+  - title: "Sponsorship"
+    url: /sponsorship/
 
 faq:
   - *sorse20
@@ -62,6 +66,8 @@ faq:
         url: /faq/#about
       - title: How it works
         url: /faq/#how-it-works
+      - title: Submission
+        url: /faq/#submission
 
 programme:
   - *sorse20
@@ -72,8 +78,10 @@ programme:
         url: "/programme/call-for-contributions/"
       - title: "Have your say"
         url: "/programme/wishlist/"
-      - title: Awards
-        url: "/programme/awards/"
+      - title: "Ask us anything"
+        url: "/programme/ask-us-anything/"
+      # - title: Awards
+      #   url: "/programme/awards/"
       - title: Panels and Discussions
         url: "/programme/panels/"
       - title: Posters and Lightning talks
@@ -87,7 +95,7 @@ programme:
       - title: Workshops
         url: "/programme/workshops/"
       - title: Blog Posts
-        url: /faq/howto/contribute-blog-posts/
+        url: /faq/howto/contribute-blog-posts
 
 programme_faq:
   - *sorse20
@@ -101,6 +109,11 @@ coc:
     children:
       - title: Report harassment
         url: /code-of-conduct/report
+
+diversity:
+  - *sorse20
+  - title: Diversity
+    url: /diversity/
 
 legal:
   - *sorse20
@@ -124,6 +137,8 @@ archive:
         url: /archive/tags
 
 footer:
+  - title: Programme
+    url: "/programme/call-for-contributions/"
   - title: Contact
     url: "/contact/"
   - title: About

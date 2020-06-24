@@ -1,4 +1,4 @@
-# SORSE20 Website repository
+# SORSE Website repository
 
 This repository contains the source code for the Series of Online Research Software Events 2020. It is based on the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes) and hosted with Github Pages. The static website is build automatically on Github but you can also build it locally.
 
@@ -12,7 +12,7 @@ Unless you know exactly what you are doing, please always
 - assign issues and pull request to applicable milestones, labels and projects.
 - if your working on an issue or PR, assign it to you! If you are not working on it anymore, remove your assignment from the PR, either because you are finished or because you don't have the time to do more, unassign yourself and ideally leave a message that someone else should take over.
 
-New to Github? Don't worry, you'll figure it out fast and it's no problem if it does not immediately work. If you have a problem, ask in slack or create an issue. You should have a look into the [Projects](https://github.com/DE-RSE/SORSE20/projects) tab (see above), that gives you an overview on the current tasks.
+New to Github? Don't worry, you'll figure it out fast and it's no problem if it does not immediately work. If you have a problem, ask in slack or create an issue. You should have a look into the [Projects](https://github.com/DE-RSE/SORSE/projects) tab (see above), that gives you an overview on the current tasks.
 
 ## Important facts
 
@@ -51,9 +51,9 @@ broken links, etc. To run the tests locally, you need to install it (see
 
 ## License
 
-The contents of the SORSE20 website and it's source code repository is published under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0). See the [LICENSE](LICENSE) file for more details.
+The contents of the SORSE website and it's source code repository is published under the Creative Commons Attribution 4.0 International Public License (CC BY 4.0). See the [LICENSE](LICENSE) file for more details.
 
-Copyright (c) 2020, the SORSE20 committee.
+Copyright (c) 2020, the SORSE committee.
 
 The original software for creating this website, the Minimal Mistakes Jekyll
 Theme, is distributed under the MIT license, see
