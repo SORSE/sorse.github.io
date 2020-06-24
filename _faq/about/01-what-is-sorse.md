@@ -5,7 +5,7 @@ tags:
   - About
 ---
 
-With the cancellation of several international Research Software Engineering (RSE) community events as a result of the COVID-19 pandemic, RSEs worldwide are facing a lack of opportunities to engage with their wider community. To address this challenge, SORSE has been launched by an [international committee](contact/#international-committee-members) to provide an opportunity for RSEs to develop and grow their skills, build new collaborations and engage with RSEs worldwide. Until we can meet again in person, SORSE (pronounced ‘Source’), will bridge the gap and be the source of interesting and engaging events.
+With the cancellation of several international Research Software Engineering (RSE) community events as a result of the COVID-19 pandemic, RSEs worldwide are facing a lack of opportunities to engage with their wider community. To address this challenge, SORSE has been launched by an [international committee]({% include fix-link.html link="/contact/chapters" %}) to provide an opportunity for RSEs to develop and grow their skills, build new collaborations and engage with RSEs worldwide. Until we can meet again in person, SORSE (pronounced ‘Source’), will bridge the gap and be the source of interesting and engaging events.
 
 This is an open call to all RSEs and anyone involved with research software, worldwide, to propose talks, workshops and other types of online events.
 

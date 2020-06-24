@@ -36,6 +36,8 @@ news:
     url: /faq/
   - title: Code of Conduct
     url: /code-of-conduct/
+  - title:  Diversity
+    url: /diversity/
 
 contact:
   - *sorse20
@@ -103,6 +105,11 @@ coc:
     children:
       - title: Report harassment
         url: /code-of-conduct/report
+
+diversity:
+  - *sorse20
+  - title: Diversity
+    url: /diversity/
 
 legal:
   - *sorse20
