@@ -1,5 +1,5 @@
 ---
-title: "SORSE - Ask Us Anything"sessions
+title: "SORSE - Ask Us Anything sessions"
 category: news
 permalink: /programme/ask-us-anything/
 tags:
