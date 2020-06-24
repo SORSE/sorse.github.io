@@ -72,8 +72,8 @@ programme:
         url: "/programme/call-for-contributions/"
       - title: "Have your say"
         url: "/programme/wishlist/"
-      - title: Awards
-        url: "/programme/awards/"
+      # - title: Awards
+      #   url: "/programme/awards/"
       - title: Panels and Discussions
         url: "/programme/panels/"
       - title: Posters and Lightning talks
