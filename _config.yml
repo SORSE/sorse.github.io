@@ -146,7 +146,7 @@ collections:
     permalink: /programme/bazaar/:path/
   faq:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:path
   programme_teams:
     output: true
     permalink: /programme/:path/
