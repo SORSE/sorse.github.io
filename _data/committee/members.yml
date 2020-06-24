@@ -130,6 +130,7 @@
     - orga
     - programme
     - sponsoring
+    - coc
 - name: Martin Callaghan
   avatar: /assets/images/Martin_Callaghan.jpg
   hidden: true
@@ -138,7 +139,7 @@
 - name: Ben Van Werkhoven
   avatar: https://benvanwerkhoven.github.io/img/ben_1900.jpg
   email: b.vanwerkhoven@esciencecenter.nl
-  website: benvanwerkhoven.github.io
+  website: https://benvanwerkhoven.github.io
   affiliation: Netherlands eScience Center
   location: Amsterdam, the Netherlands
   twitter: bvanwerkhoven
@@ -156,6 +157,7 @@
   email: k.pringle@leeds.ac.uk
   teams:
     - ukRSE
+    - coc
 - name: Chris Cave-Ayland
   affiliation: Imperial College
   location: London, UK
@@ -164,6 +166,9 @@
   email: c.cave-ayland@imperial.ac.uk
   teams:
     - ukRSE
+    - coc
+    - talk
+    - workshop
 - name: Alison Clarke
   affiliation: Durham University
   location: Durham, UK
@@ -229,7 +234,9 @@
   location: Leuven, BE
   avatar: https://u0052546.pages.gitlab.kuleuven.be/images/avatar.jpg
   teams:
-    - ukRSE
+    - beRSE
+    - programme
+    - orga
     - software_demo
     - workshop
 - name: Mateusz Kuzak
@@ -255,6 +262,7 @@
   teams:
     - ukRSE
     - programme
+    - coc
     - talk
     - panel
 - name: Louise Brown
@@ -372,6 +380,7 @@
   email: nicholas.may@rmit.edu.au
   affiliation: RMIT University
   location: Melbourne, AUS
+  avatar: /assets/images/Nicholas-May.png
   twitter: eResEngineer
   github: nrmay
   orcid: 0000-0002-1298-1622
@@ -392,9 +401,22 @@
   email: nooriyah.lohani@nesi.org.nz
   affiliation: New Zealand eScience Infrastructure
   location: Auckland, NZ
+  avatar: /assets/images/Nooriyah-Lohani.jpg
   twitter: MysteryGenes
   github: nooriyahp
   orcid: 0000-0002-2051-4821
   teams:
     - aunzRSE
+    - orga
+- name: Simon Hettrick
+  email: s.hettrick@software.ac.uk
+  website: https://www.linkedin.com/in/simon-hettrick-2668a9a/
+  affiliation: Software Sustainability Institute
+  location: Southampton, UK
+  avatar: /assets/images/SimonHettrick.jpg
+  twitter: sjh5000
+  github: SimonHettrick
+  orcid: 0000-0002-6809-5195
+  teams:
+    - ukRSE
     - orga

@@ -20,6 +20,10 @@
 	}
 }
 
+.post-card {
+	cursor: pointer;
+}
+
 /* On mouse-over, add a deeper shadow */
 .card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -27,7 +31,7 @@
 }
 
 /* Add some padding inside the card container */
-p.card-title {
+.card-title {
 	padding: 2px 15px;
 	font-weight: bold;
 }
@@ -43,7 +47,7 @@ p.card-title {
 }
 
 /* Span elements should be on one line */
-.card-content span.content-line {
+span.content-line {
 	display: block;
 }
 

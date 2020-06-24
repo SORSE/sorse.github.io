@@ -13,17 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: SORSE20
-baseurl: "/SORSE20"  # for testing, also check .circleci/circle_urls.sh
-url: "https://rse-leaders.github.io"
-repository: RSE-leaders/SORSE20
+title: SORSE
+baseurl: ""  # for testing, also check .circleci/circle_urls.sh
+url: "https://sorse.github.io"
+repository: SORSE/sorse.github.io
 email: SORSE.enquiries@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  SORSE20: Series of Online Research Software Events 2020
+  SORSE: Series of Online Research Software Events 2020
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+future: true
+indico_base_event: https://indico.scc.kit.edu/event/863
 
 # Build settings
 markdown: kramdown
@@ -46,6 +48,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+  - LICENSE
 
 # Plugins (previously gems:)
 plugins:
@@ -69,7 +72,7 @@ author:
       url: "https://sorse20.researchsoftware.org"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/RSE-leaders"
+      url: "https://github.com/SORSE"
 
 footer:
   links:
@@ -102,6 +105,19 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _bazaar
+  - scope:
+      path: ""
+      type: bazaar
+    values:
+      layout: topic
+      author_profile: true
+      share: true
+      collection_button:
+        name: Other topics
+        url: /programme/bazaar/#topics
+      sidebar:
+        nav: bazaar
   # _faq
   - scope:
       path: ""
@@ -110,10 +126,28 @@ defaults:
       layout: single
       author_profile: false
       share: false
+      collection_button:
+        name: FAQ
+        url: /faq/
       sidebar:
         nav: faq
+  - scope:
+      path: ""
+      type: programme_teams
+    values:
+      sidebar:
+        nav: "programme"
+      toc: true
+      toc_sticky: true
+      layout: programme-team
 
 collections:
+  bazaar:
+    output: true
+    permalink: /programme/bazaar/:path/
   faq:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:path
+  programme_teams:
+    output: true
+    permalink: /programme/:path/

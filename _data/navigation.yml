@@ -5,81 +5,126 @@ main:
     url: /contact/
   - title: About
     url: /faq/#about
-  - title: "For delegates"
-    url: /delegates/code-of-conduct/ # Change to /delegates/ once there is a delegates page
+  - title: "Sponsorship"
+    url: /sponsorship/
 
 news:
   - &sorse20
-    title: SORSE20
+    title: SORSE
     url: /
     children:
-      - title: "What is SORSE?"
+      - title: Aims of SORSE
         url: "/faq/about/what-is-sorse"
+      - title: "Format of SORSE"
+        url: /faq/about/format-of-sorse
+      - title: Tools
+        url: /faq/howto/tools
+      - title: "Registration and Fees"
+        url: /faq/about/costs
+      - title: Attending an event
+        url: /faq/howto/attendance
   - title: "Get involved!"
+    url: /faq/howto/get-involved
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
+      - title: "Have your say"
+        url: "/programme/wishlist/"
   - title: News
     url: /news/
   - title: FAQ
     url: /faq/
-    children:
-      - title: About
-        url: /faq/#about
-      - title: How it works
-        url: /faq/#how-it-work
+  - title: Code of Conduct
+    url: /code-of-conduct/
+  - title:  Diversity
+    url: /diversity/
 
 contact:
   - *sorse20
   - title: "Contact"
     url: /contact/
     children:
-      - title: "SORSE20 Organizers"
+      - title: "SORSE Organizers"
         url: /contact/#sorse20-organizers
       - title: "Committees"
         url: /contact/committees/
       - title: "RSE Chapters"
         url: /contact/chapters/
 
-delegates:
+sponsorship:
   - *sorse20
-  - title: "Code of Conduct"
-    url: /delegates/code-of-conduct/
+  - title: "Sponsorship"
+    url: /sponsorship/
 
 faq:
   - *sorse20
-  - title: FAQ
+  - &faq
+    title: FAQ
     url: /faq/
     children:
       - title: About
         url: /faq/#about
       - title: How it works
         url: /faq/#how-it-works
+      - title: Submission
+        url: /faq/#submission
 
 programme:
   - *sorse20
-  - title: "Programme"
+  - &programme
+    title: "Programme"
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
-      - title: "Topic Bazaar"
-        url: "/programme/call-for-contributions/#topic-bazaar"
-  - title: "Teams"
-    children:
-      - title: Awards
-        url: "/programme/awards/"
+      - title: "Have your say"
+        url: "/programme/wishlist/"
+      - title: "Ask us anything"
+        url: "/programme/ask-us-anything/"
+      # - title: Awards
+      #   url: "/programme/awards/"
       - title: Panels and Discussions
         url: "/programme/panels/"
       - title: Posters and Lightning talks
         url: "/programme/posters/"
       - title: Software demos
         url: "/programme/software-demos/"
-      - title: Sprints
-        url: "/programme/sprints/"
       - title: Talks
         url: "/programme/talks/"
+      - title: Topic Bazaar
+        url: "/programme/bazaar/"
       - title: Workshops
         url: "/programme/workshops/"
+      - title: Blog Posts
+        url: /faq/howto/contribute-blog-posts/
+
+programme_faq:
+  - *sorse20
+  - *programme
+  - *faq
+
+coc:
+  - *sorse20
+  - title: Code of Conduct
+    url: /code-of-conduct/
+    children:
+      - title: Report harassment
+        url: /code-of-conduct/report
+
+diversity:
+  - *sorse20
+  - title: Diversity
+    url: /diversity/
+
+legal:
+  - *sorse20
+  - title: "Legal infomation"
+    children:
+      - title: "License"
+        url: "/license/"
+
+bazaar:
+  - title: Other topics
+    url: "/programme/bazaar/#topics"
 
 archive:
   - title: "Posts"
@@ -93,8 +138,18 @@ archive:
 
 footer:
   - title: Programme
-    url: "/programme/"
+    url: "/programme/call-for-contributions/"
   - title: Contact
     url: "/contact/"
+  - title: About
+    url: "/faq#about"
+  - title: FAQ
+    url: "/faq/"
   - title: Archive
     url: "/archive/"
+  - title: Privacy policy
+    url: /privacy/
+  - title: Code of Conduct
+    url: /code-of-conduct/
+  - title: License
+    url: /license/

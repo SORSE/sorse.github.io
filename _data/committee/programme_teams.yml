@@ -18,6 +18,4 @@ panel:
   internal: /programme/panels/
 bazaar:
   name: Topic Bazaar
-sprint:
-  name: Sprints
-  internal: /programme/sprints/
+  internal: /programme/bazaar/

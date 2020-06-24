@@ -12,11 +12,11 @@ We are an international committee of RSEs from various [national RSE chapters](c
 ## Get in touch
 This conference is organized by Research Software Engineers like you!
 
-- If you have any questions concerning the conference, please contact the organizers of the conference via [{{ site.email }}](mailto:{{ site.config.email }})
+- If you have any questions concerning the conference, please contact the organizers of the conference via [{{ site.email }}](mailto:{{ site.email }})
 - For any other issues with the conference website, please contact the [website chair]({{ site.baseurl }}{{ site.data.committee.committees.website.internal }}).
 
 
-## SORSE20 Organizers
+## SORSE Organizers
 
 <div style="display: flex; flex-wrap: wrap;">
   {% assign sorted = site.data.committee.members | sort: 'name' %}

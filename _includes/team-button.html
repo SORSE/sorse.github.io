@@ -1,0 +1,19 @@
+{% assign team = include.team %}
+{% if site.data.committee.national_chapters[team] %}
+    {% assign team_info = site.data.committee.national_chapters[team] %}
+    {% assign btn_class = "btn--danger" %}
+{% elsif site.data.committee.committees[team] %}
+    {% assign team_info = site.data.committee.committees[team] %}
+    {% assign btn_class = "btn--info" %}
+{% else %}
+  {% assign team_info = site.data.committee.programme_teams[team] %}
+  {% assign btn_class = "btn--primary" %}
+{% endif %}
+{% if team_info.internal %}
+  {% assign target = site.baseurl | append: team_info.internal }} %}
+{% elsif team_info.website %}
+  {% assign target = team_info.website %}
+{% else %}
+  {% assign target = "#" %}
+{% endif %}
+<a  href="{{ target }}" class="btn {{ include.classes }} {{ btn_class }}">{{ team_info.name }}</a>
