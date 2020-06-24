@@ -16,7 +16,7 @@
 title: SORSE20
 baseurl: ""  # for testing, also check .circleci/circle_urls.sh
 url: "https://sorse.github.io"
-repository: RSE-leaders/SORSE20
+repository: SORSE/sorse.github.io
 email: SORSE.enquiries@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   SORSE20: Series of Online Research Software Events 2020
@@ -71,7 +71,7 @@ author:
       url: "https://sorse20.researchsoftware.org"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/RSE-leaders"
+      url: "https://github.com/SORSE"
 
 footer:
   links:
