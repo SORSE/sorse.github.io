@@ -5,6 +5,8 @@ main:
     url: /contact/
   - title: About
     url: /faq/#about
+  - title: "Sponsorship"
+    url: /sponsorship/
 
 news:
   - &sorse20
@@ -49,10 +51,10 @@ contact:
       - title: "RSE Chapters"
         url: /contact/chapters/
 
-delegates:
+sponsorship:
   - *sorse20
-  - title: "Code of Conduct"
-    url: /delegates/code-of-conduct/
+  - title: "Sponsorship"
+    url: /sponsorship/
 
 faq:
   - *sorse20
