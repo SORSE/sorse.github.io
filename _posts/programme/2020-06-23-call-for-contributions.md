@@ -20,7 +20,11 @@ We encourage contributions from all time zones and will schedule events on a day
 
 The Call for Contributions form will remain **open continuously** and there will be a **rolling deadline at the end of the last day (UTC) of each month**, following which all contributions received over the previous month will be sent for review by the [Programme Committee]({% include fix-link.html link=site.data.committee.committees.programme.internal %}).
 
-**The next deadlines are the *10th of July 2020* and the *31st of July 2020*.**
+To kick start the series, the next few deadlines will be shorter to stimulate contributions. Following the end of July, contribution deadlines will be the end of the last day of each month.
+
+* First deadline date for contributions is 12th July at midnight UTC.
+* The Programme Team will get in touch with the contributors from this first round by the 17th July.
+* Second deadline date for contributions is 31st July at midnight UTC.
 
 The call is open to anyone wanting to propose a research software-related talk or event from anywhere in the world, regardless of your role.
 
