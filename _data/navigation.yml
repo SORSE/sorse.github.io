@@ -10,7 +10,7 @@ main:
 
 news:
   - &sorse20
-    title: SORSE20
+    title: SORSE
     url: /
     children:
       - title: Aims of SORSE
@@ -44,7 +44,7 @@ contact:
   - title: "Contact"
     url: /contact/
     children:
-      - title: "SORSE20 Organizers"
+      - title: "SORSE Organizers"
         url: /contact/#sorse20-organizers
       - title: "Committees"
         url: /contact/committees/

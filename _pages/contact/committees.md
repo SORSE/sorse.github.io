@@ -1,6 +1,6 @@
 ---
 permalink: /contact/committees/
-title: "SORSE20 Committees"
+title: "SORSE Committees"
 sidebar:
   nav: "contact"
 author: SORSE
@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 ---
 
-A committee is a group of individuals working on a component of SORSE20
+A committee is a group of individuals working on a component of SORSE
 {: .notice--info}
 
 {% for comm in site.data.committee.committees %}
