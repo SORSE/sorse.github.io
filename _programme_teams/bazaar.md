@@ -3,7 +3,7 @@ title: "Topic Bazaar"
 team: bazaar
 ---
 
-The topic bazaar is a place to encourage and create collaborations that can then be presented in a variety of formats within the conference.
+The topic bazaar is a place to encourage and create collaborations that can then be presented in a variety of formats within the series.
 For example, someone might have an idea for a workshop but would prefer to refine their concept with a collaborator before presenting.
 Another example could be using the topic bazaar to organise a coding sprint on a new or existing open-source project. This might lead to a talk about the software created together, or on the collaborative process itself.
 
