@@ -95,7 +95,7 @@ programme:
       - title: Workshops
         url: "/programme/workshops/"
       - title: Blog Posts
-        url: /faq/howto/contribute-blog-posts/
+        url: /faq/howto/contribute-blog-posts
 
 programme_faq:
   - *sorse20
