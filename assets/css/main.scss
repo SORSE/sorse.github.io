@@ -13,6 +13,12 @@
   background-color: rgba(151, 49, 110, 0.3);
 }
 
+.page__hero {
+  &--overlay {
+    background-color: black;
+  }
+}
+
 .greedy-nav {
   background: #fff0;
   a {
