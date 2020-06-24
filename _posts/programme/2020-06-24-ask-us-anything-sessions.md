@@ -17,3 +17,6 @@ Each Wednesday at 10am BST you can sign up to a 'Ask us Anything' session held o
 - [15th July](https://docs.google.com/forms/d/e/1FAIpQLScGEP7WEdS9-iJ2COKlpobSKH-RJHNMO7bc-smw2KcyoSNO-w/viewform)
 - [22nd July](https://docs.google.com/forms/d/e/1FAIpQLScGEP7WEdS9-iJ2COKlpobSKH-RJHNMO7bc-smw2KcyoSNO-w/viewform)
 - [29th July](https://docs.google.com/forms/d/e/1FAIpQLScGEP7WEdS9-iJ2COKlpobSKH-RJHNMO7bc-smw2KcyoSNO-w/viewform)
+
+
+Alternatively, contact us through the UK RSE Slack workspace [#sorse_ask_us_anything](https://ukrse.slack.com/archives/C015ZEJHUH1).
