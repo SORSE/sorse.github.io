@@ -22,8 +22,8 @@ The Call for Contributions form will remain **open continuously** and there will
 
 To kick start the series, the next few deadlines will be shorter to stimulate contributions. Following the end of July, contribution deadlines will be the end of the last day of each month.
 
-* First deadline date for contributions is 12th July at midnight UTC.
-* The Programme Team will get in touch with the contributors from this first round by the 17th July.
+* **First deadline date for contributions is 12th July at midnight UTC.**
+* **The Programme Team will get in touch with the contributors from this first round by the 17th July.**
 * Second deadline date for contributions is 31st July at midnight UTC.
 
 The call is open to anyone wanting to propose a research software-related talk or event from anywhere in the world, regardless of your role.
