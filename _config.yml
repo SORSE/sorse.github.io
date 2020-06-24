@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: SORSE
+logo: "/assets/images/logo.png"
+masthead_title: " "
 baseurl: ""  # for testing, also check .circleci/circle_urls.sh
 url: "https://sorse.github.io"
 repository: SORSE/sorse.github.io
