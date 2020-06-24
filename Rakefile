@@ -6,7 +6,6 @@ task :test do
   sh "bundle exec jekyll build"
   options = { :assume_extension => true,
               :allow_hash_href => true,
-              :file_ignore => ["./_site/404.html"],
               url_ignore: [/twitter.com/, /www.turing.ac.uk/, /www.linkedin.com/],
               :typhoeus => {
                   :ssl_verifypeer => false,
