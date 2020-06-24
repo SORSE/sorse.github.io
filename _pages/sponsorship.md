@@ -65,3 +65,7 @@ Aimed at Open Source initiatives, charities and foundations
 * Logo included in sponsorship slide at beginning of each event
 * Logo, company description and link on the SORSE website
 * Mention in the opening session
+
+## Team
+
+{% include team-members.html team="sponsoring" %}
