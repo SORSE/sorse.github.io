@@ -66,6 +66,8 @@ faq:
         url: /faq/#about
       - title: How it works
         url: /faq/#how-it-works
+      - title: Submission
+        url: /faq/#submission
 
 programme:
   - *sorse20
