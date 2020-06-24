@@ -46,6 +46,12 @@ a.missing:visited {
   }
 }
 
+@media only screen and (max-width: 1023px) {
+  #twitter-holder {
+    display: none;
+  }
+}
+
 .author__avatar img {
   border-radius: 0;
   max-width: 180px;
