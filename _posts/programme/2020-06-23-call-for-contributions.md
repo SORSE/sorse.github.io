@@ -1,5 +1,5 @@
 ---
-title: "SORSE20 - Call for Contributions"
+title: "SORSE - Call for Contributions"
 category: news
 permalink: /programme/call-for-contributions/
 tags:

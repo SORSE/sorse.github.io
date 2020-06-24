@@ -1,11 +1,11 @@
 ---
-title: Who is organizing SORSE20
+title: Who is organizing SORSE
 permalink: /faq/about/organizers
 classes: wide
 tags:
   - About
 ---
-SORSE20 is organized by [volunteers]({% include fix-link.html link="/contact/" %})
+SORSE is organized by [volunteers]({% include fix-link.html link="/contact/" %})
 from the international Research Software Engineers community. This work is made
 possible by various [national RSE chapters]({% include fix-link.html link="/contact/chapters" %}),
 namely
