@@ -45,7 +45,7 @@ contact:
     url: /contact/
     children:
       - title: "SORSE Organizers"
-        url: /contact/#sorse20-organizers
+        url: /contact/#sorse-organizers
       - title: "Committees"
         url: /contact/committees/
       - title: "RSE Chapters"

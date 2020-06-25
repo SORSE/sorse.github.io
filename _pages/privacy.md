@@ -7,6 +7,8 @@ toc: true
 toc_sticky: true
 ---
 
+{% assign submit_topic = site.data.committee.programme_teams.bazaar.internal | append: "#submit" %}
+
 ## Website
 
 - We do not track how users move or use our website. The website is hosted
@@ -36,7 +38,7 @@ toc_sticky: true
 ## Event registration
 
 - We use a Google form to submit to the topic bazaar, but this is also stated
-  separately [here](https://rse-leaders.github.io/SORSE20/programme/bazaar/#submit).
+  separately [here]({% include fix-link.html link=submit_topic %}).
 - Participants register using a Google form for events.
 - By registering you give consent to store your contact information.
 - We keep this information (participation details) until one mongth after each event.

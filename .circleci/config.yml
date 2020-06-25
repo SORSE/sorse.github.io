@@ -26,6 +26,14 @@ build_jekyll: &build_jekyll
         # Build site to download template
         bundle exec jekyll build
 
+test_build: &test_build
+    name: Test the build
+    command: |
+        sed -i "s,^baseurl: .*,baseurl: '',g" "_config.yml"
+        sed -i "s,^url: .*,url: '',g" "_config.yml"
+
+        bundle exec rake
+
 
 jobs:
   build-site:
@@ -51,6 +59,7 @@ jobs:
           key: rubygems-v1
           paths:
             - vendor/bundle
+      - run: *test_build
       - run: *build_jekyll
       - store_artifacts:
           path: ~/repo/_site

@@ -16,3 +16,8 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem "jekyll-twitter-plugin"
 end
+
+group :test do
+    gem 'rake'
+    gem 'html-proofer'
+end
