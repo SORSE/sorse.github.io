@@ -32,9 +32,6 @@ indico_base_event: https://indico.scc.kit.edu/event/863
 twitter:
   username: *twitter
 
-github:
-  username: *github
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
