@@ -5,7 +5,7 @@ Events 2020. It is based on the [Minimal Mistakes Jekyll theme](https://github.c
 and hosted with Github Pages. The static website is build automatically on Github
 but you can also build it locally.
 
-The documentation how to contribute is in the [Wiki](wiki) of this repository.
+The documentation how to contribute is in the [Wiki](https://github.com/SORSE/sorse.github.io/wiki) of this repository.
 There you find, how to add new members, new national chapters, how to assign
 someone to a specific team, etc.
 
