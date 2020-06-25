@@ -81,6 +81,7 @@
   teams:
     - deRSE
     - programme
+    - talk
 - name: Bezaye Tesfaye Belayneh
   affiliation: Helmholtz Center Potsdam - GFZ German Research Center for Geosciences (GFZ, Potsdam)
   location: Potsdam, Germany
@@ -167,6 +168,7 @@
   teams:
     - ukRSE
     - coc
+    - programme
     - talk
     - workshop
 - name: Alison Clarke
@@ -214,6 +216,7 @@
   teams:
     - ukRSE
     - programme
+    - workshop
 - name: Sandra Gesing
   affiliation: University of Notre Dame
   location: Notre Dame, IN, USA
