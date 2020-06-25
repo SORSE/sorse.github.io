@@ -16,7 +16,7 @@ Unless you know exactly what you are doing, please always
   to do so). You must contribute via pull request
 - we always require a review from another person (four-eye-principle)
 - assign issues and pull request to applicable milestones, labels and projects.
-- if your working on an issue or PR, assign it to you! If you are not working on
+- if you're working on an issue or PR, assign it to you! If you are not working on
   it anymore, remove your assignment from the PR, either because you are finished
   or because you don't have the time to do more, unassign yourself and ideally
   leave a message that someone else should take over.
