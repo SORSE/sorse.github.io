@@ -28,7 +28,7 @@ tab (see above), that gives you an overview on the current tasks.
 
 ## Important facts
 
-- if you have are lacking a link and nevertheless want to add the text as a
+- if you are lacking a link and nevertheless want to add the text as a
   placeholder, mark it with `{: .missing}`. The link will then be highlighted in
   red (example: `[some important document](){: .missing}`)
 - when referencing internal link, e.g. `{{ site.data.committee.national_chapters.deRSE.internal }}`,
