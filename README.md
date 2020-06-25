@@ -1,7 +1,7 @@
 # SORSE Website repository
 
 This repository contains the source code for the [Series of Online Research Software
-Events (SORSE) 2020](https://sorse.github.io). It is based on the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)
+Events (SORSE)](https://sorse.github.io). It is based on the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)
 and hosted with Github Pages. The static website is build automatically on Github
 but you can also build it locally.
 
