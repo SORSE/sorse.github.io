@@ -14,3 +14,6 @@ sponsoring:
 coc:
   name: Code of Conduct
   internal: /code-of-conduct/
+advisory:
+  name: Advisory Committee
+  internal: /contact/committees/#advisory
