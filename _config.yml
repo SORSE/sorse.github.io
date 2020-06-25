@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: SORSE
 logo: "/assets/images/logo.png"
-og_image: "/assets/images/logo.png"
+og_image: "/assets/images/sorse-banner-980x980.png"
 baseurl: ""  # for testing, also check .circleci/circle_urls.sh
 url: &url "https://sorse.github.io"
 repository: SORSE/sorse.github.io
