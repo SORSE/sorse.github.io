@@ -424,3 +424,15 @@
   teams:
     - ukRSE
     - orga
+- name: "Daniel S. Katz"
+  email: d.katz@ieee.org
+  website: http://danielskatz.org/
+  affiliation: "University of Illinois at Urbana-Champaign"
+  location: "Urbana, IL, USA"
+  # avatar: /assets/images/DanKatz.jpg
+  twitter: danielskatz
+  github: danielskatz
+  orcid: 0000-0001-5934-7525
+  teams:
+    - usRSE
+    - advisory
