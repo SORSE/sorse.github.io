@@ -15,25 +15,18 @@
 # in the templates via {{ site.myvariable }}.
 title: SORSE
 logo: "/assets/images/logo.png"
-og_image: "/assets/images/sorse-banner-980x980.png"
 baseurl: ""  # for testing, also check .circleci/circle_urls.sh
-url: &url "https://sorse.github.io"
+url: "https://sorse.github.io"
 repository: SORSE/sorse.github.io
-email: &email SORSE.enquiries@gmail.com
+email: SORSE.enquiries@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   SORSE: Series of Online Research Software Events 2020
-twitter_username: &twitter Int_SORSE
-github_username: &github SORSE
+twitter_username: username
+github_username: username
 minimal_mistakes_skin: default
 search: true
 future: true
 indico_base_event: https://indico.scc.kit.edu/event/863
-
-twitter:
-  username: *twitter
-
-github:
-  username: *github
 
 # Build settings
 markdown: kramdown
@@ -71,10 +64,16 @@ author:
   name   : "SORSE"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Series of Online Research Software Events"
-  github: *github
-  twitter: *twitter
-  email: *email
-  website: *url
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:SORSE.enquiries@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://sorse20.researchsoftware.org"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SORSE"
 
 defaults:
   # _posts
