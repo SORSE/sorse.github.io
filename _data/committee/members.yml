@@ -447,3 +447,9 @@
   teams:
     - usRSE
     - advisory
+- name: Dawg
+  email: dawg@pancakes.com
+  website: https://petco.com
+  affiliation: Petco
+  location: SomeWhere, USA
+  avatar: /assets/images/dog.jpg
