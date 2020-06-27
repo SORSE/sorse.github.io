@@ -30,8 +30,6 @@ for IMAGE in `grep -o 'assets/images/.*' _data/committee/members.yml`; do
       MESSAGE="Decrease height"
       magick $IMAGE -geometry x400 $IMAGE
     fi
-    git add $IMAGE
-    git commit -m "${MESSAGE} of `basename ${IMAGE}`"
     size=`magick $IMAGE -print "%B" /dev/null | xargs printf "%09d"`
   done
 done
