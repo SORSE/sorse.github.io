@@ -20,7 +20,7 @@ jobs:
           which magick
 
     - name: Run image downsizing script
-      run: /bin/bash scripts/downscale_images.sh
+      run: /bin/bash scripts/downsize_images.sh
 
     - name: Checkout New Branch
       env:
@@ -60,7 +60,7 @@ jobs:
         fi
         echo "::set-env name=OPEN_PULL_REQUEST::${OPEN_PULL_REQUEST}"
         echo "::set-env name=PULL_REQUEST_FROM_BRANCH::${BRANCH_FROM}"
-        echo "::set-env name=PULL_REQUEST_TITLE::[downscale-images] ${BRANCH_FROM}"
+        echo "::set-env name=PULL_REQUEST_TITLE::[downsize-images] ${BRANCH_FROM}"
         echo "::set-env name=PULL_REQUEST_BODY::Downsizing images automated pull request."
 
     - name: Open Pull Request

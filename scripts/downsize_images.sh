@@ -1,10 +1,10 @@
 #!/bin/bash
-# This script downscales all images of the members using imagemagick.
+# This script downsizes all images of the members using imagemagick.
 #
-# If an image size is larger than 300KB, we downscale it.
-# If the image has a resolution higher than 72dpi, we downscale it to 72dpi.
-# If the image has a width higher than 400px; we downscale it to a width of 400px
-# If the image has a height higher than 400px; we downscale it to a height of 400px
+# If an image size is larger than 300KB, we downsize it.
+# If the image has a resolution higher than 72dpi, we downsize it to 72dpi.
+# If the image has a width higher than 400px; we downsize it to a width of 400px
+# If the image has a height higher than 400px; we downsize it to a height of 400px
 
 set -e
 
