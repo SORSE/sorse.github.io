@@ -60,6 +60,7 @@ jobs:
         fi
         echo "::set-env name=OPEN_PULL_REQUEST::${OPEN_PULL_REQUEST}"
         echo "::set-env name=PULL_REQUEST_FROM_BRANCH::${BRANCH_FROM}"
+        echo "::set-env name=PULL_REQUEST_TITLE::[downscale-images] ${BRANCH_FROM}"
         echo "::set-env name=PULL_REQUEST_BODY::Downsizing images automated pull request."
 
     - name: Open Pull Request
