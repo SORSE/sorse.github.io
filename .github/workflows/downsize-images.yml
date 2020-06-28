@@ -1,6 +1,7 @@
 name: downsize-images
 
 on:
+  pull_request: []
   push:
     branches:
       - master
@@ -15,7 +16,7 @@ jobs:
       run: |
           echo "Installing ImageMagick"
           wget https://imagemagick.org/download/binaries/magick
-          chmod +x magick         
+          chmod +x magick
           sudo mv magick /usr/local/bin
           which magick
 
