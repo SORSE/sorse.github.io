@@ -125,6 +125,13 @@ defaults:
       toc: true
       toc_sticky: true
       layout: programme-team
+  - scope:
+      path: ""
+      type: events
+    values:
+      sidebar:
+        nav: "programme"
+      layout: single
 
 collections:
   bazaar:
@@ -134,5 +141,8 @@ collections:
     output: true
     permalink: /:collection/:path
   programme_teams:
+    output: true
+    permalink: /programme/:path/
+  events:
     output: true
     permalink: /programme/:path/
