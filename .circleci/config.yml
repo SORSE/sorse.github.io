@@ -24,19 +24,11 @@ build_jekyll: &build_jekyll
 
         # Update baseurl in config
         URL=https://${CIRCLE_BUILD_NUM}-267395254-gh.circle-artifacts.com
-        sed -i "s,^baseurl: .*,baseurl: /0/SORSE,g" "_config.yml"
-        sed -i "s,^url: .*,url: $URL,g" "_config.yml"
+        echo "baseurl: /0/SORSE" >> _config.yml
+        echo "url: $URL" >> _config.yml
 
         # Build site to download template
         bundle exec jekyll build
-
-test_build: &test_build
-    name: Test the build
-    command: |
-        sed -i "s,^baseurl: .*,baseurl: '',g" "_config.yml"
-        sed -i "s,^url: .*,url: '',g" "_config.yml"
-
-        bundle exec rake
 
 executors:
   jekyll-executor:
@@ -80,4 +72,6 @@ jobs:
     executor: jekyll-executor
     steps:
       - install
-      - run: *test_build
+      - run:
+          name: Test the build
+          command: bundle exec rake
