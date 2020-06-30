@@ -17,18 +17,24 @@ workflows:
 
 
 build_jekyll: &build_jekyll
-    name: Jekyll Build
-    command: |
-        echo "Building RSE Blog for Preview"
-        cd ~/repo
+  name: Jekyll Build
+  command: |
+      echo "Building RSE Blog for Preview"
+      cd ~/repo
 
-        # Update baseurl in config
-        URL=https://${CIRCLE_BUILD_NUM}-267395254-gh.circle-artifacts.com
-        echo "baseurl: /0/SORSE" >> _config.yml
-        echo "url: $URL" >> _config.yml
+      # Update baseurl in config
+      URL=https://${CIRCLE_BUILD_NUM}-267395254-gh.circle-artifacts.com
+      echo "baseurl: /0/SORSE" >> _config.yml
+      echo "url: $URL" >> _config.yml
 
-        # Build site to download template
-        bundle exec jekyll build
+      # Build site to download template
+      bundle exec jekyll build
+
+test_jekyll: &test_jekyll
+  name: Test the build
+  command: |
+    echo "url: ''" >> _config.yml
+    bundle exec rake
 
 executors:
   jekyll-executor:
@@ -72,6 +78,4 @@ jobs:
     executor: jekyll-executor
     steps:
       - install
-      - run:
-          name: Test the build
-          command: bundle exec rake
+      - run: *test_jekyll
