@@ -1,6 +1,6 @@
 main:
   - title: "Programme"
-    url: /programme/call-for-contributions/ # Change to /programme/ once there is a programme page
+    url: /programme/
   - title: "Contact"
     url: /contact/
   - title: About
