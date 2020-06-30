@@ -73,6 +73,7 @@ programme:
   - *sorse20
   - &programme
     title: "Programme"
+    url: /programme/
     children:
       - title: "Call for Contributions"
         url: "/programme/call-for-contributions/"
