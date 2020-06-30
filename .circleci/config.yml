@@ -10,6 +10,10 @@ workflows:
           filters:
             branches:
               ignore: gh-pages
+      - test-site:
+          filters:
+            branches:
+              ignore: gh-pages
 
 
 build_jekyll: &build_jekyll
@@ -34,9 +38,8 @@ test_build: &test_build
 
         bundle exec rake
 
-
-jobs:
-  build-site:
+executors:
+  jekyll-executor:
     docker:
       - image: circleci/ruby:2.4.1
     working_directory: ~/repo
@@ -44,6 +47,9 @@ jobs:
       - JEKYLL_ENV: production
       - NOKOGIRI_USE_SYSTEM_LIBRARIES: true
       - BUNDLE_PATH: ~/repo/vendor/bundle
+
+commands:
+  install:
     steps:
       - checkout
       - restore_cache:
@@ -59,8 +65,19 @@ jobs:
           key: rubygems-v1
           paths:
             - vendor/bundle
-      - run: *test_build
+
+
+jobs:
+  build-site:
+    executor: jekyll-executor
+    steps:
+      - install
       - run: *build_jekyll
       - store_artifacts:
           path: ~/repo/_site
           destination: SORSE
+  test-site:
+    executor: jekyll-executor
+    steps:
+      - install
+      - run: *test_build
