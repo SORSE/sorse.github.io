@@ -9,9 +9,10 @@ layout: archive
 
 <ul class="taxonomy__index">
   {% for category in group_names %}
+  {% assign category_name = site.data.committee.programme_teams[category].name | default: category %}
     <li>
       <a href="#{{ category | slugify | downcase }}">
-        <strong>{{ category }}</strong> <span class="taxonomy__count">{{ group_items[forloop.index0] | size }}</span>
+        <strong>{{ category_name }}</strong> <span class="taxonomy__count">{{ group_items[forloop.index0] | size }}</span>
       </a>
     </li>
   {% endfor %}
