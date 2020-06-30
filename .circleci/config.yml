@@ -33,7 +33,9 @@ build_jekyll: &build_jekyll
 test_jekyll: &test_jekyll
   name: Test the build
   command: |
+    echo "baseurl: ''" >> _config.yml
     echo "url: ''" >> _config.yml
+
     bundle exec rake
 
 executors:
