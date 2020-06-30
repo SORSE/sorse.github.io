@@ -38,3 +38,5 @@ Any questions, read [more](faq/about/what-is-sorse) or [get in touch](contact/)!
 {% endfor %}
 
 {% include paginator.html %}
+
+### Upcoming Events
