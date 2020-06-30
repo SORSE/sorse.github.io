@@ -19,7 +19,9 @@ excerpt: International Series of Online Research Software Events
     {% include twitter.html %}
 </aside>
 
-Welcome to SORSE - A **S**eries of **O**nline **R**esearch **S**oftware **E**vents - our international answer to the COVID-19-induced cancellation of many national RSE conferences. We want to provide an opportunity for RSEs to develop and grow their skills, build new collaborations and engage with RSEs worldwide. This is an open call to all RSEs and anyone involved with research software, worldwide, to propose talks, workshops and other types of online events.
+Welcome to SORSE - A **S**eries of **O**nline **R**esearch **S**oftware **E**vents - our international answer to the COVID-19-induced cancellation of many national RSE conferences. We want to provide an opportunity for RSEs to develop and grow their skills, build new collaborations and engage with RSEs worldwide.
+
+This is an open call to all RSEs and anyone involved with research software worldwide, to propose a talk, a workshop, a software demo, a panel or discussion, blog post or poster. After the each event, SORSE will provide an opportunity for networking and informal discussion with other participants in small groups.
 
 Any questions, read [more](faq/about/what-is-sorse) or [get in touch](contact/)!
 
