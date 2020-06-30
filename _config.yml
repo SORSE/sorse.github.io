@@ -131,6 +131,11 @@ defaults:
     values:
       sidebar:
         nav: "programme"
+      author_profile: true
+      share: true
+      collection_button:
+        name: Schedule
+        url: /programme/
       layout: single
 
 collections:
