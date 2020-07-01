@@ -18,7 +18,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Karla', sans-serif;
 }
 .masthead {
-  background-color: rgba(151, 49, 110, 0.3);
+  background-color: rgba(247,247,247,1.0);
+  border-bottom: none;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(	41, 41, 41,0.7);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(	41, 41, 41,0.7);
+  box-shadow: 0px 1px 5px 0px rgba(	41, 41, 41,0.7);
 }
 
 .page__hero {
@@ -27,15 +31,37 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+// Nav bar
+
 .greedy-nav {
   background: #fff0;
   a {
-    color: #53595e;
+    color: #30767b;
 
     &:hover {
-      color: black;
+      color: #307b71;
+    }
+    &:visited {
+      color: #307b71;
     }
   }
+}
+
+.icon{
+  color: #30767b;
+}
+
+// Side bar
+
+
+// Hyperlinks 
+
+a {
+  color: #740B70;
+}
+
+a:visited{
+  color:  #9B4C97;
 }
 
 a.missing:link {
@@ -46,6 +72,10 @@ a.missing:visited {
   color: rgba(255, 0, 0, 1.0);
 }
 
+.pagination--pager.disabled {
+color: rgba(41, 41, 41, 0.5)
+}
+
 .page__footer-nav {
   font-size: $type-size-7;
   margin-bottom: 10px;
@@ -54,10 +84,48 @@ a.missing:visited {
   }
 }
 
+// Buttons
+
 .btn{
   font-family: 'Karla', 'Helvetica', sans-serif;
   font-size: 0.85em;
 }
+
+.btn--success{
+  background-color: #1b8275;
+  &:hover, &:visited, &:focus{
+    background-color: #2e9f91;
+  }
+}
+
+.btn--danger{
+  background-color: #e95371;
+  &:hover, &:visited, &:focus{
+    background-color: #ec6a84;
+  }
+}
+
+.btn--info{
+  background-color: #d8b117;
+  color: #0c0c0c;
+  &:hover, &:visited, &:focus{
+    background-color: #e7bf21;
+    color: #0c0c0c;
+  }
+}
+
+a:focus, button:focus{
+  outline: none;
+}
+
+.btn--primary{
+  background-color: #474747;
+  &:hover, &:visited, &:focus{
+    background-color: #646464;
+  }
+}
+
+
 @media only screen and (max-width: 1023px) {
   #twitter-holder {
     display: none;
