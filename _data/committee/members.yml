@@ -19,7 +19,7 @@
   avatar: /assets/images/stephan-janosch.jpg
   teams:
     - deRSE
-    - orga
+    - operating
 - name: Frank Löffler
   affiliation: Friedrich Schiller University
   location: Jena, Germany
@@ -27,7 +27,7 @@
   avatar: /assets/images/frank-loeffler.jpg
   teams:
     - deRSE
-    - orga
+    - operating
 - name: Stephan Druskat
   affiliation: German Aerospace Center (DLR), Humboldt-Universität zu Berlin, Friedrich Schiller University Jena
   location: Berlin, Germany
@@ -38,7 +38,7 @@
   twitter: stdruskat
   teams:
     - deRSE
-    - orga
+    - operating
     - panel
     - programme
     - website
@@ -128,7 +128,7 @@
   twitter: claire_vedette
   teams:
     - ukRSE
-    - orga
+    - operating
     - programme
     - sponsoring
     - coc
@@ -148,7 +148,7 @@
   orcid: 0000-0002-7508-3272
   teams:
     - nlRSE
-    - orga
+    - operating
 - name: Kirsty Pringle
   affiliation: University of Leeds
   location: Leeds, UK
@@ -228,7 +228,7 @@
   website: http://sandra-gesing.com/
   teams:
     - usRSE
-    - orga
+    - operating
 - name: Johan Philips
   email: johan.philips@kuleuven.be
   website: https://u0052546.pages.gitlab.kuleuven.be/
@@ -239,7 +239,7 @@
   teams:
     - beRSE
     - programme
-    - orga
+    - operating
     - software_demo
     - workshop
 - name: Mateusz Kuzak
@@ -255,7 +255,7 @@
     - programme
     - panel
     - workshop
-    - orga
+    - operating
 - name: Marion Weinzierl
   affiliation: Durham University
   location: Durham, UK
@@ -367,7 +367,7 @@
   github: rainsworth
   orcid:  0000-0003-2591-9462
   teams:
-    - orga
+    - operating
     - ukRSE
 - name: Jeremy Cohen
   email: jeremy.cohen@imperial.ac.uk
@@ -379,7 +379,7 @@
   orcid: 0000-0003-4312-2537
   teams:
     - ukRSE
-    - orga
+    - operating
 - name: Nicholas May
   email: nicholas.may@rmit.edu.au
   affiliation: RMIT University
@@ -390,7 +390,7 @@
   orcid: 0000-0002-1298-1622
   teams:
     - aunzRSE
-    - orga
+    - operating
 - name: Maximilian Dolling
   email: mdolling@gfz-potsdam.de
   website: https://www.gfz-potsdam.de/en/home/
@@ -411,7 +411,7 @@
   orcid: 0000-0002-2051-4821
   teams:
     - aunzRSE
-    - orga
+    - operating
 - name: Simon Hettrick
   email: s.hettrick@software.ac.uk
   website: https://www.linkedin.com/in/simon-hettrick-2668a9a/
@@ -423,7 +423,7 @@
   orcid: 0000-0002-6809-5195
   teams:
     - ukRSE
-    - orga
+    - operating
 - name: "Daniel S. Katz"
   email: d.katz@ieee.org
   website: http://danielskatz.org/
