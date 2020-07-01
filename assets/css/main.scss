@@ -15,7 +15,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Karla','Helvetica' sans-serif;
 }
 .masthead {
   background-color: rgba(247,247,247,1.0);
@@ -51,8 +51,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #30767b;
 }
 
-// Side bar
+// Side bars
 
+.toc{
+  color: #474747;
+  font-family: 'Karla','Helvetica' sans-serif;
+}
+.toc .nav__title{
+  background-color: #474747;
+  font-family: 'Karla','Helvetica' sans-serif;
+}
+
+.toc .active a{
+  color: #646464;
+  background-color: #dadada;
+}
+
+.nav__sub-title {
+  color: #474747;
+}
 
 // Hyperlinks 
 
@@ -72,8 +89,10 @@ a.missing:visited {
   color: rgba(255, 0, 0, 1.0);
 }
 
+// Pagination
+
 .pagination--pager.disabled {
-color: rgba(41, 41, 41, 0.5)
+color: #787878;
 }
 
 .page__footer-nav {
@@ -82,6 +101,10 @@ color: rgba(41, 41, 41, 0.5)
   a {
     padding: 1em;
   }
+}
+
+nav.pagination{
+  color: #787878;
 }
 
 // Buttons
@@ -125,14 +148,31 @@ a:focus, button:focus{
   }
 }
 
-
 @media only screen and (max-width: 1023px) {
   #twitter-holder {
     display: none;
   }
 }
 
+
+// Author avatar
 .author__avatar img {
   border-radius: 0;
   max-width: 180px;
+}
+
+
+// Footer
+
+.page__footer{
+  color: #ffffff;
+  background-color: #0c0c0c;
+}
+
+.page__footer-nav{
+  font-size: 0.75em;
+}
+
+.page__footer-nav a{
+  color: #a125b2;
 }
