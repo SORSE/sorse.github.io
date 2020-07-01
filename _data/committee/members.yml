@@ -447,3 +447,13 @@
   teams:
     - usRSE
     - advisory
+- name: Tania Allard
+  github: trallard
+  website: https://trallard.dev/
+  email: trallard@bitsandchips.me
+  twitter: ixek
+  location: Manchester, UK
+  affiliation: Microsoft Azure
+  teams:
+    - ukRSE
+    - website
