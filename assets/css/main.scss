@@ -8,6 +8,8 @@ $link-color: #740B70;
 $link-color-visited: #9B4C97;
 $link-color-hover: mix(#000, $link-color, 50%);
 
+$karla: "Karla", sans-serif;
+$header-font-family: $karla;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "card";
