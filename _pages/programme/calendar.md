@@ -28,9 +28,15 @@ fullcalendar: true
      },
      timeZone: 'UTC',
      initialView: 'dayGridMonth',
-     events: 'https://fullcalendar.io/demo-events.json',
      editable: true,
-     selectable: true
+     selectable: true,
+     events: [{% for event in site.events %}{
+       title  : '{{ event.title }}',
+       url    : '{{ event.url }}',
+       allDay : {% if event.all_day %}true{% else %}false{% endif %},{% if event.end_date %}end    : '{{ event.end_date | date_to_xmlschema }}'{% endif %}
+       start  : '{{ event.date | date_to_xmlschema }}'
+      }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+     ]
    });
   calendar.render();
 });
