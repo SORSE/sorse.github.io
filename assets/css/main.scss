@@ -10,18 +10,16 @@ $link-color-hover: mix(#000, $link-color, 50%);
 
 $karla: "Karla", sans-serif;
 $header-font-family: $karla;
+
+$masthead-link-color: #37b2a3;
+$masthead-link-color-hover: mix(#000, $masthead-link-color, 15%);
+$masthead-link-color-visited: #63cfc2;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "card";
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Work+Sans:wght@400;500;700&display=swap');
 
-body{
- font-family: 'Work Sans', "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-}
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Karla','Helvetica' sans-serif;
-}
 .masthead {
   background-color: #0c0c0c;
   border-bottom: none;
@@ -37,20 +35,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .greedy-nav {
   background: #fff0;
-  a {
-    color: #37b2a3;
-
-    &:hover {
-      color: #63cfc2;
-    }
-    &:visited {
-      color: #63cfc2;
-    }
-  }
 }
 
 .greedy-nav .visible-links a:before{
-  background: #63cfc2;
+  background: #37b2a3;
 }
 
 .icon{
