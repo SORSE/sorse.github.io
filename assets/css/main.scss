@@ -4,6 +4,9 @@
 
 @charset "utf-8";
 
+$link-color: #740B70;
+$link-color-visited: #9B4C97;
+$link-color-hover: mix(#000, $link-color, 50%);
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -20,9 +23,6 @@ h1, h2, h3, h4, h5, h6 {
 .masthead {
   background-color: #0c0c0c;
   border-bottom: none;
-  -webkit-box-shadow: 0px 1px 5px 0px rgba(	41, 41, 41,0.7);
-  -moz-box-shadow: 0px 1px 5px 0px rgba(	41, 41, 41,0.7);
-  box-shadow: 0px 1px 5px 0px rgba(	41, 41, 41,0.7);
 }
 
 .page__hero {
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Karla','Helvetica' sans-serif;
 }
 
-.toc .active a{
+.toc .active a, .toc a:visited{
   color: #646464;
   background-color: #dadada;
 }
@@ -75,15 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #474747;
 }
 
-// Hyperlinks 
-
-a {
-  color: #740B70;
-}
-
-a:visited{
-  color:  #9B4C97;
-}
+// Hyperlinks
 
 a.missing:link {
   color: rgba(255, 0, 0, 1.0);
@@ -118,24 +110,24 @@ nav.pagination{
   font-size: 0.85em;
 }
 
-.btn--success{
+.btn--success, .btn--success:visited{
   background-color: #1b8275;
-  &:hover, &:visited, &:focus{
+  &:hover, &:focus{
     background-color: #2e9f91;
   }
 }
 
-.btn--danger{
+.btn--danger, .btn--danger:visited{
   background-color: #e95371;
-  &:hover, &:visited, &:focus{
+  &:hover, &:focus{
     background-color: #ec6a84;
   }
 }
 
-.btn--info{
+.btn--info, .btn--info:visited{
   background-color: #d8b117;
   color: #0c0c0c;
-  &:hover, &:visited, &:focus{
+  &:hover, &:focus{
     background-color: #e7bf21;
     color: #0c0c0c;
   }
@@ -145,9 +137,9 @@ a:focus, button:focus{
   outline: none;
 }
 
-.btn--primary{
+.btn--primary, .btn--primary:visited{
   background-color: #474747;
-  &:hover, &:visited, &:focus{
+  &:hover, &:focus{
     background-color: #646464;
   }
 }
