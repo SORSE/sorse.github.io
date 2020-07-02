@@ -33,7 +33,8 @@ fullcalendar: true
      events: [{% for event in site.events %}{
        title  : '{{ event.title }}',
        url    : '{{ event.url }}',
-       allDay : {% if event.all_day %}true{% else %}false{% endif %},{% if event.end_date %}end    : '{{ event.end_date | date_to_xmlschema }}'{% endif %}
+       allDay : {% if event.all_day %}true{% else %}false{% endif %},
+       {% unless event.end_date %}// {% endunless %}end    : '{{ event.end_date | date_to_xmlschema }}'
        start  : '{{ event.date | date_to_xmlschema }}'
       }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
      ]
