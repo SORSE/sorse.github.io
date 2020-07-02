@@ -32,7 +32,7 @@ fullcalendar: true
      selectable: true,
      events: [{% for event in site.events %}{
        title  : '{{ event.title }}',
-       url    : '{{ event.url }}',
+       url    : "{{ event.url | relative_url }}",
        allDay : {% if event.all_day %}true{% else %}false{% endif %},
        {% unless event.end_date %}// {% endunless %}end    : '{{ event.end_date | date_to_xmlschema }}'
        start  : '{{ event.date | date_to_xmlschema }}'
