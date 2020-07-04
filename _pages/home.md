@@ -13,6 +13,7 @@ header:
     - label: Submit an abstract
       url: /programme/call-for-contributions/
 excerpt: International Series of Online Research Software Events
+fullcalendar: true
 ---
 
 <aside id="twitter-holder" class="sidebar__right sticky">
@@ -25,7 +26,7 @@ This is an open call to all RSEs and anyone involved with research software worl
 
 Any questions, read [more](faq/about/what-is-sorse) or [get in touch](contact/)!
 
-### News
+## News
 
 {% if paginator %}
   {% assign posts = paginator.categories["news"] %}
@@ -39,4 +40,6 @@ Any questions, read [more](faq/about/what-is-sorse) or [get in touch](contact/)!
 
 {% include paginator.html %}
 
-### Upcoming Events
+## Upcoming Events
+
+{% include upcoming-events.html %}

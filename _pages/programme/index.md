@@ -5,7 +5,9 @@ collection: events
 permalink: /programme/
 sidebar:
   nav:  programme
+fullcalendar: true
 ---
 
-HERE SHOULD BE A SCHEDULE
-{: notice--alert}
+## Upcoming events
+
+{% include upcoming-events.html %}
