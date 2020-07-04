@@ -2,8 +2,6 @@
 layout: archive
 ---
 
-{{ content }}
-
 {% assign collection = site[page.collection] %}
 {% include group-by-array collection=collection field="category" %}
 
@@ -17,6 +15,9 @@ layout: archive
     </li>
   {% endfor %}
 </ul>
+
+
+{{ content }}
 
 
 {% for category in group_names %}
