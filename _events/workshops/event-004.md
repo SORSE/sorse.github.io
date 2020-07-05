@@ -6,6 +6,7 @@ authors:
     email: somewhere@someone.to
   - name: Some One Else
     bio: "Another affiliation"
+    orcid: 0000-0001-6171-7716
   - name: Some Guy
     bio: "Another affiliation"
 date: 2020-07-11T18:00:00Z
