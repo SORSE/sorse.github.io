@@ -1,0 +1,9 @@
+{% assign event = include.event %}
+
+{% if event.authors %}
+{% for author in event.authors %}
+  {% assign author = site.data.authors[author] | default: author %}
+  <b>{{ author.name }}</b>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+<div class="page__date"><strong><i class="far fa-clock" aria-hidden="true"></i></strong> <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%B %-d, %Y, %H:%M %Z" }}</time></div>
+{% endif %}
