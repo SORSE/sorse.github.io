@@ -13,6 +13,8 @@ news:
     title: SORSE
     url: /
     children:
+      - title: Upcoming events
+        url: /programme/
       - title: Aims of SORSE
         url: "/faq/about/what-is-sorse"
       - title: "Format of SORSE"
@@ -83,6 +85,8 @@ programme:
         url: /programme/calendar/
       - title: "Ask us anything"
         url: "/programme/ask-us-anything/"
+  - &teams
+    children:
       # - title: Awards
       #   url: "/programme/awards/"
       - title: Panels and Discussions
@@ -103,6 +107,7 @@ programme:
 programme_faq:
   - *sorse20
   - *programme
+  - *teams
   - *faq
 
 coc:
