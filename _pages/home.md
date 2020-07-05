@@ -24,7 +24,7 @@ Welcome to SORSE - A **S**eries of **O**nline **R**esearch **S**oftware **E**ven
 
 This is an open call to all RSEs and anyone involved with research software worldwide, to propose a talk, a workshop, a software demo, a panel or discussion, blog post or poster. After the each event, SORSE will provide an opportunity for networking and informal discussion with other participants in small groups.
 
-Any questions, read [more](faq/about/what-is-sorse) or [get in touch](contact/)!
+Any questions, read [more](faq/about/what-is-sorse), [get in touch](contact/), or see [upcoming events](#upcoming-events)!
 
 ## News
 
