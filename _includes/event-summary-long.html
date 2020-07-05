@@ -1,6 +1,6 @@
 {% assign event = include.event %}
 
-{% if event.authors %}
+<p>
 {% include group-by-array collection=event.authors field="bio" %}
 {% for author in event.authors %}
   {% assign author = site.data.authors[author] | default: author %}
@@ -46,4 +46,4 @@
 
 </p>
 
-{% endif %}
+<p class="page__date"><strong><i class="far fa-clock" aria-hidden="true"></i></strong> <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%B %-d, %Y, %H:%M %Z" }}</time></p>
