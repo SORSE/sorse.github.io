@@ -328,7 +328,7 @@ $endif$
   \vspace{2mm}
 
   {\bfseries Category:} $category$\\
-  {\bfseries Published:} $published$
+  {\bfseries Published:} $date$
 
   \vspace{2mm}
   {\bfseries License}\\
