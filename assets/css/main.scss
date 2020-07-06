@@ -100,24 +100,30 @@ nav.pagination{
   font-size: 0.85em;
 }
 
-.btn--success, .btn--success:visited{
-  background-color: #1b8275;
-  &:hover, &:focus{
+.btn--success{
+  &, &:visited, &:focus{
+    background-color: #1b8275;
+  }
+  &:hover{
     background-color: #2e9f91;
   }
 }
 
-.btn--danger, .btn--danger:visited{
-  background-color: #e95371;
-  &:hover, &:focus{
+.btn--danger{
+  &, &:visited, &:focus{
+    background-color: #e95371;
+  }
+  &:hover{
     background-color: #ec6a84;
   }
 }
 
-.btn--info, .btn--info:visited{
-  background-color: #d8b117;
-  color: #0c0c0c;
-  &:hover, &:focus{
+.btn--info{
+  &, &:visited, &:focus{
+    background-color: #d8b117;
+    color: #0c0c0c;
+  }
+  &:hover{
     background-color: #e7bf21;
     color: #0c0c0c;
   }
@@ -127,9 +133,11 @@ a:focus, button:focus{
   outline: none;
 }
 
-.btn--primary, .btn--primary:visited{
-  background-color: #474747;
-  &:hover, &:focus{
+.btn--primary{
+  &, &:visited, &:focus{
+    background-color: #474747;
+  }
+  &:hover{
     background-color: #646464;
   }
 }
@@ -159,7 +167,7 @@ a:focus, button:focus{
   color: #ffffff;
   background-color: #0c0c0c;
 }
-// 
+//
 .page__footer-nav{
   font-size: 0.75em;
 }
