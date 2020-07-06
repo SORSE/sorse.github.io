@@ -44,8 +44,6 @@ jobs:
 
       - name: Upload pdfs as artifacts
         uses: actions/upload-artifact@v2-preview
-
-        # Path is relative to GITHUB_WORKSPACE
         with:
           name: event-pdfs
           path: _events
