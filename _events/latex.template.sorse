@@ -61,7 +61,7 @@
 \fancyhead[R]{}
 \renewcommand{\footrulewidth}{0.25pt}
 
-\fancyfoot[L]{\footnotesize{\sffamily $citation_author$, ($year$). $footnote_paper_title$. \textit{$journal_name$}, $volume$($issue$), $page$. \href{https://doi.org/$formatted_doi$}{https://doi.org/$formatted_doi$}}}
+\fancyfoot[L]{\footnotesize{\sffamily $citation_author$, ($year$). $footnote_paper_title$. \textit{$journal_name$}, $volume$($issue$), $page$. $if(formatted_doi)$\href{https://doi.org/$formatted_doi$}{https://doi.org/$formatted_doi$}$endif$}}
 
 
 \fancyfoot[R]{\sffamily \thepage}
@@ -316,8 +316,7 @@ $endif$
   %\hrule
   \sffamily\small
 
-  {\bfseries DOI:} \href{https://doi.org/$formatted_doi$}{\color{linky}{$formatted_doi$}}
-
+  $if(formatted_doi)${\bfseries DOI:} \href{https://doi.org/$formatted_doi$}{\color{linky}{$formatted_doi$}}$endif$
   \vspace{2mm}
 
   {\bfseries Software}
@@ -325,7 +324,6 @@ $endif$
     \setlength\itemsep{0em}
     \item \href{https://sorse.github.io}{\color{linky}{SORSE}} \ExternalLink
     \item \href{$website$}{\color{linky}{Event Website}} \ExternalLink
-    \item \href{$repository$}{\color{linky}{Repository}} \ExternalLink
   \end{itemize}
   \vspace{2mm}
 
