@@ -46,4 +46,10 @@
 
 </p>
 
-<p class="page__date"><strong><i class="far fa-clock" aria-hidden="true"></i></strong> <time datetime="{{ event.date | date_to_xmlschema }}">{{ event.date | date: "%B %-d, %Y, %H:%M %Z" }}</time></p>
+<ul class="page__date">
+  {% for time in event.time %}
+  <li>
+    {% include event-time.html %}
+  </li>
+  {% endfor %}
+</ul>
