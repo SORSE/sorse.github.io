@@ -13,6 +13,13 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+      - name: Set Publication Date Variables
+        run: |
+            PUBDATE=$(date +'%B %-d, %Y')
+            PUBYEAR=$(date +'%Y')
+            echo "published ${PUBDATE}" >> _events/sorse-variables.txt
+            echo "year ${PUBYEAR}" >> _events/sorse-variables.txt
+
       - name: Generate Full PDF Template      
         uses: rseng/pdf-generator@add-folder-input
         with:        

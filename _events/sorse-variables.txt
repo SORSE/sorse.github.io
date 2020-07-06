@@ -1,4 +1,1 @@
-year 2020
 journal_name SORSE
-volume 1
-page 1

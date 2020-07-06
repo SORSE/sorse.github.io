@@ -61,7 +61,7 @@
 \fancyhead[R]{}
 \renewcommand{\footrulewidth}{0.25pt}
 
-\fancyfoot[L]{\footnotesize{\sffamily $citation_author$, ($year$). $footnote_paper_title$. \textit{$journal_name$}, $volume$($issue$), $page$. $if(formatted_doi)$\href{https://doi.org/$formatted_doi$}{https://doi.org/$formatted_doi$}$endif$}}
+\fancyfoot[L]{\footnotesize{\sffamily $citation_author$, ($year$). $footnote_paper_title$. \textit{$journal_name$}. $if(formatted_doi)$\href{https://doi.org/$formatted_doi$}{https://doi.org/$formatted_doi$}$endif$}}
 
 
 \fancyfoot[R]{\sffamily \thepage}
@@ -323,12 +323,12 @@ $endif$
   \begin{itemize}
     \setlength\itemsep{0em}
     \item \href{https://sorse.github.io}{\color{linky}{SORSE}} \ExternalLink
-    \item \href{$website$}{\color{linky}{Event Website}} \ExternalLink
+    $if(website)$\item \href{$website$}{\color{linky}{Event Website}} \ExternalLink$endif$
   \end{itemize}
   \vspace{2mm}
 
   {\bfseries Category:} $category$\\
-  {\bfseries Published:} $date$
+  {\bfseries Published:} $published$
 
   \vspace{2mm}
   {\bfseries License}\\
