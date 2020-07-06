@@ -33,7 +33,7 @@ jobs:
           mapping_file: _events/sorse-mapping.txt
 
           # A variables file to use
-          mapping_file: _events/sorse-variables.txt
+          variables_file: _events/sorse-variables.txt
 
       - name: Upload pdfs as artifacts
         uses: actions/upload-artifact@v2-preview
