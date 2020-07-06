@@ -27,11 +27,12 @@
     {% assign email_link = '' %}
   {% endif %}
   {% if author.orcid %}
-    {% capture orcid %} <a href="https://orcid.org/{{ author.orcid }}"><span><i class="elastic-fai fab fa-orcid"></i></span></a>{% endcapture %}
+    {% capture author_name %}
+    <a itemprop="sameAs" content="https://orcid.org/{{ author.orcid }}" href="https://orcid.org/{{ author.orcid }}" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/orcid.svg' | relative_url }}" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">{{ author.name }}</a>{% endcapture %}
   {% else %}
-    {% assign orcid = '' %}
+    {% assign author_name = author.name %}
   {% endif %}
-  {{ author.name }}{{ affiliation }}{{ email_link}}{{ orcid }}{% unless forloop.last %}, {% endunless %}
+  {{ author_name }}{{ affiliation }}{{ email_link}}{% unless forloop.last %}, {% endunless %}
 
 {% endfor %}
 <div id="affiliations" class="footnotes" role="doc-endnotes">
