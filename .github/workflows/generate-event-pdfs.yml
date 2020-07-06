@@ -1,7 +1,6 @@
 name: generate-pdf-artifacts
 
 on:
-  pull_request: []
   push:
     branches:
      - master
@@ -19,7 +18,7 @@ jobs:
             echo "year ${PUBYEAR}" >> _events/sorse-variables.txt
 
       - name: Generate Full PDF Template      
-        uses: rseng/pdf-generator@add-folder-input
+        uses: rseng/pdf-generator@0.0.1
         with:        
 
           # The latex template to use (defaults to one here)
