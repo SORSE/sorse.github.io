@@ -6,7 +6,10 @@ authors:
     email: someguy@someone.to
   - name: Co Author
     bio: "Another affiliation"
-date: 2020-07-03T18:00:00Z
+date: 2020-06-30T18:00:00Z
+time:
+  - start: 2020-07-24T18:00:00Z
+    end: 2020-07-24T18:15:00Z
 category: software_demo
 ---
 
