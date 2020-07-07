@@ -1,0 +1,56 @@
+{% assign event = include.event %}
+
+<p>
+{% include group-by-array collection=event.authors field="bio" %}
+{% for author in event.authors %}
+  {% assign author = site.data.authors[author] | default: author %}
+  {% assign email = author.email %}
+  {% unless email %}
+    {% for link in author.links %}
+        {% if link.label == "Email" %}
+            {% assign email = link.url %}
+        {% endif %}
+    {% endfor %}
+  {% endunless %}
+  {% assign affil_num = '' %}
+  {% for affiliation in group_names %}
+    {% if affiliation == author.bio %}
+      {% assign affil_num = forloop.index %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% capture affiliation %}<sup id="fnref:{{ affil_num }}" role="doc-noteref"><a href="#fn:{{ affil_num }}" class="footnote" title="{{ author.bio }}">{{ affil_num }}</a></sup>{% endcapture %}
+  {% if email %}
+    {% assign email = email | remove: "mailto:" %}
+    {% capture email_link %} <a href="mailto:{{ email }}" title='{{ email }}'><span><i class="elastic-fai fas fa-envelope"></i></span></a>{% endcapture %}
+  {% else %}
+    {% assign email_link = '' %}
+  {% endif %}
+  {% if author.orcid %}
+    {% capture author_name %}
+    <a itemprop="sameAs" content="https://orcid.org/{{ author.orcid }}" href="https://orcid.org/{{ author.orcid }}" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/orcid.svg' | relative_url }}" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">{{ author.name }}</a>{% endcapture %}
+  {% else %}
+    {% assign author_name = author.name %}
+  {% endif %}
+  {{ author_name }}{{ affiliation }}{{ email_link}}{% unless forloop.last %}, {% endunless %}
+
+{% endfor %}
+<div id="affiliations" class="footnotes" role="doc-endnotes">
+  <ol>
+    {% for affiliation in group_names %}
+    <li id="fn:{{ forloop.index }}" role="doc-endnote">
+      {{ affiliation }}. <a href="#fnref:{{ forloop.index }}" class="reversefootnote" role="doc-backlink">&#8617;</a>
+    </li>
+    {% endfor %}
+  </ol>
+</div>
+
+</p>
+
+<ul class="page__date">
+  {% for time in event.time %}
+  <li>
+    {% include event-time.html %}
+  </li>
+  {% endfor %}
+</ul>

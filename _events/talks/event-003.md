@@ -8,7 +8,10 @@ authors:
     bio: "Another affiliation"
   - name: Some Guy
     bio: "Another affiliation"
-date: 2020-06-29T18:00:00Z
+date: 2020-06-29
+time:
+  - start: 2020-07-29T18:00:00Z
+    end: 2020-07-29T18:30:00Z
 category: talk
 ---
 

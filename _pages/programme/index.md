@@ -1,6 +1,6 @@
 ---
 title: Programme
-layout: collection-categories
+layout: all-events
 collection: events
 permalink: /programme/
 sidebar:

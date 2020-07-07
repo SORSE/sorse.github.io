@@ -1,0 +1,15 @@
+{% assign event = include.event %}
+
+{% if event.authors %}
+{% for author in event.authors %}
+  {% assign author = site.data.authors[author] | default: author %}
+  <b>{{ author.name }}</b>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+<ul class="page__date">
+  {% for time in event.time %}
+  <li>
+    {% include event-time.html %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
