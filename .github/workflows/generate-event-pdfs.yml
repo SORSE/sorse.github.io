@@ -22,11 +22,14 @@ jobs:
         uses: rseng/pdf-generator@add/template-variables
         with:
 
+          # Generate in context of _events to remove path
+          workdir: _events
+
           # The latex template to use (defaults to one here)
-          latex_template: _events/latex.template.sorse
+          latex_template: ../latex.template.sorse
 
           # Directory of files to recursively render (.md extension)
-          paper_dir: _events
+          paper_dir: .
 
           # A path to a png logo file
           png_logo: assets/images/logo.png
@@ -35,10 +38,10 @@ jobs:
           pdf_type: pdf
 
           # A mapping file to use
-          mapping_file: _events/sorse-mapping.txt
+          mapping_file: ../sorse-mapping.txt
 
           # A variables file to use
-          variables_file: _events/sorse-variables.txt
+          variables_file: ../sorse-variables.txt
 
       - name: Upload pdfs as artifacts
         uses: actions/upload-artifact@v2-preview
