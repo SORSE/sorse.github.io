@@ -15,6 +15,7 @@
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{seqsplit}
+\usepackage[en-US]{datetime2}
 \usepackage{fixltx2e} % provides \textsubscript
 \usepackage[
   backend=biber,
@@ -328,7 +329,7 @@ $endif$
   \vspace{2mm}
 
   {\bfseries Category:} $category$\\
-  {\bfseries Published:} $date$
+  {\bfseries Published:} \DTMdate{$date$}
 
   \vspace{2mm}
   {\bfseries License}\\
