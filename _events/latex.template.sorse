@@ -323,8 +323,8 @@ $endif$
   {\bfseries Software}
   \begin{itemize}
     \setlength\itemsep{0em}
-    \item \href{https://sorse.github.io}{\color{linky}{SORSE}} \ExternalLink
-    $if(website)$\item \href{$website$}{\color{linky}{Event Website}} \ExternalLink$endif$
+    \item \href{$url$}{\color{linky}{SORSE}} \ExternalLink
+    \item \href{$url$/$baseurl$/$pdf_generator_outdir$/$pdf_generator_fileprefix$/}{\color{linky}{Event Website}} \ExternalLink
   \end{itemize}
   \vspace{2mm}
 
