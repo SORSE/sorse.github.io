@@ -29,4 +29,4 @@ Please see the [contact page]({% include fix-link.html link="/contact/" %}) for
 more information.
 
 ## Further links
-{% include team-button.html team="orga" %}
+{% include team-button.html team="operating" %}

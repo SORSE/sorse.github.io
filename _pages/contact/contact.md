@@ -4,6 +4,7 @@ title: "Contact"
 sidebar:
   nav: "contact"
 author: de-RSE
+classes: wide
 ---
 
 ## Who is organising SORSE?
