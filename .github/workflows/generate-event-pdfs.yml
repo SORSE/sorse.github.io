@@ -26,7 +26,7 @@ jobs:
           workdir: _events
 
           # The latex template to use (defaults to one here)
-          latex_template: ../latex.template.sorse
+          latex_template: latex.template.sorse
 
           # Directory of files to recursively render (.md extension)
           paper_dir: .
@@ -38,10 +38,10 @@ jobs:
           pdf_type: pdf
 
           # A mapping file to use
-          mapping_file: ../sorse-mapping.txt
+          mapping_file: sorse-mapping.txt
 
           # A variables file to use
-          variables_file: ../sorse-variables.txt
+          variables_file: sorse-variables.txt
 
       - name: Upload pdfs as artifacts
         uses: actions/upload-artifact@v2-preview
