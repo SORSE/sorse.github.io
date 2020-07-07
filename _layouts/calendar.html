@@ -1,0 +1,36 @@
+---
+layout: single
+---
+
+{{ content }}
+
+<div id='calendar'></div>
+
+<script>
+
+ document.addEventListener('DOMContentLoaded', function() {
+   var calendarEl = document.getElementById('calendar');
+
+   calendar = new FullCalendar.Calendar(calendarEl, {
+     headerToolbar: {
+       left: 'prev,next today',
+       center: 'title',
+       right: 'dayGridMonth,listWeek,listDay'
+     },
+     buttonText: {
+       week: 'week',
+       day: 'day'
+     },
+     timeZone: 'UTC',
+     initialView: 'dayGridMonth',
+     editable: true,
+     selectable: true,
+     events: [
+        {% for post in site.events %}
+        {% include event.js %}{% if forloop.last %}{% else %},{% endif %}
+        {% endfor %}
+     ]
+   });
+  calendar.render();
+});
+</script>

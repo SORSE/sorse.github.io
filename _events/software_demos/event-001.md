@@ -6,7 +6,10 @@ authors:
     email: nomail@someone.to
   - name: Some One Else
     bio: "Another affiliation"
-date: 2020-06-24T09:00:00Z
+date: 2020-06-30
+time:
+  - start: 2020-07-15T15:00:00Z
+    end: 2020-07-15T15:30:00Z
 category: software_demo
 ---
 

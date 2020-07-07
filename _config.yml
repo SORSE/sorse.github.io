@@ -136,7 +136,7 @@ defaults:
       collection_button:
         name: Schedule
         url: /programme/
-      layout: single
+      layout: event
 
 collections:
   bazaar:

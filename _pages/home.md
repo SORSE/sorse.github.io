@@ -13,6 +13,7 @@ header:
     - label: Submit an abstract
       url: /programme/call-for-contributions/
 excerpt: International Series of Online Research Software Events
+fullcalendar: true
 ---
 
 <aside id="twitter-holder" class="sidebar__right sticky">
@@ -23,9 +24,9 @@ Welcome to SORSE - A **S**eries of **O**nline **R**esearch **S**oftware **E**ven
 
 This is an open call to all RSEs and anyone involved with research software worldwide, to propose a talk, a workshop, a software demo, a panel or discussion, blog post or poster. After the each event, SORSE will provide an opportunity for networking and informal discussion with other participants in small groups.
 
-Any questions, read [more](faq/about/what-is-sorse) or [get in touch](contact/)!
+Any questions, read [more](faq/about/what-is-sorse), [get in touch](contact/), or see [upcoming events](#upcoming-events)!
 
-### News
+## News
 
 {% if paginator %}
   {% assign posts = paginator.categories["news"] %}
@@ -39,4 +40,6 @@ Any questions, read [more](faq/about/what-is-sorse) or [get in touch](contact/)!
 
 {% include paginator.html %}
 
-### Upcoming Events
+## Upcoming Events
+
+{% include upcoming-events.html %}

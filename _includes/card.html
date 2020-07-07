@@ -1,6 +1,11 @@
 {% assign info = include.info %}
 {% unless info.hidden %}
-<div class="card col-s-12 col-5" >
+{% if page.classes contains "wide" %}
+  {% assign card_cls = "col-3" %}
+{% else %}
+  {% assign card_cls = "col-5" %}
+{% endif %}
+<div class="card col-s-12 {{ card_cls }}" >
   <div>
     {% if info.website %}
     <div onclick="window.open('{{ info.website }}');">

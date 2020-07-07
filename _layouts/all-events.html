@@ -25,6 +25,6 @@ layout: archive
   {% assign posts = group_items[forloop.index0] %}
   <section id="{{ category | slugify | downcase }}" class="taxonomy__section">
     <h2>{{ category_name }}</h2>
-      {% include documents-subcollection.html collection=posts sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+      {% include events-subcollection.html collection=posts sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
   </section>
 {% endfor %}
