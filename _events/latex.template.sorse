@@ -324,7 +324,7 @@ $endif$
   \begin{itemize}
     \setlength\itemsep{0em}
     \item \href{$url$}{\color{linky}{SORSE}} \ExternalLink
-    \item \href{$url$$baseurl$/events/$pdf_generator_outdir$/$pdf_generator_fileprefix$/}{\color{linky}{Event Website}} \ExternalLink
+    \item \href{$url$$baseurl$/$pdf_generator_outdir$/$pdf_generator_fileprefix$/}{\color{linky}{Event Website}} \ExternalLink
   \end{itemize}
   \vspace{2mm}
 
