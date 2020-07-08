@@ -1,0 +1,49 @@
+name: generate-pdf-artifacts
+
+on:
+  push:
+    branches:
+     - master
+
+jobs:
+  GeneratePdfArtifacts:
+    name: Generate PDFs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Set Publication Date Variables
+        run: |
+            PUBYEAR=$(date +'%Y')
+            echo "year ${PUBYEAR}" >> _events/sorse-variables.txt
+
+      - name: Generate Full PDF Template
+        uses: rseng/pdf-generator@0.0.3
+        with:
+
+          # Generate in context of _events to remove path
+          workdir: _events
+
+          # The latex template to use (defaults to one here)
+          latex_template: latex.template.sorse
+
+          # Directory of files to recursively render (.md extension)
+          paper_dir: .
+
+          # A path to a png logo file
+          png_logo: ../assets/images/logo.png
+
+          # One of "minimal" or "pdf" for the template with image, etc.
+          pdf_type: pdf
+
+          # A mapping file to use
+          mapping_file: sorse-mapping.txt
+
+          # A variables file to use
+          variables_file: sorse-variables.txt
+
+      - name: Upload pdfs as artifacts
+        uses: actions/upload-artifact@v2-preview
+        with:
+          name: event-pdfs
+          path: _events
