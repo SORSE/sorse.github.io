@@ -2,6 +2,7 @@
 title: Can I write blogs posts?
 tags:
   - How it works
+  - Submission
 sidebar:
   nav: programme_faq
 ---
