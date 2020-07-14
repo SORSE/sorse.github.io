@@ -1,6 +1,6 @@
 {%- for deadline in site.data.coc_deadlines -%}
-{%- capture deadline_start -%}{{ deadline }}T23:59:58Z{%- endcapture -%}
-{%- capture deadline_end -%}{{ deadline }}T23:59:59Z{%- endcapture -%}
+{%- capture deadline_start -%}{{ deadline }}T23:00:00-0100{%- endcapture -%}
+{%- capture deadline_end -%}{{ deadline }}T23:00:00-0100{%- endcapture -%}
 {
   title  : 'Submission deadline',
   url    : "{{ '/programme/call-for-contributions/' | relative_url }}",
