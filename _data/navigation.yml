@@ -146,15 +146,15 @@ archive:
 
 footer:
   - title: Programme
-    url: "/programme/call-for-contributions/"
+    url: /programme/call-for-contributions/
   - title: Contact
-    url: "/contact/"
+    url: /contact/
   - title: About
-    url: "/faq#about"
+    url: /faq#about
   - title: FAQ
-    url: "/faq/"
+    url: /faq/
   - title: Archive
-    url: "/archive/"
+    url: /archive/
   - title: Privacy policy
     url: /privacy/
   - title: Code of Conduct
