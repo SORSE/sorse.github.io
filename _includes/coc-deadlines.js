@@ -4,10 +4,12 @@
 {
   title  : 'Submission deadline',
   url    : "{{ '/programme/call-for-contributions/' | relative_url }}",
-  color  : "#d8b117",
   {% if include.background %}
   allDay: true,
   display: "background",
+  backgroundColor  : "rgba(216, 177, 23, 0.3)",
+  {% else %}
+  color  : "#d8b117",
   {% endif %}
   start  : "{{ deadline_start | date_to_xmlschema }}",
   end    : "{{ deadline_end | date_to_xmlschema }}"
