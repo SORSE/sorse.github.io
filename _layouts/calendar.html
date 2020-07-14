@@ -26,6 +26,7 @@ layout: single
      editable: true,
      selectable: true,
      events: [
+        {% include coc-deadlines.js background=true %},
         {% for post in site.events %}
         {% include event.js %}{% if forloop.last %}{% else %},{% endif %}
         {% endfor %}
