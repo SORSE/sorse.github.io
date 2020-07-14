@@ -5,9 +5,10 @@
   title  : 'Submission deadline',
   url    : "{{ '/programme/call-for-contributions/' | relative_url }}",
   {% if include.background %}
-  allDay: true,
-  display: "background",
-  backgroundColor  : "rgba(216, 177, 23, 0.3)",
+  display: "block",
+  color  : "#d8b117",
+  textColor: "#740B70",
+  classNames: ["fg-coc-deadline"],  // to change the font-weight
   {% else %}
   color  : "#d8b117",
   {% endif %}
