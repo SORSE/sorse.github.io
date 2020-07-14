@@ -8,6 +8,7 @@
    var calendarEl = document.getElementById('calendar');
 
    var events = [
+      {% include coc-deadlines.js %},
       {% for post in site.events %}
       {% include event.js %}{% if forloop.last %}{% else %},{% endif %}
       {% endfor %}
