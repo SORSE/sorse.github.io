@@ -1,0 +1,13 @@
+<div title="Add to Calendar" class="addeventatc" data-styling="none">
+    <i class="far fa-calendar-plus"></i> Add to Calendar
+    <span class="start">{{ time.start | date: "%Y-%m-%d %H:%M" }}</span>
+    {%- if time.end %}
+    <span class="end">{{ time.start | date: "%Y-%m-%d %H:%M" }}</span>
+    {%- endif %}
+    <span class="timezone">UTC</span>
+    <span class="title">{{ page.title }}</span>
+    <span class="description">{{ page.excerpt | markdownify | strip_html }}</span>
+    <span class="location">{{ site.url }}{{ site.baseurl }}/{{ page.url }}</span>
+    <span class="organizer_email">{{ site.email }}</span>
+    <span class="organizer">{{ site.author.name }}</span>
+</div>
