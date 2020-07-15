@@ -14,6 +14,6 @@ Whether you are a first-time presenter or not, if you feel that you could do wit
 
 Similarly, if you just need some advice or practice using the online tools, just let us know!
 
-As SORSE is an ongoing event series, we are also always looking for more mentors. So, if you have experience with presenting and would be happy to help a junior/less experienced presenter, please drop us an email at sorse.enquiries@gmail.com and we will add you to our mentor pool. When there is a request for a mentor we will get in touch with the person from the pool we feel is most suited to help this particular mentee.
+As SORSE is an ongoing event series, we are also always looking for more mentors. So, if you have experience with presenting and would be happy to help a junior/less experienced presenter, please drop us an email at [sorse.enquiries@gmail.com](mailto:sorse.enquiries@gmail.com) and we will add you to our mentor pool. When there is a request for a mentor we will get in touch with the person from the pool we feel is most suited to help this particular mentee.
 
 {% include faq-cards-tag.html title="FAQ" tag="Mentoring" %}
