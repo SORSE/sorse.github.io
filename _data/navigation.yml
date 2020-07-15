@@ -75,11 +75,13 @@ programme:
     title: "Programme"
     children:
       - title: "Call for Contributions"
-        url: "/programme/call-for-contributions/"
+        url: /programme/call-for-contributions/
       - title: "Have your say"
-        url: "/programme/wishlist/"
+        url: /programme/wishlist/
       - title: "Ask us anything"
-        url: "/programme/ask-us-anything/"
+        url: /programme/ask-us-anything/
+      - title: Mentoring at SORSE
+        url: /programme/mentoring/
       # - title: Awards
       #   url: "/programme/awards/"
       - title: Panels and Discussions
