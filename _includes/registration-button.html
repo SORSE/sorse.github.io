@@ -1,0 +1,9 @@
+{% if page.registration_url %}
+<a class="btn btn--success" href="{{ page.registration_url }}">
+  <i class="fas fa-feather-alt"></i> Register
+</a>
+{% else %}
+<div class="notice--info" style="display: table-cell;">
+  <i>Registration will open soon</i>
+</div>
+{% endif %}

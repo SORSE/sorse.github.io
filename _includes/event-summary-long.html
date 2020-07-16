@@ -1,6 +1,5 @@
 {% assign event = include.event %}
 
-<p>
 {% include group-by-array collection=event.authors field="bio" %}
 {% for author in event.authors %}
   {% assign author = site.data.authors[author] | default: author %}
@@ -45,8 +44,6 @@
   </ol>
 </div>
 
-</p>
-
 {% if event.time %}
 <ul class="page__date">
   {% for time in event.time %}
@@ -58,3 +55,4 @@
 {% else %}
 <div class="notice--info" style="display: table-cell;"><i>This event will be scheduled soon</i></div>
 {% endif %}
+{% include registration-button.html %}
