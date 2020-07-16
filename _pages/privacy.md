@@ -39,7 +39,8 @@ toc_sticky: true
 
 - We use a Google form to submit to the topic bazaar, but this is also stated
   separately [here]({% include fix-link.html link=submit_topic %}).
-- Participants register using a Google form for events.
+- Participants register via the [indico](https://indico.scc.kit.edu) platform
+  ([privacy statement](https://indico.scc.kit.edu/event/863/page/550-privacy-policy))
 - By registering you give consent to store your contact information.
 - We keep this information (participation details) until one month after each event.
 - Upon request your data can be removed earlier.
