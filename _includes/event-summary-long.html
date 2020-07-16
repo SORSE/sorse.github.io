@@ -31,13 +31,21 @@
   {% else %}
     {% assign author_name = author.name %}
   {% endif %}
-  {{ author_name }}{{ affiliation }}{{ email_link}}{% unless forloop.last %}, {% endunless %}
+  {% if author.is_speaker %}
+  {% capture presenting %}<sup id="fnref:presenting" role="doc-noteref"><a href="#fn:presenting" class="footnote" title="Presenting author">*</a></sup>{% endcapture %}
+  {% else %}
+  {% assign presenting = '' %}
+  {% endif %}
+  {{ author_name }}{{ affiliation }}{{ presenting }}{{ email_link}}{% unless forloop.last %}, {% endunless %}
 
 {% endfor %}
 <div id="affiliations" class="footnotes" role="doc-endnotes">
   <ol>
+    <li style="list-style-type:'*  '" id="fn:presenting" role="doc-endnote">
+      Presenting author. <a href="#fnref:presenting" class="reversefootnote" role="doc-backlink">&#8617;</a>
+    </li>
     {% for affiliation in group_names %}
-    <li id="fn:{{ forloop.index }}" role="doc-endnote">
+    <li value="{{ forloop.index }}" id="fn:{{ forloop.index }}" role="doc-endnote">
       {{ affiliation }}. <a href="#fnref:{{ forloop.index }}" class="reversefootnote" role="doc-backlink">&#8617;</a>
     </li>
     {% endfor %}

@@ -4,6 +4,7 @@ authors:
   - name: Workshop Guy
     bio: "From Somewhere on Earth"
     email: somewhere@someone.to
+    is_speaker: true
   - name: Some One Else
     bio: "Another affiliation"
     orcid: 0000-0001-6171-7716
