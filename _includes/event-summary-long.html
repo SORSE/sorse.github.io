@@ -27,7 +27,7 @@
   {% endif %}
   {% if author.orcid %}
     {% capture author_name %}
-    <a itemprop="sameAs" content="https://orcid.org/{{ author.orcid }}" href="https://orcid.org/{{ author.orcid }}" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/orcid.svg' | relative_url }}" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">{{ author.name }}</a>{% endcapture %}
+    <a itemprop="sameAs" content="https://orcid.org/{{ author.orcid }}" href="https://orcid.org/{{ author.orcid }}" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="{{ '/assets/images/orcid.svg' | relative_url }}" style="width:1em;margin-right:.5em;" alt="ORCID iD icon" class="orcid-icon">{{ author.name }}</a>{% endcapture %}
   {% else %}
     {% assign author_name = author.name %}
   {% endif %}
