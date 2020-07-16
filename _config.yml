@@ -132,6 +132,7 @@ defaults:
       sidebar:
         nav: "programme"
       author_profile: true
+      classes: wide
       share: true
       collection_button:
         name: Schedule
