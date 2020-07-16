@@ -15,6 +15,7 @@ time:
     end: 2020-07-11T21:00:00Z
   - start: 2020-07-12T18:00:00Z
     end: 2020-07-12T21:00:00Z
+registration_url: https://indico.scc.kit.edu/event/720/
 category: workshop
 ---
 
