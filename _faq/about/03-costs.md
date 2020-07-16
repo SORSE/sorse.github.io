@@ -13,5 +13,3 @@ All data will be deleted from Indico after each event. The data will **not** be 
 
 No! It’s completely free to the community with the national RSE Groups from many countries collaborating to bring this to you.
 
-
-[indico]: https://indico.scc.kit.edu
