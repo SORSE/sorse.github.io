@@ -10,5 +10,7 @@
   {{ time.end | date: "%B %-d, %Y, %H:%M %Z" }}
   {%- endif -%}
 </time>
+{% unless include.no_button %}
 &nbsp;{% include add-to-calendar-button.html %}
+{% endunless %}
 {% endif %}
