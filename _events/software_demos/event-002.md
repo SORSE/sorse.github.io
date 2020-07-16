@@ -4,6 +4,7 @@ authors:
   - name: Mario Guy
     bio: "My affiliation"
     email: someguy@someone.to
+    is_speaker: true
   - name: Co Author
     bio: "Another affiliation"
 date: 2020-06-30

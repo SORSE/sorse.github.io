@@ -4,6 +4,7 @@ authors:
   - name: Some Person
     bio: "My affiliation"
     email: onemail@someone.to
+    is_speaker: true
   - name: Some One Else
     bio: "Another affiliation"
   - name: Some Guy

@@ -4,6 +4,7 @@ authors:
   - name: Some One
     bio: "My affiliation"
     email: nomail@someone.to
+    is_speaker: true
   - name: Some One Else
     bio: "Another affiliation"
 date: 2020-06-30
