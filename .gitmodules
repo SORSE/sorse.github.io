@@ -1,0 +1,3 @@
+[submodule "assets/js/add-to-calendar-buttons"]
+	path = assets/js/add-to-calendar-buttons
+	url = https://github.com/SORSE/add-to-calendar-buttons.git
