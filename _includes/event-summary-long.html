@@ -31,6 +31,10 @@
   {% else %}
     {% assign author_name = author.name %}
   {% endif %}
+  {% if author.is_speaker %}
+  {% capture author_name %}
+    {{ author_name }} <sup><span title="Presenting author"><i class="fas fa-video"></i></span></sup> {% endcapture %}
+  {% endif %}
   {{ author_name }}{{ affiliation }}{{ email_link}}{% unless forloop.last %}, {% endunless %}
 
 {% endfor %}
