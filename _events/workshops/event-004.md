@@ -3,12 +3,14 @@ title: An awesome workshop
 authors:
   - name: Workshop Guy
     bio: "From Somewhere on Earth"
+    is_speaker: true
     email: somewhere@someone.to
   - name: Some One Else
     bio: "Another affiliation"
     orcid: 0000-0001-6171-7716
   - name: Some Guy
     bio: "Another affiliation"
+    is_speaker: true
 date: 2020-06-30
 time:
   - start: 2020-07-11T18:00:00Z
