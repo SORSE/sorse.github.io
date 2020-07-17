@@ -41,8 +41,7 @@
 {% endfor %}
 <div id="affiliations" class="footnotes" role="doc-endnotes">
   <ol>
-    <li style="list-style-type:'*  '" id="fn:presenting" role="doc-endnote">
-      Presenting author. <a href="#fnref:presenting" class="reversefootnote" role="doc-backlink">&#8617;</a>
+    <li id="fn:presenting" role="doc-endnote" class="presenter"> Presenting author. <a href="#fnref:presenting" class="reversefootnote" role="doc-backlink">&#8617;</a>
     </li>
     {% for affiliation in group_names %}
     <li value="{{ forloop.index }}" id="fn:{{ forloop.index }}" role="doc-endnote">
