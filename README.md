@@ -35,8 +35,8 @@ tab (see above), that gives you an overview on the current tasks.
   use prepend it with a `{{ site.baseurl }}`, otherwise it will not resolve
   correctly on GitHub. In other words
 
-  - `[Software demos]({{ site.data.committee.programme_teams.software_demo.internal }})` :-1: :angry:
-  - `[Software demos]({% include fix-link.html link=site.data.committee.programme_teams.software_demo.internal %}` :+1: :green_heart:
+  - `[Software demos]({{ site.data.committee.programme_teams.software-demos.internal }})` :-1: :angry:
+  - `[Software demos]({% include fix-link.html link=site.data.committee.programme_teams.software-demos.internal %}` :+1: :green_heart:
 
 
 ## Local installation

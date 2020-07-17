@@ -54,7 +54,7 @@
   teams:
     - deRSE
     - programme
-    - software_demo
+    - software-demos
     - website
 - name: Florian Thiery
   affiliation: Research Squirrel Engineers
@@ -90,7 +90,7 @@
   teams:
     - deRSE
     - programme
-    - software_demo
+    - software-demos
 - name: Anna-Lena Lamprecht
   affiliation: Utrecht University
   location: Utrecht, Netherlands
@@ -182,7 +182,7 @@
   teams:
     - ukRSE
     - programme
-    - software_demo
+    - software-demos
 - name: Tim Powell
   avatar: /assets/images/tim_powell.png
   affiliation: Hartree Centre, STFC
@@ -203,7 +203,7 @@
     - ukRSE
     - programme
     - bazaar
-    - software_demo
+    - software-demos
 - name: Andrew Gait
   avatar: /assets/images/andrew_gait.jpg
   affiliation: University of Manchester
@@ -240,7 +240,7 @@
     - beRSE
     - programme
     - operating
-    - software_demo
+    - software-demos
     - workshop
 - name: Mateusz Kuzak
   affiliation: The Netherlands eScience Center
