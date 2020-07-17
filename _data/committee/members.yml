@@ -42,7 +42,7 @@
     - panel
     - programme
     - website
-    - talk
+    - talks
 - name: Philipp S. Sommer
   affiliation: Helmholtz-Zentrum Geesthacht Centre for Materials and Coastal Research (HZG)
   location: Geesthacht, Germany
@@ -81,7 +81,7 @@
   teams:
     - deRSE
     - programme
-    - talk
+    - talks
 - name: Bezaye Tesfaye Belayneh
   affiliation: Helmholtz Center Potsdam - GFZ German Research Center for Geosciences (GFZ, Potsdam)
   location: Potsdam, Germany
@@ -169,7 +169,7 @@
     - ukRSE
     - coc
     - programme
-    - talk
+    - talks
     - workshop
 - name: Alison Clarke
   affiliation: Durham University
@@ -193,7 +193,7 @@
   teams:
     - ukRSE
     - programme
-    - talk
+    - talks
 - name: David Yuan
   avatar: /assets/images/david_yuan.jpg
   email: davidyuan@ebi.ac.uk
@@ -267,7 +267,7 @@
     - ukRSE
     - programme
     - coc
-    - talk
+    - talks
     - panel
 - name: Louise Brown
   affiliation: Composites Research Group, University of Nottingham

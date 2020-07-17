@@ -4,7 +4,7 @@ author:
   name: Krishnakumar Gopalakrishnan
 looking: true
 title: RMarkdown Documents for Reproducible Research
-type: talk
+type: talks
 contributors: Perhaps help to vet the topic and analyse its suitability and narrow down the content?
 ...
 

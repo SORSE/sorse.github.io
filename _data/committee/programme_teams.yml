@@ -1,7 +1,7 @@
 software-demos:
   name: Software demos
   internal: /programme/software-demos/
-talk:
+talks:
   name: Talks
   internal: /programme/talks/
 workshop:
