@@ -1,0 +1,30 @@
+---
+layout: archive
+---
+
+{% assign collection = site[page.collection] %}
+{% include group-by-array collection=collection field="category" %}
+
+<ul class="taxonomy__index">
+  {% for category in group_names %}
+  {% assign category_name = site.data.committee.programme_teams[category].name | default: category %}
+    <li>
+      <a href="#{{ category | slugify | downcase }}">
+        <strong>{{ category_name }}</strong> <span class="taxonomy__count">{{ group_items[forloop.index0] | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+
+{{ content }}
+
+
+{% for category in group_names %}
+  {% assign category_name = site.data.committee.programme_teams[category].name | default: category %}
+  {% assign posts = group_items[forloop.index0] %}
+  <section id="{{ category | slugify | downcase }}" class="taxonomy__section">
+    <h2>{{ category_name }}</h2>
+      {% include documents-subcollection.html collection=posts sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+  </section>
+{% endfor %}

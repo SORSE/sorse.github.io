@@ -1,6 +1,6 @@
 main:
   - title: "Programme"
-    url: /programme/call-for-contributions/ # Change to /programme/ once there is a programme page
+    url: /programme/
   - title: "Contact"
     url: /contact/
   - title: About
@@ -13,6 +13,8 @@ news:
     title: SORSE
     url: /
     children:
+      - title: Upcoming events
+        url: /programme/
       - title: Aims of SORSE
         url: "/faq/about/what-is-sorse"
       - title: "Format of SORSE"
@@ -73,15 +75,20 @@ programme:
   - *sorse20
   - &programme
     title: "Programme"
+    url: /programme/
     children:
       - title: "Call for Contributions"
         url: /programme/call-for-contributions/
       - title: "Have your say"
-        url: /programme/wishlist/
+        url: "/programme/wishlist/"
+      - title: Events Calendar
+        url: /programme/calendar/
       - title: "Ask us anything"
-        url: /programme/ask-us-anything/
+        url: "/programme/ask-us-anything/"
       - title: Mentoring at SORSE
         url: /programme/mentoring/
+  - &teams
+    children:
       # - title: Awards
       #   url: "/programme/awards/"
       - title: Panels and Discussions
@@ -102,6 +109,7 @@ programme:
 programme_faq:
   - *sorse20
   - *programme
+  - *teams
   - *faq
 
 coc:
@@ -134,13 +142,13 @@ archive:
       - title: "by month"
         url: /archive/
       - title: "by category"
-        url: /archive/categories
+        url: /archive/categories/
       - title: "by tag"
-        url: /archive/tags
+        url: /archive/tags/
 
 footer:
   - title: Programme
-    url: /programme/call-for-contributions/
+    url: /programme/
   - title: Contact
     url: /contact/
   - title: About

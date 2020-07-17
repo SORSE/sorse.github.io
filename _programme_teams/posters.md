@@ -1,6 +1,6 @@
 ---
 title: "Posters and Lightning talks"
-team: poster
+team: posters
 ---
 
 We will aim to run at least one poster session every month during the event. Each session will be a one hour slot and include up to 10 posters, arranged in themes if the number of contributions allows.

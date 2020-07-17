@@ -1,0 +1,42 @@
+<div id='calendar'></div>
+<p class="text-right">
+  <a href='{{ "/programme/calendar/" | relative_url }}'>Full event calendar</a>
+</p>
+
+<script>
+
+ document.addEventListener('DOMContentLoaded', function() {
+   var calendarEl = document.getElementById('calendar');
+
+   var events = [
+     {%- if include.all or include.ask_us_anything -%}
+       {% include ask-us-anything.js %},
+     {%- endif -%}
+     {%- if include.all or include.cfc_deadlines -%}
+     {% include cfc-deadlines.js %},
+     {%- endif -%}
+     {%- if include.all or include.events or include.category -%}
+       {% include events.js category=include.category %},
+     {%- endif -%}
+     {%- if include.custom -%}
+       {{ include.custom }}
+     {%- else -%}
+       {}
+     {%- endif -%}
+   ];
+
+   events = events.filter(e => new Date(e.start) >= new Date());
+   events.sort((e1, e2) => new Date(e1.start) - new Date(e2.start));
+
+   calendar = new FullCalendar.Calendar(calendarEl, {
+     headerToolbar: false,
+     aspectRatio: 2,
+     noEventsContent: "No upcoming events",
+     initialView: 'listYear',
+     editable: true,
+     selectable: true,
+     events: events
+   });
+  calendar.render();
+});
+</script>

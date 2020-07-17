@@ -1,0 +1,38 @@
+.add-to-calendar {
+	// display buttons inline (by default, it's block)
+	display: inline !important;
+}
+
+.add-to-calendar > .add-to-calendar-widget {
+	// inherit display of widget to make sure we use inline
+	display: inherit !important;
+	font-family: 'Karla', 'Helvetica', sans-serif !important;
+}
+
+.add-to-calendar-label {
+	// change font and background-color to match our theme
+	background-color: $btn-success-color !important;
+	font-weight: bold;
+  font-size: 0.85em;
+	color: #fff;
+	//  make the padding smaller compared to the default
+	padding: 0.5em 1em 0.5em 2.5em !important;
+	// remove background image as we use fontawesome (see below)
+	background-image: none !important;
+}
+
+.add-to-calendar-dropdown {
+	// use max-content to make sure we have no line breaks in the dropdown
+	width: max-content;
+}
+
+.add-to-calendar-label:before {
+	// use fa-calendar-plus icon from font awesome
+	content: "\f271";
+	font-family: "Font Awesome 5 Free";
+	position: absolute;
+	top: 0;
+	left: 1em;
+	font-size: 1em;
+	color: #fff;
+}

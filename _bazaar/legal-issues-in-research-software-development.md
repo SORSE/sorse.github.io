@@ -4,7 +4,7 @@ author:
   name: Christian Busse
 looking: true
 title: Legal Issues in Research Software Development
-type: workshop
+type: workshops
 ...
 
 Collaborative software development (e.g. on various Git* platforms) are commonplace for research software project. Nevertheless, this is legal gray area, as many scientific institutions are (not yet) aquainted with this mode of operation and therefore have no explicit regulartory framework in place. The potential issues for the individual research are manifold:

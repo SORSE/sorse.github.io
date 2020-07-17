@@ -1,6 +1,6 @@
 ---
 title: "Software demos"
-team: software_demo
+team: software-demos
 ---
 
 These can demonstrate

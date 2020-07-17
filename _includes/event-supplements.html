@@ -1,0 +1,9 @@
+{% for item in site.data.event_supplements %}
+{% assign key = item[0] %}
+{% assign info = item[1] %}
+{% if page[key] %}
+<span class="content-line">
+  <b>{{ info.name }}</b>: {{ page[key ]}}
+</span>
+{% endif %}
+{% endfor %}

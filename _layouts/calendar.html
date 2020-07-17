@@ -1,0 +1,59 @@
+---
+layout: single
+---
+
+{{ content }}
+
+<div id='calendar'></div>
+
+<script>
+
+ document.addEventListener('DOMContentLoaded', function() {
+   var calendarEl = document.getElementById('calendar');
+
+   calendar = new FullCalendar.Calendar(calendarEl, {
+     headerToolbar: {
+       left: 'prev,next today',
+       center: 'title',
+       right: 'dayGridMonth,timeGridWeek,timeGridDay,listYear'
+     },
+     buttonText: {
+       week: 'week',
+       day: 'day',
+       year: 'list'
+     },
+     initialView: 'dayGridMonth',
+     editable: false,
+     //
+     selectable: true,
+     dateClick: function(info) {
+       if (calendar.view.type != "timeGridDay") {
+         calendar.changeView('timeGridDay', info.dateStr);
+       }
+     },
+     //
+     navLinks: true,
+     navLinkDayClick: function(date, jsEvent) {
+       if (calendar.view.type != "timeGridDay") {
+         calendar.changeView('timeGridDay', date);
+       }
+     },
+     // 
+     weekNumbers: true,
+     navLinkWeekClick: function(weekStart, jsEvent) {
+       if (calendar.view.type != "timeGridWeek") {
+         calendar.changeView('timeGridWeek', weekStart);
+       }
+     },
+     //
+     slotDuration: "00:15",
+     dayMaxEvents: true, // allow "more" link when too many events
+     events: [
+        {% include ask-us-anything.js %},
+        {% include cfc-deadlines.js background=true %},
+        {% include events.js %}
+     ]
+   });
+  calendar.render();
+});
+</script>

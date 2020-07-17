@@ -125,6 +125,20 @@ defaults:
       toc: true
       toc_sticky: true
       layout: programme-team
+      fullcalendar: true
+  - scope:
+      path: ""
+      type: events
+    values:
+      sidebar:
+        nav: "programme"
+      author_profile: true
+      classes: wide
+      share: true
+      collection_button:
+        name: Schedule
+        url: /programme/
+      layout: event
 
 collections:
   bazaar:
@@ -134,5 +148,8 @@ collections:
     output: true
     permalink: /:collection/:path
   programme_teams:
+    output: true
+    permalink: /programme/:path/
+  events:
     output: true
     permalink: /programme/:path/

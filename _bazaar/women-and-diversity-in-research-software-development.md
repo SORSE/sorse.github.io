@@ -6,7 +6,7 @@ contributors: Contact me if you are interested to join and have ideas for the or
   of the workshop!
 looking: true
 title: Women and Diversity in Research Software Development
-type: workshop
+type: workshops
 ...
 
 After holding a workshop on women in the development of research software last year, we want to continue with the topic of women (and more generally) diversity. Possible topics for a workshop would be:

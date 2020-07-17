@@ -52,6 +52,8 @@ commands:
   install:
     steps:
       - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
       - restore_cache:
           keys:
           - v1-dependencies

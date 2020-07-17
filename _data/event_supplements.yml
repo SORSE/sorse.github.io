@@ -1,0 +1,10 @@
+language:
+  name: Language
+prerequisites:
+  name: Prerequisites
+license:
+  name: License
+instructions:
+  name: Installation instructions
+panelists:
+  name: Panelists

@@ -1,6 +1,6 @@
 ---
 title: "Talks"
-team: talk
+team: talks
 ---
 
 For SORSE, we are looking for talks on topics that are of general interest to an audience of RSEs and other people interested in research software practice and experiences. Talks go beyond the presentation of a single research software, or a single use case, and provide an opportunity for the audience to learn about and discuss an idea or solution.

@@ -15,10 +15,34 @@ $masthead-link-color: #37b2a3;
 $masthead-link-color-hover: mix(#000, $masthead-link-color, 15%);
 $masthead-link-color-visited: #63cfc2;
 
+$btn-success-color: #1b8275;
+$btn-success-color-hover: #2e9f91;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "card";
+@import "fc";
+@import "add-to-calendar";
 
+li.presenter {
+  list-style-type:'*  ';
+}
+
+// safari does not support strings as list-style-type, so we
+// have to implement a hack here
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    li.presenter {
+      list-style-type: none;
+    }
+
+    li.presenter::before {
+      content: "*";
+      left: 1.5em;
+      position: absolute;
+    }
+  }
+}
 
 .masthead {
   background-color: #0c0c0c;
@@ -102,10 +126,10 @@ nav.pagination{
 
 .btn--success{
   &, &:visited, &:focus{
-    background-color: #1b8275;
+    background-color: $btn-success-color;
   }
   &:hover{
-    background-color: #2e9f91;
+    background-color: $btn-success-color-hover;
   }
 }
 
@@ -185,4 +209,8 @@ a:focus, button:focus{
 .page__footer .far,
 .page__footer .fal {
   color: #fff;
+}
+
+.page__content a:not(#goog-wm-sb):hover img.orcid-icon {
+  box-shadow: none;
 }
