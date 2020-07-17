@@ -24,12 +24,28 @@ layout: single
      },
      initialView: 'dayGridMonth',
      editable: false,
+     //
      selectable: true,
      dateClick: function(info) {
        if (calendar.view.type != "timeGridDay") {
          calendar.changeView('timeGridDay', info.dateStr);
        }
      },
+     //
+     navLinks: true,
+     navLinkDayClick: function(date, jsEvent) {
+       if (calendar.view.type != "timeGridDay") {
+         calendar.changeView('timeGridDay', date);
+       }
+     },
+     // 
+     weekNumbers: true,
+     navLinkWeekClick: function(weekStart, jsEvent) {
+       if (calendar.view.type != "timeGridWeek") {
+         calendar.changeView('timeGridWeek', weekStart);
+       }
+     },
+     //
      slotDuration: "00:15",
      dayMaxEvents: true, // allow "more" link when too many events
      events: [
