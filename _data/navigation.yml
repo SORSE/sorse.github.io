@@ -142,9 +142,9 @@ archive:
       - title: "by month"
         url: /archive/
       - title: "by category"
-        url: /archive/categories
+        url: /archive/categories/
       - title: "by tag"
-        url: /archive/tags
+        url: /archive/tags/
 
 footer:
   - title: Programme
