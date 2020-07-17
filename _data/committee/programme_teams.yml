@@ -13,7 +13,7 @@ posters:
 awards:
   name: Awards
   internal: /programme/awards/
-panel:
+panels:
   name: Panels and Discussions
   internal: /programme/panels/
 bazaar:
