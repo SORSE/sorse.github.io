@@ -10,4 +10,4 @@ fullcalendar: true
 
 ## Upcoming events
 
-{% include upcoming-events.html %}
+{% include upcoming-events.html all=true %}

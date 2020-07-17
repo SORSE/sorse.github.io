@@ -42,4 +42,4 @@ Any questions, read [more](faq/about/what-is-sorse), [get in touch](contact/), o
 
 ## Upcoming Events
 
-{% include upcoming-events.html %}
+{% include upcoming-events.html all=true %}
