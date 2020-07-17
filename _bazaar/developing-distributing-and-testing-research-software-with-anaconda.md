@@ -8,7 +8,7 @@ contributors: This workshop is supposed to be community-driven and I have no clu
   of March at the latest.
 looking: true
 title: Developing, Distributing and Testing Research Software with Anaconda
-type: workshop
+type: workshops
 ...
 
 The distribution of research software is challenging due to the complexity of dependencies and the speed of technological advancement. Automation and standardization of this process speeds up the development process, as well as the communication and interaction with the users. This is particularly important for research software, as the number of developers are limited and labor for infrastructural maintenance is usually not available.

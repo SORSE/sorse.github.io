@@ -4,7 +4,7 @@ software-demos:
 talks:
   name: Talks
   internal: /programme/talks/
-workshop:
+workshops:
   name: Workshops
   internal: /programme/workshops/
 posters:

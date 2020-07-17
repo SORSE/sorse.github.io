@@ -1,6 +1,6 @@
 ---
 title: "Workshops"
-team: workshop
+team: workshops
 ---
 
 A workshop provides an online format for hands-on technical topics or other interactive training. Workshops may be up to 3 hours in length with at least a 15-minute break. Multiple deliveries of a workshop for different time zones can be provided.

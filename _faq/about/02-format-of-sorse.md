@@ -15,7 +15,7 @@ We’re an informal community and we know life is busy and very different at the
 Event types include:
 
 - [Talks]({% include fix-link.html link=site.data.committee.programme_teams.talks.internal %}) - both technical and soft skills
-- [Workshops]({% include fix-link.html link=site.data.committee.programme_teams.workshop.internal %})
+- [Workshops]({% include fix-link.html link=site.data.committee.programme_teams.workshops.internal %})
 - [Software demos]({% include fix-link.html link=site.data.committee.programme_teams.software-demos.internal %})
 - [Poster sessions with Lightning talks]({% include fix-link.html link=site.data.committee.programme_teams.posters.internal %})
 - [Panel & Discussion sessions]({% include fix-link.html link=site.data.committee.programme_teams.panel.internal %})

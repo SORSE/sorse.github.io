@@ -11,7 +11,7 @@ authors:
   - name: Some Guy
     bio: "Another affiliation"
 date: 2020-06-30
-category: workshop
+category: workshops
 ---
 
 Dummy event that has not yet been scheduled.

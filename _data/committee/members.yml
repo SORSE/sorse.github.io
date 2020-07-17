@@ -119,7 +119,7 @@
     - deRSE
     - programme
     - website
-    - workshop
+    - workshops
 - name: Claire Wyatt
   avatar: /assets/images/claire_wyatt.jpg
   email: c.wyatt@soton.ac.uk
@@ -170,7 +170,7 @@
     - coc
     - programme
     - talks
-    - workshop
+    - workshops
 - name: Alison Clarke
   affiliation: Durham University
   location: Durham, UK
@@ -216,7 +216,7 @@
   teams:
     - ukRSE
     - programme
-    - workshop
+    - workshops
 - name: Sandra Gesing
   affiliation: University of Notre Dame
   location: Notre Dame, IN, USA
@@ -241,7 +241,7 @@
     - programme
     - operating
     - software-demos
-    - workshop
+    - workshops
 - name: Mateusz Kuzak
   affiliation: The Netherlands eScience Center
   location: Amsterdam, NL
@@ -254,7 +254,7 @@
     - nlRSE
     - programme
     - panel
-    - workshop
+    - workshops
     - operating
 - name: Marion Weinzierl
   affiliation: Durham University
@@ -314,7 +314,7 @@
   teams:
     - ukRSE
     - programme
-    - workshop
+    - workshops
 - name: Debbie Carter
   affiliation: University of Birmingham
   location: Birmingham, UK
