@@ -1,19 +1,19 @@
-software_demo:
+software-demos:
   name: Software demos
   internal: /programme/software-demos/
-talk:
+talks:
   name: Talks
   internal: /programme/talks/
-workshop:
+workshops:
   name: Workshops
   internal: /programme/workshops/
-poster:
+posters:
   name: Posters and Lightning talks
   internal: /programme/posters/
-award:
+awards:
   name: Awards
   internal: /programme/awards/
-panel:
+panels:
   name: Panels and Discussions
   internal: /programme/panels/
 bazaar:

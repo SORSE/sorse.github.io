@@ -1,6 +1,6 @@
 ---
 title: "Panels and Discussions"
-team: panel
+team: panels
 ---
 
 ## Panel session

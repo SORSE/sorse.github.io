@@ -1,6 +1,6 @@
 ---
 title: "Awards"
-team: award
+team: awards
 ---
 
 <!--  Tasks of the team to be added -->

@@ -4,7 +4,7 @@ author:
   name: Anna-Lena Lamprecht
 looking: true
 title: RSE Education
-type: workshop
+type: workshops
 ...
 
 We’d like to run a workshop about teaching RSE and incorporating RSE into teaching. Possible topics:

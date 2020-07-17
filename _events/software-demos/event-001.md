@@ -11,7 +11,7 @@ date: 2020-06-30
 time:
   - start: 2020-07-15T15:00:00Z
     end: 2020-07-15T15:30:00Z
-category: software_demo
+category: software-demos
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nisi ut libero euismod sagittis quis a turpis. Praesent ultrices elementum erat, vel ultricies orci vulputate ut. Curabitur id dictum nulla. Curabitur lacinia nulla vitae urna fringilla, ac pretium tortor sodales. Aliquam justo orci, vulputate eget metus ut, sollicitudin vulputate lacus. In rutrum lectus ex. Maecenas venenatis, diam ac rhoncus accumsan, urna libero imperdiet metus, in elementum risus dolor vel leo. Ut eros metus, consequat sit amet turpis sed, lobortis aliquam felis. Morbi ornare condimentum arcu ut posuere. Duis nulla nisi, porta ac rhoncus vehicula, venenatis vel justo. Morbi feugiat metus nec massa dignissim, eu imperdiet purus imperdiet. Suspendisse maximus ultrices faucibus. Nunc a nibh fermentum, vulputate orci id, molestie quam.
