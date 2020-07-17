@@ -6,6 +6,7 @@ permalink: /programme/
 sidebar:
   nav:  programme
 fullcalendar: true
+classes: wide
 ---
 
 ## Upcoming events
