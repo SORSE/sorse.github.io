@@ -17,3 +17,10 @@
 .fg-cfc-deadline {
   font-weight: bold;
 }
+
+a.fc-sorse-event {
+  &, &:visited, &:focus {
+    color: $text-color;
+    font-weight: normal;
+  }
+}
