@@ -7,9 +7,16 @@
  document.addEventListener('DOMContentLoaded', function() {
    var calendarEl = document.getElementById('calendar');
 
+   {%- assign events = '' | split: '' -%}
+   {%- for post in site.events -%}
+     {%- if post.time -%}
+       {%- assign events = events | push: post -%}
+     {%- endif -%}
+   {%- endfor -%}
+
    var events = [
       {% include coc-deadlines.js %},
-      {% for post in site.events %}
+      {% for post in events %}
       {% include event.js %}{% if forloop.last %}{% else %},{% endif %}
       {% endfor %}
    ];

@@ -11,6 +11,13 @@ layout: single
  document.addEventListener('DOMContentLoaded', function() {
    var calendarEl = document.getElementById('calendar');
 
+   {%- assign events = '' | split: '' -%}
+   {%- for post in site.events -%}
+     {%- if post.time -%}
+       {%- assign events = events | push: post -%}
+     {%- endif -%}
+   {%- endfor -%}
+
    calendar = new FullCalendar.Calendar(calendarEl, {
      headerToolbar: {
        left: 'prev,next today',
@@ -26,7 +33,7 @@ layout: single
      selectable: true,
      events: [
         {% include coc-deadlines.js background=true %},
-        {% for post in site.events %}
+        {% for post in events %}
         {% include event.js %}{% if forloop.last %}{% else %},{% endif %}
         {% endfor %}
      ]
