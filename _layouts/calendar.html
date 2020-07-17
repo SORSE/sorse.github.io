@@ -22,15 +22,17 @@ layout: single
      headerToolbar: {
        left: 'prev,next today',
        center: 'title',
-       right: 'dayGridMonth,listWeek,listDay'
+       right: 'dayGridMonth,timeGridWeek,timeGridDay,listYear'
      },
      buttonText: {
        week: 'week',
-       day: 'day'
+       day: 'day',
+       year: 'list'
      },
      initialView: 'dayGridMonth',
-     editable: true,
+     editable: false,
      selectable: true,
+     slotDuration: "00:15",
      events: [
         {% include coc-deadlines.js background=true %},
         {% for post in events %}
