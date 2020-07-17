@@ -7,7 +7,7 @@ talks:
 workshop:
   name: Workshops
   internal: /programme/workshops/
-poster:
+posters:
   name: Posters and Lightning talks
   internal: /programme/posters/
 award:

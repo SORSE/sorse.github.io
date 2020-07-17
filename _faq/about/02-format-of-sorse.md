@@ -17,7 +17,7 @@ Event types include:
 - [Talks]({% include fix-link.html link=site.data.committee.programme_teams.talks.internal %}) - both technical and soft skills
 - [Workshops]({% include fix-link.html link=site.data.committee.programme_teams.workshop.internal %})
 - [Software demos]({% include fix-link.html link=site.data.committee.programme_teams.software-demos.internal %})
-- [Poster sessions with Lightning talks]({% include fix-link.html link=site.data.committee.programme_teams.poster.internal %})
+- [Poster sessions with Lightning talks]({% include fix-link.html link=site.data.committee.programme_teams.posters.internal %})
 - [Panel & Discussion sessions]({% include fix-link.html link=site.data.committee.programme_teams.panel.internal %})
 
 Along with these events above, we will be inviting guest speakers from around the world to join us and we’re happy to take suggestions for guest speakers via the [Wishlist]({% include fix-link.html link="/programme/wishlist" %}).

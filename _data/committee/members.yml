@@ -68,7 +68,7 @@
   teams:
     - deRSE
     - programme
-    - poster
+    - posters
     - website
 - name: Jan Philipp Dietrich
   affiliation: Postdam Institute for Climate Impact Research (PIK)
@@ -278,7 +278,7 @@
   email: louise.brown@nottingham.ac.uk
   teams:
     - ukRSE
-    - poster
+    - posters
     - programme
 - name: Mahmood M. Shad
   avatar: /assets/images/mahmood_shad.jpeg
@@ -291,7 +291,7 @@
   website: https://www.rc.fas.harvard.edu/about/people/mahmood-shad/
   teams:
     - usRSE
-    - poster
+    - posters
 - name: Sam Mangham
   avatar: /assets/images/sam_mangham.jpeg
   hidden: true
