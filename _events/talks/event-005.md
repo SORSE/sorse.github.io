@@ -1,12 +1,12 @@
 ---
 title: "Help!  I'm a Research Software Manager!"
 authors:
-    - &speaker name:  Jonathan Dursi 
+    - &speaker name:  Jonathan Dursi
       bio: University Health Network
       email: jonathan@dursi.ca
       is_speaker: true
 author: *speaker
-category: talk
+category: talks
 language: English
 ---
 Research software development teams are too important to be managed poorly.  But no one teaches us to be good managers &mdash; _especially_ in academia.

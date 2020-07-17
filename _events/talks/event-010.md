@@ -1,21 +1,21 @@
 ---
 title: "Towards Knowledge Graphs of Research Software metadata"
 authors:
-    - &speaker name:  Daniel Garijo 
+    - &speaker name:  Daniel Garijo
       bio: Information Sciences Institute, USC
       email: dgarijo@isi.edu
       orcid: 0000-0003-0454-7145
       is_speaker: true
-    - name:  Yolanda Gil 
+    - name:  Yolanda Gil
       bio: Information Sciences Institute
-    - name: Mr. Maximiliano Osorio 
+    - name: Mr. Maximiliano Osorio
       bio: Information Sciences Institute
-    - name:  Varun Ratnakar 
+    - name:  Varun Ratnakar
       bio: Information Sciences Institute
-    - name:  Deborah Khider 
+    - name:  Deborah Khider
       bio: Information Sciences Institute
 author: *speaker
-category: talk
+category: talks
 language: English
 prerequisites: "N/A
 Knowing what Zenodo and schema.org is will help, but is not a pre-requisite."

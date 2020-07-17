@@ -1,13 +1,13 @@
 ---
 title: "Configuring Sphinx from scratch: making your own documentation & making your documentation your own"
 authors:
-    - &speaker name:  Sadie Bartholomew 
+    - &speaker name:  Sadie Bartholomew
       bio: National Centre for Atmospheric Science
       email: sadie.bartholomew@ncas.ac.uk
       orcid: 0000-0002-6180-3603
       is_speaker: true
 author: *speaker
-category: software_demo
+category: software-demos
 language: English
 prerequisites: "Basic familiarity with Python and the command line"
 license: Open source
