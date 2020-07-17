@@ -125,6 +125,7 @@ defaults:
       toc: true
       toc_sticky: true
       layout: programme-team
+      fullcalendar: true
   - scope:
       path: ""
       type: events
