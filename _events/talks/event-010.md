@@ -7,13 +7,13 @@ authors:
       orcid: 0000-0003-0454-7145
       is_speaker: true
     - name:  Yolanda Gil
-      bio: Information Sciences Institute
+      bio: Information Sciences Institute, USC
     - name: Mr. Maximiliano Osorio
-      bio: Information Sciences Institute
+      bio: Information Sciences Institute, USC
     - name:  Varun Ratnakar
-      bio: Information Sciences Institute
+      bio: Information Sciences Institute, USC
     - name:  Deborah Khider
-      bio: Information Sciences Institute
+      bio: Information Sciences Institute, USC
 author: *speaker
 category: talks
 language: English
