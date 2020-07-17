@@ -25,6 +25,11 @@ layout: single
      initialView: 'dayGridMonth',
      editable: false,
      selectable: true,
+     dateClick: function(info) {
+       if (calendar.view.type != "timeGridDay") {
+         calendar.changeView('timeGridDay', info.dateStr);
+       }
+     },
      slotDuration: "00:15",
      dayMaxEvents: true, // allow "more" link when too many events
      events: [
