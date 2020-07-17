@@ -24,6 +24,25 @@ $btn-success-color-hover: #2e9f91;
 @import "fc";
 @import "add-to-calendar";
 
+li.presenter {
+  list-style-type:'*  ';
+}
+
+// safari does not support strings as list-style-type, so we
+// have to implement a hack here
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    li.presenter {
+      list-style-type: none;
+    }
+
+    li.presenter::before {
+      content: "*";
+      left: 1.5em;
+      position: absolute;
+    }
+  }
+}
 
 .masthead {
   background-color: #0c0c0c;
