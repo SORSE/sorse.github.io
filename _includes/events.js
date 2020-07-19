@@ -7,5 +7,5 @@
   {%- endif -%}
 {%- endfor -%}
 {%- for post in events -%}
-  {% include event.js %}{% if forloop.last %}{% else %},{% endif %}
+  {% include event.js onclick=include.onclick %}{% if forloop.last %}{% else %},{% endif %}
 {%- endfor -%}
