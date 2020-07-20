@@ -1,6 +1,13 @@
 {% assign event = include.event %}
 
-{% include group-by-array collection=event.authors field="bio" %}
+{%- assign affiliations = '' | split: '' -%}
+{%- for author in event.authors -%}
+  {% if author.bio %}
+    {%- unless affiliations contains author.bio -%}
+      {%- assign affiliations = affiliations | push: author.bio -%}
+    {%- endunless -%}
+  {% endif %}
+{%- endfor -%}
 {% for author in event.authors %}
   {% assign author = site.data.authors[author] | default: author %}
   {% assign email = author.email %}
@@ -12,16 +19,20 @@
     {% endfor %}
   {% endunless %}
   {% assign affil_num = '' %}
-  {% for affiliation in group_names %}
-    {% if affiliation == author.bio %}
-      {% assign affil_num = forloop.index %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
-  {% capture affiliation %}<sup id="fnref:{{ affil_num }}" role="doc-noteref"><a href="#fn:{{ affil_num }}" class="footnote" title="{{ author.bio }}">{{ affil_num }}</a></sup>{% endcapture %}
-  {% if email %}
-    {% assign email = email | remove: "mailto:" %}
-    {% capture email_link %} <a href="mailto:{{ email }}" title='{{ email }}'><span><i class="elastic-fai fas fa-envelope"></i></span></a>{% endcapture %}
+  {%- if author.bio -%}
+    {% for affiliation in affiliations %}
+      {% if affiliation == author.bio %}
+        {% assign affil_num = forloop.index %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% capture affiliation %}<sup id="fnref:{{ affil_num }}" role="doc-noteref"><a href="#fn:{{ affil_num }}" class="footnote" title="{{ author.bio }}">{{ affil_num }}</a></sup>{% endcapture %}
+    {% if email %}
+      {% assign email = email | remove: "mailto:" %}
+      {% capture email_link %} <a href="mailto:{{ email }}" title='{{ email }}'><span><i class="elastic-fai fas fa-envelope"></i></span></a>{% endcapture %}
+  {% else %}
+    {% assign affiliation = '' %}
+  {% endif %}
   {% else %}
     {% assign email_link = '' %}
   {% endif %}
@@ -43,7 +54,7 @@
   <ol>
     <li id="fn:presenting" role="doc-endnote" class="presenter"> Presenting author. <a href="#fnref:presenting" class="reversefootnote" role="doc-backlink">&#8617;</a>
     </li>
-    {% for affiliation in group_names %}
+    {% for affiliation in affiliations %}
     <li value="{{ forloop.index }}" id="fn:{{ forloop.index }}" role="doc-endnote">
       {{ affiliation }}. <a href="#fnref:{{ forloop.index }}" class="reversefootnote" role="doc-backlink">&#8617;</a>
     </li>
