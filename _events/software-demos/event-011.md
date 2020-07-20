@@ -12,6 +12,7 @@ language: English
 prerequisites: "Basic familiarity with Python and the command line"
 license: Open source
 instructions: "<a href='https://www.sphinx-doc.org/en/master/usage/installation.html#installation-from-pypi'>https://sphinx-doc.org</a>"
+date: 2020-07-17
 ---
 In this demonstration we will build a mature documentation system from scratch for a dummy project using the Sphinx documentation generator, the infrastructure of choice for the documentation of a huge number of modern software projects, including of Python itself.
 

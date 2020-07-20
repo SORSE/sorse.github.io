@@ -10,6 +10,7 @@ author: *speaker
 category: talks
 language: English
 prerequisites: "General familiarity with issues from software development including concepts such as testing and automation as well as project management with limitations in academia are advantageous."
+date: 2020-07-17
 ---
 The challenges facing research software development are manifold and have long been a major topic at RSE conferences.
 

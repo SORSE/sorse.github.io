@@ -8,6 +8,7 @@ authors:
 author: *speaker
 category: talks
 language: English
+date: 2020-07-17
 ---
 Research software development teams are too important to be managed poorly.  But no one teaches us to be good managers &mdash; _especially_ in academia.
 
