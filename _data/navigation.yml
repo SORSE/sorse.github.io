@@ -81,8 +81,6 @@ programme:
         url: /programme/call-for-contributions/
       - title: "Have your say"
         url: "/programme/wishlist/"
-      - title: Events Calendar
-        url: /programme/calendar/
       - title: "Ask us anything"
         url: "/programme/ask-us-anything/"
       - title: Mentoring at SORSE
