@@ -9,4 +9,6 @@ fullcalendar: true
 classes: wide
 ---
 
-{% include calendar.html all=true onclick='tag' %}
+## Upcoming events
+
+{% include upcoming-events.html all=true onclick='tag' %}

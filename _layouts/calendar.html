@@ -1,3 +1,8 @@
+---
+layout: single
+---
+
+{{ content }}
 
 <div id='calendar'></div>
 
@@ -33,7 +38,7 @@
          calendar.changeView('timeGridDay', date);
        }
      },
-     //
+     // 
      weekNumbers: true,
      navLinkWeekClick: function(weekStart, jsEvent) {
        if (calendar.view.type != "timeGridWeek") {
@@ -46,7 +51,7 @@
      events: [
         {% include ask-us-anything.js %},
         {% include cfc-deadlines.js background=true %},
-        {% include events.js onclick=include.onclick%}
+        {% include events.js %}
      ]
    });
   calendar.render();
