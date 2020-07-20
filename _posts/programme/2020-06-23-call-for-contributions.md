@@ -33,6 +33,6 @@ The call is open to anyone wanting to propose a research software-related talk o
 
 Upcoming contribution deadlines are all detailed below. Each contribution deadline will have an earliest event date when events submitted prior to that deadline can take place. You can propose an event for any date or range of dates beyond this.
 
-See our [schedule of events]({% include fix-link.html link="/" %}) for details of what’s coming up.
+See our [schedule of events]({{ "/#upcoming-events" | relative_url }}) for details of what’s coming up.
 
 <a href="{{site.indico_base_event}}/abstracts" class="btn btn--success" target="_blank"><i class="fas fa-pen"></i> Submit an abstract</a>
