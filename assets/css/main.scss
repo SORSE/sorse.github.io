@@ -214,3 +214,13 @@ a:focus, button:focus{
 .page__content a:not(#goog-wm-sb):hover img.orcid-icon {
   box-shadow: none;
 }
+
+// styling of affiliation footnotes
+a.footnote {
+  &:visited {
+    color: inherit;
+  }
+  &:focus, &:hover {
+    color: mix(#fff, $gray, 25%);
+  }
+}
