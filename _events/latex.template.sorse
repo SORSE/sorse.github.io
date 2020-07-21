@@ -62,7 +62,12 @@
 \fancyhead[R]{}
 \renewcommand{\footrulewidth}{0.25pt}
 
-\fancyfoot[L]{\footnotesize{\sffamily $citation_author$, ($year$). $footnote_paper_title$. \textit{$journal_name$}. $if(formatted_doi)$\href{https://doi.org/$formatted_doi$}{https://doi.org/$formatted_doi$}$endif$}}
+\fancyfoot[L]{\footnotesize{\sffamily{
+$if(authors)$
+$for(authors)$
+$authors.name$,
+$endfor$
+$endif$ (\DTMfetchyear{publication_date}). $footnote_paper_title$. \textit{$journal_name$}. $if(doi)$\href{https://doi.org/$doi$}{https://doi.org/$doi$}$endif$}}}
 
 
 \fancyfoot[R]{\sffamily \thepage}
@@ -317,7 +322,7 @@ $endif$
   %\hrule
   \sffamily\small
 
-  $if(formatted_doi)${\bfseries DOI:} \href{https://doi.org/$formatted_doi$}{\color{linky}{$formatted_doi$}}$endif$
+  $if(doi)${\bfseries DOI:} \href{https://doi.org/$doi$}{\color{linky}{$doi$}}$endif$
   \vspace{2mm}
 
   {\bfseries Software}
