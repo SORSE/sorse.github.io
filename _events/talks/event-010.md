@@ -2,18 +2,21 @@
 title: "Towards Knowledge Graphs of Research Software metadata"
 authors:
     - &speaker name:  Daniel Garijo
-      bio: Information Sciences Institute, USC
+      affiliation: 1
       email: dgarijo@isi.edu
       orcid: 0000-0003-0454-7145
       is_speaker: true
     - name:  Yolanda Gil
-      bio: Information Sciences Institute, USC
+      affiliation: 1
     - name: Mr. Maximiliano Osorio
-      bio: Information Sciences Institute, USC
+      affiliation: 1
     - name:  Varun Ratnakar
-      bio: Information Sciences Institute, USC
+      affiliation: 1
     - name:  Deborah Khider
-      bio: Information Sciences Institute, USC
+      affiliation: 1
+affiliations:
+    - name: Information Sciences Institute, USC
+      index: 1
 author: *speaker
 category: talks
 language: English

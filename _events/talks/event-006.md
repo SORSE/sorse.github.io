@@ -2,14 +2,17 @@
 title: "Towards an NLP Pipeline for Conflict Narrative Detection"
 authors:
     - &speaker name:  Stephen Anning
-      bio: University of Southampton
+      affiliation: 1
       email: spa1e17@soton.ac.uk
       orcid: 0000-0003-4911-7907
       is_speaker: true
     - name: Dr. George Konstantinidis
-      bio: University of Southampton
+      affiliation: 1
     - name: Dr. Craig Webber
-      bio: University of Southampton
+      affiliation: 1
+affiliations:
+    - name: University of Southampton
+      index: 1
 author: *speaker
 category: talks
 language: English
