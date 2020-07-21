@@ -1,7 +1,8 @@
 ---
 title: "From experimental software to research infrastructure maturity"
 authors:
-    - &speaker name:  Carsten Thiel
+    - &speaker
+      name:  Carsten Thiel
       affiliation: 1
       email: carsten.thiel@cessda.eu
       orcid: 0000-0003-0804-8992

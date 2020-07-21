@@ -1,7 +1,8 @@
 ---
 title: "UXF - Framework for creating Virtual Reality human behavior experiments in Unity"
 authors:
-    - name: Dr. Jack Brookes
+    - &speaker
+      name: Dr. Jack Brookes
       email: jack.brookes@ucl.ac.uk
       is_speaker: true
       affiliation: 1
@@ -14,6 +15,7 @@ authors:
 affiliations:
     - name: University Health Network
       index: 1
+author: *speaker
 category: talks
 language: English
 date: 2020-07-17

@@ -1,7 +1,8 @@
 ---
 title: "Configuring Sphinx from scratch: making your own documentation and making your documentation your own"
 authors:
-    - &speaker name:  Sadie Bartholomew
+    - &speaker
+      name:  Sadie Bartholomew
       affiliation: 1
       email: sadie.bartholomew@ncas.ac.uk
       orcid: 0000-0002-6180-3603

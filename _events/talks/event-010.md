@@ -1,7 +1,8 @@
 ---
 title: "Towards Knowledge Graphs of Research Software metadata"
 authors:
-    - &speaker name:  Daniel Garijo
+    - &speaker
+      name:  Daniel Garijo
       affiliation: 1
       email: dgarijo@isi.edu
       orcid: 0000-0003-0454-7145
