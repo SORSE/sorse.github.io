@@ -24,6 +24,17 @@
         {{ author.bio | markdownify }}
       </div>
     {% endif %}
+    {% if author.affiliation %}
+      {% if page.affiliations %}
+          {% assign affiliations = page.affiliations | where: "index", author.affiliation %}
+          {% if affiliations %}
+            {% assign affiliation = affiliations[0].name %}
+          {% endif %}
+      {% endif %}
+      <div class="author__bio" itemprop="description">
+        {{ affiliation | markdownify }}
+      </div>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
