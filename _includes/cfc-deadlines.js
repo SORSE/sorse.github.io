@@ -4,9 +4,9 @@
 {
   title  : 'Submission deadline',
   {%- if include.onclick == 'tag' %}
-  url    : "#call-for-contributions",
+  url    : "#submission-deadlines",
   {%- else %}
-  url    : "{{ '/programme/call-for-contributions/' | relative_url }}",
+  url    : "{{ '/faq/howto/submission-deadlines' | relative_url }}",
   {%- endif %}
   display: "block",
   color  : "#d8b117",
