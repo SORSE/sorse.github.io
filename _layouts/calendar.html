@@ -6,6 +6,18 @@ layout: single
 
 <div id='calendar'></div>
 
+<aside class="sidebar__right">
+  {% for post in site.events %}
+    {% include event-card.html hidden=true %}
+  {% endfor %}
+  {% for post in site.posts | where: "id", "/programme/ask-us-anything-sessions" %}
+    {% include faq-card.html hidden=true excerpt_length=300 %}
+  {% endfor %}
+  {% for post in site.faq | where: "id", "/faq/howto/submission-deadlines" %}
+    {% include faq-card.html hidden=true excerpt_length=300 %}
+  {% endfor %}
+</aside>
+
 <script>
 
  document.addEventListener('DOMContentLoaded', function() {
@@ -38,7 +50,7 @@ layout: single
          calendar.changeView('timeGridDay', date);
        }
      },
-     // 
+     //
      weekNumbers: true,
      navLinkWeekClick: function(weekStart, jsEvent) {
        if (calendar.view.type != "timeGridWeek") {
@@ -49,10 +61,17 @@ layout: single
      slotDuration: "00:15",
      dayMaxEvents: true, // allow "more" link when too many events
      events: [
-        {% include ask-us-anything.js %},
-        {% include cfc-deadlines.js background=true %},
-        {% include events.js %}
-     ]
+        {% include ask-us-anything.js onclick='tag' %},
+        {% include cfc-deadlines.js background=true onclick='tag' %},
+        {% include events.js onclick='tag' %}
+     ],
+     eventClick: function(info) {
+       var elem = $(info.event.url);
+       if (!elem.hidden) {
+         $(".card").hide();
+         elem.show();
+       }
+     }
    });
   calendar.render();
 });
