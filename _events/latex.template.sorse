@@ -68,7 +68,7 @@ $if(authors)$
 $for(authors)$
 $authors.name$,
 $endfor$
-$endif$ (\DTMfetchyear{publication_date}). $footnote_paper_title$. \textit{$journal_name$}. $if(doi)$\href{https://doi.org/$doi$}{https://doi.org/$doi$}$endif$}}}
+$endif$ \DTMfetchyear{publication_date}. $footnote_paper_title$. \textit{$journal_name$}. $if(doi)$\href{https://doi.org/$doi$}{https://doi.org/$doi$}$endif$}}}
 
 
 \fancyfoot[R]{\sffamily \thepage}
