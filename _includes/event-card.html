@@ -1,7 +1,8 @@
 {% unless post.hidden %}
 {%- assign event_id = post.id | split: '/' | last %}
-<div class="card col-12 post-card" id="{{ event_id }}">
-  <b class="card-title"><a href="{{ post.url | relative_url }}" rel="permalink" target="_self">{{ post.title }}</a></b>
+<div class="card col-12 post-card" id="{{ event_id }}"
+ {% if include.hidden %}style="display: none"{% endif %}>
+  <b class="card-title"><a href="{{ post.url | relative_url }}" rel="permalink" target="_blank">{{ post.title }}</a></b>
   <div class="card-content" onclick="window.open('{{ post.url | relative_url }}')">
     {% include event-summary.html event=post %}
     <br>
