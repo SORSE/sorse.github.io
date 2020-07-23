@@ -161,11 +161,17 @@ $endif$
 $if(title-meta)$
             pdftitle={$title-meta$},
 $endif$
-$if(author-meta)$
-            pdfauthor={$author-meta$},
+$if(authors)$
+            pdfauthor={$for(authors)$$authors.name$$sep$ and $endfor$},
 $endif$
 $if(keywords)$
             pdfkeywords={$for(keywords)$$keywords$$sep$; $endfor$},
+$endif$
+$if(journal_name)$
+            pdfsubject={$journal_name$},
+$endif$
+$if(pdfcreator)$
+            pdfcreator={$pdfcreator$},
 $endif$
 $if(colorlinks)$
             colorlinks=true,

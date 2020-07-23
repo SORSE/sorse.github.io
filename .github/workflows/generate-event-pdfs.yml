@@ -10,10 +10,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-      - name: Set Publication Date Variables
+      - name: Set additional variables
         run: |
-            PUBYEAR=$(date +'%Y')
-            echo "year ${PUBYEAR}" >> _events/sorse-variables.txt
+            echo "pdfcreator rseng/pdf-generator@0.0.3 with latex.template.sorse from ${GITHUB_REPOSITORY}@${GITHUB_SHA}" >> _events/sorse-variables.txt
 
       - name: Generate Full PDF Template
         uses: rseng/pdf-generator@0.0.3
