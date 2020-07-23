@@ -11,4 +11,4 @@ classes: wide
 
 ## Upcoming events
 
-{% include upcoming-events.html all=true onclick='tag' %}
+{% include upcoming-events.html events=true onclick='tag' %}
