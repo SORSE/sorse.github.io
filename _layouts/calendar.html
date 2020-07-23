@@ -6,7 +6,7 @@ layout: single
 
 <div id='calendar'></div>
 
-<aside class="sidebar__right">
+<aside class="sidebar__right events-sidebar">
   {% for post in site.events %}
     {% include event-card.html hidden=true %}
   {% endfor %}
@@ -66,6 +66,7 @@ layout: single
         {% include events.js onclick='tag' %}
      ],
      eventClick: function(info) {
+       info.jsEvent.preventDefault(); // don't let the browser navigate
        var elem = $(info.event.url);
        if (!elem.hidden) {
          $(".card").hide();
