@@ -10,10 +10,10 @@ layout: single
   {% for post in site.events %}
     {% include event-card.html hidden=true %}
   {% endfor %}
-  {% for post in site.posts | where: "id", "/programme/ask-us-anything-sessions" %}
-    {% include faq-card.html hidden=true excerpt_length=300 %}
-  {% endfor %}
-  {% for post in site.faq | where: "id", "/faq/howto/submission-deadlines" %}
+  {% assign aua_post = site.documents | where: "id", "/programme/ask-us-anything-sessions" %}
+  {% assign cfc_post = site.documents | where: "id", "/faq/howto/submission-deadlines" %}
+  {% assign posts = aua_post | concat: cfc_post %}
+  {% for post in posts %}
     {% include faq-card.html hidden=true excerpt_length=300 %}
   {% endfor %}
 </aside>
