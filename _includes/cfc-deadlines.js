@@ -3,7 +3,11 @@
 {%- capture deadline_end -%}{{ deadline }}T23:00:00-0100{%- endcapture -%}
 {
   title  : 'Submission deadline',
-  url    : "{{ '/programme/call-for-contributions/' | relative_url }}",
+  {%- if include.onclick == 'tag' %}
+  url    : "#submission-deadlines",
+  {%- else %}
+  url    : "{{ '/faq/howto/submission-deadlines' | relative_url }}",
+  {%- endif %}
   display: "block",
   color  : "#d8b117",
   textColor: "#740B70",

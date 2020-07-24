@@ -214,3 +214,55 @@ a:focus, button:focus{
 .page__content a:not(#goog-wm-sb):hover img.orcid-icon {
   box-shadow: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+// back-to-top-button inspired by https://moderncss.dev/pure-css-smooth-scroll-back-to-top/
+// see _includes/all-events.html for the implementation
+.back-to-top-wrapper {
+  position: absolute;
+  top: 100vh;
+  right: 0;
+  bottom: 0;
+  // Required for best support in browsers not supporting `sticky`
+  width: 3em;
+  // Disable interaction with this element
+  pointer-events: none;
+}
+
+.back-to-top-link {
+  // `fixed` is fallback when `sticky` not supported
+  position: fixed;
+  // preferred positioning, requires prefixing for most support, and not supported on Safari
+  // @link https://caniuse.com/#search=position%3A%20sticky
+  position: sticky;
+  // reinstate clicks
+  pointer-events: all;
+  // achieves desired positioning within the viewport
+  // relative to the top of the viewport once `sticky` takes over, or always if `fixed` fallback is used
+  top: calc(100vh - 5rem);
+
+  // styling
+  display: inline-block;
+  border: none;
+  outline: none;
+  &, &:visited, &:focus {
+    color: #fff; /* Text color */
+    background-color: #0c0c0c;
+  }
+  &:hover {
+    color: #fff; /* Text color */
+    background-color: #646464;
+  }
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+// add padding to events sidebar on the calendar page
+.events-sidebar {
+  padding-top: 2em;
+}
