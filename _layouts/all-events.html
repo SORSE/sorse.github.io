@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 ---
 
 {% assign collection = site[page.collection] %}
@@ -28,3 +28,7 @@ layout: archive
       {% include events-subcollection.html collection=posts sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
   </section>
 {% endfor %}
+
+<div class="back-to-top-wrapper">
+  <a href="#" id="#back-to-top" class="btn back-to-top-link" aria-label="Scroll to Top"><i class="fas fa-chevron-up"></i></a>
+</div>
