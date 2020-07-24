@@ -11,3 +11,7 @@ layout: single
 </p>
 {% include registration-button.html %}
 {% include team-button.html team=page.category %}
+{%- capture download_link %}/downloads/{{ page.id | split: '/' | last }}.pdf{%- endcapture %}
+<a class="btn btn--success" href="{{ download_link | relative_url }}" target='_blank'>
+  <i class="fas fa-file-pdf"></i></i> Download
+</a>
