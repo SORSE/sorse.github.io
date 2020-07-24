@@ -50,6 +50,7 @@
 \titleformat*{\paragraph}
   {\sffamily\normalsize}
 
+\DTMsavedate{publication_date}{$date$}
 
 % --- Header / Footer ---------------------------------------------------------
 \usepackage{fancyhdr}
@@ -62,10 +63,19 @@
 \fancyhead[R]{}
 \renewcommand{\footrulewidth}{0.25pt}
 
-\fancyfoot[L]{\footnotesize{\sffamily $citation_author$, ($year$). $footnote_paper_title$. \textit{$journal_name$}. $if(formatted_doi)$\href{https://doi.org/$formatted_doi$}{https://doi.org/$formatted_doi$}$endif$}}
+\fancyfoot[L]{\footnotesize{\sffamily{
+  $if(authors)$
+    $for(authors)$
+      $authors.name$,
+    $endfor$
+  $endif$ \DTMfetchyear{publication_date}.
+  $footnote_paper_title$.
+  \textit{$journal_name$}.
+  $if(doi)$\href{https://doi.org/$doi$}{https://doi.org/$doi$}$endif$}
+}}
 
 
-\fancyfoot[R]{\sffamily \thepage}
+\fancyfoot[R]{}
 \makeatletter
 \let\ps@plain\ps@fancy
 \fancyheadoffset[L]{4.5cm}
@@ -151,11 +161,17 @@ $endif$
 $if(title-meta)$
             pdftitle={$title-meta$},
 $endif$
-$if(author-meta)$
-            pdfauthor={$author-meta$},
+$if(authors)$
+            pdfauthor={$for(authors)$$authors.name$$sep$ and $endfor$},
 $endif$
 $if(keywords)$
             pdfkeywords={$for(keywords)$$keywords$$sep$; $endfor$},
+$endif$
+$if(journal_name)$
+            pdfsubject={$journal_name$},
+$endif$
+$if(pdfcreator)$
+            pdfcreator={$pdfcreator$},
 $endif$
 $if(colorlinks)$
             colorlinks=true,
@@ -317,7 +333,7 @@ $endif$
   %\hrule
   \sffamily\small
 
-  $if(formatted_doi)${\bfseries DOI:} \href{https://doi.org/$formatted_doi$}{\color{linky}{$formatted_doi$}}$endif$
+  $if(doi)${\bfseries DOI:} \href{https://doi.org/$doi$}{\color{linky}{$doi$}}$endif$
   \vspace{2mm}
 
   {\bfseries Software}
@@ -329,7 +345,7 @@ $endif$
   \vspace{2mm}
 
   {\bfseries Category:} $category$\\
-  {\bfseries Published:} \DTMdate{$date$}
+  {\bfseries Published:} \DTMusedate{publication_date}
 
   \vspace{2mm}
   {\bfseries License}\\

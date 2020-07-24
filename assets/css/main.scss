@@ -215,6 +215,16 @@ a:focus, button:focus{
   box-shadow: none;
 }
 
+// styling of affiliation footnotes
+a.footnote {
+  &:visited {
+    color: inherit;
+  }
+  &:focus, &:hover {
+    color: mix(#fff, $gray, 25%);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
