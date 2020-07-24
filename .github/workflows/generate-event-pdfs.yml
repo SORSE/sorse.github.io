@@ -28,7 +28,7 @@ jobs:
           paper_dir: .
 
           # A path to a png logo file
-          png_logo: ../assets/images/sorse-logo.pdf
+          png_logo: ../assets/images/logo-large.png
 
           # One of "minimal" or "pdf" for the template with image, etc.
           pdf_type: pdf
