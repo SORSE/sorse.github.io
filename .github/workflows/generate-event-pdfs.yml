@@ -76,9 +76,9 @@ jobs:
         if: ${{ env.GENERATE_PDFS && env.GITHUB_HEAD_REF == '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOURCE_BRANCH: ${{ github.head_ref }}
         run: |
           printf "GitHub Actor: ${GITHUB_ACTOR}\n"
-          SOURCE_BRANCH=${GITHUB_REF#refs/heads/}
           export BRANCH_FROM="add-pdfs/${SOURCE_BRANCH}"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
