@@ -118,7 +118,7 @@ jobs:
               echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}.\n\n${PR_HINT}"
           else
               PR_NOTE="**Do not remove the ${BRANCH_FROM} branch until #${PR_NUMBER} has been merged or closed.**"
-              echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}, see #${PR_NUMBER}.\n\n${PR_NOTE}\n\n${PR_HINT}"
+              echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}, see #${PR_NUMBER}.%0A%0A${PR_NOTE}%0A%0A${PR_HINT}"
           fi
 
       - name: Open Pull Request
