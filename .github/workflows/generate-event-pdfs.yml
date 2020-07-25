@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       REMOVE_MASTER:
-        description: Remove the master files
+        description: Remove unchanged files from master branch to generate only updated pdfs
         required: false
         default: '1'
   pull_request:
