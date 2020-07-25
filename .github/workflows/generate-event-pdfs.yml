@@ -79,6 +79,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SOURCE_BRANCH: ${{ github.head_ref }}
+          PR_NUMBER: ${{ github.event.number }}
         run: |
           printf "GitHub Actor: ${GITHUB_ACTOR}\n"
           export BRANCH_FROM="add-pdfs/${SOURCE_BRANCH}"
@@ -112,7 +113,11 @@ jobs:
           echo "::set-env name=OPEN_PULL_REQUEST::${OPEN_PULL_REQUEST}"
           echo "::set-env name=PULL_REQUEST_FROM_BRANCH::${BRANCH_FROM}"
           echo "::set-env name=PULL_REQUEST_TITLE::[generate-pdfs] ${SOURCE_BRANCH}"
-          echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}."
+          if [[ -z ${PR_NUMBER} ]]; then
+              echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}."
+          else
+              echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}, see #${PR_NUMBER}."
+          fi
 
       - name: Open Pull Request
         if: ${{ env.OPEN_PULL_REQUEST == '1' }}
