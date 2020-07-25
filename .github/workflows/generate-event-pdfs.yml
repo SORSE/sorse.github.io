@@ -33,7 +33,7 @@ jobs:
       - name: Remove files from master
         if: ${{ env.REMOVE_MASTER == '1' }}
         run: |
-            git ls-tree -r --name-only master -- _events/*/*.md | xargs -I {} sh -c "rm {} && echo Removing document: {}"
+            git ls-tree -r --name-only origin/master -- _events/*/*.md | xargs -I {} sh -c "rm {} && echo Removing document: {}"
       - name: Configure PDF generation
         run: |
             if ls _events/*/*.md &> /dev/null; then
