@@ -2,7 +2,18 @@ name: generate-pdf-artifacts
 
 on:
   workflow_dispatch:
-    inputs: {}
+    inputs:
+      REMOVE_MASTER:
+        description: Remove unchanged files from master branch to generate only updated pdfs
+        required: false
+        default: 1
+  pull_request:
+    paths:
+      - '_events/*/*.md'
+
+env:
+  REMOVE_MASTER: 1
+  OPEN_PULL_REQUEST: 0
 
 jobs:
   GeneratePdfArtifacts:
@@ -11,11 +22,26 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Update environment from workflow_dispatch input
+        if: ${{ github.event.inputs.REMOVE_MASTER }}
+        run: echo "::set-env name=REMOVE_MASTER::${{ github.event.inputs.REMOVE_MASTER }}"
       - name: Set additional variables
         run: |
             echo "pdfcreator rseng/pdf-generator@0.0.3 with latex.template.sorse from ${GITHUB_REPOSITORY}@${GITHUB_SHA}" >> _events/sorse-variables.txt
+      - name: Remove files from master
+        if: ${{ env.REMOVE_MASTER == '1' }}
+        run: |
+            git ls-tree -r --name-only origin/master -- _events/*/*.md | xargs -I {} sh -c "rm {} && echo Removing document: {}"
+      - name: Configure PDF generation
+        run: |
+            if ls _events/*/*.md &> /dev/null; then
+                echo "::set-env name=GENERATE_PDFS::1"
+            fi
 
       - name: Generate Full PDF Template
+        if: ${{ env.GENERATE_PDFS == '1' }}
         uses: rseng/pdf-generator@0.0.3
         with:
 
@@ -40,8 +66,70 @@ jobs:
           # A variables file to use
           variables_file: sorse-variables.txt
 
+      - name: Move PDFs to downloads folder
+        if: ${{ env.GENERATE_PDFS == '1' }}
+        run: |
+          if [[ ${GITHUB_HEAD_REF} == '' ]]; then
+            rm downloads/*
+          fi
+          mv _events/*/*.pdf downloads/
+
+      - name: Checkout New Branch
+        if: ${{ env.GENERATE_PDFS && env.GITHUB_HEAD_REF == '' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.TEMP_TOKEN }}
+          SOURCE_BRANCH: ${{ github.head_ref }}
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          printf "GitHub Actor: ${GITHUB_ACTOR}\n"
+          export BRANCH_FROM="add-pdfs/${SOURCE_BRANCH}"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          # Test if branch exists in remote
+          BRANCH_EXISTS=$(git ls-remote --heads origin ${BRANCH_FROM})
+
+          # Force-create the new branch
+          git branch
+          git checkout -B "${BRANCH_FROM}"
+          git branch
+
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
+
+          git status
+          git add downloads
+
+          if git diff-index --quiet HEAD --; then
+             printf "No changes\n"
+             export OPEN_PULL_REQUEST=0
+          else
+             if [[ -z ${BRANCH_EXISTS} ]]; then
+               export OPEN_PULL_REQUEST=1
+             fi
+             printf "Changes\n"
+             git commit -m "Automated deployment to generate PDFs $(date '+%Y-%m-%d')"
+             git push --force origin "${BRANCH_FROM}"
+          fi
+          echo "::set-env name=OPEN_PULL_REQUEST::${OPEN_PULL_REQUEST}"
+          echo "::set-env name=PULL_REQUEST_FROM_BRANCH::${BRANCH_FROM}"
+          echo "::set-env name=PULL_REQUEST_TITLE::[generate-pdfs] ${SOURCE_BRANCH}"
+          PR_HINT="<sup>This PR has been automatically opened because some SORSE events changed. Do not manually push to the ${BRANCH_FROM} branch, as these commits might be overwritten. You can close this PR and, as long you do not delete the ${BRANCH_FROM} branch, no new PR will be created.</sup>"
+          if [[ -z ${PR_NUMBER} ]]; then
+              echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}.\n\n${PR_HINT}"
+          else
+              echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}, see #${PR_NUMBER}.\n\n${PR_HINT}"
+          fi
+
+      - name: Open Pull Request
+        if: ${{ env.OPEN_PULL_REQUEST == '1' }}
+        uses: vsoch/pull-request-action@1.0.6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PULL_REQUEST_BRANCH: ${{  github.head_ref }}
+
       - name: Upload pdfs as artifacts
+        if: ${{ env.GENERATE_PDFS == '1' }}
         uses: actions/upload-artifact@v2-preview
         with:
           name: event-pdfs
-          path: _events
+          path: downloads
