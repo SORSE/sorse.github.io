@@ -6,7 +6,7 @@ on:
       REMOVE_MASTER:
         description: Remove unchanged files from master branch to generate only updated pdfs
         required: false
-        default: '1'
+        default: 1
   pull_request:
     paths:
       - '_events/*/*.md'
