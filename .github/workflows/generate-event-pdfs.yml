@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Update environment from workflow_dispatch input
         if: ${{ github.event.inputs.REMOVE_MASTER }}
         run: echo "::set-env name=REMOVE_MASTER::${{ github.event.inputs.REMOVE_MASTER }}"
