@@ -117,7 +117,7 @@ jobs:
         uses: vsoch/pull-request-action@1.0.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PULL_REQUEST_BRANCH: ${{ env.GITHUB_REF }}
+          PULL_REQUEST_BRANCH: ${{  github.head_ref }}
 
       - name: Upload pdfs as artifacts
         if: ${{ env.GENERATE_PDFS == '1' }}
