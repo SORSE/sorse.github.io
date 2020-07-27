@@ -3,9 +3,9 @@ title: "Help!  I'm a Research Software Manager!"
 authors:
     - &speaker
       name:  Jonathan Dursi
-      affiliation: 1
       email: jonathan@dursi.ca
       is_speaker: true
+      affiliation: 1
 affiliations:
     - name: University Health Network
       index: 1
