@@ -81,7 +81,7 @@ jobs:
         if: ${{ env.GENERATE_PDFS && env.GITHUB_HEAD_REF == '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SOURCE_BRANCH: ${{ github.head_ref }}
+          SOURCE_BRANCH: ${{ github.head_ref || github.ref }}
           PR_NUMBER: ${{ github.event.number }}
         run: |
           printf "GitHub Actor: ${GITHUB_ACTOR}\n"
