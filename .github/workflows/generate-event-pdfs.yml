@@ -29,14 +29,14 @@ jobs:
         run: echo "::set-env name=REMOVE_MASTER::${{ github.event.inputs.REMOVE_MASTER }}"
       - name: Set additional variables
         run: |
-            echo "pdfcreator rseng/pdf-generator@0.0.3 with latex.template.sorse from ${GITHUB_REPOSITORY}@${GITHUB_SHA}" >> _events/sorse-variables.txt
-      - name: Remove files from master
+            echo "pdfcreator rseng/pdf-generator@0.0.3 with latex.template.sorse from ${GITHUB_REPOSITORY}@${GITHUB_SHA}" >> ci/sorse-variables.txt
+      - name: Copy files to ci folder
         if: ${{ env.REMOVE_MASTER == '1' }}
         run: |
-            git ls-tree -r --name-only origin/master -- _events/*/*.md | xargs -I {} sh -c "rm {} && echo Removing document: {}"
+            git diff -r --name-only origin/master -- _events/*/*.md | xargs -I {} sh -c "cp {} ci/ && echo Copied document: {}"
       - name: Configure PDF generation
         run: |
-            if ls _events/*/*.md &> /dev/null; then
+            if ls ci/*.md &> /dev/null; then
                 echo "::set-env name=GENERATE_PDFS::1"
             fi
 
@@ -45,8 +45,8 @@ jobs:
         uses: rseng/pdf-generator@0.0.3
         with:
 
-          # Generate in context of _events to remove path
-          workdir: _events
+          # Generate in context of ci to remove path
+          workdir: ci
 
           # The latex template to use (defaults to one here)
           latex_template: latex.template.sorse
@@ -72,7 +72,7 @@ jobs:
           if [[ ${GITHUB_HEAD_REF} == '' ]]; then
             rm downloads/*
           fi
-          mv _events/*/*.pdf downloads/
+          mv ci/*.pdf downloads/
 
       - name: Checkout New Branch
         if: ${{ env.GENERATE_PDFS && env.GITHUB_HEAD_REF == '' }}
