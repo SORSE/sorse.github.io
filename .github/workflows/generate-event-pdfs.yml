@@ -85,6 +85,7 @@ jobs:
           PR_NUMBER: ${{ github.event.number }}
         run: |
           printf "GitHub Actor: ${GITHUB_ACTOR}\n"
+          SOURCE_BRANCH=${SOURCE_BRANCH#refs/heads/}
           export BRANCH_FROM="add-pdfs/${SOURCE_BRANCH}"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
