@@ -30,7 +30,7 @@ jobs:
       - name: Set additional variables
         run: |
             echo "pdfcreator rseng/pdf-generator@0.0.3 with latex.template.sorse from ${GITHUB_REPOSITORY}@${GITHUB_SHA}" >> ci/sorse-variables.txt
-      - name: Remove files from master
+      - name: Copy files to ci folder
         if: ${{ env.REMOVE_MASTER == '1' }}
         run: |
             git diff -r --name-only origin/master -- _events/*/*.md | xargs -I {} sh -c "cp {} ci/ && echo Copied document: {}"
