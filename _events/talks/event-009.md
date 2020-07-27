@@ -16,7 +16,7 @@ language: English
 prerequisites: "General familiarity with issues from software development including concepts such as testing and automation as well as project management with limitations in academia are advantageous."
 date: 2020-07-17
 ---
-The challenges facing research software development are manifold and have long been a major topic at RSE conferences. 
+The challenges facing research software development are manifold and have long been a major topic at RSE conferences.
 
 In the context of the covid-19 pandemic, debates about the use or rather re-use of research software for real word applications -- with life-or-death implications -- have occurred in broader contexts than RSE conferences. The discussions confirm what has long been known: sustaining software for long term use requires continued commitment and investment in quality and practices, see e.g. Report on the [Workshop on Sustainable Software Sustainability 2019 (WOSSS19)](https://doi.org/10.5281/zenodo.3922155).
 
