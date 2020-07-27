@@ -52,6 +52,7 @@ exclude:
   - README.md
   - vendor
   - LICENSE
+  - ci
 
 # Plugins (previously gems:)
 plugins:
