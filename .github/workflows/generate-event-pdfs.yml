@@ -3,8 +3,8 @@ name: generate-pdf-artifacts
 on:
   workflow_dispatch:
     inputs:
-      REMOVE_MASTER:
-        description: Remove unchanged files from master branch to generate only updated pdfs
+      CHANGES_ONLY:
+        description: Only generate PDFs of events that differ from the master branch
         required: false
         default: 1
   pull_request:
@@ -12,7 +12,7 @@ on:
       - '_events/*/*.md'
 
 env:
-  REMOVE_MASTER: 1
+  CHANGES_ONLY: 1
   OPEN_PULL_REQUEST: 0
 
 jobs:
@@ -25,15 +25,18 @@ jobs:
         with:
           fetch-depth: 0
       - name: Update environment from workflow_dispatch input
-        if: ${{ github.event.inputs.REMOVE_MASTER }}
-        run: echo "::set-env name=REMOVE_MASTER::${{ github.event.inputs.REMOVE_MASTER }}"
+        if: ${{ github.event.inputs.CHANGES_ONLY }}
+        run: echo "::set-env name=CHANGES_ONLY::${{ github.event.inputs.CHANGES_ONLY }}"
       - name: Set additional variables
         run: |
             echo "pdfcreator rseng/pdf-generator@0.0.3 with latex.template.sorse from ${GITHUB_REPOSITORY}@${GITHUB_SHA}" >> ci/sorse-variables.txt
       - name: Copy files to ci folder
-        if: ${{ env.REMOVE_MASTER == '1' }}
         run: |
-            git diff -r --name-only origin/master -- _events/*/*.md | xargs -I {} sh -c "cp {} ci/ && echo Copied document: {}"
+            if [[ $CHANGES_ONLY == '1' ]]; then
+                git diff -r --name-only origin/master -- _events/*/*.md | xargs -I {} sh -c "cp {} ci/ && echo Copied document: {}"
+            else
+                cp _events/*/*.md ci/
+            fi
       - name: Configure PDF generation
         run: |
             if ls ci/*.md &> /dev/null; then
