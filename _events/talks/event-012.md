@@ -5,16 +5,9 @@ authors:
       name: Dr. Jack Brookes
       email: jack.brookes@ucl.ac.uk
       is_speaker: true
-      affiliation: 1
     - name: Mr. Matthew Warburton
-      affiliation: 1
     - name: Prof. Mark Mon-Williams
-      affiliation: 1
     - name: Dr. Faisal Mushtaq
-      affiliation: 1
-affiliations:
-    - name: University Health Network
-      index: 1
 author: *speaker
 category: talks
 language: English

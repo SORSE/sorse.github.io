@@ -3,10 +3,10 @@ title: "Towards Knowledge Graphs of Research Software metadata"
 authors:
     - &speaker
       name:  Daniel Garijo
-      affiliation: 1
       email: dgarijo@isi.edu
       orcid: 0000-0003-0454-7145
       is_speaker: true
+      affiliation: 1
     - name:  Yolanda Gil
       affiliation: 1
     - name: Mr. Maximiliano Osorio
