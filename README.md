@@ -81,3 +81,7 @@ https://github.com/mmistakes/minimal-mistakes#license.
 
 The [MIT license](http://opensource.org/licenses/MIT) also applies for the
 `_includes` and `_layouts` folder in this repository.
+
+The [academicons][ci/academicons.ttf] font is redistributed from the latex
+package [academicons](https://github.com/diogo-fernan/academicons), which has
+been published under the [SIL Open Font License](http://scripts.sil.org/OFL).
