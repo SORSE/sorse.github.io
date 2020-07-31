@@ -116,6 +116,7 @@ jobs:
           fi
           echo "::set-env name=OPEN_PULL_REQUEST::${OPEN_PULL_REQUEST}"
           echo "::set-env name=PULL_REQUEST_FROM_BRANCH::${BRANCH_FROM}"
+          echo "::set-env name=PULL_REQUEST_BRANCH::${SOURCE_BRANCH}"
           echo "::set-env name=PULL_REQUEST_TITLE::[generate-pdfs] ${SOURCE_BRANCH}"
           PR_HINT="<sup>This PR has been automatically opened because some SORSE events changed. Do not manually push to the ${BRANCH_FROM} branch, as these commits might be overwritten. You can close this PR and, as long you do not delete the ${BRANCH_FROM} branch, no new PR will be created.</sup>"
           if [[ -z ${PR_NUMBER} ]]; then
@@ -130,7 +131,6 @@ jobs:
         uses: vsoch/pull-request-action@1.0.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PULL_REQUEST_BRANCH: ${{  env.SOURCE_BRANCH }}
 
       - name: Upload pdfs as artifacts
         if: ${{ env.GENERATE_PDFS == '1' }}
