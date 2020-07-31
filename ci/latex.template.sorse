@@ -307,7 +307,9 @@ $if(authors)$
   $if(authors.affiliation)$
     \author[$authors.affiliation$]{$authors.name$}
   $else$
-    \author{$authors.name$}
+    % create an author with an empty affiliation. Adding hspace{-1ex} removes
+    % the extra space inserted.
+    \author[ \hspace{-1ex}]{$authors.name$}
   $endif$
   $endfor$
 $endif$
@@ -316,6 +318,9 @@ $if(affiliations)$
   $for(affiliations)$
     \affil[$affiliations.index$]{$affiliations.name$}
   $endfor$
+$else$
+  % authblk apparently requires at least one affiliation
+  \affil[ ]{ }
 $endif$
 \date{\vspace{-5ex}}
 

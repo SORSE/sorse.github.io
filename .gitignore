@@ -4,3 +4,5 @@ _site
 Gemfile.lock
 .tweet-cache
 ci/*.md
+ci/*.pdf
+ci/pandoc_run.sh
