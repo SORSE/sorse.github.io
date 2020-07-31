@@ -119,7 +119,7 @@ jobs:
           echo "::set-env name=PULL_REQUEST_TITLE::[generate-pdfs] ${SOURCE_BRANCH}"
           PR_HINT="<sup>This PR has been automatically opened because some SORSE events changed. Do not manually push to the ${BRANCH_FROM} branch, as these commits might be overwritten. You can close this PR and, as long you do not delete the ${BRANCH_FROM} branch, no new PR will be created.</sup>"
           if [[ -z ${PR_NUMBER} ]]; then
-              echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}.\n\n${PR_HINT}"
+              echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}.%0A%0A${PR_HINT}"
           else
               PR_NOTE="**Do not remove the ${BRANCH_FROM} branch until #${PR_NUMBER} has been merged or closed.**"
               echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}, see #${PR_NUMBER}.%0A%0A${PR_NOTE}%0A%0A${PR_HINT}"
