@@ -23,13 +23,11 @@ We encourage contributions from all time zones and will schedule events on a day
 
 We ask for these permissions so that 1) commmunity members in different timezones can watch your event, 2) make your contribution citable and 3) we can build an RSE resource on many different topics.
 
-The Call for Contributions form will remain **open continuously** and there will be a **rolling deadline at the end of the last day (UTC) of each month**, following which all contributions received over the previous month will be sent for review by the [Programme Committee]({% include fix-link.html link=site.data.committee.committees.programme.internal %}).
+The Call for Contributions form will remain **open continuously** and there will be a **rolling deadline at the end of the last day (UTC) of each month** (see [below](#next-submission-deadlines)), following which all contributions received over the previous month will be sent for review by the [Programme Committee]({% include fix-link.html link=site.data.committee.committees.programme.internal %}).
 
 The call is open to anyone wanting to propose a research software-related talk or event from anywhere in the world, regardless of your role.
 
-Upcoming submission deadlines are detailed [below](#next-submission-deadlines).
-
-See our [schedule of events]({{ "/#upcoming-events" | relative_url }}) for details of what’s coming up.
+Please have a look into our [schedule of events]({{ "/#upcoming-events" | relative_url }}) for details of what’s coming up.
 
 ## Next submission deadlines
 
