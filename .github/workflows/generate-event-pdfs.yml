@@ -85,7 +85,7 @@ jobs:
           PR_NUMBER: ${{ github.event.number }}
         run: |
           printf "GitHub Actor: ${GITHUB_ACTOR}\n"
-          SOURCE_BRANCH=${SOURCE_BRANCH#refs/heads/}
+          export SOURCE_BRANCH=${SOURCE_BRANCH#refs/heads/}
           export BRANCH_FROM="add-pdfs/${SOURCE_BRANCH}"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
@@ -130,7 +130,7 @@ jobs:
         uses: vsoch/pull-request-action@1.0.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PULL_REQUEST_BRANCH: ${{  github.head_ref }}
+          PULL_REQUEST_BRANCH: ${{  env.SOURCE_BRANCH }}
 
       - name: Upload pdfs as artifacts
         if: ${{ env.GENERATE_PDFS == '1' }}
