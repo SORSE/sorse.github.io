@@ -22,6 +22,31 @@
 %  style=alphabetic,
 %  citestyle=numeric
 ]{biblatex}
+
+
+% --------------- ORCID Logo taken from academicons package --------------------
+% https://github.com/diogo-fernan/academicons
+
+\DeclareFontFamily{TU}{academicons}{}
+\DeclareFontShape{TU}{academicons}{m}{n}
+  {<-> \UnicodeFontFile{academicons.ttf}{}}{}
+
+\newcommand\AI{\usefont{TU}{academicons}{m}{n}}
+
+\newcommand*{\aiicon}[1]
+{\AI\csname aiicon@#1\endcsname}
+
+\definecolor{orcidlogocol}{HTML}{A6CE39}
+
+\makeatletter
+\expandafter\def\csname%
+  aiicon@orcid\endcsname{\symbol{"E9D9}}
+\def\aiOrcid{{\AI\csname%
+  aiicon@orcid\endcsname}}
+\makeatother
+
+% ---------- END section from academicons.sty ----------------------------------
+
 \bibliography{$bibliography$}
 
 
@@ -305,11 +330,23 @@ $endif$
 $if(authors)$
   $for(authors)$
   $if(authors.affiliation)$
-    \author[$authors.affiliation$]{$authors.name$}
+    \author[$authors.affiliation$]{
+      $if(authors.orcid)$
+        \href{https://orcid.org/$authors.orcid$}{\textcolor{orcidlogocol}{\aiOrcid} \textcolor{black}{$authors.name$}}
+      $else$
+        $authors.name$
+      $endif$
+      }
   $else$
     % create an author with an empty affiliation. Adding hspace{-1ex} removes
     % the extra space inserted.
-    \author[ \hspace{-1ex}]{$authors.name$}
+    \author[ \hspace{-1ex}]{
+      $if(authors.orcid)$
+        \href{https://orcid.org/$authors.orcid$}{\textcolor{orcidlogocol}{\aiOrcid} \hspace{2mm} $authors.name$}
+      $else$
+        $authors.name$
+      $endif$
+      }
   $endif$
   $endfor$
 $endif$
