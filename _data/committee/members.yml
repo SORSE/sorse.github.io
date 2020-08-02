@@ -458,3 +458,15 @@
   teams:
     - ukRSE
     - website
+- name: Radovan Bast
+  email: radovan.bast@uit.no
+  website: https://bast.fr
+  affiliation: UiT The Arctic University of Norway/ NeIC
+  location: Tromsø, Norway
+  twitter: __radovan
+  github: bast
+  orcid: 0000-0002-7658-1847
+  avatar: /assets/images/radovan-bast.jpg
+  teams:
+    - nordicRSE
+    - operating
