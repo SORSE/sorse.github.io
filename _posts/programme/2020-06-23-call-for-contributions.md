@@ -8,8 +8,9 @@ tags:
 sidebar:
   nav: programme
 classes: wide
-last_modified_at: 2020-07-20
+last_modified_at: 2020-07-31
 id: 1
+fullcalendar: true
 ---
 
 Were you going to submit something to an RSE conference this year? Do you have a project you’d like to share? Is there a talk/workshop/panel you’d like to see happen? Then you’ve found the right place!
@@ -22,18 +23,14 @@ We encourage contributions from all time zones and will schedule events on a day
 
 We ask for these permissions so that 1) commmunity members in different timezones can watch your event, 2) make your contribution citable and 3) we can build an RSE resource on many different topics.
 
-The Call for Contributions form will remain **open continuously** and there will be a **rolling deadline at the end of the last day (UTC) of each month**, following which all contributions received over the previous month will be sent for review by the [Programme Committee]({% include fix-link.html link=site.data.committee.committees.programme.internal %}).
-
-To kick start the series, the next few deadlines will be shorter to stimulate contributions. Following the end of July, contribution deadlines will be the end of the last day of each month.
-
-* **First deadline date for contributions is 12th July at midnight UTC.**
-* **The Programme Team will get in touch with the contributors from this first round by the 17th July.**
-* Second deadline date for contributions is 31st July at midnight UTC.
+The Call for Contributions form will remain **open continuously** and there will be a **rolling deadline at the end of the last day (UTC) of each month** (see [below](#next-submission-deadlines)), following which all contributions received over the previous month will be sent for review by the [Programme Committee]({% include fix-link.html link=site.data.committee.committees.programme.internal %}).
 
 The call is open to anyone wanting to propose a research software-related talk or event from anywhere in the world, regardless of your role.
 
-Upcoming contribution deadlines are all detailed below. Each contribution deadline will have an earliest event date when events submitted prior to that deadline can take place. You can propose an event for any date or range of dates beyond this.
+Please have a look into our [schedule of events]({{ "/#upcoming-events" | relative_url }}) for details of what’s coming up.
 
-See our [schedule of events]({{ "/#upcoming-events" | relative_url }}) for details of what’s coming up.
+## Next submission deadlines
+
+{% include upcoming-events.html cfc_deadlines=true %}
 
 <a href="{{site.indico_base_event}}/abstracts" class="btn btn--success" target="_blank"><i class="fas fa-pen"></i> Submit an abstract</a>
