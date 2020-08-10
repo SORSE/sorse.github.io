@@ -5,10 +5,11 @@ authors:
       name: Dr. Jack Brookes
       email: jack.brookes@ucl.ac.uk
       is_speaker: true
-    - name: Mr. Matthew Warburton
+    - name: Matthew Warburton
     - name: Prof. Mark Mon-Williams
     - name: Dr. Faisal Mushtaq
 author: *speaker
+doi: 10.5281/zenodo.3977920
 category: talks
 language: English
 date: 2020-07-17

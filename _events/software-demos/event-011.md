@@ -13,6 +13,7 @@ affiliations:
 author: *speaker
 category: software-demos
 language: English
+doi: 10.5281/zenodo.3977886
 prerequisites: "Basic familiarity with Python and the command line"
 license: Open source
 instructions: "<a href='https://www.sphinx-doc.org/en/master/usage/installation.html#installation-from-pypi'>https://sphinx-doc.org</a>"
