@@ -9,7 +9,7 @@ authors:
       affiliation: 1
     - name:  Yolanda Gil
       affiliation: 1
-    - name: Mr. Maximiliano Osorio
+    - name: Maximiliano Osorio
       affiliation: 1
     - name:  Varun Ratnakar
       affiliation: 1
@@ -20,6 +20,7 @@ affiliations:
       index: 1
 author: *speaker
 category: talks
+doi: 10.5281/zenodo.3977916
 language: English
 prerequisites: "N/A
 Knowing what Zenodo and schema.org is will help, but is not a pre-requisite."
