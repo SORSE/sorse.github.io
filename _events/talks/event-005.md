@@ -11,6 +11,7 @@ affiliations:
       index: 1
 author: *speaker
 category: talks
+doi: 10.5281/zenodo.3977891
 language: English
 date: 2020-07-17
 ---

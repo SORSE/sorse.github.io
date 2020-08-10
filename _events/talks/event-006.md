@@ -2,7 +2,7 @@
 title: "Towards an NLP Pipeline for Conflict Narrative Detection"
 authors:
     - &speaker
-      name:  Stephen Anning
+      name: Stephen Anning
       email: spa1e17@soton.ac.uk
       orcid: 0000-0003-4911-7907
       is_speaker: true
@@ -15,6 +15,7 @@ affiliations:
     - name: University of Southampton
       index: 1
 author: *speaker
+doi: 10.5281/zenodo.3977894
 category: talks
 language: English
 prerequisites: "Basic principles of NLP"
