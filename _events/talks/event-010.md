@@ -16,7 +16,7 @@ authors:
     - name:  Deborah Khider
       affiliation: 1
 affiliations:
-    - name: Information Sciences Institute, USC
+    - name: Information Sciences Institute, USC, US
       index: 1
 author: *speaker
 category: talks

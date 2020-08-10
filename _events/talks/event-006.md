@@ -12,7 +12,7 @@ authors:
     - name: Dr. Craig Webber
       affiliation: 1
 affiliations:
-    - name: University of Southampton
+    - name: University of Southampton, UK
       index: 1
 author: *speaker
 doi: 10.5281/zenodo.3977894
