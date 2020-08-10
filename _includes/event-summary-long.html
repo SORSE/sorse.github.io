@@ -1,5 +1,11 @@
 {% assign event = include.event %}
 
+{% if event.doi %}
+<p>
+    <a href="https://doi.org/{{ event.doi }}"><img src="https://zenodo.org/badge/DOI/{{ event.doi }}.svg" alt="DOI"></a>
+</p>
+{% endif %}
+
 {% for author in event.authors %}
   {% assign author = site.data.authors[author] | default: author %}
   {% assign email = author.email %}
