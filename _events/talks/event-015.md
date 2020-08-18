@@ -19,11 +19,11 @@ prerequisites: "Links are included in the summary as well as this BBC article fo
 <a href='https://www.bbc.co.uk/news/business-52483082' class='truncated'>https://www.bbc.co.uk/news/business-52483082</a>"
 date: 2020-08-18
 ---
-Whilst there are over 200 Imaging/Radiology AI Companies world wide there are currently only about 50 FDA approved algorithms
+Whilst there are over 200 Imaging/Radiology AI Companies world wide there are currently only about 50 FDA approved algorithms.
 There are also significant barriers to overcome in bringing AI to the NHS landscape.
 In Bolton NHS Foundation Trust we are the first NHS Organisation to deploy the [Qure.AI solution](https://qure.ai/qxr.html) into clinical practice.
 
-In this talk we will dissect some of the barriers -- real and perceptual - which has to date limited the use of AI in clinical practice in the NHS and how we overcame these based on our lived experience. Of relevance to the software engineer audience this will include some disconnects between AI in the lab and clinical deployment.
+In this talk we will dissect some of the barriers -- real and perceptual -- which has to date limited the use of AI in clinical practice in the NHS and how we overcame these based on our lived experience. Of relevance to the software engineer audience this will include some disconnects between AI in the lab and clinical deployment.
 
 With testing turnaround times of more than 24 hours clinicians used chest radiography as the primary diagnostic tool to assess and triage COVID-19 patients. The introduction of Artificial Intelligence (AI) algorithms to radiology in Bolton resulted in a much faster and more accurate patient diagnosis. It showed quickly if someone's condition was worsening, improving or staying the same. This led to a more efficient triaging and care of patients and optimised use of critical care resources.  The AI tool also mitigated challenges presented by the loss of medical staff due to illness, self-isolation or shielding.
 
