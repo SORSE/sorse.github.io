@@ -6,48 +6,39 @@ authors:
       orcid: 0000-0003-1953-5606
       is_speaker: true
       affiliation: 9
-    - &speaker
-      name: Dr. Daniel S. Katz
+    - name: Dr. Daniel S. Katz
       orcid: 0000-0001-5934-7525
       is_speaker: true
       affiliation: 8
-    - &speaker
-      name: Dr. Fotis Psomopoulos
+    - name: Dr. Fotis Psomopoulos
       orcid: 0000-0002-0222-4273
       is_speaker: true
       affiliation: 3
-    - &speaker
-      name: Dr. Jennifer Harrow
+    - name: Dr. Jennifer Harrow
       orcid: 0000-0003-0338-3070
       is_speaker: true
       affiliation: 1
-    - &speaker
-      name: Dr. Leyla Garcia
+    - name: Dr. Leyla Garcia
       orcid: 0000-0003-3986-0510
       is_speaker: true
       affiliation: 10
-    - &speaker
-      name: Mateusz Kuzak
+    - name: Mateusz Kuzak
       email: m.kuzak@esciencecenter.nl
       orcid: 0000-0003-0087-6021
       is_speaker: true
       affiliation: 5
-    - &speaker
-      name: Dr. Michelle Barker
+    - name: Dr. Michelle Barker
       is_speaker: true
       affiliation: 6
-    - &speaker
-      name: Morane Gruenpeter
+    - name: Morane Gruenpeter
       orcid: 0000-0002-9777-5560
       is_speaker: true
       affiliation: 2
-    - &speaker
-      name: Dr. Paula Andrea Martinez
+    - name: Dr. Paula Andrea Martinez
       orcid: 0000-0002-8990-1985
       is_speaker: true
       affiliation: 4
-    - &speaker
-      name: Neil Chue Hong
+    - name: Neil Chue Hong
       orcid: 0000-0002-8876-7606
       is_speaker: true
       affiliation: 7
