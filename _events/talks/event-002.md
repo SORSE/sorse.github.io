@@ -25,9 +25,9 @@ date: 2020-08-19
 ---
 The focus of the talk is on the ways in which women are discursively constructed
 in the context of professional spaces in tech clusters. This is to give time to
-consider how the label ‘women in tech’ (WiT) is dominated by the masculine
-perspective of tech work and characterised by how individuals perform ‘identity
-work’. It has become apparent that the WiT label was already being used as
+consider how the label "women in tech" (WiT) is dominated by the masculine
+perspective of tech work and characterised by how individuals perform "identity
+work". It has become apparent that the WiT label was already being used as
 shorthand for a problem very much with a name and her name is "woman".
 
 The casual use of the label is significant. While notable as a term in industry and
