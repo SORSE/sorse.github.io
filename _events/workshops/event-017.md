@@ -7,12 +7,10 @@ authors:
       orcid: 0000-0003-1953-5606
       is_speaker: true
       affiliation: 3
-    - &speaker
-      name: Dr. Michelle Barker
+    - name: Dr. Michelle Barker
       is_speaker: true
       affiliation: 2
-    - &speaker
-      name: Dr. Carlos Martinez
+    - name: Dr. Carlos Martinez
       orcid: 0000-0001-5565-7577
       is_speaker: true
       affiliation: 1
