@@ -1,5 +1,5 @@
 ---
-title: 'Switching off the label "women in tech"'
+title: "Switching off the label 'women in tech'"
 authors:
     - &speaker
       name:  Mariann Hardey
