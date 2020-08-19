@@ -6,13 +6,11 @@ authors:
       orcid: 0000-0002-0650-9751
       is_speaker: true
       affiliation: 1
-    - &speaker
-      name: Vanessa Sochat
+    - name: Vanessa Sochat
       orcid: 0000-0002-4387-3819
       is_speaker: true
       affiliation: 3
-    - &speaker
-      name: Jurriaan Spaaks
+    - name: Jurriaan Spaaks
       orcid: 0000-0002-7064-4069
       is_speaker: true
       affiliation: 2
