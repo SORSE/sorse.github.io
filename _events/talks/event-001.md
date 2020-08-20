@@ -16,8 +16,8 @@ category: talks
 language: English
 author_profile: true
 time:
-    - start: 2020-09-02T13:00:00Z
-      end: 2020-09-02T13:30:00Z
+    - start: 2020-09-02T13:10:00Z
+      end: 2020-09-02T13:50:00Z
 date: 2020-08-19
 registration_url: https://docs.google.com/forms/d/e/1FAIpQLSetlGKtfCxxaAjtHEGxaQ58o360tn9y5BTqHypvc2qnly5CnQ/viewform
 ---
