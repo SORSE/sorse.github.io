@@ -21,4 +21,4 @@ time:
 date: 2020-08-19
 registration_url: https://docs.google.com/forms/d/e/1FAIpQLSetlGKtfCxxaAjtHEGxaQ58o360tn9y5BTqHypvc2qnly5CnQ/viewform
 ---
-to be added
+Coming soon...
