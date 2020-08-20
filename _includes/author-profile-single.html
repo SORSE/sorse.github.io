@@ -62,6 +62,14 @@
         </li>
       {% endif %}
 
+      {% if author.website %}
+        <li>
+          <a href="{{ author.website }}" itemprop="url">
+            <i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</span>
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}">
