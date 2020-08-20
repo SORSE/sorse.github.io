@@ -14,8 +14,11 @@ awards:
   name: Awards
   internal: /programme/awards/
 panels:
-  name: Panels and Discussions
+  name: Panel Discussions
   internal: /programme/panels/
+discussions:
+  name: Open Discussions
+  internal: /programme/discussions/
 bazaar:
   name: Topic Bazaar
   internal: /programme/bazaar/
