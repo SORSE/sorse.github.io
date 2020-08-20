@@ -7,7 +7,7 @@ authors:
       is_speaker: true
       affiliation: 1
 affiliations:
-    - name: University Health Network
+    - name: University Health Network, Canada
       index: 1
 author: *speaker
 category: talks

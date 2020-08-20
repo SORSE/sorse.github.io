@@ -8,7 +8,7 @@ authors:
       is_speaker: true
       affiliation: 1
 affiliations:
-    - name: CESSDA
+    - name: CESSDA, Norway
       index: 1
 author: *speaker
 doi: 10.5281/zenodo.3977896
