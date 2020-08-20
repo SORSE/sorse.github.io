@@ -22,7 +22,7 @@ affiliations:
     - name: Stanford University, US
       index: 3
 author: *speaker
-category: panels
+category: discussions
 language: English
 date: 2020-08-18
 ---
