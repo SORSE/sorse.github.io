@@ -1,7 +1,7 @@
 <div title="Add to Calendar" class="add-to-calendar">
     <span class="start">{{ time.start | date_to_xmlschema }}</span>
     {%- if time.end %}
-    <span class="end">{{ time.start | date_to_xmlschema }}</span>
+    <span class="end">{{ time.end | date_to_xmlschema }}</span>
     {%- endif %}
     <span class="timezone">UTC</span>
     <span class="title">{{ page.title }}</span>
