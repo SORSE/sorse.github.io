@@ -8,7 +8,7 @@ authors:
       is_speaker: true
       affiliation: 1
 affiliations:
-    - name: National Centre for Atmospheric Science
+    - name: National Centre for Atmospheric Science, UK
       index: 1
 author: *speaker
 category: software-demos
@@ -16,8 +16,8 @@ language: English
 doi: 10.5281/zenodo.3977886
 prerequisites: "Basic familiarity with Python and the command line"
 license: Open source
-instructions: "<a href='https://www.sphinx-doc.org/en/master/usage/installation.html#installation-from-pypi'>https://sphinx-doc.org</a>"
 date: 2020-07-17
+instructions: "<a href='https://www.sphinx-doc.org/en/master/usage/installation.html#installation-from-pypi' class='truncated'>https://www.sphinx-doc.org/en/master/usage/installation.html#installation-from-pypi</a>"
 ---
 In this demonstration we will build a mature documentation system from scratch for a dummy project using the Sphinx documentation generator, the infrastructure of choice for the documentation of a huge number of modern software projects, including of Python itself.
 
