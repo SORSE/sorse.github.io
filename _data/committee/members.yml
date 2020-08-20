@@ -40,6 +40,7 @@
     - deRSE
     - operating
     - panels
+    - discussions
     - programme
     - website
     - talks
@@ -254,6 +255,7 @@
     - nlRSE
     - programme
     - panels
+    - discussions
     - workshops
     - operating
 - name: Marion Weinzierl
@@ -269,6 +271,7 @@
     - coc
     - talks
     - panels
+    - discussions
 - name: Louise Brown
   affiliation: Composites Research Group, University of Nottingham
   location: Nottingham, UK
