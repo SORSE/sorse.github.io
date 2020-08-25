@@ -9,6 +9,9 @@ authors:
 affiliations:
     - name: University Health Network, Canada
       index: 1
+times:
+    - start: 2020-10-07T14:30:00Z
+    - end:  2020-10-07T14:50:00Z
 author: *speaker
 category: talks
 doi: 10.5281/zenodo.3977891
