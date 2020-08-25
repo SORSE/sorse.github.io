@@ -8,6 +8,9 @@ authors:
 affiliations:
     - name: The Numerical Algorithms Group (NAG)
       index: 1
+times:
+    - start: 2020-10-16T09:00:00Z
+    - end: 2020-10-16T09:30:00Z
 author: *speaker
 category: talks
 language: English
