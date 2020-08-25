@@ -10,6 +10,9 @@ authors:
 affiliations:
     - name: Harvard University, US
       index: 1
+times:
+    - start: 2020-10-07T16:00:00Z
+    - end: 2020-10-07T16:30:00Z
 author: *speaker
 category: talks
 language: english
