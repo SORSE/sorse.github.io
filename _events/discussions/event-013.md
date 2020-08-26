@@ -21,6 +21,9 @@ affiliations:
       index: 2
     - name: Stanford University, US
       index: 3
+time:
+    - start: 2020-09-16T18:00:00Z
+      end: 2020-09-16T19:30:00Z
 author: *speaker
 category: discussions
 language: English
