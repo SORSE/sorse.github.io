@@ -9,9 +9,9 @@ authors:
 affiliations:
     - name: Teri Apps
       index: 1
-times:
+time:
     - start: 2020-10-16T09:30:00Z
-    - end: 2020-10-16T10:00:00Z
+      end: 2020-10-16T10:00:00Z
 author: *speaker
 category: talks
 language: English
