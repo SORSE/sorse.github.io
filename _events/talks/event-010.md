@@ -18,6 +18,9 @@ authors:
 affiliations:
     - name: Information Sciences Institute, USC, US
       index: 1
+time:
+    - start: 2020-09-22T19:30:00Z
+      end: 2020-09-22T20:00:00Z
 author: *speaker
 category: talks
 doi: 10.5281/zenodo.3977916

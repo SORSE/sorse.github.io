@@ -8,6 +8,9 @@ authors:
     - name: Matthew Warburton
     - name: Prof. Mark Mon-Williams
     - name: Dr. Faisal Mushtaq
+time:
+    - start: 2020-09-22T19:00:00Z
+      end: 2020-09-22T19:30:00Z
 author: *speaker
 doi: 10.5281/zenodo.3977920
 category: talks
