@@ -10,6 +10,9 @@ authors:
 affiliations:
     - name: eLife, UK
       index: 1
+time:
+    - start: 2020-09-09T14:00:00Z
+      end: 2020-09-09T15:00:00Z
 author: *speaker
 category: software-demos
 language: English
