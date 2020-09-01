@@ -17,6 +17,7 @@ author: *speaker
 category: talks
 language: english
 date: 2020-08-18
+last_modified_at: 2020-08-26
 ---
 The FAIR guiding principles state that published research objects should be made Findable, Accessible, Interoperable, and Reusable for other researchers. Data repositories provide research dissemination following FAIR principles while also developing standards and tools to facilitate them. However, increased use of advanced research methods, such as virtual containers, supercomputers and GPUs, is introducing new challenges for research sharing. There is no standardized way of describing and disseminating such research outputs in data repositories. Furthermore, dissemination of data within virtual containers like Docker may hinder some of the commonly supported principles, such as findability and accessibility.
 
