@@ -26,6 +26,7 @@ minimal_mistakes_skin: default
 search: true
 future: true
 indico_base_event: https://indico.scc.kit.edu/event/863
+shared_calendar: https://calendar.google.com/calendar?cid=YXRnbTJiNXZiam42dGpyaTllNHI1a2tra2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
 
 twitter:
   username: *twitter
