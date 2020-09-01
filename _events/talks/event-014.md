@@ -18,6 +18,7 @@ language: English
 prerequisites: "No prerequisite knowledge is required"
 date: 2020-08-18
 last_modified_at: 2020-08-26
+registration_url: https://indico.scc.kit.edu/event/917/
 ---
 This is a two part talk, initially focussing on how I changed career and established a sole trader business, the second part on the latest web development techniques I use.
 
