@@ -8,7 +8,6 @@
     <span class="end">{{ time.end | date_to_xmlschema }}</span>
     {%- endif %}
     <span class="id">{{ event_id }}</span>
-    <span class="timezone">UTC</span>
     <span class="title">{{ title }}</span>
     <span class="description">{{ excerpt | markdownify | strip_html }}</span>
     <span class="location">{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}/{% endif %}{{ page.url }}</span>
