@@ -306,8 +306,12 @@
   location: London, UK
   website: https://www.turing.ac.uk/research/research-engineering
   email: ghanganu@turing.ac.uk
+  github: ghanganuT
   teams:
     - ukRSE
+    - programme
+    - panels
+    - discussions
 - name: Catherine Smith
   affiliation: University of Birmingham
   location: Birmingham, UK
