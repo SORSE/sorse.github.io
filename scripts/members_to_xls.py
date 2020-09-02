@@ -56,7 +56,8 @@ df = pd.DataFrame.from_dict(entries)
 
 avatars = df.avatar.copy()
 
-df['avatar'] = df.avatar.apply(maybe_copy_image)
+sl = (df.avatar.notnull(), 'avatar')
+df.loc[sl] = df.loc[sl].apply(maybe_copy_image)
 df['teams'] = df['teams'].apply(', '.join)
 
 os.makedirs(osp.dirname(xls_file) or '.', exist_ok=True)
@@ -73,4 +74,3 @@ for team in teams:
     team_df.to_excel(writer, sheet_name=team)
 
 writer.save()
-
