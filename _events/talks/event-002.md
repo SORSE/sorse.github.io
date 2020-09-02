@@ -22,6 +22,8 @@ time:
     - start: 2020-09-02T13:50:00Z
       end: 2020-09-02T14:30:00Z
 date: 2020-08-19
+meeting_url: https://zoom.us/j/95982897830
+last_modified_at: 2020-09-02
 registration_url: https://docs.google.com/forms/d/e/1FAIpQLSetlGKtfCxxaAjtHEGxaQ58o360tn9y5BTqHypvc2qnly5CnQ/viewform
 ---
 The focus of the talk is on the ways in which women are discursively constructed
