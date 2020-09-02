@@ -12,7 +12,7 @@ header:
   actions:
     - label: Submit an abstract
       url: /programme/call-for-contributions/
-    - label: Kickoff on Sepember, 2nd
+    - label: Kickoff on September, 2nd
       url: /programme/kickoff/
 excerpt: International Series of Online Research Software Events
 fullcalendar: true
