@@ -14,6 +14,8 @@ header:
       url: /programme/call-for-contributions/
     - label: Kickoff on September, 2nd
       url: /programme/kickoff/
+    - label: Join the mailing list
+      url: https://www.listserv.dfn.de/sympa/subscribe/sorsenews
 excerpt: International Series of Online Research Software Events
 fullcalendar: true
 ---
