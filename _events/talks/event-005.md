@@ -18,6 +18,7 @@ doi: 10.5281/zenodo.3977891
 language: English
 date: 2020-07-17
 last_modified_at: 2020-09-01
+registration_url: https://indico.scc.kit.edu/event/916/
 ---
 Research software development teams are too important to be managed poorly.  But no one teaches us to be good managers &mdash; _especially_ in academia.
 
