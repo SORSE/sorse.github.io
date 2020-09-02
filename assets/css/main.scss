@@ -8,6 +8,9 @@ $link-color: #740B70;
 $link-color-visited: #9B4C97;
 $link-color-hover: mix(#000, $link-color, 50%);
 
+$btn-zoom-color: #2D8CFF;
+$btn-zoom-color-hover: mix(#000, $btn-zoom-color, 50%);
+
 $karla: "Karla", sans-serif;
 $header-font-family: $karla;
 
@@ -130,6 +133,15 @@ nav.pagination{
   }
   &:hover{
     background-color: $btn-success-color-hover;
+  }
+}
+
+.btn--zoom{
+  &, &:visited, &:focus{
+    background-color: $btn-zoom-color;
+  }
+  &:hover{
+    background-color: $btn-zoom-color-hover;
   }
 }
 
