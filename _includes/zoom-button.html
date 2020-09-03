@@ -1,5 +1,7 @@
-{% if page.meeting_url %}
-<a class="btn btn--success btn--zoom" href="{{ page.meeting_url }}">
+{% capture now %}{{'now' | date: '%s' %}}{% endcapture %}
+{% capture event_end %}{{ time.end | date: '%s' }}{% endcapture %}
+{% if page.meeting_url and event_end > now %}
+<a class="btn btn--success btn--zoom" data-hide-at="{{ event_end }}" href="{{ page.meeting_url }}">
   <i class="fas fa-video"></i> Join
 </a>
 {% endif %}
