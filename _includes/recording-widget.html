@@ -1,0 +1,11 @@
+{% if page.recording_url %}
+{% if page.recording_url contains "youtu.be" or page.recording_url contains "youtube.com" %}
+{% capture video_id %}{{page.recording_url | split: "/" | last }}{% endcapture %}
+{% if video_id contains "?t=" %}
+{% capture id_with_time %}{{ video_id | split: "?" | first }}?start={{ video_id | split: "=" | last }}{% endcapture %}
+{% include video id=id_with_time provider="youtube" %}
+{% else %}
+{% include video id=video_id provider="youtube" %}
+{% endif %}
+{% endif %}
+{% endif %}
