@@ -1,5 +1,5 @@
 {%- assign occurrence_name = "" -%}
-{%- for slot in post.time -%}
+{%- for occurrence in post.time -%}
 {%- if forloop.index > 1 -%}
   {%- capture occurrence_name %} (occurrence #{{ forloop.index }}){% endcapture -%}
 {%- endif -%}
