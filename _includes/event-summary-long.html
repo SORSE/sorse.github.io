@@ -55,12 +55,12 @@
 </div>
 
 {% if event.time %}
-{% for slot in event.time %}
+{% for occurrence in event.time %}
 {% if forloop.index0 == 1 %}
-<b>Further slots:</b>
+<b>Further occurrences:</b>
 {% endif %}
 <ul class="page__date">
-  {% for time in slot %}
+  {% for time in occurrence %}
     <li>
       {% include event-time.html %}
     </li>

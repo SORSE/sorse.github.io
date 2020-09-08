@@ -1,12 +1,12 @@
-{%- assign slot_name = "" -%}
+{%- assign occurrence_name = "" -%}
 {%- for slot in post.time -%}
 {%- if forloop.index > 1 -%}
-  {%- capture slot_name %} (slot #{{ forloop.index }}){% endcapture -%}
+  {%- capture occurrence_name %} (occurrence #{{ forloop.index }}){% endcapture -%}
 {%- endif -%}
 {%- assign is_last = forloop.last -%}
-{%- for time in slot -%}
+{%- for time in occurrence -%}
 {
-  title  : "{{ post.title }}{{ slot_name }}{% unless forloop.first %} (continued){% endunless %}",
+  title  : "{{ post.title }}{{ occurrence_name }}{% unless forloop.first %} (continued){% endunless %}",
   {%- if include.onclick == 'tag' %}
   {%- if post.id %}
   url    : "#{{ post.id | split: '/' | last }}",
