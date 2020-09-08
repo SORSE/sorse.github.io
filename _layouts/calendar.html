@@ -76,6 +76,9 @@ layout: single
          $(".card").hide();
          elem.show();
        }
+     },
+     eventDidMount: function(arg) {
+       arg.el.setAttribute("title", arg.event.title);
      }
    });
   calendar.render();
