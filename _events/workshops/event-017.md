@@ -24,8 +24,14 @@ affiliations:
 author: *speaker
 category: workshops
 language: English
+time:
+    - - start: 2020-10-28T08:00:00Z
+        end: 2020-10-28T11:00:00Z
+    - - start: 2020-10-30T15:00:00Z
+        end: 2020-10-30T18:00:00Z
 prerequisites: "no specific knowledge/skills required"
 date: 2020-08-18
+last_modified_at: 2020-09-08
 ---
 Research Software Engineering (RSE) is increasingly being established as a field and profession in its own right. Since the term was coined about a decade ago, RSE has also been the subject of empirical research to gain knowledge and evidence about the various aspects involved. For example, the 2017 "State of the Nation Report" by Alys Brett et al. (https://doi.org/10.5281/zenodo.495360) presents survey data about the demographics of UK-based RSEs, and Rotem Botvinik-Nezer et al. (https://doi.org/10.1038/s41586-020-2314-9) report on the extreme variability of results they found when they let many teams develop analysis programs for the same dataset. Such findings are the basis for the international RSE community to provide support and develop solutions for open problems.
 
