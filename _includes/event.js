@@ -1,6 +1,12 @@
-{%- for time in post.time -%}
+{%- assign slot_name = "" -%}
+{%- for slot in post.time -%}
+{%- if forloop.index > 1 -%}
+  {%- capture slot_name %} (slot #{{ forloop.index }}){% endcapture -%}
+{%- endif -%}
+{%- assign is_last = forloop.last -%}
+{%- for time in slot -%}
 {
-  title  : "{{ post.title }}{% unless forloop.first %} (continued){% endunless %}",
+  title  : "{{ post.title }}{{ slot_name }}{% unless forloop.first %} (continued){% endunless %}",
   {%- if include.onclick == 'tag' %}
   {%- if post.id %}
   url    : "#{{ post.id | split: '/' | last }}",
@@ -16,5 +22,6 @@
   classNames: ["fc-sorse-event"],
   {% unless time.end %}// {% endunless %}end    : '{{ time.end | date_to_xmlschema }}',
   start  : '{{ time.start | date_to_xmlschema }}'
-}{% unless forloop.last %},{% endunless %}
+}{% unless forloop.last and is_last %},{% endunless %}
+{%- endfor -%}
 {%- endfor -%}
