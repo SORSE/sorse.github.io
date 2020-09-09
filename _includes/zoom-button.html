@@ -1,13 +1,7 @@
 {% capture now %}{{'now' | date: '%s' %}}{% endcapture %}
-{% capture event_end %}
-{% if page.time.end %}
-{{ page.time.end | date: '%s' }}
-{% else %}
-{{ page.time.last.end | date: '%s' }}
-{% endif %}
-{% endcapture %}
+{% capture event_end %}{% if page.time.end %}{{ page.time.end | date: '%s' }}{% else %}{{ page.time.last.end | date: '%s' }}{% endif %}{% endcapture %}
 {% if page.meeting_url and event_end > now %}
-<a class="btn btn--success btn--zoom" data-hide-at="{{ event_end | strip }}" href="{{ page.meeting_url }}">
+<a class="btn btn--success btn--zoom" data-hide-at="{{ event_end }}" href="{{ page.meeting_url }}">
   <i class="fas fa-video"></i> Join
 </a>
 {% endif %}
