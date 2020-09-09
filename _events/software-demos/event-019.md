@@ -21,6 +21,7 @@ instructions: "N/a"
 date: 2020-08-18
 last_modified_at: 2020-08-31
 registration_url: https://indico.scc.kit.edu/event/913/
+meeting_url: https://zoom.us/j/98656860237?pwd=dVVVZUFSdXdjRTdscnU4U2drWXNsdz09
 ---
 Code and data are important research output and integral to a full understanding of research findings and experimental approaches in a paper. However, traditional research articles seldom have these embedded in the manuscript's narrative, but instead, leave them as "supplementary materials", if they are openly available.
 
@@ -37,4 +38,4 @@ We published our [first demo ERA][1] in February 2019. Over the past year, we ha
 
 We will share our current vision of how ERAs will be integrated into our production workflow and collect feedback. We also hope to engage participants in exploring potential functionalities for the tool stack and building a community-driven roadmap.
 
-  [1]: https://elifesci.org/reproducible-example
+  [1]: https://elifesciences.org/articles/30274/executable
