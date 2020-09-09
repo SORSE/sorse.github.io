@@ -9,7 +9,7 @@ authors:
       is_speaker: true
       affiliation: 1
 affiliations:
-    - name: King's Digital Laboratory, King's College London, London, UK
+    - name: King's Digital Laboratory, King's College London, UK
       index: 1
 time:
     - start: 2020-09-29T15:00:00Z
@@ -19,7 +19,7 @@ category: talks
 language: English
 date: 2020-09-08
 last_modified_at: 2020-09-08
-registration_url: https://indico.scc.kit.edu/event/ID_UNKNOWN/
+registration_url: https://indico.scc.kit.edu/event/923/
 ---
 This SORSE event describes King's Digital Lab (KDL), a Research Software Engineering lab operating within the Faculty of Arts and Humanities at King's College London (UK). The KDL team of 18 project managers, analysts, designers, engineers, and systems managers specialise in arts & humanities, cultural heritage, and creative industries research and development. The talk will provide a current state overview of the lab, and describe our RSE HR roles (see [https://zenodo.org/record/2564790](https://zenodo.org/record/2564790)) and a relatively recent trial initiative that defines the different ways the team can contribute to research. A more technically-oriented overview of our ongoing work in refining the fundamental components of  KDL Software Development Lifecycle (see https://github.com/kingsdigitallab/sdlc-for-rse/) will also be provided, including descriptions of our modelling workflows, processes, and efforts to increase sustainability, reproducibility, and research data management best practice ([https://zenodo.org/record/3361580#.X09x6mdKhhE](https://zenodo.org/record/3361580#.X09x6mdKhhE)).
 
