@@ -55,13 +55,18 @@
 </div>
 
 {% if event.time %}
+{% for occurrence in event.time %}
+{% if forloop.index0 == 1 %}
+<b>Further occurrences:</b>
+{% endif %}
 <ul class="page__date">
-  {% for time in event.time %}
-  <li>
-    {% include event-time.html %}
-  </li>
+  {% for time in occurrence %}
+    <li>
+      {% include event-time.html %}
+    </li>
   {% endfor %}
 </ul>
+{% endfor %}
 <sup><a href="{{ site.shared_calendar }}" class="footnote">Subscribe to all SORSE events</a></sup>
 {% else %}
 <div class="notice--info" style="display: table-cell;"><i>This event will be scheduled soon</i></div>
