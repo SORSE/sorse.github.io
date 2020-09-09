@@ -1,7 +1,16 @@
 {% if page.registration_url %}
+{% if page.registration_url[0] %}
+<select class="btn btn--success registration-menu" >
+    <option value="" selected disabled hidden>&#xf56b; Register</option>
+    {% for uri in page.registration_url %}
+        <option value="{{ uri }}">Occurence #{{ forloop.index }}</option>
+    {% endfor %}
+</select>
+{% else %}
 <a class="btn btn--success" href="{{ page.registration_url }}">
   <i class="fas fa-feather-alt"></i> Register
 </a>
+{% endif %}
 {% else %}
 <span class="notice--info">
   <i>Registration will open soon</i>
