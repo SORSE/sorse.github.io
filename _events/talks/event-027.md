@@ -3,9 +3,13 @@ title: "Digital Humanities RSE: King's Digital Lab as experiment and lifecycle"
 authors:
     - &speaker
       name:  James Smithies
+      email: james.smithies@kcl.ac.uk
+      orcid: 0000-0003-4801-0366
       is_speaker: true
       affiliation: 1
     - name:  Arianna Ciula
+      email: arianna.ciula@kcl.ac.uk
+      orcid: 0000-0003-4801-0366
       is_speaker: true
       affiliation: 1
 affiliations:
