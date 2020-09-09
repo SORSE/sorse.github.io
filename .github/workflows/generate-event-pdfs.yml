@@ -128,7 +128,7 @@ jobs:
 
       - name: Open Pull Request
         if: ${{ env.OPEN_PULL_REQUEST == '1' }}
-        uses: vsoch/pull-request-action@1.0.6
+        uses: vsoch/pull-request-action@add/locales
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
