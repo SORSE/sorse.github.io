@@ -38,4 +38,4 @@ We published our [first demo ERA][1] in February 2019. Over the past year, we ha
 
 We will share our current vision of how ERAs will be integrated into our production workflow and collect feedback. We also hope to engage participants in exploring potential functionalities for the tool stack and building a community-driven roadmap.
 
-  [1]: https://elifesci.org/reproducible-example
+  [1]: https://elifesciences.org/articles/30274/executable
