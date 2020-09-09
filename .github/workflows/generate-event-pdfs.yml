@@ -45,7 +45,7 @@ jobs:
 
       - name: Generate Full PDF Template
         if: ${{ env.GENERATE_PDFS == '1' }}
-        uses: rseng/pdf-generator@0.0.3
+        uses: rseng/pdf-generator@add/locales
         with:
 
           # Generate in context of ci to remove path
