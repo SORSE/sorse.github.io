@@ -7,9 +7,6 @@ on:
         description: Only generate PDFs of events that differ from the master branch
         required: false
         default: 1
-  pull_request:
-    paths:
-      - '_events/*/*.md'
 
 env:
   CHANGES_ONLY: 1
