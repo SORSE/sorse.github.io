@@ -68,11 +68,7 @@ jobs:
 
       - name: Move PDFs to downloads folder
         if: ${{ env.GENERATE_PDFS == '1' }}
-        run: |
-          if [[ ${GITHUB_HEAD_REF} == '' && ${GITHUB_WORKFLOW} != "workflow_dispatch" ]]; then
-            rm downloads/*
-          fi
-          mv ci/*.pdf downloads/
+        run: mv ci/*.pdf downloads/
 
       - name: Checkout New Branch
         if: ${{ env.GENERATE_PDFS && env.GITHUB_HEAD_REF == '' }}
