@@ -8,7 +8,7 @@
 {% if event.time %}
 {% for occurrence in event.time %}
 {% if forloop.index0 == 1 %}
-<b>Further occurrences</b>
+<b>Repeated events</b> <abbr title="This event is repeated to cover multiple time zones"><i class="fas fa-info-circle"></i></abbr>
 {% endif %}
 <ul class="page__date">
   {% for time in occurrence %}
