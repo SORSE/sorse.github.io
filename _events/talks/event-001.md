@@ -16,8 +16,8 @@ category: talks
 language: English
 author_profile: true
 time:
-    - start: 2020-09-02T13:10:00Z
-      end: 2020-09-02T13:50:00Z
+    - - start: 2020-09-02T13:10:00Z
+        end: 2020-09-02T13:50:00Z
 date: 2020-08-19
 meeting_url: https://zoom.us/j/95982897830
 last_modified_at: 2020-09-04
