@@ -11,8 +11,8 @@ affiliations:
     - name: National Centre for Atmospheric Science, UK
       index: 1
 time: 
-    - start: 2020-11-03T15:00:00Z
-      end: 2020-11-03T16:00:00Z
+    - - start: 2020-11-03T15:00:00Z
+        end: 2020-11-03T16:00:00Z
 author: *speaker
 category: software-demos
 language: English
