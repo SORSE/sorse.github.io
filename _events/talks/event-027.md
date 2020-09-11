@@ -16,8 +16,8 @@ affiliations:
     - name: King's Digital Laboratory, King's College London, UK
       index: 1
 time:
-    - start: 2020-09-29T15:00:00Z
-      end: 2020-09-29T16:30:00Z
+    - - start: 2020-09-29T15:00:00Z
+        end: 2020-09-29T16:30:00Z
 author: *speaker
 category: talks
 language: English

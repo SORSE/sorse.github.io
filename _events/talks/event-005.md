@@ -10,8 +10,8 @@ affiliations:
     - name: University Health Network, Canada
       index: 1
 time:
-    - start: 2020-10-07T16:30:00Z
-      end:  2020-10-07T16:50:00Z
+    - - start: 2020-10-07T16:30:00Z
+        end:  2020-10-07T16:50:00Z
 author: *speaker
 category: talks
 doi: 10.5281/zenodo.3977891
