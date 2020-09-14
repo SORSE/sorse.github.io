@@ -2,13 +2,29 @@
 title: "Partner Event - HPC Champions Workshop"
 authors:
     - &speaker
-      name: Dr. Anna Brown
+      name: Anna Brown
       email: anna.brown@oerc.ox.ac.uk
       is_speaker: true
       affiliation: 1
+    - &speaker
+      name: Alan Simpson
+      is_speaker: true
+      affiliation: 2
+    - &speaker
+      name: Andy Turner
+      is_speaker: true
+      affiliation: 2
+    - &speaker
+      name: James Grant
+      is_speaker: true
+      affiliation: 3
 affiliations:
-    - name: e-Research Centre, University of Oxford
+    - name: University of Oxford, University of Southampton
       index: 1
+    - name: EPCC
+      index: 2
+    - name: University of Bath
+      index: 3
 author: *speaker
 category: workshops
 language: English
