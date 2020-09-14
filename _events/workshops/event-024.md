@@ -6,16 +6,13 @@ authors:
       email: anna.brown@oerc.ox.ac.uk
       is_speaker: true
       affiliation: 1
-    - &speaker
-      name: Alan Simpson
+    - name: Alan Simpson
       is_speaker: true
       affiliation: 2
-    - &speaker
-      name: Andy Turner
+    - name: Andy Turner
       is_speaker: true
       affiliation: 2
-    - &speaker
-      name: James Grant
+    - name: James Grant
       is_speaker: true
       affiliation: 3
 affiliations:
