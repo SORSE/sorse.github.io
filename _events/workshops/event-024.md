@@ -15,6 +15,9 @@ authors:
     - name: James Grant
       is_speaker: true
       affiliation: 3
+    - name: Josephine Beech-Brandt
+      is_speaker: true
+      affiliation: 2
 affiliations:
     - name: University of Oxford, University of Southampton
       index: 1
@@ -26,10 +29,13 @@ author: *speaker
 category: workshops
 language: English
 prerequisites: "no prerequisite knowledge needed"
-date: 2020-08-17
+date: 2020-09-14
+last_modified_at: 2020-09-14
 time:
-    - - start: 2020-09-17T13:00:00Z
-        end: 2020-09-18T17:00:00Z
+    - - start: 2020-09-17T12:00:00Z
+        end: 2020-09-17T16:00:00Z
+      - start: 2020-09-18T12:00:00Z
+        end: 2020-09-18T16:00:00Z
 registration_url:
     - https://indico.scc.kit.edu/e/hpc-champions-2020
 ---
