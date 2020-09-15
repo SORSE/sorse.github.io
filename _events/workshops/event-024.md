@@ -15,6 +15,9 @@ authors:
     - name: James Grant
       is_speaker: true
       affiliation: 3
+    - name: Josephine Beech-Brandt
+      is_speaker: true
+      affiliation: 2
 affiliations:
     - name: University of Oxford, University of Southampton
       index: 1
