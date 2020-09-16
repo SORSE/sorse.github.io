@@ -21,7 +21,7 @@ affiliations:
       index: 1
     - name: University of Notre Dame, US
       index: 2
- time:
+time:
     - - start: 2020-10-22T14:30:00Z
         end: 2020-10-22T14:45:00Z
 author: *speaker
