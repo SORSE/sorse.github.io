@@ -20,7 +20,7 @@ doi: 10.5281/zenodo.3977886
 prerequisites: "Basic familiarity with Python and the command line"
 license: Open source
 date: 2020-07-17
-last_modified_at: 2020-09-11
+last_modified_at: 2020-09-15
 instructions: "<a href='https://www.sphinx-doc.org/en/master/usage/installation.html#installation-from-pypi' class='truncated'>https://www.sphinx-doc.org/en/master/usage/installation.html#installation-from-pypi</a>"
 registration_url: https://indico.scc.kit.edu/event/918/
 ---
