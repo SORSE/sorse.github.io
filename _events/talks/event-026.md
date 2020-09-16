@@ -21,11 +21,16 @@ affiliations:
       index: 1
     - name: University of Notre Dame, US
       index: 2
+time:
+    - - start: 2020-10-22T14:30:00Z
+        end: 2020-10-22T14:45:00Z
 author: *speaker
 category: talks
 language: English
 prerequisites: "No prerequisite knowledge is needed. The goal is to exchange ideas about definitions and wording around RSEs to reach a broad inclusivity and to present the activities of US-RSE."
 date: 2020-09-09
+last_modified_at: 2020-09-15
+registration_url: https://indico.scc.kit.edu/event/934/
 ---
 An important part of building a strong and resilient community is fostering collaboration between individuals with varying backgrounds, expertise, and viewpoints and building a diverse and inclusive community. While the term Research Software Engineering was initially suggested in 2010, there are many different definitions of Research Software Engineers (RSEs) and their community. The US-RSE Association uses "We like an inclusive definition of Research Software Engineers to encompass those who regularly use expertise in programming to advance research." One of the first community events of the US-RSE Association was a Birds-of-Feather session at PEARC19, where the discussion revealed that participants wanted to learn if the RSE community could include them, and questions arose who would be interested in such an association and community beyond RSEs themselves. These discussions have continued since then and we realized that any definition of RSE will probably change over time.
 

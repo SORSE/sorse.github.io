@@ -10,10 +10,15 @@ authors:
 affiliations:
     - name: University of Oxford, UK
       index: 1
+time: 
+    - - start: 2020-11-10T10:30:00Z
+        end: 2020-11-10T11:00:00Z
 author: *speaker
 category: talks
 language: English
 date: 2020-09-09
+last_modified_at: 2020-09-15
+registration_url: https://indico.scc.kit.edu/event/935/
 ---
 Manually annotated images and videos are a fundamental part of many research projects and industrial applications. However, manual image annotation tools are often designed to address one specific use case and lack the flexibility to be reused across different projects. Furthermore, these tools often have complex installation and setup procedure which presents a barrier to non-technical users. To address these limitations, we created the VGG Image Annotator [VIA](http://www.robots.ox.ac.uk/~vgg/software/via/),  which is a light weight, standalone and offline software package that does not require any installation or setup and runs solely in a web browser. The VIA software allows human annotators to define and describe spatial regions in images or video frames,  and temporal segments in audio or video. These manual annotations can be exported to plain text data formats such as JSON and CSV and therefore are amenable to further processing by other software tools. VIA also supports collaborative annotation of a large dataset by a group of human annotators. The BSD open source license of this software allows it to be used in any academic project or commercial application.
 
