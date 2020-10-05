@@ -14,8 +14,12 @@ author: *speaker
 doi: 10.5281/zenodo.3977896
 category: talks
 language: English
+time:
+    - - start: 2020-12-10T14:30:00Z
+        end: 2020-12-10T15:00:00Z
 prerequisites: "General familiarity with issues from software development including concepts such as testing and automation as well as project management with limitations in academia are advantageous."
 date: 2020-07-17
+last_modified_at: 2020-10-05
 ---
 The challenges facing research software development are manifold and have long been a major topic at RSE conferences.
 
