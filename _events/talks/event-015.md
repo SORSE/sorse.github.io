@@ -29,4 +29,4 @@ With testing turnaround times of more than 24 hours clinicians used chest radiog
 
 Our vision was to give clinicians 24/7 access to an accurate and consistent decision support tool to improve chest x-ray interpretation allowing them to make quicker and better-informed decisions about patient care.
 
-We carried out extensive research before partnering with Qure.ai and this contributed to the [NHSx guidance](https://www.nhsx.nhs.uk/media/documents/A_Buyers_Checklist_for_AI_in_Health_and_Care.pdf) and [guidance by GOV.UK](https://www.gov.uk/guidance/assessing-if-artificial-intelligence-is-the-right-solution#assessing-if-ai-is-the-right-solution-for-your-users-needs).
+We carried out extensive research before partnering with Qure.ai and this contributed to the [NHSx guidance](https://www.nhsx.nhs.uk/media/documents/NHSX_A_Buyers_Guide_to_AI_in_Health_and_Care.pdf) and [guidance by GOV.UK](https://www.gov.uk/guidance/assessing-if-artificial-intelligence-is-the-right-solution#assessing-if-ai-is-the-right-solution-for-your-users-needs).
