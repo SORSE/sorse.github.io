@@ -1,0 +1,21 @@
+{% if page.slides %}
+{% if page.slides[0] %}
+<select class="btn btn--success registration-menu" onchange="if (this.value) window.location.href=this.value">
+    <option value="" selected disabled hidden >&#xf15c; Slides &nbsp;&nbsp;</option>
+
+    {% for hash in page.slides -%}
+    {% for item in hash %}
+    <option value="{{ item[1] }}">{{ item[0] }}</option>
+    {% endfor %}
+    {% endfor -%}
+</select>
+{% else %}
+<a class="btn btn--success" href="{{ page.slides }}">
+  <i class="fas fa-file-alt"></i> Slides
+</a>
+{% endif %}
+{% else %}
+<span class="notice--info">
+  <i>Slides will be available soon</i>
+</span>
+{% endif %}
