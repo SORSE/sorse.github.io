@@ -14,6 +14,8 @@ header:
       url: /programme/call-for-contributions/
     - label: Join the mailing list
       url: https://www.listserv.dfn.de/sympa/subscribe/sorsenews
+    - label: Watch past events
+      url: https://www.youtube.com/channel/UCJ1CwxvODyT-eb4K7HfelGA
 excerpt: International Series of Online Research Software Events
 fullcalendar: true
 ---
