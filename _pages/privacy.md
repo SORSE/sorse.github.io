@@ -53,15 +53,19 @@ toc_sticky: true
 
 - We do not store participants' data or contact information (besides everything
   that Zoom collects and stores).
-- The main Zoom room will be recorded during an event. You can avoid appearing on this
-  video by turning off your camera and by muting yourself during the event.
-  Videos of participants during a webinar will not be
-  recorded, unless you are the presenter. The audio will always be recorded.
-- We do not record the Zoom chat during an event. So one way to avoid being
-  recorded is to not use audio and video, but use the chat instead.
-- Audio and video recordings will be archived and published at the
-  [TIB AV portal](https://av.tib.eu/)
-  ([their privacy statement](https://www.tib.eu/en/service/data-protection/), only available in German).
+- The main Zoom room will be recorded during an event, this includes any Q&A
+  after talks. You can avoid appearing on this video by turning off your camera
+  and by muting yourself during the event. Videos of participants during a
+  webinar will not be recorded, unless you ask a question via audio whilst your
+  camera is enabled. The audio will always be recorded.
+- We do not record the Zoom text chat or Q&A function during an event. If you
+  would like to ask a question whilst avoiding appearing in the recording please
+  use one of these.
+- Audio and video recordings will be archived and published at the [TIB AV
+  portal](https://av.tib.eu/) ([their privacy
+  statement](https://www.tib.eu/en/service/data-protection/), only available in
+  German) and on Youtube ([their privacy
+  statement](https://www.youtube.com/static?gl=GB&template=terms)).
 
 
 ## Questions/concerns?
