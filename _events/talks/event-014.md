@@ -19,8 +19,7 @@ prerequisites: "No prerequisite knowledge is required"
 date: 2020-08-18
 last_modified_at: 2020-08-26
 registration_url: https://indico.scc.kit.edu/event/917/
-slides:
-    - PDF slides: https://docs.google.com/presentation/d/1NEWWb4zJu_YhPauX6PZwLJ1qKwZBg5W52qx83-Uh0lU/edit?usp=sharing
+slides: https://indico.scc.kit.edu/event/917/attachments/3781/5558/Becoming_a_freelance_RSE_TeriForey.pdf
 ---
 This is a two part talk, initially focussing on how I changed career and established a sole trader business, the second part on the latest web development techniques I use.
 
