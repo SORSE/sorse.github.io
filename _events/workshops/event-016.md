@@ -67,13 +67,16 @@ author: *speaker
 category: workshops
 language: English
 time:
-    - - start: 2020-10-17T07:00:00Z
-        end: 2020-10-17T10:00:00Z
-    - - start: 2020-10-19T16:00:00Z
-        end: 2020-10-19T19:00:00Z
+    - - start: 2020-11-17T07:00:00Z
+        end: 2020-11-17T10:00:00Z
+    - - start: 2020-11-19T16:00:00Z
+        end: 2020-11-19T19:00:00Z
 prerequisites: "no prerequisite knowledge needed"
 date: 2020-08-18
 last_modified_at: 2020-10-05
+registration_url:
+    - https://indico.scc.kit.edu/event/2135/
+    - https://indico.scc.kit.edu/event/2134/
 ---
 The software has become essential for research. To improve the Findability, Accessibility, Interoperability, and Reuse of research software, it is desirable to develop and apply a set of  FAIR Guiding Principles for software. Application of the FAIR principles to software will continue to advance the aims of the open science movement. [The FAIR 4 Research Software Working Group][1] (FAIR4RS WG) [aims][2] to enable coordination of existing community-led discussions on how to define and apply FAIR principles to research software, and achieve adoption of these principles. The [FAIR4RS WG][3] is jointly convened as an RDA Working Group, [FORCE11][4] Working Group, and [Research Software Alliance (ReSA) Taskforce][5], in recognition of the importance of this work.
 Since July 2020, the group has been analysing existing work in this area and has started drafting community-agreed-upon FAIR principles for research software. This workshop will provide the following opportunities:
