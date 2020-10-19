@@ -93,5 +93,5 @@ The workshop will encourage collaboration around the drafting of FAIR for resear
   [2]: https://www.rd-alliance.org/node/69317/case-statement
   [3]: https://www.rd-alliance.org/groups/fair-4-research-software-fair4rs-wg
   [4]: https://www.force11.org/
-  [5]: http://www.researchsoft.org/resa-taskforces-join-us/
+  [5]: https://www.researchsoft.org/taskforces/
   [6]: https://www.rd-alliance.org/group/fair-4-research-software-fair4rs-wg/post/fair-4-rs-webinars-2930-june
