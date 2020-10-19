@@ -73,7 +73,7 @@ time:
         end: 2020-11-19T19:00:00Z
 prerequisites: "no prerequisite knowledge needed"
 date: 2020-08-18
-last_modified_at: 2020-10-05
+last_modified_at: 2020-10-19
 registration_url:
     - https://indico.scc.kit.edu/event/2135/
     - https://indico.scc.kit.edu/event/2134/
