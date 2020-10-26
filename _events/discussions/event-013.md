@@ -31,6 +31,10 @@ date: 2020-08-18
 last_modified_at: 2020-08-26
 registration_url: https://indico.scc.kit.edu/event/914/
 recording_url: https://youtu.be/Rky9OWSzYb0
+slides:
+  - "Part 1": https://doi.org/10.5281/zenodo.4058207
+  - "Part 2": https://doi.org/10.5281/zenodo.4034290
+  - "Part 3": https://docs.google.com/presentation/d/e/2PACX-1vQreRIP6_nBr4w6zwiyjpDXS_4k2e3HcTp43MUAXXCkme6kKN3EmBXEgox0Mzyeza731TZcwcmxz_MK/pub?start=false&loop=false&delayms=3000
 ---
 This discussion session will focus on Research Software Directories: catalogues to showcase the software outputs of an institution or community. We will introduce the topic before demonstrating three independently-developed open source directories, explaining their respective benefits and ease of use, deployment and maintenance. Then we intend to form breakout groups to discuss some of the challenges associated with maintaining and curating such directories.
 
