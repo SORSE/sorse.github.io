@@ -35,6 +35,7 @@ last_modified_at: 2020-09-08
 registration_url:
     - https://indico.scc.kit.edu/event/924/
     - https://indico.scc.kit.edu/event/925/
+slides: https://indico.scc.kit.edu/event/924/attachments/3814/5601/Research_on_RSE.pptx   
 ---
 Research Software Engineering (RSE) is increasingly being established as a field and profession in its own right. Since the term was coined about a decade ago, RSE has also been the subject of empirical research to gain knowledge and evidence about the various aspects involved. For example, the 2017 "State of the Nation Report" by Alys Brett et al. (https://doi.org/10.5281/zenodo.495360) presents survey data about the demographics of UK-based RSEs, and Rotem Botvinik-Nezer et al. (https://doi.org/10.1038/s41586-020-2314-9) report on the extreme variability of results they found when they let many teams develop analysis programs for the same dataset. Such findings are the basis for the international RSE community to provide support and develop solutions for open problems.
 
