@@ -21,7 +21,8 @@ time:
 prerequisites: "Links are included in the summary as well as this BBC article for the background of the deployment otherwise no specialise prerequisite knowledge is required
 <a href='https://www.bbc.co.uk/news/business-52483082' class='truncated'>https://www.bbc.co.uk/news/business-52483082</a>"
 date: 2020-08-18
-last_modified_at: 2020-10-06
+last_modified_at: 2020-11-03
+registration_url: https://indico.scc.kit.edu/event/2200/
 ---
 Whilst there are over 200 Imaging/Radiology AI Companies world wide there are currently only about 50 FDA approved algorithms.
 There are also significant barriers to overcome in bringing AI to the NHS landscape.
