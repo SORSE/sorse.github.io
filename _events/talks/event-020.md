@@ -20,6 +20,7 @@ date: 2020-08-18
 last_modified_at: 2020-08-26
 registration_url: https://indico.scc.kit.edu/event/916/
 recording_url: https://youtu.be/OEY74uj8VyY
+slides: https://indico.scc.kit.edu/event/916/attachments/3825/5615/Improving_FAIRness_with_containers.pdf
 ---
 The FAIR guiding principles state that published research objects should be made Findable, Accessible, Interoperable, and Reusable for other researchers. Data repositories provide research dissemination following FAIR principles while also developing standards and tools to facilitate them. However, increased use of advanced research methods, such as virtual containers, supercomputers and GPUs, is introducing new challenges for research sharing. There is no standardized way of describing and disseminating such research outputs in data repositories. Furthermore, dissemination of data within virtual containers like Docker may hinder some of the commonly supported principles, such as findability and accessibility.
 
