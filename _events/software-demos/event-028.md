@@ -38,7 +38,7 @@ Finally, we will demonstrate the current pilot version of the project, and give 
 
 For more information about the EESSI project:
 
-* website: https://www.eessi-hpc.org
-* GitHub: https://github.com/EESSI
-* documentation: https://eessi.github.io/docs
-* Twitter: https://twitter.com/eessi_hpc
+* website: [https://www.eessi-hpc.org](https://www.eessi-hpc.org)
+* GitHub: [https://github.com/EESSI](https://github.com/EESSI)
+* documentation: [https://eessi.github.io/docs](https://eessi.github.io/docs)
+* Twitter: [https://twitter.com/eessi_hpc](https://twitter.com/eessi_hpc)
