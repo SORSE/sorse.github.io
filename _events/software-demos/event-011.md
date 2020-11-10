@@ -20,10 +20,11 @@ doi: 10.5281/zenodo.3977886
 prerequisites: "Basic familiarity with Python and the command line"
 license: Open source
 date: 2020-07-17
-last_modified_at: 2020-09-15
+last_modified_at: 2020-11-10
 instructions: "<a href='https://www.sphinx-doc.org/en/master/usage/installation.html#installation-from-pypi' class='truncated'>https://www.sphinx-doc.org/en/master/usage/installation.html#installation-from-pypi</a>"
 registration_url: https://indico.scc.kit.edu/event/918/
 slides: https://github.com/sadielbartholomew/sphinx-from-scratch
+recording_url: https://youtu.be/Xjei353h-f0
 ---
 In this demonstration we will build a mature documentation system from scratch for a dummy project using the Sphinx documentation generator, the infrastructure of choice for the documentation of a huge number of modern software projects, including of Python itself.
 
