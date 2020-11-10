@@ -22,7 +22,7 @@ registration_url: https://indico.scc.kit.edu/event/916/
 slides:
     - PDF slides: https://www.researchcomputingteams.org/pdfs/SORSE2020-BeAGreatManager.pdf
     - Further resources: https://www.researchcomputingteams.org/SORSE/
-recording_url: https://youtu.be/JEPzPgGBabk
+recording_url: https://youtu.be/Xjei353h-f0
 ---
 Research software development teams are too important to be managed poorly.  But no one teaches us to be good managers &mdash; _especially_ in academia.
 
