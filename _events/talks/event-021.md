@@ -4,7 +4,7 @@ authors:
     - &speaker
       name: Dave Horsfall
       is_speaker: true
-time: 
+time:
     - - start: 2020-11-10T10:00:00Z
         end: 2020-11-10T10:30:00Z
 author: *speaker
@@ -15,6 +15,7 @@ date: 2020-09-09
 last_modified_at: 2020-09-15
 registration_url: https://indico.scc.kit.edu/event/935/
 slides: https://indico.scc.kit.edu/event/935/attachments/3835/5635/sorse_dhorsfall_20-11-10.pdf
+recording_url: https://youtu.be/b7d2ByPoxQs
 ---
 As more people interact with bots driven by Artificial Intelligence, it is important to understand how to create relationships based on trust. The [FinTrust Project][1] at Newcastle University is looking at the role of machine learning in banking, particularly in the context of automated chatbots and how the presence of socio-emotional features impacts the intention to use. Researchers from social sciences and computing are examining how trust can be measured, how trust is gained and lost, and what implications this might have on design considerations.
 
