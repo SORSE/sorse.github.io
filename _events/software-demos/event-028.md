@@ -4,6 +4,7 @@ authors:
     - &speaker
       name: Kenneth Hoste
       email: kenneth.hoste@ugent.be
+      avatar: /assets/images/EESSI_logo_horizontal.png
       is_speaker: true
       affiliation: 1
 affiliations:
@@ -21,6 +22,7 @@ license: Open source
 instructions: "<a href='https://eessi.github.io/docs/pilot' class='truncated'>https://eessi.github.io/docs/pilot</a>"
 date: 2020-11-03
 registration_url: https://indico.scc.kit.edu/event/2201/
+author_profile: true
 ---
 What if there was a way to avoid having to install a broad range of scientific software from scratch on every workstation, HPC cluster, or cloud instance you use or maintain, without compromising on performance?
 
