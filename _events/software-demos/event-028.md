@@ -24,6 +24,8 @@ registration_url: https://indico.scc.kit.edu/event/2201/
 ---
 What if there was a way to avoid having to install a broad range of scientific software from scratch on every workstation, HPC cluster, or cloud instance you use or maintain, without compromising on performance?
 
+![EESSI]({{ "/assets/images/EESSI_logo_horizontal.png" | relative_url }})
+
 The **European Environment for Scientific Software Installations** (EESSI, pronounced as "easy") is a brand new collaboration between different European HPC sites & industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of the OS or processor architecture of the client system, or whether it's a full size HPC cluster, a cloud environment or a personal workstation.
 
 The concept is heavily inspired by the [Compute Canada software stack](https://dl.acm.org/doi/10.1145/3332186.3332210), and consists of 3 layers:
