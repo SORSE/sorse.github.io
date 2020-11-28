@@ -1,4 +1,5 @@
 ---
+publish: "no"
 title: "Partner Event - HPC Champions Workshop"
 authors:
     - &speaker
