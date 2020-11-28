@@ -64,7 +64,7 @@ def sorse_zenodo_upload(args):
 
     # loop through inputpath
     logging.info('Searching %s for events', inputpath)
-    events = Path(inputpath).rglob('event-024.md')
+    events = Path(inputpath).rglob('*.md')
     for path in events:
         print("Processing {}".format(path))
         logging.info("Processing %s", path)
