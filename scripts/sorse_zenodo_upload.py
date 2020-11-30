@@ -163,7 +163,7 @@ def sorse_zenodo_upload(args):
             'publication_type': 'conferencepaper',
             'description': markdown2.markdown(post.content),
             'creators': creators,
-            'communities': [{'identifier': communityid}],
+            'communities': [{'identifier': communityid}] if communityid else [],
             'conference_title': 'International Series of Online Research Software Events',
             'conference_acronym': 'SORSE',
             'conference_url': 'https://sorse.github.io',
@@ -206,7 +206,6 @@ if __name__ == "__main__":
     parser.add_argument('--publish', help='If supplied, depositions will be published as well.', required=False, action='store_true')
 
     args = parser.parse_args()
-    print(args.communityid)
     logging.basicConfig(filename='sorse_zenodo_upload.log', level=logging.DEBUG)
     logging.info('*** Sorse Zenodo Upload Start ***')
     sorse_zenodo_upload(args)
