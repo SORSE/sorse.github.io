@@ -1,15 +1,17 @@
 ---
 title: "Posters and Lightning talks"
 team: posters
+last_modified_at: 2020-12-01
 ---
 
-We will aim to run at least one poster session every month during the event. Each session will be a one hour slot and include up to 10 posters, arranged in themes if the number of contributions allows.
+We will run a lightning talk session on Wed 20th January 2021 at 3pm UTC.  The session will be a one hour slot and include up to 10  lightning talks. Each lightning talk should be supported by either a poster or a blog post.
 
-Poster presenters will be asked to pre-record a one or two minute lightning talk (depending on the number of presenters) which will be played at the start of each session. Each presenter will then be available in a break out room with video and text chat facilities to discuss their poster with those attending. Posters will be available a few days in advance of the session to allow attendees to read the material beforehand. Posters will be maximum A1 size.
+Presenters will be asked to pre-record a 1 to 2 minute lightning talk which will be played at the start of the session. Each presenter will then be available in a break out room with video and text chat facilities to discuss their poster or blog post with those attending. Attendees can move between break out rooms to discuss different posters and blog posts.  Posters and blog posts will be available a few days in advance of the session to allow attendees to read the material beforehand. Posters will be maximum A1 size. Blog posts should be between 700 and 2000 words. Deadline for submissions is 11th January 2021, 9am UTC.
 
 ## Brief summary
 
-* 10 posters every month
-* max A1 size
+* up to 10 lightning talks on 20th January 2021 at 3pm UTC
+* posters max A1 size
+* blog post 700-2000 words
 * lightning talk session - pre-record talk 1-2 minutes
 * followed by breakout session
