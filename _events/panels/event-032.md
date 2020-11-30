@@ -25,6 +25,7 @@ panelists:
     - Dr. Rich Fitzjohn runs the RESIDE group (Research Software for Infectious Disease Epidemiology) at Imperial College. He collaborated with Dr. Whittles directly to support the development of her model. His group has worked with epidemiologists in the MRC Centre for Global Infectious Disease Analysis for the last 5 years, including the response to previous Ebola outbreaks.
 date: 2020-11-25
 last_modified_at: 2020-11-30
+registration_url: https://indico.scc.kit.edu/event/2261/
 ---
 The onset of the COVID-19 pandemic in early 2020 created an urgent need for
 epidemiological and infectious disease modelling. In the UK, [a surge of local
