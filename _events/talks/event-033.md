@@ -10,10 +10,14 @@ authors:
 affiliations:
     - name: University of Manchester, UK
       index: 1
+time:
+    - - start: 2021-01-26T14:30:00Z
+        end: 2021-01-26T15:00:00Z
 author: *speaker
 category: talks
 language: English
 date: 2020-11-25
+last_modified_at: 2020-11-30
 ---
 **Background**
 Scrum is a modern, agile and widely used software development methodology. Rather than trying to set requirements in stone at the beginning of a project, Scrum embraces the idea that requirements will change during all software projects. It takes an iterative, incremental approach and focuses on regular delivery of working software to customers. Can it be applied to research software projects and if so what are the best approaches?
