@@ -10,8 +10,9 @@ from pathlib import Path
 import subprocess
 from io import BytesIO
 from shutil import copyfile
+import markdown2
 
-# original porkflow 
+# original workflow
 # A new branch is generated on the website repository
 # For each new contribution (regular or invited), a new upload is triggered via https://zenodo.org/deposit/new?c=sorse
 # contents for the form are copied from the corresponding markdown files
@@ -91,8 +92,8 @@ def sorse_zenodo_upload(args):
         print("Processing {}".format(path))
         logging.info("Processing %s", path)
         post = frontmatter.load(path)
-        if 'publish' in post and post['publish'] == 'no':
-            logging.info("Found 'publish': 'no' field. Skipping %s", path)
+        if 'zenodo' in post and not post['zenodo']:
+            logging.info("Found 'zenodo': false field. Skipping %s", path)
             continue
         if not 'title' in post or not 'affiliations' in post:
             logging.error('Could not find a title or affiliations in the frontmatter in event %s, check file contents.', path)
@@ -109,7 +110,7 @@ def sorse_zenodo_upload(args):
             params=params,
             json={},
             headers=headers)
-        
+
         if (r.status_code != 201):
             logging.error("Failed to create empty deposition! Response: %i: %s", r.status_code, r.content)
             print("Error processing {}, check log file for more information".format(path))
@@ -129,8 +130,8 @@ def sorse_zenodo_upload(args):
             creator = dict()
             creator['name'] = aut['name']
             if not 'affiliation' in aut:
-                logging.error('Author %s in event %s does not have an affiliation! Defaulting to N/A', aut['name'], path)
-                creator['affiliation'] = 'N/A'
+                logging.error('Author %s in event %s does not have an affiliation!', aut['name'], path)
+                creator['affiliation'] = ' '  # use an empty space
             else:
                 aff_index = aut['affiliation']
                 # find affiliation string
@@ -139,11 +140,11 @@ def sorse_zenodo_upload(args):
                         creator['affiliation'] = keyval['name']
                         break
             if 'orcid' in aut:
-                creator['orcid'] = aut['orcid'] 
-            
+                creator['orcid'] = aut['orcid']
+
             # do not add other author fields, because the Zenodo API will complain
             creators.append(creator)
-        
+
         # update .md with DOI
         post['doi'] = doi
         filename, file_extension = os.path.splitext(str(path))
@@ -163,6 +164,7 @@ def sorse_zenodo_upload(args):
         # Upload pdf file to Zenodo
         # The target URL is a combination of the bucket link with the desired filename
         # seperated by a slash.
+
         pdffile = workingpath + '/' + pdffilename # take to original because copyfile might not have finished.
         logging.info("Uploading file contents for %s", pdffile)
         
@@ -176,6 +178,7 @@ def sorse_zenodo_upload(args):
             logging.error("Failed upload file contents! Response: %i: %s", r.status_code, r.content)
             print("Error processing {}, check log file for more information".format(path))
             continue
+
         logging.info("File contents uploaded for %s", pdffile)
     
         # add metadata to deposition
@@ -184,19 +187,19 @@ def sorse_zenodo_upload(args):
             'title': post['title'],
             'upload_type': 'publication',
             'publication_type': 'conferencepaper',
-            'description': post.content,
+            'description': markdown2.markdown(post.content),
             'creators': creators,
-            'communities': [{'identifier': communityid}],
+            'communities': [{'identifier': communityid}] if communityid else [],
             'conference_title': 'International Series of Online Research Software Events',
-            'conference_acronym': 'SORSE', 
+            'conference_acronym': 'SORSE',
             'conference_url': 'https://sorse.github.io',
             'access_right': 'open',
             'license': 'cc-by-4.0'
-            },    
+            },
         }
         logging.info("Constructed metadata for {}: {}".format(path, data))
-        
-        r = requests.put(api_uri+'/api/deposit/depositions/%s' % deposition_id, 
+
+        r = requests.put(api_uri+'/api/deposit/depositions/%s' % deposition_id,
                     params=params, data=json.dumps(data),
                     headers=headers)
         if (r.status_code != 200):
@@ -204,7 +207,7 @@ def sorse_zenodo_upload(args):
             print("Error processing {}, check log file for more information".format(path))
             continue
         logging.info("Metadata added for %s", path)
-        
+
         if publish:
             # publish deposition
             logging.info("Publishing content for event %s", path)
