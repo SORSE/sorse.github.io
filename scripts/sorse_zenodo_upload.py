@@ -10,8 +10,9 @@ from pathlib import Path
 import subprocess
 from io import BytesIO
 from shutil import copyfile
+import markdown2
 
-# original porkflow 
+# original workflow
 # A new branch is generated on the website repository
 # For each new contribution (regular or invited), a new upload is triggered via https://zenodo.org/deposit/new?c=sorse
 # contents for the form are copied from the corresponding markdown files
@@ -87,7 +88,7 @@ def sorse_zenodo_upload(args):
             params=params,
             json={},
             headers=headers)
-        
+
         if (r.status_code != 201):
             logging.error("Failed to create empty deposition! Response: %i: %s", r.status_code, r.content)
             print("Error processing {}, check log file for more information".format(path))
@@ -117,11 +118,11 @@ def sorse_zenodo_upload(args):
                         creator['affiliation'] = keyval['name']
                         break
             if 'orcid' in aut:
-                creator['orcid'] = aut['orcid'] 
-            
+                creator['orcid'] = aut['orcid']
+
             # do not add other author fields, because the Zenodo API will complain
             creators.append(creator)
-        
+
         # update .md with DOI
         post['doi'] = doi
         filename, file_extension = os.path.splitext(str(path))
@@ -141,7 +142,7 @@ def sorse_zenodo_upload(args):
         # seperated by a slash.
         pdfpath = workingpath + '/' + os.path.basename(filename) + '.pdf' # use the event filename for the pdf
         logging.info("Uploading file contents for %s", pdfpath)
-        
+
         with open(pdfpath, "rb") as fp:
             r = requests.put(
                 "%s/%s" % (bucket_url, os.path.basename(filename) + '.pdf'),
@@ -153,26 +154,26 @@ def sorse_zenodo_upload(args):
             print("Error processing {}, check log file for more information".format(path))
             continue
         logging.info("File contents uploaded for %s", pdfpath)
-    
+
         # add metadata to deposition
         data = { 'metadata': {
             'publication_date': str(post['date']),
             'title': post['title'],
             'upload_type': 'publication',
             'publication_type': 'conferencepaper',
-            'description': post.content,
+            'description': markdown2.markdown(post.content),
             'creators': creators,
             'communities': [{'identifier': communityid}],
             'conference_title': 'International Series of Online Research Software Events',
-            'conference_acronym': 'SORSE', 
+            'conference_acronym': 'SORSE',
             'conference_url': 'https://sorse.github.io',
             'access_right': 'open',
             'license': 'cc-by-4.0'
-            },    
+            },
         }
         logging.info("Constructed metadata for {}: {}".format(path, data))
-        
-        r = requests.put(api_uri+'/api/deposit/depositions/%s' % deposition_id, 
+
+        r = requests.put(api_uri+'/api/deposit/depositions/%s' % deposition_id,
                     params=params, data=json.dumps(data),
                     headers=headers)
         if (r.status_code != 200):
@@ -180,7 +181,7 @@ def sorse_zenodo_upload(args):
             print("Error processing {}, check log file for more information".format(path))
             continue
         logging.info("Metadata added for %s", path)
-        
+
         if publish:
             # publish deposition
             logging.info("Publishing content for event %s", path)
@@ -203,7 +204,7 @@ if __name__ == "__main__":
     parser.add_argument('--token', help='If not provided in .env as ZENODO_TOKEN (or ZENODO_SANDBOX_TOKEN), you can supply the Zenodo Token here.', required=False)
     parser.add_argument('--communityid', help='Community ID to be used in Zenodo.', required=False, default='sorse')
     parser.add_argument('--publish', help='If supplied, depositions will be published as well.', required=False, action='store_true')
-    
+
     args = parser.parse_args()
     print(args.communityid)
     logging.basicConfig(filename='sorse_zenodo_upload.log', level=logging.DEBUG)
