@@ -10,6 +10,9 @@ authors:
 affiliations:
     - name: United Kingdom Atomic Energy Authority (UKAEA), UK
       index: 1
+time:
+    - - start: 2021-01-11T15:00:00Z
+        end: 2021-01-11T16:30:00Z
 author: *speaker
 category: panels
 language: English
@@ -21,6 +24,7 @@ panelists:
     - Dr. Lilith Whittles is a Postdoctoral Researcher at the Department of Infectious Disease Epidemiology, Imperial College. Currently, she is applying her expertise in the mathematical modelling of disease transmission to the real-time modelling of the COVID-19 epidemic, working closely with RSEs to achieve this goal.
     - Dr. Rich Fitzjohn runs the RESIDE group (Research Software for Infectious Disease Epidemiology) at Imperial College. He collaborated with Dr. Whittles directly to support the development of her model. His group has worked with epidemiologists in the MRC Centre for Global Infectious Disease Analysis for the last 5 years, including the response to previous Ebola outbreaks.
 date: 2020-11-25
+last_modified_at: 2020-11-30
 ---
 The onset of the COVID-19 pandemic in early 2020 created an urgent need for
 epidemiological and infectious disease modelling. In the UK, [a surge of local
