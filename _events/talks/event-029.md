@@ -19,6 +19,7 @@ language: English
 prerequisites: "None. Interest in numerical simulations will make the talk more relevant to the audience."
 date: 2020-11-03
 last_modified_at: 2020-11-30
+registration_url: https://indico.scc.kit.edu/event/2260/
 ---
 Peano is a framework for large-scale simulations using dynamically adaptive
 Cartesian grids. It is used today for Earthquake and Black Hole simulations,
