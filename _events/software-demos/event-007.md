@@ -13,6 +13,9 @@ authors:
 affiliations:
     - name: King's College London, UK
       index: 1
+time:
+    - - start: 2021-02-11T16:15:00Z
+        end: 2021-02-11T16:45:00Z
 author: *speaker
 category: software-demos
 language: English
