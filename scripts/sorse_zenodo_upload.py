@@ -219,7 +219,7 @@ def sorse_zenodo_upload(args):
                 continue
             logging.info("Deposition published for %s", path)
         else:
-            depositions.append(api_uri+'/api/deposit/depositions/'+deposition_id+'?access_token=$ACCESS_TOKEN')
+            depositions.append('Publish {} with POST request: {}.'.format(filename, api_uri+'/api/deposit/depositions/'+str(deposition_id)+'/actions/publish?access_token=$ACCESS_TOKEN'))
         logging.info("Finished processing %s", path)
 
     return depositions
@@ -244,6 +244,6 @@ if __name__ == "__main__":
     if not depositions is None:
         print('There are {} depositions unpublished. Use the URLs below to publish them using a HTTP POST request with your personal $ACCESS_TOKEN, e.g. via cURL --request POST <URL>.\n'.format(len(depositions)))
         for d in depositions:
-            print(d+'\n')
+            print(d)
     logging.info('Deposition URLs: %s', str(depositions))
     logging.info('*** Sorse Zenodo Upload Stop ***')
