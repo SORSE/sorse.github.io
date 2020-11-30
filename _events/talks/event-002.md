@@ -1,32 +1,34 @@
 ---
-title: "Switching off the label 'women in tech'"
-authors:
-    - &speaker
-      name:  Mariann Hardey
-      email: mariann.hardey@durham.ac.uk
-      orcid: 0000-0002-1027-0165
-      website: https://www.mariannhardey.com
-      links:
-          - label: Institutional website
-            url: https://www.dur.ac.uk/research/directory/staff/?mode=staff&id=8641
-      is_speaker: true
-      affiliation: 1
 affiliations:
-    - name: University of Durham, UK
-      index: 1
-author: *speaker
-category: talks
-language: English
+- index: 1
+  name: University of Durham, UK
+author: &id001
+  affiliation: 1
+  email: mariann.hardey@durham.ac.uk
+  is_speaker: true
+  links:
+  - label: Institutional website
+    url: https://www.dur.ac.uk/research/directory/staff/?mode=staff&id=8641
+  name: Mariann Hardey
+  orcid: 0000-0002-1027-0165
+  website: https://www.mariannhardey.com
 author_profile: true
-time:
-    - - start: 2020-09-02T13:50:00Z
-        end: 2020-09-02T14:30:00Z
+authors:
+- *id001
+category: talks
 date: 2020-08-19
-meeting_url: https://zoom.us/j/95982897830
+doi: 10.5281/zenodo.4298661
+language: English
 last_modified_at: 2020-09-04
-registration_url: https://indico.scc.kit.edu/event/904/
+meeting_url: https://zoom.us/j/95982897830
 recording_url: https://youtu.be/2HOznlOCd1w?t=2849
+registration_url: https://indico.scc.kit.edu/event/904/
+time:
+- - end: 2020-09-02 14:30:00+00:00
+    start: 2020-09-02 13:50:00+00:00
+title: Switching off the label 'women in tech'
 ---
+
 The focus of the talk is on the ways in which women are discursively constructed
 in the context of professional spaces in tech clusters. This is to give time to
 consider how the label "women in tech" (WiT) is dominated by the masculine

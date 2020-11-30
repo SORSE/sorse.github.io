@@ -6,3 +6,4 @@ Gemfile.lock
 ci/*.md
 ci/*.pdf
 ci/pandoc_run.sh
+scripts/.env
