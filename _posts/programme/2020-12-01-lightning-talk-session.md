@@ -1,7 +1,7 @@
 ---
 title: "Lightning talk session"
 category: news
-permalink: /programme/posters/session
+permalink: /programme/posters/session/
 tags:
   - announcement
   - contribution
