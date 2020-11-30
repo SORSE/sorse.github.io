@@ -1,27 +1,29 @@
 ---
-title: "European Environment for Scientific Software Installations (EESSI)"
-authors:
-    - &speaker
-      name: Kenneth Hoste
-      email: kenneth.hoste@ugent.be
-      is_speaker: true
-      affiliation: 1
 affiliations:
-    - name: Ghent University, Belgium
-      index: 1
-time:
-    - - start: 2020-11-25T15:00:00Z
-        end: 2020-11-25T16:00:00Z
-author: *speaker
+- index: 1
+  name: Ghent University, Belgium
+author: &id001
+  affiliation: 1
+  email: kenneth.hoste@ugent.be
+  is_speaker: true
+  name: Kenneth Hoste
+authors:
+- *id001
 category: software-demos
-language: English
-prerequisites: "- basic experience with installing/using scientific software in a Linux or macOS environment
-- basic knowledge of using a Linux shell environment"
-license: Open source
-instructions: "<a href='https://eessi.github.io/docs/pilot' class='truncated'>https://eessi.github.io/docs/pilot</a>"
 date: 2020-11-03
+doi: 10.5281/zenodo.4298657
+instructions: <a href='https://eessi.github.io/docs/pilot' class='truncated'>https://eessi.github.io/docs/pilot</a>
+language: English
+license: Open source
+prerequisites: '- basic experience with installing/using scientific software in a
+  Linux or macOS environment - basic knowledge of using a Linux shell environment'
 registration_url: https://indico.scc.kit.edu/event/2201/
+time:
+- - end: 2020-11-25 16:00:00+00:00
+    start: 2020-11-25 15:00:00+00:00
+title: European Environment for Scientific Software Installations (EESSI)
 ---
+
 What if there was a way to avoid having to install a broad range of scientific software from scratch on every workstation, HPC cluster, or cloud instance you use or maintain, without compromising on performance?
 
 ![EESSI]({{ "/assets/images/EESSI_logo_horizontal.png" | relative_url }})

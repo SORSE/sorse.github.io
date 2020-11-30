@@ -8,3 +8,4 @@ ci/*.pdf
 ci/pandoc_run.sh
 .mypy_cache
 scripts/sorse_zenodo_upload.log
+scripts/.env

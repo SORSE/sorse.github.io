@@ -57,15 +57,37 @@ def sorse_zenodo_upload(args):
     publish = args.publish
     overwrite = args.overwrite
     workingpath = args.workingpath
+    pdfpath = args.pdfpath
+    publishlist = args.publishlist
 
     access_token = args.token if not args.token is None else os.getenv('ZENODO_SANDBOX_TOKEN') if sandboxing else os.getenv('ZENODO_TOKEN')
+    
     api_uri = 'https://sandbox.zenodo.org' if sandboxing else 'https://zenodo.org'
     headers = {"Content-Type": "application/json"}
     params = {'access_token': access_token}
 
+    # Check if publish list is provided
+    if not publishlist is None:
+        logging.info('Publish list provided, will process those first.')
+        for p in publishlist:
+            # publish deposition
+            if not p['published']:
+                logging.info("Publishing content for event %s", p['event_path'])
+                r = requests.post(api_uri+'/api/deposit/depositions/%s/actions/publish' % p['deposition_id'],
+                        params=params)
+                if (r.status_code != 202):
+                    logging.error("Failed to publish deposition! Response: %i: %s", r.status_code, r.content)
+                    print("Error processing {}, check log file for more information".format(p['event_path']))
+                    continue
+                logging.info("Deposition published for %s", p['event_path'])
+        return
+
     # loop through inputpath
     logging.info('Searching %s for events', inputpath)
     events = Path(inputpath).rglob('*.md')
+    
+    # keep track of changes
+    depositions = []
     for path in events:
         print("Processing {}".format(path))
         logging.info("Processing %s", path)
@@ -134,16 +156,19 @@ def sorse_zenodo_upload(args):
         temp_file = open(workingpath + '/' + path.name, 'wb')
         frontmatter.dump(post, temp_file)
         temp_file.close()
-        # copyfile(outputpath, './generate-pdf/'+ path.name) # this might not finish before the subprocess call
         subprocess.call(['sh', './generate-pdfs.sh'])
         # os.remove('./generate-pdf/'+ path.name)
-
+        pdffilename = os.path.basename(filename) + '.pdf' # use the event filename for the pdf
+        copyfile(workingpath + '/' + pdffilename, pdfpath + '/' + pdffilename) # copy a version to the pdfpath location
+        
+        # Upload pdf file to Zenodo
         # The target URL is a combination of the bucket link with the desired filename
         # seperated by a slash.
-        pdfpath = workingpath + '/' + os.path.basename(filename) + '.pdf' # use the event filename for the pdf
-        logging.info("Uploading file contents for %s", pdfpath)
 
-        with open(pdfpath, "rb") as fp:
+        pdffile = workingpath + '/' + pdffilename # take to original because copyfile might not have finished.
+        logging.info("Uploading file contents for %s", pdffile)
+        
+        with open(pdffile, "rb") as fp:
             r = requests.put(
                 "%s/%s" % (bucket_url, os.path.basename(filename) + '.pdf'),
                 data=fp,
@@ -153,8 +178,9 @@ def sorse_zenodo_upload(args):
             logging.error("Failed upload file contents! Response: %i: %s", r.status_code, r.content)
             print("Error processing {}, check log file for more information".format(path))
             continue
-        logging.info("File contents uploaded for %s", pdfpath)
 
+        logging.info("File contents uploaded for %s", pdffile)
+    
         # add metadata to deposition
         data = { 'metadata': {
             'publication_date': str(post['date']),
@@ -192,7 +218,10 @@ def sorse_zenodo_upload(args):
                 print("Error processing {}, check log file for more information".format(path))
                 continue
             logging.info("Deposition published for %s", path)
+        depositions.append({ 'deposition_id': deposition_id, 'event_path': str(path), 'published': publish})
         logging.info("Finished processing %s", path)
+
+    return depositions
 
 if __name__ == "__main__":
     load_dotenv() # for Zenodo Token
@@ -200,13 +229,16 @@ if __name__ == "__main__":
     parser.add_argument('--sandboxing', help='If supplied, Zenodo Sandbox will be used instead.', required=False, action='store_true')
     parser.add_argument('--inputpath',  help='The root folder for the input files.', required=True)
     parser.add_argument('--workingpath', help='The folder that will be used to create new markdowns and pdfs', default='../ci', required=False)
+    parser.add_argument('--pdfpath', help='The destination folder for the generated PDF files.', default='../downloads', required=False)
     parser.add_argument('--overwrite', help='If supplied, DOIs will be added inline to input files. Otherwise *-new.md files will be created', required=False, action='store_true')
     parser.add_argument('--token', help='If not provided in .env as ZENODO_TOKEN (or ZENODO_SANDBOX_TOKEN), you can supply the Zenodo Token here.', required=False)
     parser.add_argument('--communityid', help='Community ID to be used in Zenodo.', required=False, default='sorse')
     parser.add_argument('--publish', help='If supplied, depositions will be published as well.', required=False, action='store_true')
-
+    parser.add_argument('--publishlist', help='Provide a list of outstanding depositions to publish. Ignores INPUTHPATH', required=False)
+    
     args = parser.parse_args()
     logging.basicConfig(filename='sorse_zenodo_upload.log', level=logging.DEBUG)
     logging.info('*** Sorse Zenodo Upload Start ***')
-    sorse_zenodo_upload(args)
+    depositions = sorse_zenodo_upload(args)
+    logging.info('Deposition info: %s', str(depositions))
     logging.info('*** Sorse Zenodo Upload Stop ***')
