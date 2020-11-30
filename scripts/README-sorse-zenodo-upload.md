@@ -1,7 +1,7 @@
 # sorse-zenodo-upload
 
 ### Assumptions
-- If you do not supply a `token` with `--token <TOKEN>`, the script takes enviroment variable `ZENODO_API_TOKEN` or `ZENODO_SANDBOX_API_TOKEN` to connect to Zenodo or its Sandbox (if `--sandboxing` is provided).
+- If you do not supply a `token` with `--token <TOKEN>`, the script takes enviroment variable `ZENODO_TOKEN` or `ZENODO_SANDBOX_TOKEN` to connect to Zenodo or its Sandbox (if `--sandboxing` is provided).
 - .md files have frontmatter corresponding to the SORSE format. Currently only basic checks are done, such as the presence of `title` and `affiliations` fields.
 - If any goes wrong for a particular event item (.md file), the script stops processing this file, but continues with the next one. The process will not be backtracked and possibly a partial Zenodo deposition remains. Check the log file for more information.
 
@@ -9,14 +9,13 @@
 
 ```
 $ docker build -t rseng/pdf-generator https://github.com/rseng/pdf-generator.git
-$ git clone https://github.com/johanphilips/sorse-zenodo-upload.git
-$ cd sorse-zenodo-upload
-$ pip install -r requirements.txt
+$ pip install markdown2 python-dotenv python-frontmatter requests
 ```
 
 ### Usage
 
 ```sh
+$ cd scripts
 $ python sorse-zenodo-upload.py --help
 usage: SORSE Zenodo Upload script. This script will browse recursively through DATA_PATH and look for .md files that match the format of the SORSE website.
        [-h] [--sandboxing] --inputpath INPUTPATH [--overwrite] [--token TOKEN]
