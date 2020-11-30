@@ -15,7 +15,7 @@ jobs:
       run: |
           echo "Installing ImageMagick"
           wget https://imagemagick.org/download/binaries/magick
-          chmod +x magick         
+          chmod +x magick
           sudo mv magick /usr/local/bin
           which magick
 
@@ -58,10 +58,10 @@ jobs:
            git commit -m "Automated deployment to downsize images $(date '+%Y-%m-%d')"
            git push origin "${BRANCH_FROM}"
         fi
-        echo "::set-env name=OPEN_PULL_REQUEST::${OPEN_PULL_REQUEST}"
-        echo "::set-env name=PULL_REQUEST_FROM_BRANCH::${BRANCH_FROM}"
-        echo "::set-env name=PULL_REQUEST_TITLE::[downsize-images] ${BRANCH_FROM}"
-        echo "::set-env name=PULL_REQUEST_BODY::Downsizing images automated pull request."
+        echo "OPEN_PULL_REQUEST='${OPEN_PULL_REQUEST}'" >> $GITHUB_ENV
+        echo "PULL_REQUEST_FROM_BRANCH='${BRANCH_FROM}'" >> $GITHUB_ENV
+        echo "PULL_REQUEST_TITLE='[downsize-images] ${BRANCH_FROM}'" >> $GITHUB_ENV
+        echo "PULL_REQUEST_BODY='Downsizing images automated pull request.'" >> $GITHUB_ENV
 
     - name: Open Pull Request
       if: ${{ env.OPEN_PULL_REQUEST == '1' }}
