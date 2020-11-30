@@ -218,7 +218,8 @@ def sorse_zenodo_upload(args):
                 print("Error processing {}, check log file for more information".format(path))
                 continue
             logging.info("Deposition published for %s", path)
-        depositions.append({ 'deposition_id': deposition_id, 'event_path': str(path), 'published': publish})
+        else:
+            depositions.append(api_uri+'/api/deposit/depositions/'+deposition_id+'?access_token=$ACCESS_TOKEN')
         logging.info("Finished processing %s", path)
 
     return depositions
@@ -240,5 +241,9 @@ if __name__ == "__main__":
     logging.basicConfig(filename='sorse_zenodo_upload.log', level=logging.DEBUG)
     logging.info('*** Sorse Zenodo Upload Start ***')
     depositions = sorse_zenodo_upload(args)
-    logging.info('Deposition info: %s', str(depositions))
+    if not depositions is None:
+        print('There are {} depositions unpublished. Use the URLs below to publish them using a HTTP POST request with your personal $ACCESS_TOKEN, e.g. via cURL --request POST <URL>.\n'.format(len(depositions)))
+        for d in depositions:
+            print(d+'\n')
+    logging.info('Deposition URLs: %s', str(depositions))
     logging.info('*** Sorse Zenodo Upload Stop ***')
