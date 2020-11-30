@@ -9,7 +9,6 @@ tags:
 sidebar:
   nav: programme
 classes: wide
-last_modified_at: 2020-12-01
 id: 1
 time:
   start: 2021-01-20T15:00:00Z
