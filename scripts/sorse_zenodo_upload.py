@@ -71,7 +71,7 @@ def sorse_zenodo_upload(args):
         logging.info("Processing %s", path)
         post = frontmatter.load(path)
         if 'zenodo' in post and not post['zenodo']:
-            logging.info("Found 'publish': false field. Skipping %s", path)
+            logging.info("Found 'zenodo': false field. Skipping %s", path)
             continue
         if not 'title' in post or not 'affiliations' in post:
             logging.error('Could not find a title or affiliations in the frontmatter in event %s, check file contents.', path)
