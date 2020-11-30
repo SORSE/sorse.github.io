@@ -108,8 +108,8 @@ def sorse_zenodo_upload(args):
             creator = dict()
             creator['name'] = aut['name']
             if not 'affiliation' in aut:
-                logging.error('Author %s in event %s does not have an affiliation! Defaulting to N/A', aut['name'], path)
-                creator['affiliation'] = 'N/A'
+                logging.error('Author %s in event %s does not have an affiliation!', aut['name'], path)
+                creator['affiliation'] = ' '  # use an empty space
             else:
                 aff_index = aut['affiliation']
                 # find affiliation string
