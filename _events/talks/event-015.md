@@ -5,13 +5,9 @@ authors:
       name: Dr. Rizwan Malik
       is_speaker: true
       affiliation: 1
-    - name: Shoaib Sufi
-      affiliation: 2
 affiliations:
     - name: Bolton NHS Foundation Trust, UK
       index: 1
-    - name: eScience Lab, University of Manchester, UK
-      index: 2
 author: *speaker
 category: talks
 language: English
