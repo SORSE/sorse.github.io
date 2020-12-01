@@ -30,6 +30,10 @@ This is an open call to all RSEs and anyone involved with research software worl
 
 Any questions, read [more](faq/about/what-is-sorse), [get in touch](contact/), or see [upcoming events](#upcoming-events)!
 
+## Upcoming Events
+
+{% include upcoming-events.html all=true %}
+
 ## News
 
 {% if paginator %}
@@ -43,7 +47,3 @@ Any questions, read [more](faq/about/what-is-sorse), [get in touch](contact/), o
 {% endfor %}
 
 {% include paginator.html %}
-
-## Upcoming Events
-
-{% include upcoming-events.html all=true %}
