@@ -1,9 +1,13 @@
-{%- for deadline in site.data.cfc_deadlines -%}
+{%- for item in site.data.cfc_deadlines -%}
+{%- assign deadline = item[0] -%}
+{%- assign attrs = item[1] -%}
 {%- capture deadline_start -%}{{ deadline }}T23:00:00-0100{%- endcapture -%}
 {%- capture deadline_end -%}{{ deadline }}T23:00:00-0100{%- endcapture -%}
 {
-  title  : 'Submission deadline',
-  {%- if include.onclick == 'tag' %}
+  title: '{{ attrs.title | default: "Submission deadline"}}',
+  {%- if attrs.url %}
+  url    : "{{ attrs.url | relative_url }}",
+  {%- else if include.onclick == 'tag' %}
   url    : "#submission-deadlines",
   {%- else %}
   url    : "{{ '/faq/howto/submission-deadlines' | relative_url }}",
