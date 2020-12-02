@@ -1,16 +1,16 @@
 # custom events that should appear in the calendar
 - title: SORSE Kickoff Welcoming Words
   time:
-      - start: 2020-09-02T13:00:00Z
-        end: 2020-09-02T13:10:00Z
+      - - start: 2020-09-02T13:00:00Z
+          end: 2020-09-02T13:10:00Z
   category: event complements
   complements:
       - event-001
       - event-002
 - title: SORSE Kickoff Discussion and Networking
   time:
-      - start: 2020-09-02T14:30:00Z
-        end: 2020-09-02T15:00:00Z
+      - - start: 2020-09-02T14:30:00Z
+          end: 2020-09-02T15:00:00Z
   category: event complements
   complements:
       - event-001

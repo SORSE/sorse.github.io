@@ -38,7 +38,7 @@ nlRSE:
 nordicRSE:
   name: Nordic-RSE
   website: https://nordic-rse.org/
-  avatar: https://nordic-rse.org/img/logo.png
+  avatar: https://raw.githubusercontent.com/nordic-rse/nordic-rse.github.io/main/content/img/logo.png
   email: contact@nordic-rse.org
   long_name: Nordic research software engineers
   internal: /contact/chapters/#nordicRSE
