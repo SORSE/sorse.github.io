@@ -415,6 +415,15 @@ $if(lof)$
 $endif$
 $body$
 
+$if(panelists)$
+\subsection*{Panelists}
+\begin{itemize}
+$for(panelists)$
+\item $panelists$
+$endfor$
+\end{itemize}
+$endif$
+
 $if(natbib)$
 $if(bibliography)$
 $if(biblio-title)$
