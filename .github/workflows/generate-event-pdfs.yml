@@ -7,6 +7,10 @@ on:
         description: Only generate PDFs of events that differ from the master branch
         required: false
         default: 1
+      OPEN_PULL_REQUEST:
+        description: Open a PR with the new branch
+        required: false
+        default: 0
 
 env:
   CHANGES_ONLY: 1
@@ -24,6 +28,9 @@ jobs:
       - name: Update environment from workflow_dispatch input
         if: ${{ github.event.inputs.CHANGES_ONLY }}
         run: echo "CHANGES_ONLY=${{ github.event.inputs.CHANGES_ONLY }}" >> $GITHUB_ENV
+      - name: Update environment from workflow_dispatch input
+        if: ${{ github.event.inputs.OPEN_PULL_REQUEST }}
+        run: echo "OPEN_PULL_REQUEST=${{ github.event.inputs.OPEN_PULL_REQUEST }}" >> $GITHUB_ENV
       - name: Set additional variables
         run: |
             echo "pdfcreator rseng/pdf-generator@0.0.4 with latex.template.sorse from ${GITHUB_REPOSITORY}@${GITHUB_SHA}" >> ci/sorse-variables.txt
@@ -119,7 +126,7 @@ jobs:
           fi
 
       - name: Open Pull Request
-        if: ${{ env.OPEN_PULL_REQUEST == '1' }}
+        if: ${{ env.OPEN_PULL_REQUEST == '1' || github.event.inputs.OPEN_PULL_REQUEST == '1' }}
         uses: vsoch/pull-request-action@1.0.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
