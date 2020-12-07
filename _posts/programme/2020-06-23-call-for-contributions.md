@@ -27,6 +27,8 @@ The Call for Contributions form will remain **open continuously** and there will
 
 The call is open to anyone wanting to propose a research software-related talk or event from anywhere in the world, regardless of your role.
 
+Please note that in the case of submissions from representatives of companies that relate to commercial products, the SORSE programme committee reserves the right to reject or request appropriate revisions at their discretion. To discuss the suitability of such a submission please contact SORSE.enquiries@gmail.com.
+
 Please have a look into our [schedule of events]({{ "/#upcoming-events" | relative_url }}) for details of what’s coming up.
 
 ## Next submission deadlines
