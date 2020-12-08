@@ -21,6 +21,7 @@ prerequisites: "General familiarity with issues from software development includ
 date: 2020-07-17
 last_modified_at: 2020-11-03
 registration_url: https://indico.scc.kit.edu/event/2200/
+slides: https://indico.scc.kit.edu/event/2200/attachments/3888/5763/SORSE-experimental-software-infrastructure-maturity.pdf
 ---
 The challenges facing research software development are manifold and have long been a major topic at RSE conferences.
 
