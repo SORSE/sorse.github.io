@@ -74,7 +74,7 @@ All times in UTC.
   Engineering, University of Sheffield - "About the Society"
 - **15:00**: [Matt Parker - "When Spreadsheets Attack! (and other maths disasters)" ]({{ "/programme/talks/event-038/" | relative_url }})
 - **16:00**: Community tales from the front line
-  - From an RSE perspective: Marion Weinzierl and Chris Cave-Ayland
+  - From an RSE perspective: Marion Weinzierl and Chris Cave-Ayland, Stephan Druskat and Thomas Krause
   - From a research perspective: Simon Hettrick
 
 This event has been kindly funded by the Society of Research Software Engineering.
