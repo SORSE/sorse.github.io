@@ -65,7 +65,7 @@ to use and how did you persuade the researcher to give it a go? Email Claire
 to volunteer yourself or nominate a colleague via [{{ site.email }}](mailto:{{ site.email }}).
 
 
-## Agenda
+## Agenda for December, 17th
 
 All times in UTC.
 
