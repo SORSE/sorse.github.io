@@ -10,6 +10,9 @@ authors:
 affiliations:
     - name: Imperial College London, Dept. of Aeronautics, UK
       index: 1
+time:
+    - - start: 2021-02-23T14:00:00Z
+        end: 2021-02-23T15:00:00Z
 author: *speaker
 category: talks
 language: English
