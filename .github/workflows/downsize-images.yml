@@ -65,7 +65,7 @@ jobs:
 
     - name: Open Pull Request
       if: ${{ env.OPEN_PULL_REQUEST == '1' }}
-      uses: vsoch/pull-request-action@1.0.6
+      uses: vsoch/pull-request-action@1.0.12
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PULL_REQUEST_BRANCH: "master"
