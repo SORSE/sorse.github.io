@@ -4,14 +4,20 @@ authors:
     - &speaker
       name: Hazi Hannah
       email: hannah@anvil.works
+      is_speaker: false
+    - name: Merydydd Luff
       is_speaker: true
 author: *speaker
 category: software-demos
 language: English
+time:
+    - - start: 2021-02-03T16:00:00Z
+        end: 2021-02-03T17:00:00Z
 prerequisites: "Basic knowledge of Python."
 license: Open source
 instructions: "No need to install locally, the IDE is available on the web at <a href='https://anvil.works' class='truncated'>https://anvil.works</a> (those following along should create a free account)."
 date: 2020-11-25
+last_modified_at: 2020-12-14
 ---
 Learn how to speak Python for the web!
 
