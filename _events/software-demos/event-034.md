@@ -5,7 +5,7 @@ authors:
       email: hannah@anvil.works
       is_speaker: false
     - &speaker
-      name: Merydydd Luff
+      name: Meredydd Luff
       is_speaker: true
 author: *speaker
 category: software-demos
