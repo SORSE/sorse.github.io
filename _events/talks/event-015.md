@@ -20,6 +20,7 @@ date: 2020-08-18
 last_modified_at: 2020-12-08
 registration_url: https://indico.scc.kit.edu/event/2200/
 slides: https://indico.scc.kit.edu/event/2200/attachments/3888/5765/SORSE_AI_into_Clinical_practice.pdf
+recording_url: https://www.youtube.com/watch?v=jMmbeJ6lk-o
 ---
 Whilst there are over 200 Imaging/Radiology AI Companies world wide there are currently only about 50 FDA approved algorithms.
 There are also significant barriers to overcome in bringing AI to the NHS landscape.
