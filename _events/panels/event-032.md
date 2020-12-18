@@ -11,8 +11,8 @@ affiliations:
     - name: United Kingdom Atomic Energy Authority (UKAEA), UK
       index: 1
 time:
-    - - start: 2021-01-11T15:00:00Z
-        end: 2021-01-11T16:30:00Z
+    - - start: 2021-01-13T15:00:00Z
+        end: 2021-01-13T16:30:00Z
 author: *speaker
 category: panels
 language: English
