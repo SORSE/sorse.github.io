@@ -1,25 +1,27 @@
 ---
-title: "Applying Scrum to Research Software Projects"
-authors:
-    - &speaker
-      name: Matt Machin
-      email: matthew.machin@manchester.ac.uk
-      orcid: 0000-0001-6600-9508
-      is_speaker: true
-      affiliation: 1
 affiliations:
-    - name: University of Manchester, UK
-      index: 1
+- index: 1
+  name: University of Manchester, UK
+author: &id001
+  affiliation: 1
+  email: matthew.machin@manchester.ac.uk
+  is_speaker: true
+  name: Matt Machin
+  orcid: 0000-0001-6600-9508
+authors:
+- *id001
+category: talks
+date: 2020-11-25
+doi: 10.5281/zenodo.4430823
+language: English
+last_modified_at: 2021-01-10
+registration_url: https://indico.scc.kit.edu/event/2260/
 time:
     - - start: 2021-01-26T14:30:00Z
         end: 2021-01-26T15:00:00Z
-author: *speaker
-category: talks
-language: English
-date: 2020-11-25
-last_modified_at: 2020-11-30
-registration_url: https://indico.scc.kit.edu/event/2260/
+title: Applying Scrum to Research Software Projects
 ---
+
 **Background**
 Scrum is a modern, agile and widely used software development methodology. Rather than trying to set requirements in stone at the beginning of a project, Scrum embraces the idea that requirements will change during all software projects. It takes an iterative, incremental approach and focuses on regular delivery of working software to customers. Can it be applied to research software projects and if so what are the best approaches?
 

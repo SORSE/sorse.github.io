@@ -15,6 +15,7 @@ time:
     - - start: 2020-12-17T14:45:00Z
         end: 2020-12-17T16:45:00Z
 date: 2020-12-07
+zenodo: false
 registration_url: https://indico.scc.kit.edu/event/2266/
 ---
 

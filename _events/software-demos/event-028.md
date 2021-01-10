@@ -1,29 +1,32 @@
 ---
-title: "European Environment for Scientific Software Installations (EESSI)"
-authors:
-    - &speaker
-      name: Kenneth Hoste
-      email: kenneth.hoste@ugent.be
-      is_speaker: true
-      affiliation: 1
 affiliations:
-    - name: Ghent University, Belgium
-      index: 1
+- index: 1
+  name: Ghent University, Belgium
+author: &id001
+  affiliation: 1
+  email: kenneth.hoste@ugent.be
+  is_speaker: true
+  name: Kenneth Hoste
+authors:
+- *id001
+category: software-demos
+date: 2020-11-03
+doi: 10.5281/zenodo.4430855
+instructions: <a href='https://eessi.github.io/docs/pilot' class='truncated'>https://eessi.github.io/docs/pilot</a>
+language: English
+last_modified_at: 2021-01-10
+license: Open source
+prerequisites: '- basic experience with installing/using scientific software in a
+  Linux or macOS environment - basic knowledge of using a Linux shell environment'
+recording_url: https://youtu.be/aEBYo7KrcN4
+registration_url: https://indico.scc.kit.edu/event/2201/
+slides: https://indico.scc.kit.edu/event/2201/attachments/3859/5686/EESSI-SORSE-20201125.pdf
 time:
     - - start: 2020-11-25T15:00:00Z
         end: 2020-11-25T16:00:00Z
-author: *speaker
-category: software-demos
-language: English
-prerequisites: "- basic experience with installing/using scientific software in a Linux or macOS environment
-- basic knowledge of using a Linux shell environment"
-license: Open source
-instructions: "<a href='https://eessi.github.io/docs/pilot' class='truncated'>https://eessi.github.io/docs/pilot</a>"
-date: 2020-11-03
-registration_url: https://indico.scc.kit.edu/event/2201/
-slides: https://indico.scc.kit.edu/event/2201/attachments/3859/5686/EESSI-SORSE-20201125.pdf
-recording_url: https://youtu.be/aEBYo7KrcN4
+title: European Environment for Scientific Software Installations (EESSI)
 ---
+
 What if there was a way to avoid having to install a broad range of scientific software from scratch on every workstation, HPC cluster, or cloud instance you use or maintain, without compromising on performance?
 
 ![EESSI]({{ "/assets/images/EESSI_logo_horizontal.png" | relative_url }})
