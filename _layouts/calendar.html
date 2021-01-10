@@ -16,7 +16,8 @@ layout: single
   {% endfor %}
   {% assign aua_post = site.documents | where: "id", "/programme/ask-us-anything-sessions" %}
   {% assign cfc_post = site.documents | where: "id", "/faq/howto/submission-deadlines" %}
-  {% assign posts = aua_post | concat: cfc_post %}
+  {% assign poster_session_post = site.documents | where: "id", "/programme/posters/lightning-talk-session" %}
+  {% assign posts = aua_post | concat: cfc_post | concat: poster_session_post %}
   {% for post in posts %}
     {% include faq-card.html hidden=true excerpt_length=300 %}
   {% endfor %}
@@ -27,11 +28,19 @@ layout: single
  document.addEventListener('DOMContentLoaded', function() {
    var calendarEl = document.getElementById('calendar');
 
+   events = [
+     {% include ask-us-anything.js onclick='tag' %},
+     {% include cfc-deadlines.js background=true onclick='tag' %},
+     {% include events.js onclick='tag' %}
+   ];
+
+   events.sort((e1, e2) => new Date(e1.start) - new Date(e2.start));
+
    calendar = new FullCalendar.Calendar(calendarEl, {
      headerToolbar: {
        left: 'prev,next today',
        center: 'title',
-       right: 'dayGridMonth,timeGridWeek,timeGridDay,listYear'
+       right: 'dayGridMonth,timeGridWeek,timeGridDay,listAll'
      },
      buttonText: {
        week: 'week',
@@ -64,11 +73,16 @@ layout: single
      //
      slotDuration: "00:15",
      dayMaxEvents: true, // allow "more" link when too many events
-     events: [
-        {% include ask-us-anything.js onclick='tag' %},
-        {% include cfc-deadlines.js background=true onclick='tag' %},
-        {% include events.js onclick='tag' %}
-     ],
+     events: events,
+     views: {
+       listAll: {
+         type: "list",
+         visibleRange: {
+           start: events[0].start,
+           end: events[events.length-1].end
+         }
+       }
+     },
      eventClick: function(info) {
        info.jsEvent.preventDefault(); // don't let the browser navigate
        var elem = $(info.event.url);

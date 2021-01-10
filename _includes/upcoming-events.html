@@ -26,17 +26,25 @@
      {%- endif -%}
    ];
 
-   events = events.filter(e => new Date(e.start) >= new Date());
    events.sort((e1, e2) => new Date(e1.start) - new Date(e2.start));
 
    calendar = new FullCalendar.Calendar(calendarEl, {
      headerToolbar: false,
      aspectRatio: 2,
      noEventsContent: "No upcoming events",
-     initialView: 'listYear',
+     initialView: 'listAll',
      editable: true,
      selectable: true,
-     events: events
+     events: events,
+     views: {
+       listAll: {
+         type: "list",
+         visibleRange: {
+           start: new Date(),
+           end: "2021-12-31"
+         }
+       }
+     }
    });
   calendar.render();
 });

@@ -7,6 +7,10 @@ on:
         description: Only generate PDFs of events that differ from the master branch
         required: false
         default: 1
+      OPEN_PULL_REQUEST:
+        description: Open a PR with the new branch
+        required: false
+        default: 0
 
 env:
   CHANGES_ONLY: 1
@@ -23,7 +27,10 @@ jobs:
           fetch-depth: 0
       - name: Update environment from workflow_dispatch input
         if: ${{ github.event.inputs.CHANGES_ONLY }}
-        run: echo "::set-env name=CHANGES_ONLY::${{ github.event.inputs.CHANGES_ONLY }}"
+        run: echo "CHANGES_ONLY=${{ github.event.inputs.CHANGES_ONLY }}" >> $GITHUB_ENV
+      - name: Update environment from workflow_dispatch input
+        if: ${{ github.event.inputs.OPEN_PULL_REQUEST }}
+        run: echo "OPEN_PULL_REQUEST=${{ github.event.inputs.OPEN_PULL_REQUEST }}" >> $GITHUB_ENV
       - name: Set additional variables
         run: |
             echo "pdfcreator rseng/pdf-generator@0.0.4 with latex.template.sorse from ${GITHUB_REPOSITORY}@${GITHUB_SHA}" >> ci/sorse-variables.txt
@@ -37,7 +44,7 @@ jobs:
       - name: Configure PDF generation
         run: |
             if ls ci/*.md &> /dev/null; then
-                echo "::set-env name=GENERATE_PDFS::1"
+                echo "GENERATE_PDFS=1" >> $GITHUB_ENV
             fi
 
       - name: Generate Full PDF Template
@@ -107,20 +114,20 @@ jobs:
              git commit -m "Automated deployment to generate PDFs $(date '+%Y-%m-%d')"
              git push --force origin "${BRANCH_FROM}"
           fi
-          echo "::set-env name=OPEN_PULL_REQUEST::${OPEN_PULL_REQUEST}"
-          echo "::set-env name=PULL_REQUEST_FROM_BRANCH::${BRANCH_FROM}"
-          echo "::set-env name=PULL_REQUEST_BRANCH::${SOURCE_BRANCH}"
-          echo "::set-env name=PULL_REQUEST_TITLE::[generate-pdfs] ${SOURCE_BRANCH}"
+          echo "OPEN_PULL_REQUEST='${OPEN_PULL_REQUEST}'" >> $GITHUB_ENV
+          echo "PULL_REQUEST_FROM_BRANCH='${BRANCH_FROM}'" >> $GITHUB_ENV
+          echo "PULL_REQUEST_BRANCH='${SOURCE_BRANCH}'" >> $GITHUB_ENV
+          echo "PULL_REQUEST_TITLE='[generate-pdfs] ${SOURCE_BRANCH}'" >> $GITHUB_ENV
           PR_HINT="<sup>This PR has been automatically opened because some SORSE events changed. Do not manually push to the ${BRANCH_FROM} branch, as these commits might be overwritten.</sup>"
           if [[ -z ${PR_NUMBER} ]]; then
-              echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}.%0A%0A${PR_HINT}"
+              echo "PULL_REQUEST_BODY='Automated generation of event PDFs for branch ${SOURCE_BRANCH}.%0A%0A${PR_HINT}'" >> $GITHUB_ENV
           else
-              echo "::set-env name=PULL_REQUEST_BODY::Automated generation of event PDFs for branch ${SOURCE_BRANCH}, see #${PR_NUMBER}.%0A%0A${PR_HINT}"
+              echo "PULL_REQUEST_BODY='Automated generation of event PDFs for branch ${SOURCE_BRANCH}, see #${PR_NUMBER}.%0A%0A${PR_HINT}'" >> $GITHUB_ENV
           fi
 
       - name: Open Pull Request
-        if: ${{ env.OPEN_PULL_REQUEST == '1' }}
-        uses: vsoch/pull-request-action@1.0.6
+        if: ${{ env.OPEN_PULL_REQUEST == '1' || github.event.inputs.OPEN_PULL_REQUEST == '1' }}
+        uses: vsoch/pull-request-action@1.0.12
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
