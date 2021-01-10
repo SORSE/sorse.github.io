@@ -98,6 +98,7 @@ author: *speaker
 category: posters
 language: English
 date: 2020-12-11
+last_modified_at: 2021-01-10
 ---
 Code review for research software is the process by which peers evaluate each other's source code. This involves checking that the code does what it claims and is written in a way that can easily be read, maintained, and built upon. Code review is an important tool for ensuring that software is high-quality and reusable, and should be a widely-adopted "best practice".
 
@@ -111,4 +112,4 @@ The CRC consists of 5 task forces that will begin work in 2021:
 * Recommendations for stakeholders
 * Training and education
 
-Have we piqued your interest? The CRC is keen to have you on-board; you're encouraged to participate in any of the task forces. Join us via email (<a href="mailto:"hollydawn.murray@gmail.com">hollydawn.murray@gmail.com</a>). Equally, don't hesitate to get in touch if you have an idea for collaboration.
+Have we piqued your interest? The CRC is keen to have you on-board; you're encouraged to participate in any of the task forces. Join us via email ([hollydawn.murray@gmail.com](mailto:hollydawn.murray@gmail.com)). Equally, don't hesitate to get in touch if you have an idea for collaboration.
