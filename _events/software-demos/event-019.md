@@ -24,8 +24,8 @@ slides:
 - Part 1: https://indico.scc.kit.edu/event/913/attachments/3608/5295/go
 - Part 2: https://indico.scc.kit.edu/event/913/attachments/3608/5296/go
 time:
-- - end: 2020-09-09 15:00:00+00:00
-    start: 2020-09-09 14:00:00+00:00
+    - - start: 2020-09-09T14:00:00Z
+        end: 2020-09-09T15:00:00Z
 title: 'Executable Research Article (ERA): Enrich a research paper with code and data'
 ---
 

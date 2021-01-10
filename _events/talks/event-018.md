@@ -19,8 +19,8 @@ recording_url: https://youtu.be/qWvjwlgp61Y
 registration_url: https://indico.scc.kit.edu/event/917/
 slides: https://indico.scc.kit.edu/event/917/attachments/3781/5555/POP2-SORSE-FouzhanHosseini.pdf
 time:
-- - end: 2020-10-16 09:30:00+00:00
-    start: 2020-10-16 09:00:00+00:00
+    - - start: 2020-10-16T09:00:00Z
+        end: 2020-10-16T09:30:00Z
 title: How to understand and improve the performance of your parallel applications
   using the POP Methodology
 ---

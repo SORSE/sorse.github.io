@@ -17,8 +17,8 @@ language: English
 last_modified_at: '2021-01-10'
 registration_url: https://indico.scc.kit.edu/event/2260/
 time:
-- - end: 2021-01-26 15:00:00+00:00
-    start: 2021-01-26 14:30:00+00:00
+    - - start: 2021-01-26T14:30:00Z
+        end: 2021-01-26T15:00:00Z
 title: Applying Scrum to Research Software Projects
 ---
 

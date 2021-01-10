@@ -26,8 +26,8 @@ prerequisites: no prerequisites necessary, the presentation will go through some
   theory at the beginning
 registration_url: https://indico.scc.kit.edu/event/2262/
 time:
-- - end: 2021-02-11 16:45:00+00:00
-    start: 2021-02-11 16:15:00+00:00
+    - - start: 2021-02-11T16:15:00Z
+        end: 2021-02-11T16:45:00Z
 title: Particle image velocimetry to study cell migration
 ---
 

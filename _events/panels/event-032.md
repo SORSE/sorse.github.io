@@ -43,8 +43,8 @@ panelists:
 prerequisites: N/A
 registration_url: https://indico.scc.kit.edu/event/2261/
 time:
-- - end: 2021-01-13 16:30:00+00:00
-    start: 2021-01-13 15:00:00+00:00
+    - - start: 2021-01-13T15:00:00Z
+        end: 2021-01-13T16:30:00Z
 title: Research Software and the Modelling of COVID-19 in the UK
 ---
 

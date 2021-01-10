@@ -30,8 +30,8 @@ prerequisites: None (it's an UI)
 registration_url: https://indico.scc.kit.edu/event/933/
 slides: https://indico.scc.kit.edu/event/933/attachments/3900/5756/pyBOAT_SORSE.pdf
 time:
-- - end: 2020-12-04 15:00:00+00:00
-    start: 2020-12-04 14:00:00+00:00
+    - - start: 2020-12-04T14:00:00Z
+        end: 2020-12-04T15:00:00Z
 title: Optimal time frequency analysis for biological data - pyBOAT
 ---
 

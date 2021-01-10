@@ -33,8 +33,8 @@ slides:
 - Part 2: https://doi.org/10.5281/zenodo.4034290
 - Part 3: https://docs.google.com/presentation/d/e/2PACX-1vQreRIP6_nBr4w6zwiyjpDXS_4k2e3HcTp43MUAXXCkme6kKN3EmBXEgox0Mzyeza731TZcwcmxz_MK/pub?start=false&loop=false&delayms=3000
 time:
-- - end: 2020-09-16 19:30:00+00:00
-    start: 2020-09-16 18:00:00+00:00
+    - - start: 2020-09-16T18:00:00Z
+        end: 2020-09-16T19:30:00Z
 title: 'Research Software Directories: What, Why and How?'
 ---
 

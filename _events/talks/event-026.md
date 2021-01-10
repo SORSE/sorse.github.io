@@ -32,8 +32,8 @@ prerequisites: No prerequisite knowledge is needed. The goal is to exchange idea
 recording_url: https://youtu.be/yvNBb78BOK4
 registration_url: https://indico.scc.kit.edu/event/934/
 time:
-- - end: 2020-10-22 14:45:00+00:00
-    start: 2020-10-22 14:30:00+00:00
+    - - start: 2020-10-22T14:30:00Z
+        end: 2020-10-22T14:45:00Z
 title: The Continual Road to an Inclusive Definition and Use of Terms for the US Research
   Software Engineer Community
 ---

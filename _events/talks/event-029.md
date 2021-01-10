@@ -19,8 +19,8 @@ prerequisites: None. Interest in numerical simulations will make the talk more r
   to the audience.
 registration_url: https://indico.scc.kit.edu/event/2260/
 time:
-- - end: 2021-01-26 14:30:00+00:00
-    start: 2021-01-26 14:00:00+00:00
+    - - start: 2021-01-26T14:00:00Z
+        end: 2021-01-26T14:30:00Z
 title: My project expired and my team left, so let's rewrite all the software from
   scratch
 ---

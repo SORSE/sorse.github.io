@@ -20,8 +20,8 @@ recording_url: https://youtu.be/jMmbeJ6lk-o
 registration_url: https://indico.scc.kit.edu/event/2200/
 slides: https://indico.scc.kit.edu/event/2200/attachments/3888/5765/SORSE_AI_into_Clinical_practice.pdf
 time:
-- - end: 2020-12-07 14:30:00+00:00
-    start: 2020-12-07 14:00:00+00:00
+    - - start: 2020-12-07T14:00:00Z
+        end: 2020-12-07T14:30:00Z
 title: Bringing Imaging-Based Artificial Intelligence into Clinical Practice in NHS
   Radiology
 ---

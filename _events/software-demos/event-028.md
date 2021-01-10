@@ -22,8 +22,8 @@ recording_url: https://youtu.be/aEBYo7KrcN4
 registration_url: https://indico.scc.kit.edu/event/2201/
 slides: https://indico.scc.kit.edu/event/2201/attachments/3859/5686/EESSI-SORSE-20201125.pdf
 time:
-- - end: 2020-11-25 16:00:00+00:00
-    start: 2020-11-25 15:00:00+00:00
+    - - start: 2020-11-25T15:00:00Z
+        end: 2020-11-25T16:00:00Z
 title: European Environment for Scientific Software Installations (EESSI)
 ---
 

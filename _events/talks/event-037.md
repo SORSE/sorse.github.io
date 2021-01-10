@@ -17,8 +17,8 @@ language: English
 last_modified_at: '2021-01-10'
 registration_url: https://indico.scc.kit.edu/event/2273/
 time:
-- - end: 2021-02-23 15:00:00+00:00
-    start: 2021-02-23 14:00:00+00:00
+    - - start: 2021-02-23T14:00:00Z
+        end: 2021-02-23T15:00:00Z
 title: 'RSE careers in France: the French National Centre for Scientific Research
   (CNRS) option'
 ---

@@ -19,8 +19,8 @@ recording_url: https://youtu.be/OEY74uj8VyY
 registration_url: https://indico.scc.kit.edu/event/916/
 slides: https://indico.scc.kit.edu/event/916/attachments/3825/5615/Improving_FAIRness_with_containers.pdf
 time:
-- - end: 2020-10-07 16:30:00+00:00
-    start: 2020-10-07 16:00:00+00:00
+    - - start: 2020-10-07T16:00:00Z
+        end: 2020-10-07T16:30:00Z
 title: Improving FAIRness with containers
 ---
 

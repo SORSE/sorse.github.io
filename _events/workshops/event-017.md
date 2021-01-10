@@ -32,10 +32,10 @@ registration_url:
 - https://indico.scc.kit.edu/event/925/
 slides: https://indico.scc.kit.edu/event/924/attachments/3814/5601/Research_on_RSE.pptx
 time:
-- - end: 2020-10-28 11:00:00+00:00
-    start: 2020-10-28 08:00:00+00:00
-- - end: 2020-10-30 18:00:00+00:00
-    start: 2020-10-30 15:00:00+00:00
+    - - start: 2020-10-28T08:00:00Z
+        end: 2020-10-28T11:00:00Z
+    - - start: 2020-10-30T15:00:00Z
+        end: 2020-10-30T18:00:00Z
 title: What do we (not) know about RSE?
 ---
 

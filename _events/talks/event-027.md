@@ -23,8 +23,8 @@ last_modified_at: '2021-01-10'
 recording_url: https://youtu.be/jiwOWFs5sOg
 registration_url: https://indico.scc.kit.edu/event/923/
 time:
-- - end: 2020-09-29 16:30:00+00:00
-    start: 2020-09-29 15:00:00+00:00
+    - - start: 2020-09-29T15:00:00Z
+        end: 2020-09-29T16:30:00Z
 title: 'Digital Humanities RSE: King''s Digital Lab as experiment and lifecycle'
 ---
 

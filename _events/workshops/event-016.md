@@ -74,10 +74,10 @@ registration_url:
 - https://indico.scc.kit.edu/event/2135/
 - https://indico.scc.kit.edu/event/2134/
 time:
-- - end: 2020-11-17 10:00:00+00:00
-    start: 2020-11-17 07:00:00+00:00
-- - end: 2020-11-19 19:00:00+00:00
-    start: 2020-11-19 16:00:00+00:00
+    - - start: 2020-11-17T07:00:00Z
+        end: 2020-11-17T10:00:00Z
+    - - start: 2020-11-19T16:00:00Z
+        end: 2020-11-19T19:00:00Z
 title: FAIR 4 Research Software
 ---
 

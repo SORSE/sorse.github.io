@@ -19,8 +19,8 @@ recording_url: https://youtu.be/WNgHy2hIuUI
 registration_url: https://indico.scc.kit.edu/event/935/
 slides: https://indico.scc.kit.edu/event/935/attachments/3835/5636/sorse_adutta_20-11-10.pdf
 time:
-- - end: 2020-11-10 11:00:00+00:00
-    start: 2020-11-10 10:30:00+00:00
+    - - start: 2020-11-10T10:30:00Z
+        end: 2020-11-10T11:00:00Z
 title: Learnings from developing and maintaining a research software that has been
   used more than 3 million times in the last 3 years
 ---

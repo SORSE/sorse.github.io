@@ -21,8 +21,8 @@ meeting_url: https://zoom.us/j/95982897830
 recording_url: https://youtu.be/2HOznlOCd1w?t=623
 registration_url: https://indico.scc.kit.edu/event/904/
 time:
-- - end: 2020-09-02 13:50:00+00:00
-    start: 2020-09-02 13:10:00+00:00
+    - - start: 2020-09-02T13:10:00Z
+        end: 2020-09-02T13:50:00Z
 title: I wanna dance with somebody
 ---
 

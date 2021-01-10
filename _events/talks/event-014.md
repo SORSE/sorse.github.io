@@ -19,8 +19,8 @@ recording_url: https://youtu.be/qKzmGYtsVa4
 registration_url: https://indico.scc.kit.edu/event/917/
 slides: https://indico.scc.kit.edu/event/917/attachments/3781/5558/Becoming_a_freelance_RSE_TeriForey.pdf
 time:
-- - end: 2020-10-16 10:00:00+00:00
-    start: 2020-10-16 09:30:00+00:00
+    - - start: 2020-10-16T09:30:00Z
+        end: 2020-10-16T10:00:00Z
 title: Becoming a self-employed RSE web developer.
 ---
 
