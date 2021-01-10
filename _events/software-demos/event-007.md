@@ -20,7 +20,7 @@ instructions: <a href='https://github.com/stemarcotti/PIV ' class='truncated'>ht
   </a>the software is written in MATLAB and requires the Curve Fitting Toolbox. Unfortunately,
   MATLAB requires a personal or institutional license.
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 license: Open source
 prerequisites: no prerequisites necessary, the presentation will go through some basic
   theory at the beginning

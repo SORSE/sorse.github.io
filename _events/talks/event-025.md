@@ -16,7 +16,7 @@ category: talks
 date: 2020-09-09
 doi: 10.5281/zenodo.4430821
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 prerequisites: All experience levels are welcome.
 title: Development of an Automated High-Throughput Animal Training Platform
 ---

@@ -24,7 +24,7 @@ date: 2020-09-09
 doi: 10.5281/zenodo.4430851
 instructions: conda config --add channels conda-forge conda install pyboat
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 license: Open source
 prerequisites: None (it's an UI)
 registration_url: https://indico.scc.kit.edu/event/933/

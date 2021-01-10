@@ -14,7 +14,7 @@ category: talks
 date: 2020-11-03
 doi: 10.5281/zenodo.4430837
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 prerequisites: None. Interest in numerical simulations will make the talk more relevant
   to the audience.
 registration_url: https://indico.scc.kit.edu/event/2260/

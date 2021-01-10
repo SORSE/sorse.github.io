@@ -29,7 +29,7 @@ category: talks
 date: 2020-11-03
 doi: 10.5281/zenodo.4430829
 language: english
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 registration_url: https://indico.scc.kit.edu/event/2262/
 time:
     - - start: 2021-02-11T16:00:00Z

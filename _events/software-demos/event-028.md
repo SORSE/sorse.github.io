@@ -14,7 +14,7 @@ date: 2020-11-03
 doi: 10.5281/zenodo.4430855
 instructions: <a href='https://eessi.github.io/docs/pilot' class='truncated'>https://eessi.github.io/docs/pilot</a>
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 license: Open source
 prerequisites: '- basic experience with installing/using scientific software in a
   Linux or macOS environment - basic knowledge of using a Linux shell environment'

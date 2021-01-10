@@ -14,7 +14,7 @@ category: talks
 date: 2020-08-18
 doi: 10.5281/zenodo.4430831
 language: english
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 recording_url: https://youtu.be/OEY74uj8VyY
 registration_url: https://indico.scc.kit.edu/event/916/
 slides: https://indico.scc.kit.edu/event/916/attachments/3825/5615/Improving_FAIRness_with_containers.pdf

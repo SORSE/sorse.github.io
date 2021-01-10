@@ -25,7 +25,7 @@ category: talks
 date: 2020-09-09
 doi: 10.5281/zenodo.4430827
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 prerequisites: No prerequisite knowledge is needed. The goal is to exchange ideas
   about definitions and wording around RSEs to reach a broad inclusivity and to present
   the activities of US-RSE.

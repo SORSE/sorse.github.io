@@ -14,7 +14,7 @@ category: talks
 date: 2020-09-09
 doi: 10.5281/zenodo.4430825
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 recording_url: https://youtu.be/WNgHy2hIuUI
 registration_url: https://indico.scc.kit.edu/event/935/
 slides: https://indico.scc.kit.edu/event/935/attachments/3835/5636/sorse_adutta_20-11-10.pdf

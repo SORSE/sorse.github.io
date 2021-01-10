@@ -15,7 +15,7 @@ date: 2020-08-18
 doi: 10.5281/zenodo.4430853
 instructions: N/a
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 license: Open source
 meeting_url: https://zoom.us/j/98656860237?pwd=dVVVZUFSdXdjRTdscnU4U2drWXNsdz09
 recording_url: https://youtu.be/_uRKBdEHhS0

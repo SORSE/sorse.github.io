@@ -12,7 +12,7 @@ category: talks
 date: 2020-08-18
 doi: 10.5281/zenodo.4430843
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 prerequisites: Links are included in the summary as well as this BBC article for the
   background of the deployment otherwise no specialise prerequisite knowledge is required
   <a href='https://www.bbc.co.uk/news/business-52483082' class='truncated'>https://www.bbc.co.uk/news/business-52483082</a>

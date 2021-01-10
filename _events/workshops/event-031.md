@@ -25,7 +25,7 @@ category: workshops
 date: 2020-12-11
 doi: 10.5281/zenodo.4430811
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 prerequisites: There is no specific prerequisite knowledge for participating in this
   workshop. An interest in developing or participating in research software communities
   is all that is required.

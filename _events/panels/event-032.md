@@ -14,7 +14,7 @@ category: panels
 date: 2020-11-25
 doi: 10.5281/zenodo.4430817
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 panelists:
 - Alys Brett is Head of the Software Development Group at UKAEA and has coordinated
   the national RSE involvement in SCRC (Scottish COVID-19 Response Consortium), which

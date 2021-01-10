@@ -19,7 +19,7 @@ category: talks
 date: 2020-08-19
 doi: 10.5281/zenodo.4430847
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 meeting_url: https://zoom.us/j/95982897830
 recording_url: https://youtu.be/2HOznlOCd1w?t=2849
 registration_url: https://indico.scc.kit.edu/event/904/

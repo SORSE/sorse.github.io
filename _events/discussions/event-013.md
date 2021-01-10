@@ -25,7 +25,7 @@ category: discussions
 date: 2020-08-18
 doi: 10.5281/zenodo.4430819
 language: English
-last_modified_at: '2021-01-10'
+last_modified_at: 2021-01-10
 recording_url: https://youtu.be/Rky9OWSzYb0
 registration_url: https://indico.scc.kit.edu/event/914/
 slides:
