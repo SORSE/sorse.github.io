@@ -16,24 +16,7 @@ $ pip install markdown2 python-dotenv python-frontmatter requests
 
 ```sh
 $ cd scripts
-$ python sorse-zenodo-upload.py --help
-usage: SORSE Zenodo Upload script. This script will browse recursively through DATA_PATH and look for .md files that match the format of the SORSE website.
-       [-h] [--sandboxing] --inputpath INPUTPATH [--overwrite] [--token TOKEN]
-       [--communityid COMMUNITYID] [--publish]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --sandboxing          If supplied, Zenodo Sandbox will be used instead.
-  --inputpath INPUTPATH
-                        The root folder for the input files.
-  --overwrite           If supplied, DOIs will be added inline to input files.
-                        Otherwise *-new.md files will be created
-  --token TOKEN         If not provided in .env as ZENODO_TOKEN (or
-                        ZENODO_SANDBOX_TOKEN), you can supply the Zenodo Token
-                        here.
-  --communityid COMMUNITYID
-                        Community ID to be used in Zenodo.
-  --publish             If supplied, depositions will be published as well.
+$ python sorse_zenodo_upload.py --help
 ```
 
 The script will create a log file `sorse-zenodo-upload.log` in the current directory
@@ -42,7 +25,7 @@ The script will create a log file `sorse-zenodo-upload.log` in the current direc
 
 ```sh
 $ export ZENODO_SANDBOX_TOKEN=<TOKEN>
-$ python sorse-zenodo-upload.py --sandboxing --inputpath ./events --communityid ecfunded
+$ python sorse_zenodo_upload.py --sandboxing --inputpath ./events --communityid ecfunded
 $ cat sorse-zenodo-upload.log
 INFO:root:*** Sorse Zenodo Upload Start ***
 INFO:root:Searching ./events for events
