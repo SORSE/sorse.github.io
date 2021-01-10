@@ -116,8 +116,12 @@ def sorse_zenodo_upload(args):
 
         if (r.status_code != 201):
             logging.error("Failed to create empty deposition! Response: %i: %s", r.status_code, r.content)
-            print("Error processing {}, check log file for more information".format(path))
-            continue
+            msg = "Error processing {}, check log file for more information".format(path)
+            if args.fail_fast:
+                raise ValueError(msg)
+            else:
+                print(msg)
+                continue
         # Fetch DOI from prereservation
         doi = r.json()['metadata']['prereserve_doi']['doi']
         # Fetch bucket url to put files
@@ -240,6 +244,7 @@ if __name__ == "__main__":
     parser.add_argument('--communityid', help='Community ID to be used in Zenodo.', required=False, default='sorse')
     parser.add_argument('--publish', help='If supplied, depositions will be published as well.', required=False, action='store_true')
     parser.add_argument('--publishlist', help='Provide a list of outstanding depositions to publish. Ignores INPUTHPATH', required=False)
+    parser.add_argument('-f', '--fail-fast', help='Fail on the first error', action='store_true')
 
     args = parser.parse_args()
     logging.basicConfig(filename='sorse_zenodo_upload.log', level=logging.DEBUG)
