@@ -1,31 +1,33 @@
 ---
-title: "Digital Humanities RSE: King's Digital Lab as experiment and lifecycle"
-authors:
-    - &speaker
-      name:  James Smithies
-      email: james.smithies@kcl.ac.uk
-      orcid: 0000-0003-4801-0366
-      is_speaker: true
-      affiliation: 1
-    - name:  Arianna Ciula
-      email: arianna.ciula@kcl.ac.uk
-      orcid: 0000-0003-4801-0366
-      is_speaker: true
-      affiliation: 1
 affiliations:
-    - name: King's Digital Laboratory, King's College London, UK
-      index: 1
-time:
-    - - start: 2020-09-29T15:00:00Z
-        end: 2020-09-29T16:30:00Z
-author: *speaker
+- index: 1
+  name: King's Digital Laboratory, King's College London, UK
+author: &id001
+  affiliation: 1
+  email: james.smithies@kcl.ac.uk
+  is_speaker: true
+  name: James Smithies
+  orcid: 0000-0003-4801-0366
+authors:
+- *id001
+- affiliation: 1
+  email: arianna.ciula@kcl.ac.uk
+  is_speaker: true
+  name: Arianna Ciula
+  orcid: 0000-0003-4801-0366
 category: talks
-language: English
 date: 2020-09-08
-last_modified_at: 2020-09-08
-registration_url: https://indico.scc.kit.edu/event/923/
+doi: 10.5281/zenodo.4430839
+language: English
+last_modified_at: '2021-01-10'
 recording_url: https://youtu.be/jiwOWFs5sOg
+registration_url: https://indico.scc.kit.edu/event/923/
+time:
+- - end: 2020-09-29 16:30:00+00:00
+    start: 2020-09-29 15:00:00+00:00
+title: 'Digital Humanities RSE: King''s Digital Lab as experiment and lifecycle'
 ---
+
 This SORSE event describes King's Digital Lab (KDL), a Research Software Engineering lab operating within the Faculty of Arts and Humanities at King's College London (UK). The KDL team of 18 project managers, analysts, designers, engineers, and systems managers specialise in arts & humanities, cultural heritage, and creative industries research and development. The talk will provide a current state overview of the lab, and describe our RSE HR roles (see [https://zenodo.org/record/2564790](https://zenodo.org/record/2564790)) and a relatively recent trial initiative that defines the different ways the team can contribute to research. A more technically-oriented overview of our ongoing work in refining the fundamental components of  KDL Software Development Lifecycle (see https://github.com/kingsdigitallab/sdlc-for-rse/) will also be provided, including descriptions of our modelling workflows, processes, and efforts to increase sustainability, reproducibility, and research data management best practice ([https://zenodo.org/record/3361580#.X09x6mdKhhE](https://zenodo.org/record/3361580#.X09x6mdKhhE)).
 
 ### About the speakers
