@@ -227,7 +227,8 @@ def sorse_zenodo_upload(args):
                 continue
             logging.info("Deposition published for %s", path)
         else:
-            depositions.append('Publish {} with POST request: {}.'.format(filename, api_uri+'/api/deposit/depositions/'+str(deposition_id)+'/actions/publish?access_token=$ACCESS_TOKEN'))
+            depositions.append('Publish {} with POST request: {}.'.format(filename, api_uri + '/api/deposit/depositions/' + str(deposition_id) + '/actions/publish?access_token=$ACCESS_TOKEN'))
+            depositions.append("Review {} at {}".format(filename, api_uri + "/deposit/" + str(deposition_id)))
         logging.info("Finished processing %s", path)
 
     return depositions
