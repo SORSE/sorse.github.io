@@ -1,33 +1,27 @@
 ---
-affiliations:
-- index: 1
-  name: Bolton NHS Foundation Trust, UK
-- index: 2
-  name: eScience Lab, University of Manchester, UK
-author: &id001
-  affiliation: 1
-  is_speaker: true
-  name: Dr. Rizwan Malik
+title: "Bringing Imaging-Based Artificial Intelligence into Clinical Practice in NHS Radiology"
 authors:
-- *id001
-- affiliation: 2
-  name: Shoaib Sufi
+    - &speaker
+      name: Dr. Rizwan Malik
+      is_speaker: true
+      affiliation: 1
+affiliations:
+    - name: Bolton NHS Foundation Trust, UK
+      index: 1
+author: *speaker
 category: talks
-date: 2020-08-18
-doi: 10.5281/zenodo.4298665
 language: English
-last_modified_at: 2020-11-03
-prerequisites: Links are included in the summary as well as this BBC article for the
-  background of the deployment otherwise no specialise prerequisite knowledge is required
-  <a href='https://www.bbc.co.uk/news/business-52483082' class='truncated'>https://www.bbc.co.uk/news/business-52483082</a>
-registration_url: https://indico.scc.kit.edu/event/2200/
 time:
-- - end: 2020-12-07 14:30:00+00:00
-    start: 2020-12-07 14:00:00+00:00
-title: Bringing Imaging-Based Artificial Intelligence into Clinical Practice in NHS
-  Radiology
+    - - start: 2020-12-07T14:00:00Z
+        end: 2020-12-07T14:30:00Z
+prerequisites: "Links are included in the summary as well as this BBC article for the background of the deployment otherwise no specialise prerequisite knowledge is required
+<a href='https://www.bbc.co.uk/news/business-52483082' class='truncated'>https://www.bbc.co.uk/news/business-52483082</a>"
+date: 2020-08-18
+last_modified_at: 2020-12-08
+registration_url: https://indico.scc.kit.edu/event/2200/
+slides: https://indico.scc.kit.edu/event/2200/attachments/3888/5765/SORSE_AI_into_Clinical_practice.pdf
+recording_url: https://youtu.be/jMmbeJ6lk-o
 ---
-
 Whilst there are over 200 Imaging/Radiology AI Companies world wide there are currently only about 50 FDA approved algorithms.
 There are also significant barriers to overcome in bringing AI to the NHS landscape.
 In Bolton NHS Foundation Trust we are the first NHS Organisation to deploy the [Qure.AI solution](https://qure.ai/qxr.html) into clinical practice.

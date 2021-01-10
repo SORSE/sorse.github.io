@@ -1,25 +1,26 @@
 ---
-affiliations:
-- index: 1
-  name: Durham University, UK
-author: &id001
-  affiliation: 1
-  email: tobias.weinzierl@durham.ac.uk
-  is_speaker: true
-  name: Dr. Tobias Weinzierl
-  orcid: 0000-0002-6208-1841
+title: "My project expired and my team left, so let's rewrite all the software from scratch"
 authors:
-- *id001
+    - &speaker
+      name: Dr. Tobias Weinzierl
+      email: tobias.weinzierl@durham.ac.uk
+      orcid: 0000-0002-6208-1841
+      is_speaker: true
+      affiliation: 1
+affiliations:
+    - name: Durham University, UK
+      index: 1
+time:
+    - - start: 2021-01-26T14:00:00Z
+        end: 2021-01-26T14:30:00Z
+author: *speaker
 category: talks
-date: 2020-11-03
-doi: 10.5281/zenodo.4298679
 language: English
-prerequisites: None. Interest in numerical simulations will make the talk more relevant
-  to the audience.
-title: My project expired and my team left, so let's rewrite all the software from
-  scratch
+prerequisites: "None. Interest in numerical simulations will make the talk more relevant to the audience."
+date: 2020-11-03
+last_modified_at: 2020-11-30
+registration_url: https://indico.scc.kit.edu/event/2260/
 ---
-
 Peano is a framework for large-scale simulations using dynamically adaptive
 Cartesian grids. It is used today for Earthquake and Black Hole simulations,
 for example. The fourth generation of the software is
