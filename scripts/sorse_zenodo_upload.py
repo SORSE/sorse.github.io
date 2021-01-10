@@ -3,6 +3,7 @@ import os
 import sys
 import json
 from argparse import ArgumentParser
+import datetime as dt
 from dotenv import load_dotenv
 import frontmatter
 import logging
@@ -49,6 +50,8 @@ import markdown2
 # 429 Too Many Requests Request failed, due to rate limiting. Error response included.
 # 500 Internal Server Error
 
+today = dt.date.today().isoformat()
+
 def sorse_zenodo_upload(args):
     # pure for convenience...
     inputpath = args.inputpath
@@ -61,7 +64,7 @@ def sorse_zenodo_upload(args):
     publishlist = args.publishlist
 
     access_token = args.token if not args.token is None else os.getenv('ZENODO_SANDBOX_TOKEN') if sandboxing else os.getenv('ZENODO_TOKEN')
-    
+
     api_uri = 'https://sandbox.zenodo.org' if sandboxing else 'https://zenodo.org'
     headers = {"Content-Type": "application/json"}
     params = {'access_token': access_token}
@@ -85,7 +88,7 @@ def sorse_zenodo_upload(args):
     # loop through inputpath
     logging.info('Searching %s for events', inputpath)
     events = Path(inputpath).rglob('*.md')
-    
+
     # keep track of changes
     depositions = []
     for path in events:
@@ -147,6 +150,7 @@ def sorse_zenodo_upload(args):
 
         # update .md with DOI
         post['doi'] = doi
+        post["last_modified_at"] = today
         filename, file_extension = os.path.splitext(str(path))
         outputpath = str(path) if overwrite else filename+'-new'+file_extension
         output_file = open(outputpath, 'wb')
@@ -160,14 +164,14 @@ def sorse_zenodo_upload(args):
         # os.remove('./generate-pdf/'+ path.name)
         pdffilename = os.path.basename(filename) + '.pdf' # use the event filename for the pdf
         copyfile(workingpath + '/' + pdffilename, pdfpath + '/' + pdffilename) # copy a version to the pdfpath location
-        
+
         # Upload pdf file to Zenodo
         # The target URL is a combination of the bucket link with the desired filename
         # seperated by a slash.
 
         pdffile = workingpath + '/' + pdffilename # take to original because copyfile might not have finished.
         logging.info("Uploading file contents for %s", pdffile)
-        
+
         with open(pdffile, "rb") as fp:
             r = requests.put(
                 "%s/%s" % (bucket_url, os.path.basename(filename) + '.pdf'),
@@ -180,7 +184,7 @@ def sorse_zenodo_upload(args):
             continue
 
         logging.info("File contents uploaded for %s", pdffile)
-    
+
         # add metadata to deposition
         data = { 'metadata': {
             'publication_date': str(post['date']),
@@ -236,7 +240,7 @@ if __name__ == "__main__":
     parser.add_argument('--communityid', help='Community ID to be used in Zenodo.', required=False, default='sorse')
     parser.add_argument('--publish', help='If supplied, depositions will be published as well.', required=False, action='store_true')
     parser.add_argument('--publishlist', help='Provide a list of outstanding depositions to publish. Ignores INPUTHPATH', required=False)
-    
+
     args = parser.parse_args()
     logging.basicConfig(filename='sorse_zenodo_upload.log', level=logging.DEBUG)
     logging.info('*** Sorse Zenodo Upload Start ***')
