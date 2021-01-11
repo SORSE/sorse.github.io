@@ -19,6 +19,9 @@
      {%- if include.all or include.events or include.category -%}
        {% include events.js category=include.category onclick=include.onclick %},
      {%- endif -%}
+     {%- if include.all or include.posts -%}
+       {% include posts.js %},
+     {%- endif -%}
      {%- if include.custom -%}
        {{ include.custom }}
      {%- else -%}

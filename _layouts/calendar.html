@@ -17,7 +17,7 @@ layout: single
   {% assign aua_post = site.documents | where: "id", "/programme/ask-us-anything-sessions" %}
   {% assign cfc_post = site.documents | where: "id", "/faq/howto/submission-deadlines" %}
   {% assign poster_session_post = site.documents | where: "id", "/programme/posters/lightning-talk-session" %}
-  {% assign posts = aua_post | concat: cfc_post | concat: poster_session_post %}
+  {% assign posts = aua_post | concat: cfc_post | concat: poster_session_post | concat: site.posts %}
   {% for post in posts %}
     {% include faq-card.html hidden=true excerpt_length=300 %}
   {% endfor %}
@@ -31,6 +31,7 @@ layout: single
    events = [
      {% include ask-us-anything.js onclick='tag' %},
      {% include cfc-deadlines.js background=true onclick='tag' %},
+     {% include posts.js onclick='tag' %},
      {% include events.js onclick='tag' %}
    ];
 
