@@ -6,23 +6,51 @@ tags:
   - discussion
   - software directories
 sidebar:
-  nav: blog
+  nav: programme
 classes: wide
 last_modified_at: 2021-01-11
 id: 1
 fullcalendar: true
+excerpt: |
+  The discussion session "Research Software Directories: What, Why, and
+  How?" was held on September 16 during SORSE, an International Series of Online
+  Research Software Events. As presenters, we each shared efforts to
+  develop and maintain software directories: catalogues to showcase the
+  software outputs of an institution or community.
+affiliations:
+  - index: 1
+    name: Imperial College London, UK
+  - index: 2
+    name: Netherlands eScience Center, The Netherlands
+  - index: 3
+    name: Stanford University, US
+  - index: 4
+    name: INCF
+  - index: 5
+    name: Humboldt University of Berlin
+author: &id001
+  affiliation: 1
+  name: Mark Woodbridge
+  orcid: 0000-0002-0650-9751
+authors:
+  - *id001
+  - affiliation: 3
+    name: Vanessa Sochat
+    orcid: 0000-0002-4387-3819
+  - affiliation: 2
+    name: Jurriaan Spaaks
+    orcid: 0000-0002-7064-4069
+  - affiliation: 4
+    name: Malin Sandström
+    orcid: 0000-0002-8464-2494
+  - affiliation: 5
+    name: Alexander Struck
+    orcid: 0000-0002-1173-9228
 ---
 
-Session presenters
-
--   Mark Woodbridge, Imperial College London
--   Vanessa Sochat, Stanford University
--   Jurriaan Spaaks, Netherlands eScience Center
-
-Blog post contributors
-
--   Malin Sandström, INCF
--   Alexander Struck, Humboldt University of Berlin
+<div>
+  {% include event-authors.html event=page %}
+</div>
 
 ## Table of Contents
 
