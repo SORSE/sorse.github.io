@@ -23,7 +23,7 @@ Gomez-Diaz T. and Recio T.,
 On the evaluation of research software: the CDUR procedure
 [version 2 ; peer review: 2 approved] 26 Nov 2019.
 F1000Research 2019, 8:1353,
-https://f1000research.com/articles/8-1353
+[https://f1000research.com/articles/8-1353](https://f1000research.com/articles/8-1353)
 
 with abstract:
 
