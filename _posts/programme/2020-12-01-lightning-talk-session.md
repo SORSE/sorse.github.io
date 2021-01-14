@@ -39,5 +39,7 @@ Presenters will be asked to pre-record a 1 to 2 minute lightning talk which will
 
 {%- assign posts = site.events | where: "category", "posters" -%}
 {%- for post in posts -%}
+{%- if post.time and post.time[0][0].start == page.time[0][0].start -%}
 {% include event-card.html %}
+{%- endif -%}
 {%- endfor -%}
