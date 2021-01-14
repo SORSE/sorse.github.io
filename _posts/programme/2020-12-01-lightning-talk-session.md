@@ -35,3 +35,9 @@ Presenters will be asked to pre-record a 1 to 2 minute lightning talk which will
 * lightning talk session - pre-record talk 1-2 minutes
 * followed by breakout session
 
+## Lightning talks
+
+{%- assign posts = site.events | where: "category", "posters" -%}
+{%- for post in posts -%}
+{% include event-card.html %}
+{%- endfor -%}
