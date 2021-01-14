@@ -104,6 +104,7 @@ title: Code Review Community
 time:
   - - start: 2021-01-20T15:00:00Z
       end: 2021-01-20T16:00:00Z
+registration_url: https://indico.scc.kit.edu/event/2295/
 ---
 
 Code review for research software is the process by which peers evaluate each other's source code. This involves checking that the code does what it claims and is written in a way that can easily be read, maintained, and built upon. Code review is an important tool for ensuring that software is high-quality and reusable, and should be a widely-adopted "best practice".
