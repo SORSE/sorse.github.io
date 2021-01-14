@@ -101,6 +101,9 @@ doi: 10.5281/zenodo.4430849
 language: English
 last_modified_at: 2021-01-10
 title: Code Review Community
+time:
+  - - start: 2021-01-20T15:00:00Z
+      end: 2021-01-20T16:00:00Z
 ---
 
 Code review for research software is the process by which peers evaluate each other's source code. This involves checking that the code does what it claims and is written in a way that can easily be read, maintained, and built upon. Code review is an important tool for ensuring that software is high-quality and reusable, and should be a widely-adopted "best practice".

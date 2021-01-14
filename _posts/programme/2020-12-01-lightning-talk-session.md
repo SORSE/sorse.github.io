@@ -13,7 +13,7 @@ id: 1
 include_in_calendar: true
 time:
   - - start: 2021-01-20T15:00:00Z
-    - end: 2021-01-20T16:00:00Z
+      end: 2021-01-20T16:00:00Z
 ---
 
 We will run a lightning talk session on Wed 20th January 2021 at 3pm UTC.  The session will be a one hour slot and include up to 10  lightning talks. Each lightning talk should be supported by either a poster or a blog post.
@@ -35,3 +35,9 @@ Presenters will be asked to pre-record a 1 to 2 minute lightning talk which will
 * lightning talk session - pre-record talk 1-2 minutes
 * followed by breakout session
 
+## Lightning talks
+
+{%- assign posts = site.events | where: "category", "posters" -%}
+{%- for post in posts -%}
+{% include event-card.html %}
+{%- endfor -%}

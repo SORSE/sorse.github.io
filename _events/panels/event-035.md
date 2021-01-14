@@ -23,7 +23,7 @@ category: panels
 date: 2021-01-13
 doi: 10.5281/zenodo.4439258
 language: English
-last_modified_at: '2021-01-14'
+last_modified_at: 2021-01-14
 panelists:
 - Adrian Harwood, University of Manchester, leads mobile development efforts in his
   RSE group.
