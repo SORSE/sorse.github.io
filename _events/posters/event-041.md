@@ -12,7 +12,7 @@ category: posters
 date: 2021-01-13
 doi: 10.5281/zenodo.4439264
 language: English
-last_modified_at: '2021-01-14'
+last_modified_at: 2021-01-14
 prerequisites: Knowledge of APIs and web development practises would be helpful but
   not necessary.
 title: Embedding a Jupyter Notebook
