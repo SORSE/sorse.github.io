@@ -19,6 +19,9 @@ language: English
 last_modified_at: 2021-01-14
 prerequisites: All experience levels are welcome.
 title: Development of an Automated High-Throughput Animal Training Platform
+time:
+  - - start: 2021-01-20T15:00:00Z
+    - end: 2021-01-20T16:00:00Z
 ---
 
 In traditional neuroscience laboratory research, training animals to execute sensorimotor tasks is time consuming, labor and resource intensive, and prone to human bias and error.  The Research Software Engineering team at Harvard University's Faculty of Arts and Science Research Computing (FASRC) has developed an automated training system pipeline that standardizes and automates animal training.  The pipeline consists of Teensy microcontrollers that monitor animal training events, RaspberryPis that orchestrate and log training instructions, PiCameras that record subjects, and open-source software, including a Vue web interface, a Flask server, and a PostGreSQL database.
