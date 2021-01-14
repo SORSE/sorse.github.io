@@ -1,23 +1,27 @@
 ---
-title: "On the evaluation of research software: the CDUR procedure"
-authors:
-    - &speaker
-      name: Dr. Teresa Gomez-Diaz
-      is_speaker: true
-      affiliation: 1
-    - name: Prof. Tomas Recio
-      affiliation: 2
 affiliations:
-    - name: CNRS/LIGM, France
-      index: 1
-    - name: University of Nebrija (Madrid), Spain
-      index: 2
-author: *speaker
+- index: 1
+  name: CNRS/LIGM, France
+- index: 2
+  name: University of Nebrija (Madrid), Spain
+author: &id001
+  affiliation: 1
+  is_speaker: true
+  name: Dr. Teresa Gomez-Diaz
+authors:
+- *id001
+- affiliation: 2
+  name: Prof. Tomas Recio
 category: talks
-language: English
-prerequisites: "It could be of help if attendees have already participated  in the development of research software."
 date: 2021-01-13
+doi: 10.5281/zenodo.4439260
+language: English
+last_modified_at: '2021-01-14'
+prerequisites: It could be of help if attendees have already participated  in the
+  development of research software.
+title: 'On the evaluation of research software: the CDUR procedure'
 ---
+
 The goal of the proposed talk is to present the publication
 
 > Gomez-Diaz T. and Recio T.,

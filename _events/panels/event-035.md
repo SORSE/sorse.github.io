@@ -1,33 +1,39 @@
 ---
-title: "Research On The Go"
-authors:
-    - &speaker
-      name: Peter Schmidt
-      email: peter.schmidt@ucl.ac.uk
-      is_speaker: true
-      affiliation: 2
-    - name: Mark Turner
-      is_speaker: true
-      affiliation: 1
-    - name: Adrian Harwood
-      is_speaker: true
-      affiliation: 3
 affiliations:
-    - name: Newcastle University, UK
-      index: 1
-    - name: University College London, UK
-      index: 2
-    - name: University of Manchester, UK
-      index: 3
-author: *speaker
+- index: 1
+  name: Newcastle University, UK
+- index: 2
+  name: University College London, UK
+- index: 3
+  name: University of Manchester, UK
+author: &id001
+  affiliation: 2
+  email: peter.schmidt@ucl.ac.uk
+  is_speaker: true
+  name: Peter Schmidt
+authors:
+- *id001
+- affiliation: 1
+  is_speaker: true
+  name: Mark Turner
+- affiliation: 3
+  is_speaker: true
+  name: Adrian Harwood
 category: panels
-language: English
-panelists: 
-    - Adrian Harwood, University of Manchester, leads mobile development efforts in his RSE group. 
-    - Peter Schmidt, University College London, has been an app developer in the private sector and now at UCL.
-    - Mark Turner, University of Newcastle, leads mobile development efforts in his RSE group.
 date: 2021-01-13
+doi: 10.5281/zenodo.4439258
+language: English
+last_modified_at: '2021-01-14'
+panelists:
+- Adrian Harwood, University of Manchester, leads mobile development efforts in his
+  RSE group.
+- Peter Schmidt, University College London, has been an app developer in the private
+  sector and now at UCL.
+- Mark Turner, University of Newcastle, leads mobile development efforts in his RSE
+  group.
+title: Research On The Go
 ---
+
 Software for research comes in many different forms and technologies. This includes software that runs on mobile devices. The demand for this is growing, whether it is for "citizen-science" projects or in clinical and educational research. In this SORSE (online) roundtable event, we discuss
 * examples of mobile apps for research
 * what are the challenges for mobile apps in and for research. In particular:
