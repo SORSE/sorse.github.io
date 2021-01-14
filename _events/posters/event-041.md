@@ -3,8 +3,12 @@ title: "Embedding a Jupyter Notebook"
 authors:
     - &speaker
       name: Teri Forey
+      affiliation: 1
       is_speaker: true
 author: *speaker
+affiliations:
+    - index: 1
+      name: Teri Apps
 category: posters
 language: English
 prerequisites: "Knowledge of APIs and web development practises would be helpful but not necessary."
