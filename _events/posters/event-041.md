@@ -18,7 +18,7 @@ prerequisites: Knowledge of APIs and web development practises would be helpful 
 title: Embedding a Jupyter Notebook
 time:
   - - start: 2021-01-20T15:00:00Z
-    - end: 2021-01-20T16:00:00Z
+      end: 2021-01-20T16:00:00Z
 ---
 
 Many RSEs and researchers are familiar with using Jupyter Notebooks to analyse data and output results, but how can this functionality be included within a larger platform or application? Creating a new analysis tool would take a lot of developer hours, and so a more cost-effective solution could be to embed Jupyter within your application.
