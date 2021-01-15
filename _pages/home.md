@@ -37,9 +37,9 @@ Any questions, read [more](faq/about/what-is-sorse), [get in touch](contact/), o
 ## News
 
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+  {% assign posts = paginator.categories["news"] %}
 {% else %}
-  {% assign posts = site.posts %}
+  {% assign posts = site.categories["news"] %}
 {% endif %}
 
 {% for post in posts %}
