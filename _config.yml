@@ -137,6 +137,7 @@ defaults:
       author_profile: false
       classes: wide
       share: true
+      show_in_calendar: true
       collection_button:
         name: Schedule
         url: /programme/

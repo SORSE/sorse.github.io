@@ -3,9 +3,11 @@
 {%- for post in site.events -%}
   {%- if post.time -%}
     {%- if include.category == nil or post.category == include.category -%}
-      {%- assign events = events | push: post -%}
-      {%- capture post_id -%}{{ post.id | split: '/' | last }}{%- endcapture -%}
-      {%- assign event_ids = event_ids | push: post_id -%}
+      {%- if include.category or post.show_in_calendar -%}
+        {%- assign events = events | push: post -%}
+        {%- capture post_id -%}{{ post.id | split: '/' | last }}{%- endcapture -%}
+        {%- assign event_ids = event_ids | push: post_id -%}
+      {%- endif -%}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
