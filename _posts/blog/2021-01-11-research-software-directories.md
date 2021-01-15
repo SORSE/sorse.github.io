@@ -126,7 +126,7 @@ which they have contributed or used software directories. For a total of
 have submitted software to a directory, and 58% indicated neither of the
 above.
 
-![](/assets/images/directories_experience_poll.png)
+![poll results](/assets/images/directories_experience_poll.png)
 
 ## Presentations
 
