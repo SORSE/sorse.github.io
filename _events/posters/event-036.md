@@ -101,6 +101,7 @@ doi: 10.5281/zenodo.4430849
 language: English
 last_modified_at: 2021-01-10
 title: Code Review Community
+show_in_calendar: false
 time:
   - - start: 2021-01-20T15:00:00Z
       end: 2021-01-20T16:00:00Z

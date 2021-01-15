@@ -16,6 +16,7 @@ last_modified_at: 2021-01-14
 prerequisites: Knowledge of APIs and web development practises would be helpful but
   not necessary.
 title: Embedding a Jupyter Notebook
+show_in_calendar: false
 time:
   - - start: 2021-01-20T15:00:00Z
       end: 2021-01-20T16:00:00Z
