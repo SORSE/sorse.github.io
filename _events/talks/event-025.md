@@ -19,6 +19,7 @@ language: English
 last_modified_at: 2021-01-14
 prerequisites: All experience levels are welcome.
 title: Development of an Automated High-Throughput Animal Training Platform
+show_in_calendar: false
 time:
   - - start: 2021-01-20T15:00:00Z
       end: 2021-01-20T16:00:00Z
