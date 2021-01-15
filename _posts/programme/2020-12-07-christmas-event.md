@@ -20,12 +20,6 @@ time:
 registration_url: https://indico.scc.kit.edu/event/2266/
 ---
 
-<div>
-  {% assign time=page.time[0][0] %}
-  {% include registration-button.html %}
-  {% include add-to-calendar-button.html %}
-</div>
-
 Are you already looking forward to the festive break for some relaxation? Yes,
 so are we! But just before you close your computer down for possibly the last
 time in 2020, join us for a lighthearted look at _When Spreadsheets Attack!_
