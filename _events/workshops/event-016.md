@@ -70,6 +70,9 @@ doi: 10.5281/zenodo.4430815
 language: English
 last_modified_at: 2021-01-10
 prerequisites: no prerequisite knowledge needed
+recording_urls:
+  - https://youtu.be/hP-pvHlSQI8
+  - https://youtu.be/RzAg-1l2Fjc
 registration_url:
 - https://indico.scc.kit.edu/event/2135/
 - https://indico.scc.kit.edu/event/2134/
