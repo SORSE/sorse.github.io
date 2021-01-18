@@ -31,6 +31,8 @@ authors:
   {% include event-authors.html event=page %}
 </div>
 
+*Note: this blog has previously been published on [Medium](https://medium.com/@t.forey/embedding-a-jupyter-notebook-65d79ad8e111)*
+
 We at [Wellcome Trust Data Labs](https://wellcome.org/about-us/teams/wellcome-data-labs) have recently started building a new service for sharing data between funders. As much of this data is highly restricted, all analysis must occur within our platform. Users will not be able to download data to their local machine. We’ve therefore created our own functionality to plot metrics, and to create tables of summarized data but for more advanced analysis we’d like to provide a notebook-style way of working. Instead of rewriting the wheel, it seemed more prudent to look at ways of integrating existing notebooks within our application, the most common of which is [Jupyter](https://jupyter.org/).
 
 Jupyter notebooks integrate code and markdown text into a single document, allowing users to analyze and interpret their results all in one place. Most users will typically run Jupyter locally, which will start a local web server allowing users to view, edit and manage files within their browser. For those who wish to provide Jupyter notebooks as a service, for example within a classroom or department, there is JupyterHub. This runs another web server, which allows users to login and will spawn a Jupyter notebook server per user. Both Jupyter and JupyterHub are completely configurable, allowing you to use your own authentication, choose how notebooks are spawned and define the environment within those notebooks.
