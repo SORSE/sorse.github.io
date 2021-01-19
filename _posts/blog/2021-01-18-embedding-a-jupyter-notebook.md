@@ -44,7 +44,7 @@ In this blog post I’ll walk through the individual steps we took to embed Jupy
 
 There are multiple different ways to launch JupyterHub from running it locally to within a Kubernetes cluster. In our case we ran JupyterHub within a docker container, and used DockerSpawner, which, as the name suggests, spawns Jupyter servers within their own docker container. This setup meant that Jupyterhub was accessible locally on port 8000 (http://localhost:8000) and should scale well up to ~100 concurrent users. Although the steps below should be generic enough for any JupyterHub installation, please bear in mind that some details could differ.
 
-{% include image.html url="/assets/images/embedding-a-jupyter-notebook/MyApp-jupyter_load.png" description="Overview of the interactions between our app and Jupyter when starting a notebook."%}
+{% include figure image_path="/assets/images/embedding-a-jupyter-notebook/MyApp-jupyter_load.png" alt="MyApp-jupyter_load.png" caption="Overview of the interactions between our app and Jupyter when starting a notebook."%}
 
 ### Connect to the API
 For our application to interact with JupyterHub we needed to use the API. Both JupyterHub and the Jupyter notebook servers provide a web API, so depending on the URL and HTTP request method we can programmatically interact with them from within our service. Note that all requests go through the JupyterHub proxy, and therefore all our requests are sent to localhost:8000 irrespective of their final destination.
@@ -109,7 +109,7 @@ Once the server is running, we could set the iframe to the appropriate URL and t
 
 To do this we again turn to the API, however this time we need the API within the single user Jupyter server we just started. The URL is therefore more complicated as we first need to point it towards the correct server, and then access the API. Once we reach that API though, there’s an extremely useful endpoint which can allow us to access the contents of a file. If we access this endpoint with a GET request, we will return the contents allowing us to save the file within our database. Accessing the same endpoint with a POST request will create a new empty notebook file, returning the filename that we’d need to direct the iframe. We can also access this endpoint with a PUT request, passing in some data and it will create a new file with that content. These three methods give us all the functionality we need to provide a one-to-one relationship between our application and a Jupyter notebook file.
 
-{% include image.html url="/assets/images/embedding-a-jupyter-notebook/rori_link.001.jpeg" description="URL needed to access notebook file contents" %}
+{% include figure image_path="/assets/images/embedding-a-jupyter-notebook/rori_link.001.jpeg" alt="rori_link.001.jpeg" caption="URL needed to access notebook file contents" %}
 
 So, to create an empty notebook file we can make the following request. This will generate a new empty notebook file within the `work` directory.
 
@@ -225,7 +225,7 @@ The above code is also in our custom.js file, and is triggered on the event call
 Within the javascript of our own application we can then add an event listener for this message, much as we did within the Jupyter notebook js. Once it’s triggered we can use the API call to return the file contents, which now contain the latest changes, and this can be saved into our database.
 
 
-{% include image.html url="/assets/images/embedding-a-jupyter-notebook/MyApp-jupyter_save.png" description="Overview of the connections between our app and Jupyter when saving a file" %}
+{% include figure image_path="/assets/images/embedding-a-jupyter-notebook/MyApp-jupyter_save.png" alt="MyApp-jupyter_save.png" caption="Overview of the connections between our app and Jupyter when saving a file" %}
 
 
 Using these two postMessages we’ve therefore been able to link up the save buttons within our application to those within the Jupyter notebook and both now perform the same actions.
