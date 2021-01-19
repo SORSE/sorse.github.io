@@ -34,6 +34,16 @@ Any questions, read [more](faq/about/what-is-sorse), [get in touch](contact/), o
 
 {% include upcoming-events.html all=true %}
 
+
+## Blog
+{% assign posts = site.categories["blog"] %}
+
+{% for post in posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+
+
 ## News
 
 {% if paginator %}
