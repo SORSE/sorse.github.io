@@ -14,7 +14,8 @@ task :test do
                   /www.wtfpl.net/,
                   /www.nhsx.nhs.uk\/media\/documents\/NHSX_A_Buyers_Guide_to_AI_in_Health_and_Care.pdf/,
                   /www.ncl.ac.uk\/press\/articles\/archive\/2018\/11\/fintrust/,
-                  /zenodo.org\/badge\/DOI\/10.5281\/zenodo..*.svg/
+                  /zenodo.org\/badge\/DOI\/10.5281\/zenodo..*.svg/,
+                  /localhost/
               ],
               :typhoeus => {
                   :ssl_verifypeer => false,
