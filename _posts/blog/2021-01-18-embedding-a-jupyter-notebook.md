@@ -42,7 +42,7 @@ Our goal was therefore to embed a Jupyter notebook within our application in a w
 
 In this blog post I’ll walk through the individual steps we took to embed Jupyter within our application. Although this isn’t a tutorial and we don’t show all the written code, this should provide enough information for other developers looking to embed Jupyter.
 
-There are multiple different ways to launch JupyterHub from running it locally to within a Kubernetes cluster. In our case we ran JupyterHub within a docker container, and used DockerSpawner, which, as the name suggests, spawns Jupyter servers within their own docker container. This setup meant that Jupyterhub was accessible locally on port 8000 (http://localhost:8000) and should scale well up to ~100 concurrent users. Although the steps below should be generic enough for any JupyterHub installation, please bear in mind that some details could differ.
+There are multiple different ways to launch JupyterHub from running it locally to within a Kubernetes cluster. In our case we ran JupyterHub within a docker container, and used DockerSpawner, which, as the name suggests, spawns Jupyter servers within their own docker container. This setup meant that Jupyterhub was accessible locally on port 8000 ([http://localhost:8000](http://localhost:8000)) and should scale well up to ~100 concurrent users. Although the steps below should be generic enough for any JupyterHub installation, please bear in mind that some details could differ.
 
 {% include figure image_path="/assets/images/embedding-a-jupyter-notebook/MyApp-jupyter_load.png" alt="MyApp-jupyter_load.png" caption="Overview of the interactions between our app and Jupyter when starting a notebook."%}
 
@@ -51,7 +51,7 @@ For our application to interact with JupyterHub we needed to use the API. Both J
 
 Accessing an API like this is extremely powerful, we can create and delete users, access tokens and even start Jupyter notebook servers. For this reason, access to certain functions within the JupyterHub API is restricted to administrators only. Therefore the first thing we needed to do was configure JupyterHub to recognise our service as an admin. To do this we create a `jupyterhub_config.py` file and copy this into the `/srv/jupyterhub/` folder within our JupyterHub container. This file is then read when JupyterHub starts, specifying how it should function. As part of installing JupyterHub and a spawner, you have probably already created this file so the below settings just need to be added.
 
-```
+```javascript
 c.JupyterHub.services = [
 {"name": "my-app", "api_token": secret-token, "admin": True,}
 ]
@@ -59,13 +59,13 @@ c.JupyterHub.services = [
 
 This sets a name for our service, a token which provides access to the API, and sets this service to be an administrator. Both the name and token should be changed, as the token provides full access to the Jupyter server it should be kept secret. To test that it’s working, try using this token to connect to the API via curl within a terminal window. The following command should return a list of all users (beware that you might not have any users yet).
 
-```
+```bash
 curl localhost:8000/hub/api/users -H "Authorization: Token secret-token"
 ```
 
 Now that we have the means to connect to the API, we can use our secret token to start making requests. The first thing we want to do when a user tries to access a notebook within our service is to ensure that they have a user account in Jupyter. According to the JupyterHub documentation we can do this through the API by accessing the URL `/hub/api/users/` followed by their username. A GET request to this URL would just return information about that user, but a POST request would create a new user account. If the user in our application is called Bob, we can therefore run the following Python code to create a new Jupyter user account for them.
 
-```
+```python
 Import requests
 
 headers = {
@@ -74,27 +74,27 @@ headers = {
     }
 
 
-R = requests.post(“http://localhost:8000/hub/api/users/Bob”, headers=headers)
+R = requests.post("http://localhost:8000/hub/api/users/Bob", headers=headers)
 ```
 
 As well as providing our secret token, we also set the content type to be JSON so the results will be returned in this format. It should be noted that we’re making this request within our python server-side code, so that our secret token is never revealed to the client.
 
 Now that we have created a new user, we need a way for that user to authenticate themselves with Jupyter. By default JupyterHub will display a login screen where users can enter their password, but as our users are already authenticated within our application we want to make this a seamless transition. We therefore create a token specific for that user, this won’t give them full access to the JupyterHub API but it does allow them to connect to their own Jupyter notebook server. For our user Bob, we’d create and access that token using the following.
 
-```
+```python
 …
 
-r = requests.post(“http://localhost:8000/hub/api/users/Bob/tokens", headers=headers)
+r = requests.post("http://localhost:8000/hub/api/users/Bob/tokens", headers=headers)
 
 res = r.json()
-Token = res.get(“token”)
+Token = res.get("token")
 ```
 
 ### Create a Notebook
 Now that we have a user account within JupyterHub, and a token to authenticate them, we can start a Jupyter notebook and create our first file. These requests only use our new user-token so can occur client-side, within our javascript application. We first request a new server, which as we saw earlier must be a POST request.
 
-```
-fetch(“http://locahost:8000/hub/api/users/Bob/server”, {
+```javascript
+fetch("http://locahost:8000/hub/api/users/Bob/server", {
             method: 'POST',
             headers: {
                 'Authorization': 'Token ' + token,
@@ -113,8 +113,8 @@ To do this we again turn to the API, however this time we need the API within th
 
 So, to create an empty notebook file we can make the following request. This will generate a new empty notebook file within the `work` directory.
 
-```
-fetch(“http://localhost:8000/user/Bob/api/contents/work", {
+```javascript
+fetch("http://localhost:8000/user/Bob/api/contents/work", {
             method: 'POST',
             headers: {
                 'Authorization': 'Token ' + token,
@@ -128,8 +128,8 @@ fetch(“http://localhost:8000/user/Bob/api/contents/work", {
 
 If we have stored content from a previous notebook file, we can then re-engineer this file using the same API endpoint. This time we assign it a specific filename and pass in the file contents within the body, we also use the PUT method.
 
-```
-fetch(“http://localhost:8000/user/Bob/api/contents/work/" + filename, {
+```javascript
+fetch("http://localhost:8000/user/Bob/api/contents/work/" + filename, {
             method: 'PUT',
             headers: {
                 'Authorization': 'Token ' + token,
@@ -155,11 +155,11 @@ This connects to our JupyterHub server running at localhost:8000, goes through t
 ### Content Security Policy
 At this point, what you might be seeing instead of the notebook file, is a warning about the Content Security Policy (CSP) restricting your access. This is because CSP is designed to protect servers from cross-site scripting attacks, and will stop someone from using an iframe to display your own website within theirs. What we therefore need to do is to set the CSP for our JupyterHub and notebook servers to permit access from our application. So, if for example our application that we want to embed Jupyter within is running on localhost:8090, we need to set certain exceptions for that domain. This will mean that only our application, running on localhost:8090, will be able to use an iframe to embed the Jupyter servers. The setting for JupyterHub is
 
-```
+```javascript
 c.JupyterHub.tornado_settings = {
     "headers": {
-        "Content-Security-Policy": "frame-ancestors 'self' http://localhost:8090”,
-        "Access-Control-Allow-Origin": “http://locahost:8090”,
+        "Content-Security-Policy": "frame-ancestors 'self' http://localhost:8090",
+        "Access-Control-Allow-Origin": "http://locahost:8090",
     }
 }
 ```
@@ -171,8 +171,8 @@ Once these changes have been made, and the servers restarted, you should then be
 ### Saving a Notebook
 Now that we have a working notebook file being created and displayed within our iframe, the next stage is to save the contents within our application’s database. To do this, as mentioned above, we can use the same API endpoint that creates a file to return the file contents. Therefore the following request can be made when we tell our application to save the Jupyter notebook.
 
-```
-fetch(“http://locahost:8000/user/Bob/api/contents/work/Untitled.ipynb?type=file&format=text&content=1”, {
+```javascript
+fetch("http://locahost:8000/user/Bob/api/contents/work/Untitled.ipynb?type=file&format=text&content=1", {
             method: 'GET',
             headers: {
                 'Authorization': 'Token ' + token,
@@ -185,20 +185,20 @@ Unfortunately what became clear is that this request will only return the last s
 
 Accessing elements within an iframe is, sensibly, highly restricted, we therefore couldn’t just trigger a ‘click’ on the internal save button. Instead we used an HTML method called postMessage to send an event to the window holding the iframe, these messages can work between embedded pages and their parent page or between tabs and most importantly can work across different domains. Therefore when a user clicks save within our application, we can post a message to the iframe in the hopes of triggering the save within the notebook itself. The post message has to contain the domain name of the target to confirm that these match.
 
-```
+```javascript
 const iframe = document.getElementById('jupyterframe');
-iframe.contentWindow.postMessage("pleaseSave", “http://localhost:8000”);
+iframe.contentWindow.postMessage("pleaseSave", "http://localhost:8000");
 ```
 
 We now need to capture this message within the Jupyter notebook scripts, this means adding some custom javascript. A process to do this within Jupyter has already been set up for us, by copying a file named ‘custom.js’ to `.jupyter/custom/` this file will be read and executed by the Jupyter notebook server. To capture the postMessage, we add the following event listener.
 
-```
+```javascript
 
 define(['base/js/namespace', "base/js/events"], function(Jupyter, events){
     Jupyter._target = '_self';
 
     window.addEventListener('message', event => {
-        if (event.origin.startsWith(“http://locahost:8090”)) {
+        if (event.origin.startsWith("http://locahost:8090")) {
             console.log("Notebook - Calling save Action");
             Jupyter.actions.call("jupyter-notebook:save-notebook");
         }
@@ -211,11 +211,11 @@ Not only do we listen for the message event here, but we also check that it came
 
 The next step is to know when this action has been completed, so we can pull the contents in our application and save them in our database. To do this, we again use PostMessage to communicate between our iframe and the parent window.
 
-```
+```javascript
 …
 events.on('notebook_saved.Notebook', function() {
         console.log("Notebook - Saved");
-        window.parent.postMessage("SAVED", “http://locahost:8090”);
+        window.parent.postMessage("SAVED", "http://locahost:8090");
     });
 ...
 ```
