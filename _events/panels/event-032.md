@@ -42,6 +42,7 @@ panelists:
   the response to previous Ebola outbreaks.
 prerequisites: N/A
 registration_url: https://indico.scc.kit.edu/event/2261/
+recording_url: https://youtu.be/7KSTjfPW9BY
 time:
     - - start: 2021-01-13T15:00:00Z
         end: 2021-01-13T16:30:00Z
