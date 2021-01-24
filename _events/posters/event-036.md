@@ -102,6 +102,7 @@ language: English
 last_modified_at: 2021-01-10
 title: Code Review Community
 show_in_calendar: false
+recording_url: https://youtu.be/ENKp0BYUFlo?t=990
 time:
   - - start: 2021-01-20T15:00:00Z
       end: 2021-01-20T16:00:00Z
