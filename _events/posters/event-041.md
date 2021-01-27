@@ -17,6 +17,7 @@ prerequisites: Knowledge of APIs and web development practises would be helpful 
   not necessary.
 title: Embedding a Jupyter Notebook
 show_in_calendar: false
+recording_url: https://youtu.be/ENKp0BYUFlo?t=1689
 time:
   - - start: 2021-01-20T15:00:00Z
       end: 2021-01-20T16:00:00Z
