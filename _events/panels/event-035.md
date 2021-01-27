@@ -33,7 +33,7 @@ panelists:
   group.
 time:
   - - start: 2021-02-18T14:00:00Z
-      end: 2021-02-18T15:30:00Z
+      end: 2021-02-18T15:00:00Z
 title: Research On The Go
 ---
 
