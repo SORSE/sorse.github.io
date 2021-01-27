@@ -23,7 +23,7 @@ category: panels
 date: 2021-01-13
 doi: 10.5281/zenodo.4439258
 language: English
-last_modified_at: 2021-01-14
+last_modified_at: 2021-01-27
 panelists:
 - Adrian Harwood, University of Manchester, leads mobile development efforts in his
   RSE group.
@@ -31,6 +31,9 @@ panelists:
   sector and now at UCL.
 - Mark Turner, University of Newcastle, leads mobile development efforts in his RSE
   group.
+time:
+  - - start: 2021-02-18T14:00:00Z
+      end: 2021-02-18T15:30:00Z
 title: Research On The Go
 ---
 
