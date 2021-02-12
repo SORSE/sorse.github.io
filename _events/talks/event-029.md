@@ -24,6 +24,7 @@ time:
 title: My project expired and my team left, so let's rewrite all the software from
   scratch
 slides: https://indico.scc.kit.edu/event/2260/contributions/7978/attachments/3862/5946/SORSE_Session_Slides_2021-01-26-2talk.pdf
+recording_url: https://youtu.be/lRO0LVuBMkU
 ---
 
 Peano is a framework for large-scale simulations using dynamically adaptive
