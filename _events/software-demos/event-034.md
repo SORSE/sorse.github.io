@@ -19,6 +19,7 @@ instructions: "No need to install locally, the IDE is available on the web at <a
 date: 2020-11-25
 last_modified_at: 2020-12-14
 registration_url: https://indico.scc.kit.edu/event/2276/
+recording_url: https://youtu.be/0PBneJ7vclo
 ---
 Learn how to speak Python for the web!
 
