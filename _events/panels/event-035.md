@@ -21,16 +21,16 @@ authors:
   name: Adrian Harwood
 category: panels
 date: 2021-01-13
-doi: 10.5281/zenodo.4439258
+doi: 10.5281/zenodo.4537162
 language: English
 last_modified_at: 2021-01-27
 panelists:
-- Adrian Harwood, University of Manchester, leads mobile development efforts in his
-  RSE group.
+- Adrian Harwood, University of Manchester, established and manages the Mobile Development Service (MDS) in the RSE group.
 - Peter Schmidt, University College London, has been an app developer in the private
   sector and now at UCL.
 - Mark Turner, University of Newcastle, leads mobile development efforts in his RSE
   group.
+- Patricia Barnby, University of Manchester, full time mobile app developer and member of the MDS since its conception.
 time:
   - - start: 2021-02-18T14:00:00Z
       end: 2021-02-18T15:00:00Z
