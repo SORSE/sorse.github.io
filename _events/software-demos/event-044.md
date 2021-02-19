@@ -1,26 +1,30 @@
 ---
-title: "How FAIR is your research software?"
-authors:
-    - name: Carlos Martinez-Ortiz
-      email: c.martinez@esciencecenter.nl
-      orcid: 0000-0001-5565-7577
-      affiliation: 1
-    - &speaker
-      name: Faruk Diblen
-      is_speaker: true
-      affiliation: 1
 affiliations:
-    - name: Netherlands eScience Center, The Netherlands
-      index: 1
-author: *speaker
+- index: 1
+  name: Netherlands eScience Center, The Netherlands
+author: &id001
+  affiliation: 1
+  is_speaker: true
+  name: Faruk Diblen
+authors:
+- affiliation: 1
+  email: c.martinez@esciencecenter.nl
+  name: Carlos Martinez-Ortiz
+  orcid: 0000-0001-5565-7577
+- *id001
 category: software-demos
-language: English
-prerequisites: "Basic knowledge of Github is required, Basic knowledge of Python is a plus"
-license: Open source
-instructions: "Software can be run as a Github Action, requiring no installation.
-Alternatively, software can be run locally from command line, requiring a working python installation."
 date: 2021-02-19
+doi: 10.5281/zenodo.4552004
+instructions: Software can be run as a Github Action, requiring no installation. Alternatively,
+  software can be run locally from command line, requiring a working python installation.
+language: English
+last_modified_at: '2021-02-19'
+license: Open source
+prerequisites: Basic knowledge of Github is required, Basic knowledge of Python is
+  a plus
+title: How FAIR is your research software?
 ---
+
 FAIR software is a topic of growing importance in the research software landscape. There have been efforts to describe the how the [FAIR principles apply to research software][1] and work in this direction is [still ongoing][2].
 
 Even though the definition of the FAIR software principles is still in flux, [recommendations are available][3] to improve software in accordance to the spirit of the FAIR principles.
