@@ -20,7 +20,6 @@ time:
 date: 2021-01-13
 doi: 10.5281/zenodo.4439260
 language: English
-last_modified_at: '2021-01-14'
 prerequisites: It could be of help if attendees have already participated  in the
   development of research software.
 title: 'On the evaluation of research software: the CDUR procedure'
