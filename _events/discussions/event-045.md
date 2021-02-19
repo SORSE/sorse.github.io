@@ -30,6 +30,7 @@ time:
 - - end: 2021-03-10 14:30:00+00:00
     start: 2021-03-10 13:00:00+00:00
 title: Why do we need an EuSSI?
+registration_url: https://indico.scc.kit.edu/event/2326/
 ---
 
 Software sustainability is an important aspect of research software engineering. Good practices in software sustainability are still evolving and are not yet universally standardized. Different practices have emerged within domain specific communities, and expertise is additionally shared in local communities. This leads to different sets of rules being practiced by different communities, despite all of them sharing similar objectives. Knowledge transfer and sharing expertise between communities will benefit all involved communities by avoiding duplication of efforts and identifying common grounds for good practices. This is the goal of the European Software Sustainability Infrastructure (EuSSI).
