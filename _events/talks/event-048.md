@@ -46,6 +46,10 @@ affiliations:
     - name: Karlsruhe Institute of Technology, Institute of Meteorology and Climate Research - Atmospheric Environmental Research (IMK-IFU), Germany
       index: 6
 author: *speaker
+last_modified_at: 2021-02-19
+time:
+    - - start: 2021-03-03T10:30:00Z
+        end: 2021-03-03T10:45:00Z
 category: talks
 language: English
 prerequisites: "A bit of background in Python would be helpful but not mandatory"
