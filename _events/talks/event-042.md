@@ -21,6 +21,10 @@ affiliations:
     - name: Verbundzentrale des GBV, Germany
       index: 3
 author: *speaker
+last_modified_at: 2021-02-19
+time:
+    - - start: 2021-03-03T10:00:00Z
+        end: 2021-03-03T10:30:00Z
 category: talks
 language: English
 prerequisites: "(semantic) data modelling, data publishing"
