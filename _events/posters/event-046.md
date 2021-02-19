@@ -11,6 +11,10 @@ affiliations:
       index: 1
 author: *speaker
 category: posters
+last_modified_at: 2021-02-19
+time:
+    - - start: 2021-03-16T14:30:00Z
+        end: 2021-03-16T14:40:00Z
 language: English
 prerequisites: "1. Very basic knowledge of R covering vectors and matrices
 2. First-year linear algebra
