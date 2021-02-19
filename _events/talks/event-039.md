@@ -13,6 +13,10 @@ authors:
 - affiliation: 2
   name: Prof. Tomas Recio
 category: talks
+last_modified_at: 2021-02-19
+time:
+    - - start: 2021-03-16T14:00:00Z
+        end: 2021-03-16T14:30:00Z
 date: 2021-01-13
 doi: 10.5281/zenodo.4439260
 language: English
