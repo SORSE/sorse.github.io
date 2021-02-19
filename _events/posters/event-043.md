@@ -22,6 +22,10 @@ affiliations:
     - name: Saxion - University of Applied Sciences, The Netherlands
       index: 3
 author: *speaker
+last_modified_at: 2021-02-19
+time:
+    - - start: 2021-03-03T10:45:00Z
+        end: 2021-03-03T10:55:00Z
 category: posters
 language: English
 prerequisites: "no"
