@@ -13,7 +13,7 @@ category: posters
 date: 2021-02-19
 doi: 10.5281/zenodo.4551998
 language: English
-last_modified_at: '2021-02-19'
+last_modified_at: 2021-02-19
 prerequisites: 1. Very basic knowledge of R covering vectors and matrices 2. First-year
   linear algebra 3. Basics of quantum computing [preffered, but not mandetory] 4.
   Basics of game theory [preffered, but not mandetory]

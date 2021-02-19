@@ -25,7 +25,7 @@ category: posters
 date: 2021-02-19
 doi: 10.5281/zenodo.4552002
 language: English
-last_modified_at: '2021-02-19'
+last_modified_at: 2021-02-19
 prerequisites: 'no'
 time:
 - - end: 2021-03-03 10:55:00+00:00

@@ -51,7 +51,7 @@ category: talks
 date: 2021-02-19
 doi: 10.5281/zenodo.4551996
 language: English
-last_modified_at: '2021-02-19'
+last_modified_at: 2021-02-19
 prerequisites: A bit of background in Python would be helpful but not mandatory
 time:
 - - end: 2021-03-03 10:45:00+00:00

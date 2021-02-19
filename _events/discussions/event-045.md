@@ -25,7 +25,7 @@ category: discussions
 date: 2021-02-19
 doi: 10.5281/zenodo.4551990
 language: English
-last_modified_at: '2021-02-19'
+last_modified_at: 2021-02-19
 time:
 - - end: 2021-03-10 14:30:00+00:00
     start: 2021-03-10 13:00:00+00:00

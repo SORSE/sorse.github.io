@@ -24,7 +24,7 @@ category: talks
 date: 2021-02-19
 doi: 10.5281/zenodo.4551994
 language: English
-last_modified_at: '2021-02-19'
+last_modified_at: 2021-02-19
 prerequisites: (semantic) data modelling, data publishing
 time:
 - - end: 2021-03-03 10:30:00+00:00
