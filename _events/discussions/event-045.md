@@ -23,8 +23,13 @@ affiliations:
       index: 3
 author: *speaker
 category: discussions
+last_modified_at: 2021-02-19
+time:
+    - - start: 2021-03-10T13:00:00Z
+        end: 2021-03-10T14:30:00Z
 language: English
 date: 2021-02-19
+
 ---
 Software sustainability is an important aspect of research software engineering. Good practices in software sustainability are still evolving and are not yet universally standardized. Different practices have emerged within domain specific communities, and expertise is additionally shared in local communities. This leads to different sets of rules being practiced by different communities, despite all of them sharing similar objectives. Knowledge transfer and sharing expertise between communities will benefit all involved communities by avoiding duplication of efforts and identifying common grounds for good practices. This is the goal of the European Software Sustainability Infrastructure (EuSSI).
 
