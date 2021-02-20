@@ -13,13 +13,17 @@ authors:
 - affiliation: 2
   name: Prof. Tomas Recio
 category: talks
+last_modified_at: 2021-02-19
+time:
+    - - start: 2021-03-16T14:00:00Z
+        end: 2021-03-16T14:30:00Z
 date: 2021-01-13
 doi: 10.5281/zenodo.4439260
 language: English
-last_modified_at: '2021-01-14'
 prerequisites: It could be of help if attendees have already participated  in the
   development of research software.
 title: 'On the evaluation of research software: the CDUR procedure'
+registration_url: https://indico.scc.kit.edu/event/2328/
 ---
 
 The goal of the proposed talk is to present the publication
