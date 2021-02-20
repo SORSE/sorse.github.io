@@ -23,6 +23,7 @@ language: English
 prerequisites: It could be of help if attendees have already participated  in the
   development of research software.
 title: 'On the evaluation of research software: the CDUR procedure'
+registration_url: https://indico.scc.kit.edu/event/2328/
 ---
 
 The goal of the proposed talk is to present the publication
