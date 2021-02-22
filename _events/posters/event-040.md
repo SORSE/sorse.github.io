@@ -13,7 +13,11 @@ category: posters
 date: 2021-01-13
 doi: 10.5281/zenodo.4439266
 language: English
-last_modified_at: 2021-01-14
+last_modified_at: 2021-02-22
+time:
+- - start: 2021-03-16 14:40:00+00:00 
+    end: 2021-03-16 14:50:00+00:00
+    
 title: Four pillars of a reproducible PhD
 ---
 
