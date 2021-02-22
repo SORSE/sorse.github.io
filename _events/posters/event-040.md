@@ -17,8 +17,8 @@ last_modified_at: 2021-02-22
 time:
 - - start: 2021-03-16 14:40:00+00:00 
     end: 2021-03-16 14:50:00+00:00
-    
 title: Four pillars of a reproducible PhD
+registration_url: https://indico.scc.kit.edu/event/2328/
 ---
 
 Reproducibility and sustainability of research and associated software are increasingly viewed as priorities by publishers, funders and the academic community. The process of writing a thesis can be a playground where modern PhD students can explore new tools and techniques for improving the reproducibility and sustainability of their research, however the number of possible tools is vast and potentially overwhelming. This talk and associated blog post present the author's personal opinion on the four underpinning elements of a reproducible PhD: version control, automation, open publishing and sustainable software; and describes specific tools and principles used in the production of the author's thesis. This description may offer a template for future students wishing to perform reproducible research.
