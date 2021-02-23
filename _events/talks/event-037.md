@@ -16,6 +16,7 @@ doi: 10.5281/zenodo.4430841
 language: English
 last_modified_at: 2021-01-10
 registration_url: https://indico.scc.kit.edu/event/2273/
+slides: https://indico.scc.kit.edu/event/2273/attachments/4041/5986/RSE_LAIZET_2021.pdf  
 time:
     - - start: 2021-02-23T14:00:00Z
         end: 2021-02-23T15:00:00Z
