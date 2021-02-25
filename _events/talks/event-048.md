@@ -23,13 +23,13 @@ author: &id001
 authors:
 - *id001
 - affiliation: 4
-  name: Dr. Viktoria Wichert
+  name: Viktoria Wichert
   orcid: 0000-0002-3402-6562
 - affiliation: 3
   name: Daniel Eggert
   orcid: 0000-0003-0251-4390
 - affiliation: 1
-  name: Dr. Tilman Dinter
+  name: Tilman Dinter
   orcid: 0000-0002-1505-8833
 - affiliation: 2
   name: Klaus Getzlaff
