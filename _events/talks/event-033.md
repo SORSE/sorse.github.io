@@ -21,6 +21,7 @@ time:
         end: 2021-01-26T15:00:00Z
 title: Applying Scrum to Research Software Projects
 slides: https://indico.scc.kit.edu/event/2260/contributions/7979/attachments/3863/5947/SORSE_Session_Slides_2021-01-26-1talk.pptx
+recording_url: https://youtu.be/bA_LyyMHk4Y
 ---
 
 **Background**
