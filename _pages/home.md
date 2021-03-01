@@ -10,8 +10,6 @@ header:
   overlay_image: /assets/images/sorse-banner.svg
   overlay_filter: 0.5
   actions:
-    - label: Submit an abstract
-      url: /programme/call-for-contributions/
     - label: Join the mailing list
       url: https://www.listserv.dfn.de/sympa/subscribe/sorsenews
     - label: Watch past events
