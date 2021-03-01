@@ -15,7 +15,8 @@ fullcalendar: true
 
 Were you going to submit something to an RSE conference this year? Do you have a project you’d like to share? Is there a talk/workshop/panel you’d like to see happen? Then you’ve found the right place!
 
-<a href="{{site.indico_base_event}}/abstracts" class="btn btn--success" target="_blank"><i class="fas fa-pen"></i> Submit an abstract</a>
+The call for abstracts has been closed. The final round of events can be seen at [the _Programme_ page]({{ "/programme" | relative_url }}).
+{: .notice--info}
 
 You can make a contribution to one of the event types (see the left hand menu), and/or suggest an event in the [Wishlist]({% include fix-link.html link="/programme/wishlist" %}) that you’d like to see in the series. Take a look at the [Topic Bazaar]({% include fix-link.html link=site.data.committee.programme_teams.bazaar.internal %}) if you have an idea but want to find collaborators before submitting. We’re looking for both technical and soft skills and there are no set themes this year but if a theme emerges, we may group those events together to create a half day event or a run of events over a few weeks.
 
