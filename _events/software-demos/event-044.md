@@ -18,7 +18,10 @@ doi: 10.5281/zenodo.4552004
 instructions: Software can be run as a Github Action, requiring no installation. Alternatively,
   software can be run locally from command line, requiring a working python installation.
 language: English
-last_modified_at: 2021-02-19
+last_modified_at: 2021-03-01
+time:
+    - - start: 2021-03-09T17:00:00Z
+        end: 2021-03-09T17:30:00Z
 license: Open source
 prerequisites: Basic knowledge of Github is required, Basic knowledge of Python is
   a plus
