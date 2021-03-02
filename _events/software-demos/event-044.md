@@ -26,6 +26,7 @@ license: Open source
 prerequisites: Basic knowledge of Github is required, Basic knowledge of Python is
   a plus
 title: How FAIR is your research software?
+registration_url: https://indico.scc.kit.edu/event/2336/
 ---
 
 FAIR software is a topic of growing importance in the research software landscape. There have been efforts to describe the how the [FAIR principles apply to research software][1] and work in this direction is [still ongoing][2].
