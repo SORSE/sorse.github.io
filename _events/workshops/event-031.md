@@ -46,3 +46,5 @@ This workshop will investigate the challenges of building, developing and sustai
 There is already significant expertise in community development and engagement in a variety of areas of the research community. This workshop will aim to bring together a range of different perspectives and ideas from representatives from different types of communities along with resources on community development and engagement from relevant groups. It will consist of two 2-hour sessions over two days.
 
 The workshop will draw upon experiences from a range of research software communities, including national RSE chapters, e.g., [de-RSE chapters](https://de-rse.org/chapter/). The workshop will build on the [Community of Open Scholarship Grassroots Networks](https://osf.io/preprints/metaarxiv/d7mwk/) (COSGN) concept that the [Research Software Alliance](http://www.researchsoft.org/) (ReSA) created to support the community development element of grassroots initiatives in open source software.
+
+For further details of the workshop, including the full schedule and speaker and session information, please see the [workshop webpage](https://researchsoft.github.io/community-ws/).
