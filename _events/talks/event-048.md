@@ -42,6 +42,7 @@ authors:
   orcid: 0000-0001-7032-8683
 - affiliation: 1
   name: Brenner Silva
+  orcid: 0000-0002-4640-441X
 - affiliation: 5
   name: Lennart Schmidt
 - affiliation: 1
