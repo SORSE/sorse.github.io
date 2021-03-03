@@ -51,13 +51,14 @@ category: talks
 date: 2021-02-19
 doi: 10.5281/zenodo.4551996
 language: English
-last_modified_at: 2021-02-19
+last_modified_at: 2021-03-03
 prerequisites: A bit of background in Python would be helpful but not mandatory
 time:
 - - end: 2021-03-03 10:45:00+00:00
     start: 2021-03-03 10:30:00+00:00
 title: A new distributed data analysis framework for better scientific collaborations
 registration_url: https://indico.scc.kit.edu/event/2327/
+slides: https://zenodo.org/record/4575652
 ---
 
 A common challenge for projects with multiple involved research institutes is a well-defined and productive collaboration. All parties measure and analyze different aspects, depend on each other, share common methods, and exchange the latest results, findings, and data. Today this exchange is often impeded by a lack of ready access to shared computing and storage resources. In our talk, we present a new and innovative remote procedure call (RPC) framework. We focus on a distributed setup, where project partners do not necessarily work at the same institute, and do not have access to each others resources.
