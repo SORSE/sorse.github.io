@@ -33,6 +33,7 @@ time:
     - - start: 2020-12-04T14:00:00Z
         end: 2020-12-04T15:00:00Z
 title: Optimal time frequency analysis for biological data - pyBOAT
+recording_url: https://youtu.be/B_y2eBaRl_4
 ---
 
 Methods for the quantification of rhythmic biological signals have been essential for the discovery of function and design of biological oscillators. Advances in live measurements have allowed recordings of unprecedented resolution revealing a new world of complex heterogeneous oscillations with multiple noisy non-stationary features. However, our understand- ing of the underlying mechanisms regulating these oscillations has been lagging behind, partially due to the lack of simple tools to reliably quantify these complex non-stationary features. With this challenge in mind, we have developed pyBOAT, a Python-based fully automatic stand-alone software that integrates multiple steps of non-stationary oscillatory time series analysis into an easy-to-use graphical user interface. pyBOAT implements continuous wavelet analysis which is specifically designed to reveal time-dependent features. In this work we illustrate the advantages of our tool by analyzing complex non-stationary time-series profiles. Our approach integrates data-visualization, optimized sinc-filter detrending, amplitude envelope removal and a subsequent continuous-wavelet based time- frequency analysis. Finally, using analytical considerations and numerical simulations we discuss unexpected pitfalls in commonly used smoothing and detrending operations.
