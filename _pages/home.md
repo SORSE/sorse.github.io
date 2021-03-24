@@ -22,13 +22,13 @@ excerpt: International Series of Online Research Software Events
 </aside>
 
 {% capture final-notice %}
-SORSE ended with it's [final event]({{ "/programme/finale/" | relative_url }})
-on March 24th. 2021. Thanks to all the contributors that submitted abstracts and
+SORSE ended with its [final event]({{ "/programme/finale/" | relative_url }})
+on March 24th 2021. Thanks to all the contributors who submitted abstracts and
 gave presentations, discussions, demonstrations, and thanks to everyone who
 participated in one of our sessions to make all of this possible.
 
 But this won't be the end of everything. There is still need for exchange
-within our emerging community of international research software engineers.
+within our international community of research software engineers.
 
 Stay tuned and keep an eye on the communication channels of
 [your national RSE chapter]({{ "/contact/chapters/" | relative_url }}).
