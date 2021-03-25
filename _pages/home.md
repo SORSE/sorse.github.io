@@ -35,7 +35,7 @@ Stay tuned and keep an eye on the communication channels of
 
 Welcome to SORSE - A **S**eries of **O**nline **R**esearch **S**oftware **E**vents - our international answer to the COVID-19-induced cancellation of many national RSE conferences. We want to provide an opportunity for RSEs to develop and grow their skills, build new collaborations and engage with RSEs worldwide.
 
-This series has been an open call to all RSEs and anyone involved with research software worldwide, to propose a talk, a workshop, a software demo, a panel or discussion, blog post or poster. After each event, SORSE did provide an opportunity for networking and informal discussion with other participants in small groups.
+This series has been an open call to all RSEs and anyone involved with research software worldwide, to propose a talk, a workshop, a software demo, a panel or discussion, blog post or poster. After many of our events, SORSE provided an opportunity for networking and informal discussion with other participants in small groups.
 
 <div class="notice--info">
   {{ final-notice | markdownify }}
