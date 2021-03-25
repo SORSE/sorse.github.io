@@ -11,15 +11,6 @@ layout: single
   {% include faq-cards-tag.html tag=tag title="FAQ" %}
 {% endunless %}
 
-{% if page.fullcalendar %}
-{%- assign events = site.events | where: "category", page.team -%}
-{%- if events.size > 0 -%}
-<h2 id="upcoming-events">Upcoming events</h2>
-
-{% include upcoming-events.html category=page.team %}
-{%- endif -%}
-{% endif %}
-
 <h2 id="team">Team</h2>
 
 {% include team-members.html team=page.team %}
