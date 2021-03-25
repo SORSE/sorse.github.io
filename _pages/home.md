@@ -27,8 +27,7 @@ on March 24th 2021. Thanks to all the contributors who submitted abstracts and
 gave presentations, discussions, demonstrations, and thanks to everyone who
 participated in one of our sessions to make all of this possible.
 
-But this won't be the end of everything. There is still need for exchange
-within our international community of research software engineers.
+But this isn't the end. There is still a need for knowledge exchange and networking within our international community of Research Software Engineers.
 
 Stay tuned and keep an eye on the communication channels of
 [your national RSE chapter]({{ "/contact/chapters/" | relative_url }}).
