@@ -25,6 +25,7 @@ prerequisites: It could be of help if attendees have already participated  in th
 title: 'On the evaluation of research software: the CDUR procedure'
 registration_url: https://indico.scc.kit.edu/event/2328/
 slides: https://indico.scc.kit.edu/event/2328/attachments/4066/6136/20210316_SORSE_TGD_TR.pdf
+recording_url: https://youtu.be/L0PB9I2FG2k
 ---
 
 The goal of the proposed talk is to present the publication
