@@ -13,5 +13,5 @@ id: 1
 fullcalendar: true
 ---
 
-The call for abstracts has been closed and SORSE has ended. [Read more]({{ "/" | relative_url }}).
+The SORSE call for abstract submissions has now closed and the 2020/2021 series of events has ended. Take a look at the [programme]({{ "/programme/" | relative_url }}) page for details and videos of the past events.
 {: .notice--info}
