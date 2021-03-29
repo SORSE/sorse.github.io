@@ -36,6 +36,7 @@ time:
       end: 2021-02-18T15:00:00Z
 title: Research On The Go
 registration_url: https://indico.scc.kit.edu/event/2301/
+recording_url: https://youtu.be/PLCxHJRaCc8
 ---
 
 Software for research comes in many different forms and technologies. This includes software that runs on mobile devices. The demand for this is growing, whether it is for "citizen-science" projects or in clinical and educational research. In this SORSE (online) roundtable event, we discuss
