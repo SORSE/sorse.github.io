@@ -37,7 +37,9 @@ prerequisites: There is no specific prerequisite knowledge for participating in 
 title: 'Building Research Software Communities: How to increase engagement in your
   community'
 registration_url: https://indico.scc.kit.edu/event/2298/
-recording_url: https://youtu.be/mtIeOOqvz8g
+recording_urls:
+  - https://youtu.be/mtIeOOqvz8g
+  - https://youtu.be/jEfIKuxCcM0
 ---
 
 Communities are a very important aspect of the development and sustainability of research software engineering. It was as [the result of a community meeting](https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0) back in 2012 that the Research Software Engineering (RSE) movement came about. This goes to show the potential power of a group of individuals coming together from a range of different research backgrounds with common challenges, important ideas and a desire to drive change. Research software communities provide a place for RSEs and researchers to build knowledge, develop networks and find collaborators. They also provide a space to develop policies and advocate for the importance of RSE and the best practices it promotes.
