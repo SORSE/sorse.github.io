@@ -1,0 +1,290 @@
+cff-version: 1.2.0
+message: "If you want to cite SORSE, please use the metadata in this file."
+version: "Season 1"
+title: " SORSE - International Series of Online Research Software Events"
+url: https://sorse.github.io
+repository-code: https://github.com/SORSE/sorse.github.io
+authors:
+  - family-names: Janosch
+    given-names: Stephan
+    affiliation: Max-Planck-Institute for Molecular Cell Biology (MPI-CPG)
+    city: Dresden
+    country: DE
+  - family-names: Löffler
+    given-names: Frank
+    affiliation: Friedrich Schiller University
+    city: Jena
+    country: DE
+    website: https://fusion.cs.uni-jena.de/fusion/members/frank-loffler/
+  - family-names: Druskat
+    given-names: Stephan
+    affiliation: German Aerospace Center (DLR), Humboldt-Universität zu Berlin, Friedrich Schiller University Jena
+    city: Berlin
+    country: DE
+    website: https://sdruskat.net
+    orcid: https://orcid.org/0000-0003-4925-7248
+  - family-names: Sommer
+    given-names: Philipp S.
+    affiliation: Helmholtz-Zentrum Hereon
+    city: Geesthacht
+    country: DE
+    website: https://www.philipp-s-sommer.de
+    orcid: https://orcid.org/0000-0001-6171-7716
+    email: philipp.sommer@hereon.de
+  - family-names: Thiery
+    given-names: Florian
+    affiliation: Research Squirrel Engineers
+    city: Mainz
+    country: DE
+    website: http://fthiery.de/
+    orcid: https://orcid.org/0000-0002-3246-3531
+    email: rse@fthiery.de
+  - family-names: Dietrich
+    given-names: Jan Philipp
+    affiliation: Postdam Institute for Climate Impact Research (PIK)
+    city: Potsdam
+    country: DE
+    website: https://www.pik-potsdam.de/members/dietrich
+    orcid: https://orcid.org/0000-0002-4309-6431
+    email: dietrich@pik-potsdam.de
+  - family-names: Tesfaye Belayneh
+    given-names: Bezaye
+    affiliation: Helmholtz Center Potsdam - GFZ German Research Center for Geosciences (GFZ, Potsdam)
+    city: Potsdam
+    country: DE
+    email: btesfaye@gfz-potsdam.de
+  - family-names: Lamprecht
+    given-names: Anna-Lena
+    affiliation: Utrecht University
+    city: Utrecht
+    country: NL
+    website: https://www.uu.nl/staff/allamprecht
+    orcid: https://orcid.org/0000-0003-1953-5606
+    email: a.l.lamprecht@uu.nl
+  - family-names: Kuehn
+    given-names: Eileen
+    affiliation: Karlsruhe Institute of Technology (KIT)
+    city: Karlsruhe
+    country: DE
+    website: https://www.scc.kit.edu/personen/eileen.kuehn.php
+    orcid: https://orcid.org/0000-0002-8034-8837
+    email: eileen.kuehn@kit.edu
+  - family-names: Wyatt
+    given-names: Claire
+    email: c.wyatt@soton.ac.uk
+    affiliation: Software Sustainability Institute
+    city: Winchester
+    country: GB
+  - family-names: Callaghan
+    given-names: Martin
+  - family-names: Werkhoven
+    given-names: Ben Van
+    email: b.vanwerkhoven@esciencecenter.nl
+    website: https://benvanwerkhoven.github.io
+    affiliation: Netherlands eScience Center
+    city: Amsterdam
+    country: NL
+    orcid: https://orcid.org/0000-0002-7508-3272
+  - family-names: Pringle
+    given-names: Kirsty
+    affiliation: University of Leeds
+    city: Leeds
+    country: GB
+    website: https://environment.leeds.ac.uk/see/staff/1486/dr-kirsty-pringle
+    orcid: https://orcid.org/0000-0003-2190-5258
+    email: k.pringle@leeds.ac.uk
+  - family-names: Cave-Ayland
+    given-names: Chris
+    affiliation: Imperial College
+    city: London
+    country: GB
+    email: c.cave-ayland@imperial.ac.uk
+  - family-names: Clarke
+    given-names: Alison
+    affiliation: Durham University
+    city: Durham
+    country: GB
+    orcid: https://orcid.org/0000-0002-0205-6644
+    email: alison.r.clarke@durham.ac.uk
+  - family-names: Powell
+    given-names: Tim
+    affiliation: Hartree Centre, STFC
+    city: Cheshire
+    country: GB
+    email: tim.powell@stfc.ac.uk
+  - family-names: Yuan
+    given-names: David
+    email: davidyuan@ebi.ac.uk
+    affiliation: European Bioinformatics Institute
+    city: Cambridge
+    country: GB
+  - family-names: Gait
+    given-names: Andrew
+    affiliation: University of Manchester
+    city: Manchester
+    country: GB
+    website: https://personalpages.manchester.ac.uk/staff/andrew.gait/
+    orcid: https://orcid.org/0000-0001-9349-1096
+    email: andrew.gait@manchester.ac.uk
+  - family-names: Gesing
+    given-names: Sandra
+    affiliation: University of Notre Dame
+    city: Notre Dame
+    country: US
+    orcid: https://orcid.org/0000-0002-6051-0673
+    email: sandra.gesing@nd.edu
+    website: http://sandra-gesing.com/
+  - family-names: Philips
+    given-names: Johan
+    email: johan.philips@kuleuven.be
+    website: https://u0052546.pages.gitlab.kuleuven.be/
+    orcid: https://orcid.org/0000-0003-0937-7798
+    affiliation: KU Leuven
+    city: Leuven
+    country: BE
+  - family-names: Kuzak
+    given-names: Mateusz
+    affiliation: The Netherlands eScience Center
+    city: Amsterdam
+    country: NL
+    website: https://www.esciencecenter.nl/team/mateusz-kuzak-msc/
+    orcid: https://orcid.org/0000-0003-0087-6021
+    email: m.kuzak@esciencecenter.nl
+  - family-names: Weinzierl
+    given-names: Marion
+    affiliation: Durham University
+    city: Durham
+    country: GB
+    orcid: https://orcid.org/0000-0002-2302-5476
+    email: marion.weinzierl@durham.ac.uk
+  - family-names: Brown
+    given-names: Louise
+    affiliation: Composites Research Group, University of Nottingham
+    city: Nottingham
+    country: GB
+    email: louise.brown@nottingham.ac.uk
+  - family-names: Shad
+    given-names: Mahmood M.
+    affiliation: Harvard University
+    city: Cambridge
+    country: US
+    orcid: https://orcid.org/0000-0002-1412-1378
+    email: mohammadi_shad@harvard.edu
+    website: https://www.rc.fas.harvard.edu/about/people/mahmood-shad/
+  - family-names: Mangham
+    given-names: Sam
+  - family-names: Hanganu
+    given-names: Gabriel
+    affiliation: Allan Turing Institute
+    city: London
+    country: GB
+    website: https://www.turing.ac.uk/research/research-engineering
+    email: ghanganu@turing.ac.uk
+  - family-names: Smith
+    given-names: Catherine
+    affiliation: University of Birmingham
+    city: Birmingham
+    country: GB
+    orcid: https://orcid.org/0000-0002-2530-9229
+  - family-names: Carter
+    given-names: Debbie
+    affiliation: University of Birmingham
+    city: Birmingham
+    country: GB
+    email: d.j.carter@bham.ac.uk
+  - family-names: Forey
+    given-names: Teri
+    affiliation: Wellcome Trust
+    city: Cork
+    country: IE
+    email: t.forey@wellcome.ac.uk
+    website: http://www.teri-apps.com
+  - family-names: Herrera
+    given-names: Juan
+    affiliation: EPCC, The University of Edinburgh
+    city: Edinburgh
+    country: GB
+    website: https://www.epcc.ed.ac.uk/about/staff/herrera
+    orcid: https://orcid.org/0000-0002-6085-8549
+    email: j.herrera@epcc.ed.ac.uk
+  - name: Vanessasaurus
+    address: Stanford University Research Computing Center
+    city: Stanford
+    country: US
+    website: https://vsoch.github.io
+    orcid: https://orcid.org/0000-0002-4387-3819
+  - family-names: Ainsworth
+    given-names: Rachael
+    affiliation: Software Sustainability Institute, University of Manchester
+    city: Manchester
+    country: GB
+    website: https://rainsworth.github.io/
+    email: rachael.ainsworth@manchester.ac.uk
+    orcid:  https://orcid.org/0000-0003-2591-9462
+  - family-names: Cohen
+    given-names: Jeremy
+    email: jeremy.cohen@imperial.ac.uk
+    website: https://www.imperial.ac.uk/people/jeremy.cohen
+    affiliation: Imperial College London
+    city: London
+    country: GB
+    orcid: https://orcid.org/0000-0003-4312-2537
+  - family-names: May
+    given-names: Nicholas
+    email: nicholas.may@rmit.edu.au
+    affiliation: RMIT University
+    city: Melbourne
+    country: AU
+    orcid: https://orcid.org/0000-0002-1298-1622
+  - family-names: Dolling
+    given-names: Maximilian
+    email: mdolling@gfz-potsdam.de
+    website: https://www.gfz-potsdam.de/en/home/
+    affiliation: Helmholtz Center Potsdam - GFZ German Research Center for Geosciences (GFZ, Potsdam)
+    city: Potsdam
+    country: DE
+  - family-names: Poonawala Lohani
+    given-names: Nooriyah
+    email: nooriyah.lohani@nesi.org.nz
+    affiliation: New Zealand eScience Infrastructure
+    city: Auckland
+    country: NZ
+    orcid: https://orcid.org/0000-0002-2051-4821
+  - family-names: Hettrick
+    given-names: Simon
+    email: s.hettrick@software.ac.uk
+    website: https://www.linkedin.com/in/simon-hettrick-2668a9a/
+    affiliation: Software Sustainability Institute
+    city: Southampton
+    country: GB
+    orcid: https://orcid.org/0000-0002-6809-5195
+  - family-names: Katz
+    given-names: Daniel S.
+    email: d.katz@ieee.org
+    website: http://danielskatz.org/
+    affiliation: "University of Illinois at Urbana-Champaign"
+    city: Urbana
+    country: US
+    orcid: https://orcid.org/0000-0001-5934-7525
+  - family-names: Cosden
+    given-names: Ian
+    email: icosden@princeton.edu
+    website: https://researchcomputing.princeton.edu/software-engineering
+    affiliation: Princeton University
+    city: Princeton
+    country: US
+  - family-names: Allard
+    given-names: Tania
+    website: https://trallard.dev/
+    email: trallard@bitsandchips.me
+    city: Manchester
+    country: GB
+    affiliation: Microsoft Azure
+  - family-names: Bast
+    given-names: Radovan
+    email: radovan.bast@uit.no
+    website: https://bast.fr
+    affiliation: UiT The Arctic University of Norway/ NeIC
+    city: Tromsø
+    country: "NO"
+    orcid: https://orcid.org/0000-0002-7658-1847
