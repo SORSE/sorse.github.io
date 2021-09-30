@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you want to cite SORSE, please use the metadata in this file."
 version: "Season 1"
-title: " SORSE - International Series of Online Research Software Event"
+title: " SORSE - International Series of Online Research Software Events"
 url: https://sorse.github.io
 repository-code: https://github.com/SORSE/sorse.github.io
 authors:
